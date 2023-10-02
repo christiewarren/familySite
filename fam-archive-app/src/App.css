@@ -1,3 +1,23 @@
+:root {
+  --light-beige: #FCF8F3;
+  --beige: #FBEAD0;
+  --light-forest-green: #285C62;
+  --forest-green: #1E4A57;
+  --dark-forest-green: #112A31;
+  --golden: #F6BB5B;
+  --teal: #077683;
+  --sans-serif: 'Work Sans', sans-serif;
+}
+
+body{
+  font-family: var(--sans-serif);
+  letter-spacing: -0.4px;
+  background: var(--light-beige);
+}
+
+.menu-wrap{
+}
+
 .photo-grid{
   display: grid;
   gap: 40px;
@@ -5,7 +25,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 100px;
   grid-auto-flow: row dense;
-  background: #FCF8F3;
 }
 
 .card{
@@ -47,5 +66,13 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: lightgray;
+  background: var(--teal);
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.doc-title-bar > p{
+  color: var(--light-beige);
+  font-weight: 600;
+  margin: 12px 0;
 }
