@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "csv-parser": "^3.0.0",
-    "file-api": "^0.10.4"
+    "csv-parser": "^3.0.0"
   }
 }
