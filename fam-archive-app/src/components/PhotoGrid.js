@@ -1,6 +1,7 @@
 import React from 'react'
 import images from '../data/imageData.json'
 import Thumbnail from './Thumbnail'
+import PhotoModal from './PhotoModal'
 
 export default function PhotoGrid(){
     const cards = images.map(image => {
@@ -16,8 +17,11 @@ export default function PhotoGrid(){
         )
       })
     return(
+        <div>
         <div className='photo-grid'>
             {cards}
         </div>
+        <PhotoModal/>
+    </div>
     )
 }
