@@ -1,6 +1,21 @@
 import React from 'react'
 
 export default function PhotoModal(){
+
+    const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
+
+    function togglePhotoModalDetails(){
+        let detailsPanel = document.getElementById('details-panel')
+        
+        if (detailsPanelBtnText === 'Collapse'){
+            setDetailsPanelBtnText('Expand')
+        } else{
+            setDetailsPanelBtnText('Collapse')
+        }
+        detailsPanel.classList.toggle('panel-is-closed')
+    }
+
+    
     return(
         <div className='photo-modal-overlay-wrap'>
             <div className='photo-modal'>
@@ -29,15 +44,8 @@ export default function PhotoModal(){
                         </div>
                     </div>
                 </div>
-                <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>Collapse details</button>
+                <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>
             </div>
         </div>
     )
-}
-
-function togglePhotoModalDetails(){
-    let detailsPanel = document.getElementById('details-panel')
-
-    detailsPanel.classList.toggle('panel-is-closed')
-
 }
