@@ -7,7 +7,7 @@ export default function PhotoModal(){
                 <div className='photo-modal-img-wrap'>
                     <img src={require('../assets/ewarren_child.jpeg')} className='photo-modal-img'/>
                 </div>
-                <div className='photo-modal-detail-wrap'>
+                <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h3>Date</h3>
@@ -29,8 +29,15 @@ export default function PhotoModal(){
                         </div>
                     </div>
                 </div>
-                <button className='photo-modal-expand-collapse-btn'>Collapse details</button>
+                <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>Collapse details</button>
             </div>
         </div>
     )
+}
+
+function togglePhotoModalDetails(){
+    let detailsPanel = document.getElementById('details-panel')
+
+    detailsPanel.classList.toggle('panel-is-closed')
+
 }

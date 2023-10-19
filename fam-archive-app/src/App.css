@@ -120,8 +120,8 @@ a{
 
 .photo-modal{
   display: flex;
-  background: var(--light-beige);
   border-radius: 4px;
+  background: var(--light-beige);
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.30);
   width: fit-content;
   position: relative;
@@ -130,11 +130,25 @@ a{
 
 .photo-modal-detail-wrap{
   width: 220px;
-  padding: 30px;
+  background: var(--light-beige);
+  padding: 30px;  
+  transition: 0.75s cubic-bezier(.68,.2,.34,1);
+  /* width: 150px; */
+  z-index: 0;
+  /* transform: translateX(0px); */
+  margin-left: 0;
+}
+
+.panel-is-closed{
+  /* transform: translateX(-200px); */
+  /* width: 0px; */
+  padding: 30px 0;
+  margin-left: -220px;
 }
 
 .photo-modal-img-wrap{
   height: 90vh;
+  z-index: 10;
 }
 
 .photo-modal-img{
