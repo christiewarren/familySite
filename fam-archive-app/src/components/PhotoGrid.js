@@ -11,25 +11,49 @@ export default function PhotoGrid(){
                 <Thumbnail
                 src={image.filename}
                 key={image.title}
-                clickFunction={togglePhotoModal}
+                clickFunction={() => openPhotoModal(image.filename)}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
             </div>
         )
         })
+    
+    function openPhotoModal(clickedImage){
+        togglePhotoModal()
+        setPhotoModalImage(clickedImage)
+        addOverlayListener()
+
+        //when thumbnail is clicked: toggle modal-is-shown class and set image source
+    }
+
+    function closePhotoModal(){
+        togglePhotoModal()
+
+        //when overlay is clicked: toggle modal-is-shown-class (to hide modal)
+    }
+    
 
     function togglePhotoModal(){
         let photoModal = document.getElementById('photo-modal')
-        let photoModalOverlay = document.getElementById('photo-modal-overlay')
-
-        //add event listener to overlay to close modal when clicked
-        photoModalOverlay.addEventListener('click', togglePhotoModal)
+        photoModal.classList.toggle('photo-modal-is-shown')
 
         //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
-        photoModal.classList.toggle('photo-modal-is-shown')
-        
     }
-    
+
+    function setPhotoModalImage(clickedImage){
+        let photoModalImage = document.getElementById('photo-modal-img')
+        photoModalImage.src = require('../assets/' + clickedImage)
+
+        //use image filepath of clicked image to set src of modal image
+    }
+
+    function addOverlayListener(){
+        let photoModalOverlay = document.getElementById('photo-modal-overlay')
+        photoModalOverlay.addEventListener('click', closePhotoModal)
+
+        //add event listener to overlay to close modal when clicked
+    }
+
     return(
         <div>
         <div className='photo-grid'>
@@ -37,5 +61,6 @@ export default function PhotoGrid(){
         </div>
         <PhotoModal/>
     </div>
+
     )
 }

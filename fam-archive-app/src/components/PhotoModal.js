@@ -24,7 +24,7 @@ export default function PhotoModal(){
             <div id='photo-modal-overlay' className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <div className='photo-modal-img-wrap'>
-                    <img src={require('../assets/ewarren_child.jpeg')} className='photo-modal-img'/>
+                    <img src='' className='photo-modal-img' id='photo-modal-img'/>
                 </div>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
