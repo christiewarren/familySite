@@ -28,8 +28,9 @@ export default function PhotoGrid(){
 
     function closePhotoModal(){
         togglePhotoModal()
+        addXListener()
 
-        //when overlay is clicked: toggle modal-is-shown-class (to hide modal)
+        //when overlay or x is clicked: toggle modal-is-shown-class (to hide modal)
     }
     
 
@@ -52,6 +53,13 @@ export default function PhotoGrid(){
         photoModalOverlay.addEventListener('click', closePhotoModal)
 
         //add event listener to overlay to close modal when clicked
+    }
+
+    function addXListener(){
+        let photoModalXButton = document.getElementById('close-modal-button')
+        photoModalXButton.addEventListener('click', closePhotoModal)
+
+        //add event listener to x buttonn to close modal when clicked
     }
 
     return(

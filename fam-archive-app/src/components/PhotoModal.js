@@ -1,4 +1,5 @@
 import React from 'react'
+import closeX from '../assets/close-x.svg'
 
 export default function PhotoModal(){
 
@@ -21,6 +22,9 @@ export default function PhotoModal(){
 
     return(
         <div className='photo-modal-wrap' id='photo-modal'>
+            <div id='close-modal-button'>
+                <img src={closeX}></img>
+            </div>
             <div id='photo-modal-overlay' className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <div className='photo-modal-img-wrap'>

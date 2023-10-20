@@ -127,6 +127,14 @@ a{
   cursor: pointer;
 }
 
+#close-modal-button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
 .photo-modal{
   display: flex;
   border-radius: 4px;
