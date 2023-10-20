@@ -7,17 +7,20 @@ export default function PhotoModal(){
     function togglePhotoModalDetails(){
         let detailsPanel = document.getElementById('details-panel')
         
+        // toggle button text between exand and collapse
         if (detailsPanelBtnText === 'Collapse'){
             setDetailsPanelBtnText('Expand')
         } else{
             setDetailsPanelBtnText('Collapse')
         }
+
+        //toggle panel-is-closed class, which adds negative margin and removes padding
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
-    
+
     return(
-        <div className='photo-modal-overlay-wrap'>
+        <div className='photo-modal-overlay-wrap' id='photo-modal' >
             <div className='photo-modal'>
                 <div className='photo-modal-img-wrap'>
                     <img src={require('../assets/ewarren_child.jpeg')} className='photo-modal-img'/>

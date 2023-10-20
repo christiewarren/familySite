@@ -11,11 +11,20 @@ export default function PhotoGrid(){
                 <Thumbnail
                 src={image.filename}
                 key={image.title}
+                clickFunction={openPhotoModal}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
             </div>
         )
-      })
+        })
+
+    function openPhotoModal(){
+        let photoModal = document.getElementById('photo-modal')
+        console.log(photoModal)
+
+        photoModal.classList.toggle('photo-modal-is-shown')
+    }
+
     return(
         <div>
         <div className='photo-grid'>
