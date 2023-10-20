@@ -11,20 +11,25 @@ export default function PhotoGrid(){
                 <Thumbnail
                 src={image.filename}
                 key={image.title}
-                clickFunction={openPhotoModal}
+                clickFunction={togglePhotoModal}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
             </div>
         )
         })
 
-    function openPhotoModal(){
+    function togglePhotoModal(){
         let photoModal = document.getElementById('photo-modal')
-        console.log(photoModal)
+        let photoModalOverlay = document.getElementById('photo-modal-overlay')
 
+        //add event listener to overlay to close modal when clicked
+        photoModalOverlay.addEventListener('click', togglePhotoModal)
+
+        //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
         photoModal.classList.toggle('photo-modal-is-shown')
+        
     }
-
+    
     return(
         <div>
         <div className='photo-grid'>

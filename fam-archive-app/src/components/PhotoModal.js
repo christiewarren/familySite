@@ -20,7 +20,8 @@ export default function PhotoModal(){
 
 
     return(
-        <div className='photo-modal-overlay-wrap' id='photo-modal' >
+        <div className='photo-modal-wrap' id='photo-modal'>
+            <div id='photo-modal-overlay' className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <div className='photo-modal-img-wrap'>
                     <img src={require('../assets/ewarren_child.jpeg')} className='photo-modal-img'/>
