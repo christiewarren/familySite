@@ -63,6 +63,10 @@ export default function PhotoModal(props){
                     </div>
                 </div>
                 <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>
+                <div className='next-prev-button-wrap'>
+                    <button id='prev-photo-button' onClick={() => props.changeFunction('previous')}>&larr;</button>
+                    <button id='next-photo-button' onClick={() => props.changeFunction('next')}>&rarr;</button>
+                </div>
             </div>
         </div>
     )

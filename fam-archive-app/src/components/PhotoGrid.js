@@ -41,7 +41,7 @@ export default function PhotoGrid(){
         addXListener()
 
         //problem: console always logs clicked when overlay is clicked, but modal doesnt disappear. Class highlights in dev mode, but doesn't turn off 
-        console.log('clicked')
+        // console.log('clicked')
 
         //when overlay or x is clicked: toggle modal-is-shown-class (to hide modal)
     }
@@ -76,6 +76,10 @@ export default function PhotoGrid(){
         //add event listener to x buttonn to close modal when clicked
     }
 
+    function changeModalImage(nextOrPrev){
+        console.log('clicked ' + nextOrPrev)
+    }
+
     return(
         <div>
         <div className='photo-grid'>
@@ -86,6 +90,7 @@ export default function PhotoGrid(){
             date = {photoDate}
             place = {photoPlace}
             people = {photoPeople}
+            changeFunction = {changeModalImage}
         />
     </div>
 

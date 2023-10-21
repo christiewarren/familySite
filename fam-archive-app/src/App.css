@@ -205,3 +205,24 @@ a{
   border: none;
   cursor: pointer;
 }
+
+.next-prev-button-wrap{
+  position: absolute;
+  bottom: -35px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#prev-photo-button, #next-photo-button{
+  background: var(--forest-green);
+  color: var(--light-beige);
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
