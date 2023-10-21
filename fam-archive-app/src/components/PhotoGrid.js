@@ -11,7 +11,7 @@ export default function PhotoGrid(){
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
-                clickFunction={() => openPhotoModal(image.filename, image.subject, image.people, image.place, image.time, image.orientation)}
+                clickFunction={() => openPhotoModal(image.filename, image.subject, image.people, image.place, image.time, image.orientation, images.indexOf(image))}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
             </div>
@@ -23,7 +23,8 @@ export default function PhotoGrid(){
     const [photoPlace, setPlace] = React.useState([''])
     const [photoPeople, setPeople] = React.useState([''])
 
-    function openPhotoModal(clickedImage, subject, people, place, date, orientation){
+    function openPhotoModal(clickedImage, subject, people, place, date, orientation, index){
+        //when thumbnail is clicked: toggle modal-is-shown class and set image source
         togglePhotoModal()
         setPhotoModalImage(clickedImage)
         addOverlayListener()
@@ -33,7 +34,8 @@ export default function PhotoGrid(){
         setPlace(place)
         setPeople(people)
 
-        //when thumbnail is clicked: toggle modal-is-shown class and set image source
+        console.log(index)
+
     }
 
     function closePhotoModal(){
