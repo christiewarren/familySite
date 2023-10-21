@@ -180,6 +180,10 @@ a{
   margin-bottom: 12px;
 }
 
+.photo-person-link{
+  display: block;
+}
+
 .photo-modal-expand-collapse-btn{
   position: absolute;
   transform: rotate(90deg);

@@ -1,7 +1,7 @@
 import React from 'react'
 import closeX from '../assets/close-x.svg'
 
-export default function PhotoModal(){
+export default function PhotoModal(props){
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
@@ -19,6 +19,18 @@ export default function PhotoModal(){
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
+    const peopleList = props.people.map(person => {
+        return(
+            <a href='#' className='photo-person-link'>{person}</a>
+        )
+        
+    })
+
+    const placeList = props.place.map(place => {
+        return(
+            <p>{place}</p>
+        )
+    })
 
     return(
         <div className='photo-modal-wrap' id='photo-modal'>
@@ -34,17 +46,15 @@ export default function PhotoModal(){
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h3>Date</h3>
-                            <p>1940</p>
+                            <p>{props.date}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h3>Place</h3>
-                            <p>Place name</p>
+                            {placeList}
                         </div>
                         <div className='photo-detail-group'>
                             <h3>People</h3>
-                            <a href='#'>Person 1</a><br/>
-                            <a href='#'>Person 2</a><br/>
-                            <a href='#'>Person 3</a><br/>
+                            {peopleList}
                         </div>
                         <div className='photo-detail-group'>
                             <h3>Album</h3>
