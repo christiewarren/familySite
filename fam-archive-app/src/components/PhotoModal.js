@@ -1,5 +1,7 @@
 import React from 'react'
 import closeX from '../assets/close-x.svg'
+import leftArrow from '../assets/left-arrow.svg'
+import rightArrow from '../assets/right-arrow.svg'
 
 export default function PhotoModal(props){
 
@@ -64,8 +66,8 @@ export default function PhotoModal(props){
                 </div>
                 <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>
                 <div className='next-prev-button-wrap'>
-                    <button id='prev-photo-button' onClick={() => props.changeFunction('previous')}>&larr;</button>
-                    <button id='next-photo-button' onClick={() => props.changeFunction('next')}>&rarr;</button>
+                    <button id='prev-photo-button' onClick={() => props.changeFunction('previous')}><img src={leftArrow}></img></button>
+                    <button id='next-photo-button' onClick={() => props.changeFunction('next')}><img src={rightArrow}></img></button>
                 </div>
             </div>
         </div>
