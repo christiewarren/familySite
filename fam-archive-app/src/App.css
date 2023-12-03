@@ -137,39 +137,42 @@ a{
 
 .photo-modal{
   display: flex;
-  border-radius: 4px;
+  border-radius: 4px  0px 0px 4px;
   background: var(--light-beige);
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.30);
-  width: fit-content;
   position: relative;
   z-index: 100;
+  max-height: 95vh;
+  max-width: 85%;
+  border-radius: 0 4px 4px 0;
 }
 
 .photo-modal-is-shown{
   visibility: visible;
 }
 
+/* flex items have initial setting of min-width: auto, so they don't shrink past the size of their content. Adding min-width: 0 allows item to shrink. Don't fully understand how this works. https://stackoverflow.com/questions/41774646/image-is-not-resizing-in-a-flexbox-layout */
+
+.photo-modal-img{
+  width: 100%;
+  min-width: 0;
+  max-height: 95vh;
+  z-index: 10;
+}
+
 .photo-modal-detail-wrap{
-  width: 220px;
+  min-width: 220px;
   background: var(--light-beige);
   padding: 30px;  
   transition: padding 0.75s cubic-bezier(.68,.2,.34,1), margin 0.75s cubic-bezier(.68,.2,.34,1);
   z-index: 1;
   margin-left: 0;
+  border-radius: 0 4px 4px 0;
 }
 
 .panel-is-closed{
   padding: 30px 0;
   margin-left: -220px;
-}
-
-.photo-modal-img-wrap{
-  height: 90vh;
-  z-index: 10;
-}
-
-.photo-modal-img{
-  height: 100%;
 }
 
 .photo-detail-group{
@@ -193,7 +196,7 @@ a{
   font-family: var(--sans-serif);
   
   padding: 10px 8px;
-  border-radius: 0px 2px 2px 0px;
+  border-radius: 2px 2px 0px 0px;
   background: var(--golden, #F6BB5B);
   z-index: 0;
 
@@ -206,32 +209,43 @@ a{
   cursor: pointer;
 }
 
-.next-prev-button-wrap{
+.next-prev-button-position-wrap{
   position: absolute;
-  bottom: -35px;
+  bottom: 12px;
   z-index: 100;
   display: flex;
   justify-content: center;
   width: 100%;
-  /* background: var(--light-beige);
+}
+
+.next-prev-button-bg-wrap{
   border-radius: 45px;
   box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.25);
-  padding: 4px; */
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(10px);
 }
 
 #prev-photo-button, #next-photo-button{
-  background: var(--light-forest-green);
   color: var(--light-beige);
   border: none;
   border-radius: 40px;
   font-weight: 600;
   font-size: 20px;
   padding: 17px 18px 14px;
-  margin: 15px;
   cursor: pointer;
-  box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: background-color .25s;
+}
+
+#prev-photo-button:hover, #next-photo-button:hover{
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 #prev-photo-button > img, #next-photo-button > img{
   width: 18px;
+}
+
+#prev-photo-button{
+  margin-right: 10px;
 }

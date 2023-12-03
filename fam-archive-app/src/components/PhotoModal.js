@@ -41,9 +41,7 @@ export default function PhotoModal(props){
             </div>
             <div id='photo-modal-overlay' className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <div className='photo-modal-img-wrap'>
-                    <img src='' className='photo-modal-img' id='photo-modal-img'/>
-                </div>
+                <img src='' className='photo-modal-img' id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
@@ -65,7 +63,9 @@ export default function PhotoModal(props){
                     </div>
                 </div>
                 <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>
-                <div className='next-prev-button-wrap'>
+            </div>
+            <div className='next-prev-button-position-wrap'>
+                <div className='next-prev-button-bg-wrap'>
                     <button id='prev-photo-button' onClick={() => props.changeFunction('previous')}><img src={leftArrow}></img></button>
                     <button id='next-photo-button' onClick={() => props.changeFunction('next')}><img src={rightArrow}></img></button>
                 </div>
