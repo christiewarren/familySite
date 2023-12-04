@@ -41,7 +41,7 @@ export default function PhotoModal(props){
             </div>
             <div id='photo-modal-overlay' className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img src='' className='photo-modal-img' id='photo-modal-img'/>
+                <img src={props.photo} className='photo-modal-img' id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>

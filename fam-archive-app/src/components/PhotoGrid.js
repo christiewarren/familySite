@@ -22,11 +22,12 @@ export default function PhotoGrid(){
     const [photoDate, setDate] = React.useState('')
     const [photoPlace, setPlace] = React.useState([''])
     const [photoPeople, setPeople] = React.useState([''])
+    const [photoModalImage, setPhotoModalImage] = React.useState([''])
 
     function openPhotoModal(clickedImage, subject, people, place, date, orientation, index){
         //when thumbnail is clicked: toggle modal-is-shown class and set image source
         togglePhotoModal()
-        setPhotoModalImage(clickedImage)
+        getPhotoModalImage(clickedImage)
         addOverlayListener()
 
         //update state of date, place and people based on the clicked thumbnail
@@ -56,11 +57,13 @@ export default function PhotoGrid(){
         //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
     }
 
-    function setPhotoModalImage(clickedImage){
-        let photoModalImage = document.getElementById('photo-modal-img')
-        photoModalImage.src = require('../assets/' + clickedImage)
+    function getPhotoModalImage(clickedImage){
+        let photoModalImageElement = document.getElementById('photo-modal-img')
+        setPhotoModalImage(require('../assets/' + clickedImage))
+        // photoModalImageElement.src = photoModalImage
 
         //use image filepath of clicked image to set src of modal image
+
     }
 
 
@@ -93,6 +96,7 @@ export default function PhotoGrid(){
             place = {photoPlace}
             people = {photoPeople}
             changeFunction = {changeModalImage}
+            photo = {photoModalImage}
         />
     </div>
 
