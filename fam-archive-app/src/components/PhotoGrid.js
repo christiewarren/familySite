@@ -5,7 +5,6 @@ import PhotoModal from './PhotoModal'
 
 export default function PhotoGrid(){
     const cards = images.map(image => {
-        // {console.log(image)}
         return(
             <div className={'card ' + image.orientation}>
                 <Thumbnail
@@ -38,7 +37,6 @@ export default function PhotoGrid(){
         //toggle modal visibility and state of visibility
         const photoModal = document.getElementById('photo-modal')
         setIsModalVisible((prevIsModalVisible) => {
-            console.log(prevIsModalVisible)
             if(prevIsModalVisible){
                 photoModal.style.visibility = 'hidden'
             }else{
@@ -49,12 +47,18 @@ export default function PhotoGrid(){
     }
 
     function changeModalImage(nextOrPrev){
-        // console.log('clicked ' + nextOrPrev)
-        // if(nextOrPrev == 'prev'){
-        //     setSelectedImageIndex((prevSelectedImageIndex) => prevSelectedImageIndex - 1)
-        // }else{
-        //     setSelectedImageIndex((prevSelectedImageIndex) => prevSelectedImageIndex + 1)
-        // }
+        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it -- can definitely do this more efficiently. currently breaks before first image and after last
+        if(nextOrPrev == 'previous'){
+            setSelectedImage((prevSelectedImage) => {
+                let prevSelectedIndex = images.indexOf(prevSelectedImage)
+                return images[prevSelectedIndex - 1]
+            })
+        }else{
+            setSelectedImage((prevSelectedImage) => {
+                let prevSelectedIndex = images.indexOf(prevSelectedImage)
+                return images[prevSelectedIndex + 1]
+            })
+        }
         
     }
 
