@@ -21,14 +21,14 @@ export default function PhotoModal(props){
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
-    const peopleList = props.people.map(person => {
+    const peopleList = props.image.people.map(person => {
         return(
             <a href='#' className='photo-person-link'>{person}</a>
         )
         
     })
 
-    const placeList = props.place.map(place => {
+    const placeList = props.image.place.map(place => {
         return(
             <p>{place}</p>
         )
@@ -41,12 +41,12 @@ export default function PhotoModal(props){
             </div>
             <div id='photo-modal-overlay' className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img src={props.photo} className='photo-modal-img' id='photo-modal-img'/>
+                <img src={require('../assets/' + props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h3>Date</h3>
-                            <p>{props.date}</p>
+                            <p>{props.image.date}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h3>Place</h3>

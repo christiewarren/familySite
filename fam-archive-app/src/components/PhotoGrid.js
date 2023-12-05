@@ -11,32 +11,44 @@ export default function PhotoGrid(){
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
-                clickFunction={() => openPhotoModal(image.filename, image.subject, image.people, image.place, image.time, image.orientation, images.indexOf(image))}
+
+                //onclick, pass in the image object at this thumbnail's index
+                clickFunction={() => openPhotoModal(image)}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
             </div>
         )
         })
     
-    //create state for photo date, place, and people
-    const [photoDate, setDate] = React.useState('')
-    const [photoPlace, setPlace] = React.useState([''])
-    const [photoPeople, setPeople] = React.useState([''])
-    const [photoModalImage, setPhotoModalImage] = React.useState([''])
+    //create state for selected image object and set it to the first image object in the array
+    const [selectedImage, setSelectedImage] = React.useState(images[0])
 
-    function openPhotoModal(clickedImage, subject, people, place, date, orientation, index){
-        //when thumbnail is clicked: toggle modal-is-shown class and set image source
+
+    function openPhotoModal(image){
+        //receive selected image object, and update the state of selectedImage to that object
+        setSelectedImage(image)
+
+        //when thumbnail is clicked: toggle modal-is-shown class
         togglePhotoModal()
-        getPhotoModalImage(clickedImage)
         addOverlayListener()
+    }
 
-        //update state of date, place and people based on the clicked thumbnail
-        setDate(date)
-        setPlace(place)
-        setPeople(people)
+    function togglePhotoModal(){
+        //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
+        let photoModal = document.getElementById('photo-modal')
+        photoModal.classList.toggle('photo-modal-is-shown')
+    }
 
-        console.log(index)
+    function addOverlayListener(){
+        //add event listener to overlay to close modal when clicked
+        let photoModalOverlay = document.getElementById('photo-modal-overlay')
+        photoModalOverlay.addEventListener('click', closePhotoModal)
+    }
 
+    function addXListener(){
+        //add event listener to x button to close modal when clicked
+        let photoModalXButton = document.getElementById('close-modal-button')
+        photoModalXButton.addEventListener('click', closePhotoModal)
     }
 
     function closePhotoModal(){
@@ -48,41 +60,15 @@ export default function PhotoGrid(){
 
         //when overlay or x is clicked: toggle modal-is-shown-class (to hide modal)
     }
-    
-
-    function togglePhotoModal(){
-        let photoModal = document.getElementById('photo-modal')
-        photoModal.classList.toggle('photo-modal-is-shown')
-
-        //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
-    }
-
-    function getPhotoModalImage(clickedImage){
-        let photoModalImageElement = document.getElementById('photo-modal-img')
-        setPhotoModalImage(require('../assets/' + clickedImage))
-        // photoModalImageElement.src = photoModalImage
-
-        //use image filepath of clicked image to set src of modal image
-
-    }
-
-
-    function addOverlayListener(){
-        let photoModalOverlay = document.getElementById('photo-modal-overlay')
-        photoModalOverlay.addEventListener('click', closePhotoModal)
-
-        //add event listener to overlay to close modal when clicked
-    }
-
-    function addXListener(){
-        let photoModalXButton = document.getElementById('close-modal-button')
-        photoModalXButton.addEventListener('click', closePhotoModal)
-
-        //add event listener to x buttonn to close modal when clicked
-    }
 
     function changeModalImage(nextOrPrev){
-        console.log('clicked ' + nextOrPrev)
+        // console.log('clicked ' + nextOrPrev)
+        // if(nextOrPrev == 'prev'){
+        //     setSelectedImageIndex((prevSelectedImageIndex) => prevSelectedImageIndex - 1)
+        // }else{
+        //     setSelectedImageIndex((prevSelectedImageIndex) => prevSelectedImageIndex + 1)
+        // }
+        
     }
 
     return(
@@ -91,12 +77,10 @@ export default function PhotoGrid(){
             {cards}
         </div>
         <PhotoModal
-            //pass (up to date) state of date, place, and people to photo modal
-            date = {photoDate}
-            place = {photoPlace}
-            people = {photoPeople}
+        // render PhotoModal and pass it the selected image object
+        //change function to be used with next/prev
             changeFunction = {changeModalImage}
-            photo = {photoModalImage}
+            image = {selectedImage}
         />
     </div>
 
