@@ -47,19 +47,15 @@ export default function PhotoGrid(){
     }
 
     function changeModalImage(nextOrPrev){
-        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it -- can definitely do this more efficiently. currently breaks before first image and after last
-        if(nextOrPrev == 'previous'){
-            setSelectedImage((prevSelectedImage) => {
-                let prevSelectedIndex = images.indexOf(prevSelectedImage)
+        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it -- currently breaks before first image and after last
+        setSelectedImage((prevSelectedImage) => {
+            let prevSelectedIndex = images.indexOf(prevSelectedImage)
+            if(nextOrPrev == 'previous'){
                 return images[prevSelectedIndex - 1]
-            })
-        }else{
-            setSelectedImage((prevSelectedImage) => {
-                let prevSelectedIndex = images.indexOf(prevSelectedImage)
+            }  else{
                 return images[prevSelectedIndex + 1]
-            })
-        }
-        
+            }
+        })
     }
 
     return(
