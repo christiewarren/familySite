@@ -147,10 +147,6 @@ a{
   border-radius: 0 4px 4px 0;
 }
 
-.photo-modal-is-shown{
-  visibility: visible;
-}
-
 /* flex items have initial setting of min-width: auto, so they don't shrink past the size of their content. Adding min-width: 0 allows item to shrink. Don't fully understand how this works. https://stackoverflow.com/questions/41774646/image-is-not-resizing-in-a-flexbox-layout */
 
 .photo-modal-img{

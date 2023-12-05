@@ -23,6 +23,8 @@ export default function PhotoGrid(){
     //create state for selected image object and set it to the first image object in the array
     const [selectedImage, setSelectedImage] = React.useState(images[0])
 
+    const [modalVisibility, setModalVisibility] = React.useState(false)
+
 
     function openPhotoModal(image){
         //receive selected image object, and update the state of selectedImage to that object
@@ -35,8 +37,19 @@ export default function PhotoGrid(){
 
     function togglePhotoModal(){
         //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
-        let photoModal = document.getElementById('photo-modal')
-        photoModal.classList.toggle('photo-modal-is-shown')
+        const photoModal = document.getElementById('photo-modal')
+        setModalVisibility((prevIsModalShown) => {
+            console.log(prevIsModalShown)
+            if(prevIsModalShown){
+                photoModal.style.visibility = 'hidden'
+            }else{
+                photoModal.style.visibility = 'visible'
+            }
+            return !prevIsModalShown
+        })
+
+        
+        
     }
 
     function addOverlayListener(){
