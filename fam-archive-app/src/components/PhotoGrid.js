@@ -7,7 +7,7 @@ export default function PhotoGrid(){
     const cards = images.map(image => {
         // {console.log(image)}
         return(
-            image.filename != 'ewarren_child.jpeg' && <div className={'card ' + image.orientation}>
+            <div className={'card ' + image.orientation}>
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
@@ -23,55 +23,29 @@ export default function PhotoGrid(){
     //create state for selected image object and set it to the first image object in the array
     const [selectedImage, setSelectedImage] = React.useState(images[0])
 
-    const [modalVisibility, setModalVisibility] = React.useState(false)
+    const [isModalVisible, setIsModalVisible] = React.useState(false)
 
 
     function openPhotoModal(image){
         //receive selected image object, and update the state of selectedImage to that object
         setSelectedImage(image)
 
-        //when thumbnail is clicked: toggle modal-is-shown class
+        //when thumbnail is clicked: toggle modal visibility (to open)
         togglePhotoModal()
-        addOverlayListener()
     }
 
     function togglePhotoModal(){
-        //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
+        //toggle modal visibility and state of visibility
         const photoModal = document.getElementById('photo-modal')
-        setModalVisibility((prevIsModalShown) => {
-            console.log(prevIsModalShown)
-            if(prevIsModalShown){
+        setIsModalVisible((prevIsModalVisible) => {
+            console.log(prevIsModalVisible)
+            if(prevIsModalVisible){
                 photoModal.style.visibility = 'hidden'
             }else{
                 photoModal.style.visibility = 'visible'
             }
-            return !prevIsModalShown
+            return !prevIsModalVisible
         })
-
-        
-        
-    }
-
-    function addOverlayListener(){
-        //add event listener to overlay to close modal when clicked
-        let photoModalOverlay = document.getElementById('photo-modal-overlay')
-        photoModalOverlay.addEventListener('click', closePhotoModal)
-    }
-
-    function addXListener(){
-        //add event listener to x button to close modal when clicked
-        let photoModalXButton = document.getElementById('close-modal-button')
-        photoModalXButton.addEventListener('click', closePhotoModal)
-    }
-
-    function closePhotoModal(){
-        togglePhotoModal()
-        addXListener()
-
-        //problem: console always logs clicked when overlay is clicked, but modal doesnt disappear. Class highlights in dev mode, but doesn't turn off 
-        // console.log('clicked')
-
-        //when overlay or x is clicked: toggle modal-is-shown-class (to hide modal)
     }
 
     function changeModalImage(nextOrPrev){
@@ -90,10 +64,12 @@ export default function PhotoGrid(){
             {cards}
         </div>
         <PhotoModal
-        // render PhotoModal and pass it the selected image object
-        //change function to be used with next/prev
+            //change function to be used with next/prev
             changeFunction = {changeModalImage}
+            // pass the selected image object
             image = {selectedImage}
+            //pass the  modal toggle function to close the modal when x and overlay are clicked
+            toggleModalFunction = {togglePhotoModal}
         />
     </div>
 
