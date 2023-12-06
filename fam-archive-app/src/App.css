@@ -155,6 +155,8 @@ a{
   max-height: 95vh;
   z-index: 10;
   object-fit: cover;
+  /* max-width prevents image from covering up details button at smaller screen sizes */
+  max-width: 100%;
 }
 
 .photo-modal-detail-wrap{
