@@ -67,23 +67,14 @@ export default function PhotoGrid(){
     }
 
     function checkForFirstLastImage(selectedIndex){
-        //check if the selected index is the first or last, and set prev/next button to disabled respectively. otherwise, set both to not disabled -- for sure a more efficient way to do this
+        //isFirstImage and isLastImage are booleans that check if the selected index is 0 or one less than the length of images array, respectively. the disabled attribute of each button is set to the boolean of the respective case: so if the selected image is the first image, prevModalButton will be disabled
         const prevModalButton = document.getElementById('prev-photo-button')
         const nextModalButton = document.getElementById('next-photo-button')
+        let isFirstImage = selectedIndex == 0
+        let isLastImage = selectedIndex == images.length - 1
 
-        if(selectedIndex == 0 && selectedIndex !== images.length - 1){
-            prevModalButton.disabled = true
-            nextModalButton.disabled = false
-        }else if(selectedIndex == images.length - 1 && selectedIndex !== 0){
-            nextModalButton.disabled = true
-            prevModalButton.disabled = false
-        }else if(selectedIndex == images.length - 1 && selectedIndex == images.length - 1){
-            nextModalButton.disabled = true
-            prevModalButton.disabled = true
-        }else{
-            prevModalButton.disabled = false
-            nextModalButton.disabled = false
-        }
+        prevModalButton.disabled = isFirstImage
+        nextModalButton.disabled = isLastImage
     }
 
     return(
