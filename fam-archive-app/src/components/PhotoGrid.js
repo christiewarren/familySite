@@ -31,6 +31,9 @@ export default function PhotoGrid(){
 
         //when thumbnail is clicked: toggle modal visibility (to open)
         togglePhotoModal()
+
+        //when modal is open, pass the selected index to the checkForFirstLastImage function to determine whether to disable either prev/next button
+        checkForFirstLastImage(images.indexOf(image))
     }
 
     function togglePhotoModal(){
@@ -47,15 +50,35 @@ export default function PhotoGrid(){
     }
 
     function changeModalImage(nextOrPrev){
-        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it -- currently breaks before first image and after last
+        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the checkForFirstLastImage function with the new selected index to determine whether to disable either prev/next button
         setSelectedImage((prevSelectedImage) => {
             let prevSelectedIndex = images.indexOf(prevSelectedImage)
+
             if(nextOrPrev == 'previous'){
+                checkForFirstLastImage(prevSelectedIndex - 1)
                 return images[prevSelectedIndex - 1]
             }  else{
+                checkForFirstLastImage(prevSelectedIndex + 1)
                 return images[prevSelectedIndex + 1]
             }
         })
+
+        
+    }
+
+    function checkForFirstLastImage(selectedIndex){
+        //check if the selected index is the first or last, and set prev/next button to disabled respectively. otherwise, set both to not disabled
+        const prevModalButton = document.getElementById('prev-photo-button')
+        const nextModalButton = document.getElementById('next-photo-button')
+
+        if(selectedIndex == 0){
+            prevModalButton.disabled = true
+        }else if(selectedIndex == images.length - 1){
+            nextModalButton.disabled = true
+        }else{
+            prevModalButton.disabled = false
+            nextModalButton.disabled = false
+        }
     }
 
     return(

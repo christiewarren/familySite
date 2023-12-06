@@ -93,7 +93,8 @@ a{
   position: absolute;
   bottom: 0;
   width: 100%;
-  background: var(--teal);
+  background: rgba(30, 74, 87, .85);
+  backdrop-filter: blur(2px);
   padding: 0 12px;
   box-sizing: border-box;
 }
@@ -245,4 +246,13 @@ a{
 
 #prev-photo-button{
   margin-right: 10px;
+}
+
+#prev-photo-button:disabled, #next-photo-button:disabled{
+  opacity: .5;
+}
+
+#prev-photo-button:disabled:hover, #next-photo-button:disabled:hover{
+  background-color: rgba(255, 255, 255, 0.15);
+  cursor: default;
 }
