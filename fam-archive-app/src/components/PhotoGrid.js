@@ -5,94 +5,87 @@ import PhotoModal from './PhotoModal'
 
 export default function PhotoGrid(){
     const cards = images.map(image => {
-        // {console.log(image)}
         return(
-            image.filename != 'ewarren_child.jpeg' && <div className={'card ' + image.orientation}>
+            <div className={'card ' + image.orientation}>
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
-                clickFunction={() => openPhotoModal(image.filename, image.subject, image.people, image.place, image.time, image.orientation, images.indexOf(image))}
+
+                //onclick, pass in the image object at this thumbnail's index
+                clickFunction={() => openPhotoModal(image)}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
             </div>
         )
         })
     
-    //create state for photo date, place, and people
-    const [photoDate, setDate] = React.useState('')
-    const [photoPlace, setPlace] = React.useState([''])
-    const [photoPeople, setPeople] = React.useState([''])
+    //create state for selected image object and set it to the first image object in the array
+    const [selectedImage, setSelectedImage] = React.useState(images[0])
 
-    function openPhotoModal(clickedImage, subject, people, place, date, orientation, index){
-        //when thumbnail is clicked: toggle modal-is-shown class and set image source
+    const [isModalVisible, setIsModalVisible] = React.useState(false)
+
+
+    function openPhotoModal(image){
+        //receive selected image object, and update the state of selectedImage to that object
+        setSelectedImage(image)
+
+        //when thumbnail is clicked: toggle modal visibility (to open)
         togglePhotoModal()
-        setPhotoModalImage(clickedImage)
-        addOverlayListener()
 
-        //update state of date, place and people based on the clicked thumbnail
-        setDate(date)
-        setPlace(place)
-        setPeople(people)
-
-        console.log(index)
-
+        //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
+        setArrowButtonsDisabled(images.indexOf(image))
     }
-
-    function closePhotoModal(){
-        togglePhotoModal()
-        addXListener()
-
-        //problem: console always logs clicked when overlay is clicked, but modal doesnt disappear. Class highlights in dev mode, but doesn't turn off 
-        // console.log('clicked')
-
-        //when overlay or x is clicked: toggle modal-is-shown-class (to hide modal)
-    }
-    
 
     function togglePhotoModal(){
-        let photoModal = document.getElementById('photo-modal')
-        photoModal.classList.toggle('photo-modal-is-shown')
-
-        //toggle photo-modal-is-shown class, which changes visibility to visible (may find a better way to do this)
-    }
-
-    function setPhotoModalImage(clickedImage){
-        let photoModalImage = document.getElementById('photo-modal-img')
-        photoModalImage.src = require('../assets/' + clickedImage)
-
-        //use image filepath of clicked image to set src of modal image
-    }
-
-
-    function addOverlayListener(){
-        let photoModalOverlay = document.getElementById('photo-modal-overlay')
-        photoModalOverlay.addEventListener('click', closePhotoModal)
-
-        //add event listener to overlay to close modal when clicked
-    }
-
-    function addXListener(){
-        let photoModalXButton = document.getElementById('close-modal-button')
-        photoModalXButton.addEventListener('click', closePhotoModal)
-
-        //add event listener to x buttonn to close modal when clicked
+        //toggle state of isModalVisible (which determines the visible/hidden class on the component) explanation on PR: https://github.com/christiewarren/familySite/pull/1#discussion_r1416641715
+        setIsModalVisible((prevIsModalVisible) => !prevIsModalVisible)
     }
 
     function changeModalImage(nextOrPrev){
-        console.log('clicked ' + nextOrPrev)
+        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
+        setSelectedImage((prevSelectedImage) => {
+            let prevSelectedIndex = images.indexOf(prevSelectedImage)
+
+            if(nextOrPrev == 'previous'){
+                setArrowButtonsDisabled(prevSelectedIndex - 1)
+                return images[prevSelectedIndex - 1]
+            }  else{
+                setArrowButtonsDisabled(prevSelectedIndex + 1)
+                return images[prevSelectedIndex + 1]
+            }
+        })
+
+        console.log(isModalVisible)
+    }
+
+    function setArrowButtonsDisabled(selectedIndex){
+        //isFirstImage and isLastImage are booleans that check if the selected index is 0 or one less than the length of images array, respectively. the disabled attribute of each button is set to the boolean of the respective case: so if the selected image is the first image, prevModalButton will be disabled
+        const prevModalButton = document.getElementById('prev-photo-button')
+        const nextModalButton = document.getElementById('next-photo-button')
+        let isFirstImage = selectedIndex == 0
+        let isLastImage = selectedIndex == images.length - 1
+
+        prevModalButton.disabled = isFirstImage
+        nextModalButton.disabled = isLastImage
     }
 
     return(
         <div>
-        <div className='photo-grid'>
-            {cards}
-        </div>
+            <div className='photo-grid-wrap'>
+                <h2>1900 - 1950</h2>
+                <div className='photo-grid'>
+                    {cards}
+                 </div>
+            </div>
         <PhotoModal
-            //pass (up to date) state of date, place, and people to photo modal
-            date = {photoDate}
-            place = {photoPlace}
-            people = {photoPeople}
+            //change function to be used with next/prev
             changeFunction = {changeModalImage}
+            // pass the selected image object
+            image = {selectedImage}
+            //pass the  modal toggle function to close the modal when x and overlay are clicked
+            toggleModalFunction = {togglePhotoModal}
+            //pass state of isModalVisible as a boolean to determine which className photo modal has (photo-modal-is-visible or photo-modal-is-hidden)
+            isModalVisible = {isModalVisible}
         />
     </div>
 

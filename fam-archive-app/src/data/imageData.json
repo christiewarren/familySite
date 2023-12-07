@@ -85,7 +85,7 @@
         "type": "photo",
         "subject": "Young Walter Lane",
         "people": ["Walter Lane"],
-        "place": "Spencer",
+        "place": ["Spencer"],
         "time": "1850-1900",
         "orientation": "portrait"
     }
