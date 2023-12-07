@@ -7,7 +7,7 @@ import Menu from './components/Menu';
 function App() {
   return(
     <div>
-      <Menu />
+      {/* <Menu /> */}
       <PhotoGrid />
     </div>
   )
