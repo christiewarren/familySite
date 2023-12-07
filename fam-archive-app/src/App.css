@@ -15,6 +15,10 @@ body{
   background: var(--light-beige);
 }
 
+h2{
+  
+}
+
 h3{
   color: var(--dark-forest-green, #112A31);
   font-size: 15px;
@@ -27,7 +31,7 @@ h3{
 
 p{
   color: var(--light-forest-green, #285C62);
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
@@ -42,7 +46,9 @@ a{
   text-decoration-line: underline;
 }
 
-.menu-wrap{
+.photo-grid-wrap{
+  height: 100vh;
+  overflow: scroll;
 }
 
 .photo-grid{
@@ -101,8 +107,10 @@ a{
 
 .doc-title-bar > p{
   color: var(--light-beige);
-  font-weight: 600;
   margin: 12px 0;
+  font-family: 'cronos-pro-caption', sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Photo Modal */
@@ -148,6 +156,14 @@ a{
   border-radius: 0 4px 4px 0;
 }
 
+.photo-modal-is-visible{
+  visibility: visible;
+}
+
+.photo-modal-is-hidden{
+  visibility: hidden;
+}
+
 /* flex items have initial setting of min-width: auto, so they don't shrink past the size of their content. Adding min-width: 0 allows item to shrink. Don't fully understand how this works. https://stackoverflow.com/questions/41774646/image-is-not-resizing-in-a-flexbox-layout */
 
 .photo-modal-img{
@@ -168,6 +184,12 @@ a{
   z-index: 1;
   margin-left: 0;
   border-radius: 0 4px 4px 0;
+}
+
+.photo-detail-text-wrap{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .panel-is-closed{
@@ -209,6 +231,28 @@ a{
   cursor: pointer;
 }
 
+@media (max-width: 769px) {
+  .photo-modal-wrap{
+    overflow-y: scroll;
+  }
+
+  .photo-modal{
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    max-height: unset;
+  }
+
+  .photo-modal-detail-wrap{
+    width: 100%;
+  }
+
+  .photo-detail-text-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
 .next-prev-button-position-wrap{
   position: absolute;
   bottom: 12px;
@@ -238,11 +282,11 @@ a{
   transition: background-color .25s;
 }
 
-#prev-photo-button:hover, #next-photo-button:hover{
+:is(#prev-photo-button #next-photo-button):hover{
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-#prev-photo-button > img, #next-photo-button > img{
+:is(#prev-photo-button, #next-photo-button) > img{
   width: 18px;
 }
 
@@ -250,11 +294,11 @@ a{
   margin-right: 10px;
 }
 
-#prev-photo-button:disabled, #next-photo-button:disabled{
+:is(#prev-photo-button, #next-photo-button):disabled{
   opacity: .5;
 }
 
-#prev-photo-button:disabled:hover, #next-photo-button:disabled:hover{
+:is(#prev-photo-button, #next-photo-button):disabled:hover{
   background-color: rgba(255, 255, 255, 0.15);
   cursor: default;
 }

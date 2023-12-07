@@ -32,41 +32,33 @@ export default function PhotoGrid(){
         //when thumbnail is clicked: toggle modal visibility (to open)
         togglePhotoModal()
 
-        //when modal is open, pass the selected index to the checkForFirstLastImage function to determine whether to disable either prev/next button
-        checkForFirstLastImage(images.indexOf(image))
+        //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
+        setArrowButtonsDisabled(images.indexOf(image))
     }
 
     function togglePhotoModal(){
-        //toggle modal visibility and state of visibility
-        const photoModal = document.getElementById('photo-modal')
-        setIsModalVisible((prevIsModalVisible) => {
-            if(prevIsModalVisible){
-                photoModal.style.visibility = 'hidden'
-            }else{
-                photoModal.style.visibility = 'visible'
-            }
-            return !prevIsModalVisible
-        })
+        //toggle state of isModalVisible (which determines the visible/hidden class on the component) explanation on PR: https://github.com/christiewarren/familySite/pull/1#discussion_r1416641715
+        setIsModalVisible((prevIsModalVisible) => !prevIsModalVisible)
     }
 
     function changeModalImage(nextOrPrev){
-        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the checkForFirstLastImage function with the new selected index to determine whether to disable either prev/next button
+        //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
         setSelectedImage((prevSelectedImage) => {
             let prevSelectedIndex = images.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
-                checkForFirstLastImage(prevSelectedIndex - 1)
+                setArrowButtonsDisabled(prevSelectedIndex - 1)
                 return images[prevSelectedIndex - 1]
             }  else{
-                checkForFirstLastImage(prevSelectedIndex + 1)
+                setArrowButtonsDisabled(prevSelectedIndex + 1)
                 return images[prevSelectedIndex + 1]
             }
         })
 
-        
+        console.log(isModalVisible)
     }
 
-    function checkForFirstLastImage(selectedIndex){
+    function setArrowButtonsDisabled(selectedIndex){
         //isFirstImage and isLastImage are booleans that check if the selected index is 0 or one less than the length of images array, respectively. the disabled attribute of each button is set to the boolean of the respective case: so if the selected image is the first image, prevModalButton will be disabled
         const prevModalButton = document.getElementById('prev-photo-button')
         const nextModalButton = document.getElementById('next-photo-button')
@@ -79,9 +71,12 @@ export default function PhotoGrid(){
 
     return(
         <div>
-        <div className='photo-grid'>
-            {cards}
-        </div>
+            <div className='photo-grid-wrap'>
+                <h2>1900 - 1950</h2>
+                <div className='photo-grid'>
+                    {cards}
+                 </div>
+            </div>
         <PhotoModal
             //change function to be used with next/prev
             changeFunction = {changeModalImage}
@@ -89,6 +84,8 @@ export default function PhotoGrid(){
             image = {selectedImage}
             //pass the  modal toggle function to close the modal when x and overlay are clicked
             toggleModalFunction = {togglePhotoModal}
+            //pass state of isModalVisible as a boolean to determine which className photo modal has (photo-modal-is-visible or photo-modal-is-hidden)
+            isModalVisible = {isModalVisible}
         />
     </div>
 

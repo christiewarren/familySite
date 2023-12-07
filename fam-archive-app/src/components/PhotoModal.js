@@ -35,7 +35,7 @@ export default function PhotoModal(props){
     })
 
     return(
-        <div className='photo-modal-wrap' id='photo-modal'>
+        <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
             {/* when modal x is clicked, run the click function passed in, which is togglePhotoModal */}
             <div onClick={props.toggleModalFunction} id='close-modal-button'>
                 <img src={closeX}></img>
@@ -48,7 +48,7 @@ export default function PhotoModal(props){
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h3>Date</h3>
-                            <p>{props.image.date}</p>
+                            <p>{props.image.time}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h3>Place</h3>
