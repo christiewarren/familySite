@@ -2,6 +2,7 @@ import React from 'react'
 import images from '../data/imageData.json'
 import Thumbnail from './Thumbnail'
 import PhotoModal from './PhotoModal'
+import PhotoFilters from './PhotoFilters'
 
 export default function PhotoGrid(){
     const cards = images.map(image => {
@@ -69,14 +70,21 @@ export default function PhotoGrid(){
         nextModalButton.disabled = isLastImage
     }
 
+    function toggleFilter(filter){
+        console.log(filter)
+    }
+
     return(
-        <div>
-            <div className='photo-grid-wrap'>
-                <h2>1900 - 1950</h2>
-                <div className='photo-grid'>
-                    {cards}
-                 </div>
-            </div>
+    <div>
+        <div className='photo-grid-wrap'>
+        <PhotoFilters 
+            filterClickFunction = {toggleFilter}
+        />
+            <h2>1900 - 1950</h2>
+            <div className='photo-grid'>
+                {cards}
+                </div>
+        </div>
         <PhotoModal
             //change function to be used with next/prev
             changeFunction = {changeModalImage}
