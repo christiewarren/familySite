@@ -5,7 +5,9 @@ import PhotoModal from './PhotoModal'
 import PhotoFilters from './PhotoFilters'
 
 export default function PhotoGrid(){
-    const cards = images.map(image => {
+    const [shownImages, setShownImages] = React.useState(images)
+    
+    const cards = shownImages.map(image => {
         return(
             <div className={'card ' + image.orientation}>
                 <Thumbnail
@@ -20,8 +22,21 @@ export default function PhotoGrid(){
         )
         })
     
+    //if the filter has been checked, shownImages gets updated to images filtered by the passed in filter (e.g. 'documents' is passed in: filters images by type: document). If it has been unchecked, shownImages gets reset to images. Currently hardcoded for image.type, and uses getElementById to determine if checked
+    function toggleFilter(filter){
+        const docFilter = document.getElementById('doc-filter')
+        setShownImages(() => {
+            if(docFilter.checked){
+                let filteredImages = images.filter((image) => image.type == filter)
+                return filteredImages
+            }return images
+            
+        })
+    }
+    
+    
     //create state for selected image object and set it to the first image object in the array
-    const [selectedImage, setSelectedImage] = React.useState(images[0])
+    const [selectedImage, setSelectedImage] = React.useState(shownImages[0])
 
     const [isModalVisible, setIsModalVisible] = React.useState(false)
 
@@ -34,7 +49,7 @@ export default function PhotoGrid(){
         togglePhotoModal()
 
         //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
-        setArrowButtonsDisabled(images.indexOf(image))
+        setArrowButtonsDisabled(shownImages.indexOf(image))
     }
 
     function togglePhotoModal(){
@@ -45,14 +60,14 @@ export default function PhotoGrid(){
     function changeModalImage(nextOrPrev){
         //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
         setSelectedImage((prevSelectedImage) => {
-            let prevSelectedIndex = images.indexOf(prevSelectedImage)
+            let prevSelectedIndex = shownImages.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
                 setArrowButtonsDisabled(prevSelectedIndex - 1)
-                return images[prevSelectedIndex - 1]
+                return shownImages[prevSelectedIndex - 1]
             }  else{
                 setArrowButtonsDisabled(prevSelectedIndex + 1)
-                return images[prevSelectedIndex + 1]
+                return shownImages[prevSelectedIndex + 1]
             }
         })
 
@@ -64,14 +79,10 @@ export default function PhotoGrid(){
         const prevModalButton = document.getElementById('prev-photo-button')
         const nextModalButton = document.getElementById('next-photo-button')
         let isFirstImage = selectedIndex == 0
-        let isLastImage = selectedIndex == images.length - 1
+        let isLastImage = selectedIndex == shownImages.length - 1
 
         prevModalButton.disabled = isFirstImage
         nextModalButton.disabled = isLastImage
-    }
-
-    function toggleFilter(filter){
-        console.log(filter)
     }
 
     return(
