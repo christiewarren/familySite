@@ -31,19 +31,28 @@ h3{
 
 p{
   color: var(--light-forest-green, #285C62);
-  font-size: 20px;
-  font-style: normal;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 32px;
+  font-family: 'cronos-pro-caption', sans-serif;
+  font-style: normal;
+  margin: 0;
 }
 
 a{
   color: var(--link-button, #077683);
-  font-size: 18px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px;
-  text-decoration-line: underline;
+  line-height: 32px;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  width: fit-content;
+  font-family: 'cronos-pro-caption', sans-serif;
+}
+
+a:hover{
+  background-color: #07768318;
 }
 
 .photo-grid-wrap{
@@ -101,16 +110,15 @@ a{
   width: 100%;
   background: rgba(30, 74, 87, .85);
   backdrop-filter: blur(2px);
-  padding: 0 12px;
+  padding: 12px;
   box-sizing: border-box;
 }
 
-.doc-title-bar > p{
+.doc-title-bar > small{
   color: var(--light-beige);
   margin: 12px 0;
+  font-size: 20px;
   font-family: 'cronos-pro-caption', sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 /* Photo Modal */
@@ -198,7 +206,7 @@ a{
 }
 
 .photo-detail-group{
-  margin-bottom: 35px;
+  margin-bottom: 24px;
 }
 
 .photo-detail-group h3{
@@ -282,7 +290,7 @@ a{
   transition: background-color .25s;
 }
 
-:is(#prev-photo-button #next-photo-button):hover{
+:is(#prev-photo-button, #next-photo-button):hover{
   background-color: rgba(255, 255, 255, 0.25);
 }
 
