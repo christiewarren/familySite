@@ -14,7 +14,7 @@ export default function PhotoGrid(){
                 //onclick, pass in the image object at this thumbnail's index
                 clickFunction={() => openPhotoModal(image)}
                 />
-                {image.type == "document" && <div className='doc-title-bar'><p>{image.title}</p></div>}
+                {image.type == "document" && <div className='doc-title-bar'><small>{image.title}</small></div>}
             </div>
         )
         })
