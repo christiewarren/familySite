@@ -22,11 +22,18 @@ export default function PhotoGrid(){
         )
         })
     
-    //if the filter has been checked, shownImages gets updated to images filtered by the passed in filter (e.g. 'documents' is passed in: filters images by type: document). If it has been unchecked, shownImages gets reset to images. Currently hardcoded for image.type, and uses getElementById to determine if checked
+    //if the filter has been checked (set by onChange function toggleCheckbox -- is this wrong?), shownImages gets updated to: images filtered by the passed in filter (e.g. 'documents' is passed in: filters images by type: document). If it has been unchecked, shownImages gets reset to images. Currently hardcoded for image.type
+
+    const [isFilterChecked, setIsFilterChecked] = React.useState(false)
+    
+    function toggleCheckbox(){
+        setIsFilterChecked((prevIsFilterChecked) => !prevIsFilterChecked)
+    }
+
     function toggleFilter(filter){
-        const docFilter = document.getElementById('doc-filter')
+        // const docFilter = document.getElementById('doc-filter')
         setShownImages(() => {
-            if(docFilter.checked){
+            if(!isFilterChecked){
                 let filteredImages = images.filter((image) => image.type == filter)
                 return filteredImages
             }return images
@@ -89,7 +96,10 @@ export default function PhotoGrid(){
     <div>
         <div className='photo-grid-wrap'>
         <PhotoFilters 
+            //when filter is  clicked, shownImages gets filtered
             filterClickFunction = {toggleFilter}
+            //when checkbox is clicked, state of isFilterChecked gets toggled
+            toggleCheckboxFunction = {toggleCheckbox}
         />
             <h2>1900 - 1950</h2>
             <div className='photo-grid'>
