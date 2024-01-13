@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function People(){
     const peopleCards = people.map((person) => {
         return(
-            <Link to={'/people/' + person.firstName + '-' + person.lastName}>{person.firstName + ' ' + person.lastName}</Link>
+            <Link to={'/people/' + person.firstName + '-' + person.lastName} state={person}>{person.firstName + ' ' + person.lastName}</Link>
         )
 
     })

@@ -2,12 +2,11 @@ import React from "react";
 
 export default function PhotoFilters(props){
 
-    // const [filters, setFilters] = React.useState({document: false, photo: false})
     function handleChange(event) {
         const docCheckbox = document.getElementById('doc-checkbox').checked
         const photoCheckbox = document.getElementById('photo-checkbox').checked
-
         props.toggleFilter(docCheckbox, photoCheckbox)
+
     }
 
     return(
