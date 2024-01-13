@@ -326,3 +326,7 @@ a:hover{
   background-color: rgba(255, 255, 255, 0.15);
   cursor: default;
 }
+
+.profile-photo{
+  width: 100px;
+}

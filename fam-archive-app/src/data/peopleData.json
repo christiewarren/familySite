@@ -7,7 +7,8 @@
         "parents": ["Virginia Lane", "Edward Lane"],
         "siblings": ["Pricilla Lane", "Connie Nissley"],
         "spouse": "Richard Warren",
-        "children": ["Peter Warren", "Virginia Carr", "David Warren", "James Warren"]
+        "children": ["Peter Warren", "Virginia Carr", "David Warren", "James Warren"],
+        "profilePhoto": "ewarren_child.jpeg"
     },
     {
         "firstName": "Christina",
@@ -17,6 +18,7 @@
         "parents": ["David Warren", "Susan Warren"],
         "siblings": ["James Warren", "Kathryn Warren"],
         "spouse": "",
-        "children": [""]
+        "children": [""],
+        "profilePhoto": "cwarren_profile.jpg"
     }
 ]
