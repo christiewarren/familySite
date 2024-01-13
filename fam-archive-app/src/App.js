@@ -13,9 +13,9 @@ function App() {
   return(
     <>
     <nav>
-      <NavLink className={({isActive}) => isActive ? 'active-nav-link' : 'nav-link'} to='/'>Home</NavLink>
-      <NavLink className={({isActive}) => isActive ? 'active-nav-link' : 'nav-link'} to='/photos'>Photos</NavLink>
-      <NavLink className={({isActive}) => isActive ? 'active-nav-link' : 'nav-link'} to='/people'>People</NavLink>
+      <NavLink className='nav-link' to='/'>Home</NavLink>
+      <NavLink className='nav-link' to='/photos'>Photos</NavLink>
+      <NavLink className='nav-link' to='/people'>People</NavLink>
     </nav>
       <Routes>
         <Route path="/" element={<Home />}/>
