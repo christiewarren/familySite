@@ -24,19 +24,39 @@ export default function PhotoGrid(){
     
     //if the filter has been checked (set by onChange function toggleCheckbox -- is this wrong?), shownImages gets updated to: images filtered by the passed in filter (e.g. 'documents' is passed in: filters images by type: document). If it has been unchecked, shownImages gets reset to images. Currently hardcoded for image.type
 
-    const [isFilterChecked, setIsFilterChecked] = React.useState(false)
-    
-    function toggleCheckbox(){
-        setIsFilterChecked((prevIsFilterChecked) => !prevIsFilterChecked)
-    }
+    //try object or array for updating state of checks
+    // const [isDocFilterChecked, setIsDocFilterChecked] = React.useState(false)
+    // const [isPhotoFilterChecked, setIsPhotoFilterChecked] = React.useState(false)
 
-    function toggleFilter(filter){
-        // const docFilter = document.getElementById('doc-filter')
+    
+    // function toggleDocCheckbox(){
+    //     setIsDocFilterChecked((prevIsDocFilterChecked) => !prevIsDocFilterChecked)
+    // }
+
+    // function togglePhotoCheckbox(){
+    //     setIsPhotoFilterChecked((prevIsPhotoFilterChecked) => !prevIsPhotoFilterChecked)
+    // }
+
+    function toggleFilter(docCheckbox, photoCheckbox){
         setShownImages(() => {
-            if(!isFilterChecked){
-                let filteredImages = images.filter((image) => image.type == filter)
-                return filteredImages
-            }return images
+
+            // create new array. look at each image in images: 
+            // if docCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if docCheckbox is true(checked) only add the image if its type is document. 
+            // ALSO 
+            // if photoCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if photoCheckbox is true(checked) only add the image if its type is photo.
+            // OTHERWISE
+            // if docCheckbox AND photoCheckbox are both true (checked), add image if its type is photo OR document.
+            
+            //Note: can try making a table like this to further investigate:
+            // docChecbox isDoc photoCheckbox isPhoto
+            // FALSE      FLASE  FLAE         FALSE
+            // FALSE      FALSE FALSE          TRUE
+            let filteredImages = images.filter((image) => 
+            (!docCheckbox || image.type == 'document') && 
+            (!photoCheckbox || image.type == 'photo') || 
+            ((docCheckbox && photoCheckbox) && (image.type == 'photo' || image.type == 'document')))
+
+            return filteredImages
             
         })
     }
@@ -97,9 +117,10 @@ export default function PhotoGrid(){
         <div className='photo-grid-wrap'>
         <PhotoFilters 
             //when filter is  clicked, shownImages gets filtered
-            filterClickFunction = {toggleFilter}
+            toggleFilter = {toggleFilter}
             //when checkbox is clicked, state of isFilterChecked gets toggled
-            toggleCheckboxFunction = {toggleCheckbox}
+            // toggleDocCheckbox = {toggleDocCheckbox}
+            // togglePhotoCheckbox = {togglePhotoCheckbox}
         />
             <h2>1900 - 1950</h2>
             <div className='photo-grid'>
@@ -120,3 +141,23 @@ export default function PhotoGrid(){
 
     )
 }
+
+// isDocumentChecked => image.type === 'document'
+// not isDocumentChecked => not image.type === document
+// filters = {
+//     document: {
+//         value: true,
+//         filterFunction: image => image.type === 'document'
+//     }
+// }
+// filters[filterKey].value = !ilters[filterKey].value
+// images.filter(image => {
+//     return filters.values().every(
+//         filter => filter.value ? filter.filterFunction(image) : !filter.filterFunction(image)
+//     );
+// })
+// filters.values
+
+// isDocumentChecked ? image.type === 'document' : image.type !== 'document'
+
+//     images.filter(image => !Boolean(isDocumentChecked ^ image.type === 'document') && !Boolean(isPhotoChecked ^ image.type === 'photo'))
