@@ -2,9 +2,12 @@ import React from 'react'
 import images from '../data/imageData.json'
 import Thumbnail from './Thumbnail'
 import PhotoModal from './PhotoModal'
+import PhotoFilters from './PhotoFilters'
 
 export default function PhotoGrid(){
-    const cards = images.map(image => {
+    const [shownImages, setShownImages] = React.useState(images)
+    
+    const cards = shownImages.map(image => {
         return(
             <div className={'card ' + image.orientation}>
                 <Thumbnail
@@ -19,8 +22,48 @@ export default function PhotoGrid(){
         )
         })
     
+    //if the filter has been checked (set by onChange function toggleCheckbox -- is this wrong?), shownImages gets updated to: images filtered by the passed in filter (e.g. 'documents' is passed in: filters images by type: document). If it has been unchecked, shownImages gets reset to images. Currently hardcoded for image.type
+
+    //try object or array for updating state of checks
+    // const [isDocFilterChecked, setIsDocFilterChecked] = React.useState(false)
+    // const [isPhotoFilterChecked, setIsPhotoFilterChecked] = React.useState(false)
+
+    
+    // function toggleDocCheckbox(){
+    //     setIsDocFilterChecked((prevIsDocFilterChecked) => !prevIsDocFilterChecked)
+    // }
+
+    // function togglePhotoCheckbox(){
+    //     setIsPhotoFilterChecked((prevIsPhotoFilterChecked) => !prevIsPhotoFilterChecked)
+    // }
+
+    function toggleFilter(docCheckbox, photoCheckbox){
+        setShownImages(() => {
+
+            // create new array. look at each image in images: 
+            // if docCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if docCheckbox is true(checked) only add the image if its type is document. 
+            // ALSO 
+            // if photoCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if photoCheckbox is true(checked) only add the image if its type is photo.
+            // OTHERWISE
+            // if docCheckbox AND photoCheckbox are both true (checked), add image if its type is photo OR document.
+            
+            //Note: can try making a table like this to further investigate:
+            // docChecbox isDoc photoCheckbox isPhoto
+            // FALSE      FLASE  FLAE         FALSE
+            // FALSE      FALSE FALSE          TRUE
+            let filteredImages = images.filter((image) => 
+            (!docCheckbox || image.type == 'document') && 
+            (!photoCheckbox || image.type == 'photo') || 
+            ((docCheckbox && photoCheckbox) && (image.type == 'photo' || image.type == 'document')))
+
+            return filteredImages
+            
+        })
+    }
+    
+    
     //create state for selected image object and set it to the first image object in the array
-    const [selectedImage, setSelectedImage] = React.useState(images[0])
+    const [selectedImage, setSelectedImage] = React.useState(shownImages[0])
 
     const [isModalVisible, setIsModalVisible] = React.useState(false)
 
@@ -33,7 +76,7 @@ export default function PhotoGrid(){
         togglePhotoModal()
 
         //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
-        setArrowButtonsDisabled(images.indexOf(image))
+        setArrowButtonsDisabled(shownImages.indexOf(image))
     }
 
     function togglePhotoModal(){
@@ -44,14 +87,14 @@ export default function PhotoGrid(){
     function changeModalImage(nextOrPrev){
         //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
         setSelectedImage((prevSelectedImage) => {
-            let prevSelectedIndex = images.indexOf(prevSelectedImage)
+            let prevSelectedIndex = shownImages.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
                 setArrowButtonsDisabled(prevSelectedIndex - 1)
-                return images[prevSelectedIndex - 1]
+                return shownImages[prevSelectedIndex - 1]
             }  else{
                 setArrowButtonsDisabled(prevSelectedIndex + 1)
-                return images[prevSelectedIndex + 1]
+                return shownImages[prevSelectedIndex + 1]
             }
         })
 
@@ -63,20 +106,27 @@ export default function PhotoGrid(){
         const prevModalButton = document.getElementById('prev-photo-button')
         const nextModalButton = document.getElementById('next-photo-button')
         let isFirstImage = selectedIndex == 0
-        let isLastImage = selectedIndex == images.length - 1
+        let isLastImage = selectedIndex == shownImages.length - 1
 
         prevModalButton.disabled = isFirstImage
         nextModalButton.disabled = isLastImage
     }
 
     return(
-        <div>
-            <div className='photo-grid-wrap'>
-                <h2>1900 - 1950</h2>
-                <div className='photo-grid'>
-                    {cards}
-                 </div>
-            </div>
+    <div>
+        <div className='photo-grid-wrap'>
+        <PhotoFilters 
+            //when filter is  clicked, shownImages gets filtered
+            toggleFilter = {toggleFilter}
+            //when checkbox is clicked, state of isFilterChecked gets toggled
+            // toggleDocCheckbox = {toggleDocCheckbox}
+            // togglePhotoCheckbox = {togglePhotoCheckbox}
+        />
+            <h2>1900 - 1950</h2>
+            <div className='photo-grid'>
+                {cards}
+                </div>
+        </div>
         <PhotoModal
             //change function to be used with next/prev
             changeFunction = {changeModalImage}
@@ -91,3 +141,23 @@ export default function PhotoGrid(){
 
     )
 }
+
+// isDocumentChecked => image.type === 'document'
+// not isDocumentChecked => not image.type === document
+// filters = {
+//     document: {
+//         value: true,
+//         filterFunction: image => image.type === 'document'
+//     }
+// }
+// filters[filterKey].value = !ilters[filterKey].value
+// images.filter(image => {
+//     return filters.values().every(
+//         filter => filter.value ? filter.filterFunction(image) : !filter.filterFunction(image)
+//     );
+// })
+// filters.values
+
+// isDocumentChecked ? image.type === 'document' : image.type !== 'document'
+
+//     images.filter(image => !Boolean(isDocumentChecked ^ image.type === 'document') && !Boolean(isPhotoChecked ^ image.type === 'photo'))
