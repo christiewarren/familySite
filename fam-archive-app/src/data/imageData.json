@@ -2,7 +2,7 @@
     {
         "filename": "W-Lane---Marriage-certificate.jpg",
         "title": "W Lane - Marriage Certificate",
-        "type": "document",
+        "type": "test",
         "subject": "W Lane life",
         "people": ["Anna Weyhe Lane", "Walter Lane"],
         "place": ["Spencer"],
@@ -12,7 +12,7 @@
     {
         "filename": "W-Lane---Ordination-2nd-Unitarian-Ch---Athol-MA.jpg",
         "title": "W Lane - Ordination - 2nd Unitarian Church - Athol MA",
-        "type": "",
+        "type": "document",
         "subject": "W Lane ministry",
         "people": ["Anna Weyhe Lane", "Walter Lane"],
         "place": ["Athol", "Carlisle", "Spencer"],
