@@ -1,0 +1,22 @@
+[
+    {
+        "firstName": "Elinor",
+        "lastName": "Warren",
+        "birth": "August 10, 1936",
+        "death": "",
+        "parents": ["Virginia Lane", "Edward Lane"],
+        "siblings": ["Pricilla Lane", "Connie Nissley"],
+        "spouse": "Richard Warren",
+        "children": ["Peter Warren", "Virginia Carr", "David Warren", "James Warren"]
+    },
+    {
+        "firstName": "Christina",
+        "lastName": "Warren",
+        "birth": "October 7, 1997",
+        "death": "",
+        "parents": ["David Warren", "Susan Warren"],
+        "siblings": ["James Warren", "Kathryn Warren"],
+        "spouse": "",
+        "children": [""]
+    }
+]
