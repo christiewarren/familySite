@@ -2,6 +2,8 @@ import React from 'react'
 import closeX from '../assets/close-x.svg'
 import leftArrow from '../assets/left-arrow.svg'
 import rightArrow from '../assets/right-arrow.svg'
+import { Link } from 'react-router-dom'
+import people from '../data/peopleData.json'
 
 export default function PhotoModal(props){
 
@@ -22,9 +24,11 @@ export default function PhotoModal(props){
     }
 
     const peopleList = props.image.people.map(person => {
-        return(
-            <a href='#' className='photo-person-link'>{person}</a>
-        )
+        let personObject = people.filter((index) => index.fullName == person)[0]
+
+        if(personObject){
+            return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{person}</Link>)
+        }return(<p>{person}</p>)
         
     })
 

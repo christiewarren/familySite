@@ -2,18 +2,24 @@ import React from "react";
 import images from '../data/imageData.json'
 import Thumbnail from "./Thumbnail";
 import { useLocation, Link } from "react-router-dom";
+import downArrow from '../assets/down-arrow.svg'
 
 export default function Person(){
     const person = useLocation().state
     const parents = person.parents.map((parent) => <p>{parent}</p>)
     const siblings = person.siblings.map((sibling) => <p>{sibling}</p>)
     const children = person.children.map((child) => <p>{child}</p>)
+    const fullName = person.firstName + ' ' + person.lastName
 
-    const personPhotos = images.filter((image) => image.people.includes(person.firstName + ' ' + person.lastName))
+    const personPhotos = images.filter((image) => image.people.includes(fullName))
 
-    const cards = personPhotos.map((photo) => {
+    const cards = personPhotos.map(image => {
         return(
-            <Thumbnail src={photo.filename} key={photo.filename} />)
+            <div className={'card ' + image.orientation}>
+                <Thumbnail src={image.filename} key={image.filename} />
+                {image.type == "document" && <div className='doc-title-bar'><small>{image.title}</small></div>}
+            </div>
+        )
         })
 
     return(
@@ -21,9 +27,10 @@ export default function Person(){
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
                     <img src={require('../assets/' + person.profilePhoto)} className="profile-photo"/>
+                    {/* <a href='#photos' className="all-photos-link">All photos of {person.firstName} <img src={downArrow}></img></a> */}
                 </div>
                 <div className="profile-details">
-                    <h1>{person.firstName + ' ' + person.lastName}</h1>
+                    <h1>{fullName}</h1>
                     <p>{person.birth}</p>
                     <div className="relationships">
                         <div className="parents-wrap">
@@ -38,13 +45,14 @@ export default function Person(){
                             <h4>Spouse</h4>
                             <p>{person.spouse}</p>
                         </div>}
-                        {person.children && <div className="children-wrap">
+                        {person.children[0] && <div className="children-wrap">
+                            <h4>Children</h4>
                             {children}
                         </div>}
                     </div>
                 </div>
             </div>
-            <div className="person-photos">
+            <div id="photos">
                 <div className='photo-grid-wrap'>
                     <div className='photo-grid'>
                         {cards}
