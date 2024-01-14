@@ -23,6 +23,7 @@ export default function PhotoModal(props){
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
+    //show the list of people in the image object. check to see if there's an object in peopleData whose name matches this selected person, and store that in a new object. if that object is true, render a link to that person's page. if not, render a p tag with their name
     const peopleList = props.image.people.map(person => {
         let personObject = people.filter((index) => index.fullName == person)[0]
 

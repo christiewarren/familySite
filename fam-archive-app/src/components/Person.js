@@ -11,6 +11,7 @@ export default function Person(){
     const children = person.children.map((child) => <p>{child}</p>)
     const fullName = person.firstName + ' ' + person.lastName
 
+    //filter all images by those that include this person
     const personPhotos = images.filter((image) => image.people.includes(fullName))
 
     const cards = personPhotos.map(image => {
