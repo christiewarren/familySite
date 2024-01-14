@@ -55,6 +55,22 @@ a:hover{
   background-color: #07768318;
 }
 
+.nav-link{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--sans-serif);
+  border: 1px solid #077683;
+  border-radius: 4px;
+  margin: 20px 8px;
+  padding: 3px 8px;
+  display: inline-block;
+}
+
+.nav-link.active{
+  background-color: #077683;
+  color: var(--light-beige);
+}
+
 .photo-grid-wrap{
   height: 100vh;
   overflow: scroll;
@@ -78,6 +94,7 @@ a:hover{
   transition: box-shadow .6s;
   cursor: pointer;
   position: relative;
+  max-width: 400px;
 }
 
 .card:hover{
@@ -310,3 +327,27 @@ a:hover{
   background-color: rgba(255, 255, 255, 0.15);
   cursor: default;
 }
+
+.profile-photo{
+  width: 400px;
+  margin-right: 60px;
+}
+
+.profile-wrap{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.relationships{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.all-photos-link{
+  display: block;
+}
+
