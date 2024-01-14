@@ -8,7 +8,8 @@
         "siblings": ["Pricilla Lane", "Connie Nissley"],
         "spouse": "Richard Warren",
         "children": ["Peter Warren", "Virginia Carr", "David Warren", "James Warren"],
-        "profilePhoto": "ewarren_child.jpeg"
+        "profilePhoto": "ewarren_child.jpeg",
+        "fullName": "Elinor Warren"
     },
     {
         "firstName": "Christina",
@@ -19,6 +20,7 @@
         "siblings": ["James Warren", "Kathryn Warren"],
         "spouse": "",
         "children": [""],
-        "profilePhoto": "cwarren_profile.jpg"
+        "profilePhoto": "cwarren_profile.jpg",
+        "fullName": "Christina Warren"
     }
 ]

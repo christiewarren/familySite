@@ -94,6 +94,7 @@ a:hover{
   transition: box-shadow .6s;
   cursor: pointer;
   position: relative;
+  max-width: 400px;
 }
 
 .card:hover{
@@ -328,5 +329,25 @@ a:hover{
 }
 
 .profile-photo{
-  width: 100px;
+  width: 400px;
+  margin-right: 60px;
 }
+
+.profile-wrap{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.relationships{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.all-photos-link{
+  display: block;
+}
+
