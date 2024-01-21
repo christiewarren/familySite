@@ -6,7 +6,7 @@
   --dark-forest-green: #112A31;
   --golden: #F6BB5B;
   --teal: #077683;
-  --sans-serif: 'Work Sans', sans-serif;
+  --sans-serif: "sofia-pro", sans-serif;
 }
 
 body{
@@ -15,28 +15,43 @@ body{
   background: var(--light-beige);
 }
 
-h2{
-  
+h1{
+  color: var(--forest-green, #1E4A57);
+  font-family: var(--sans-serif);
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 8px;
 }
 
-h3{
+h2{
+  margin: 0;
+  color: var(--dark-forest-green);
+  font-family: var(--sans-serif);
+  font-weight: 400;
+}
+
+
+h4{
   color: var(--dark-forest-green, #112A31);
+  font-family: var(--sans-serif);
   font-size: 15px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+  font-weight: 700;
   letter-spacing: 0.75px;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 p{
   color: var(--light-forest-green, #285C62);
   font-size: 24px;
   font-weight: 400;
-  line-height: 32px;
   font-family: 'cronos-pro-caption', sans-serif;
   font-style: normal;
   margin: 0;
+  margin-bottom: 16px;
+  line-height: 1;
 }
 
 a{
@@ -44,7 +59,6 @@ a{
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
   text-decoration: none;
   border-bottom: 1px solid;
   width: fit-content;
@@ -53,6 +67,11 @@ a{
 
 a:hover{
   background-color: #07768318;
+}
+
+hr{
+  border: 1px inset rgba(0, 0, 0, 0.1);
+  margin: 30px 0;
 }
 
 .nav-link{
@@ -328,26 +347,96 @@ a:hover{
   cursor: default;
 }
 
-.profile-photo{
-  width: 400px;
+
+.person-wrap{
+}
+
+
+.profile-photo-wrap{
+  width: 450px;
   margin-right: 60px;
+  flex-shrink: 0;
+}
+
+.profile-photo{
+  width: 100%;
 }
 
 .profile-wrap{
   display: flex;
-  width: 80%;
-  justify-content: center;
-  box-sizing: border-box;
-  margin: auto;
+  margin: 0 65px;
+  max-width: 95%;
+}
+
+.profile-divider{
+  max-width: 90%;
+}
+
+@media(max-width: 1044px){
+  .profile-wrap{
+    margin: 0 25px;
+  }
+
+  .profile-details{
+    flex-shrink: 2;
+  }
+
+  .profile-photo-wrap{
+    flex-shrink: 1;
+    margin-right: 45px;
+  }
+}
+
+@media(max-width: 768px){
+  .profile-wrap{
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
+}
+
+.profile-details{
+  flex-grow: 1;
 }
 
 .relationships{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parents-wrap, .siblings-wrap, .spouse-wrap, .children-wrap{
+  width: 180px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+@media(max-width: 1044px){
+  .parents-wrap, .siblings-wrap, .spouse-wrap, .children-wrap{
+    width: 168px;
+    padding-right: 20px;
+  }
+}
+
+@media(max-width: 425px){
+  .parents-wrap, .siblings-wrap, .spouse-wrap, .children-wrap{
+    width: 50%;
+    padding-right: 20px;
+  }
 }
 
 .all-photos-link{
   display: block;
+}
+
+.birth{
+  border-radius: 2px;
+  background: var(--golden, #F6BB5B);
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25) inset;
+  padding: 0 10px 4px;
+  width: max-content;
+  font-family: var(--sans-serif);
+  color: var(--dark-forest-green);
+  font-size: 16px;
+  font-weight: 700;
 }
 

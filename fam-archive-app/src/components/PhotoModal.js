@@ -52,19 +52,19 @@ export default function PhotoModal(props){
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
-                            <h3>Date</h3>
+                            <h4>Date</h4>
                             <p>{props.image.time}</p>
                         </div>
                         <div className='photo-detail-group'>
-                            <h3>Place</h3>
+                            <h4>Place</h4>
                             {placeList}
                         </div>
                         <div className='photo-detail-group'>
-                            <h3>People</h3>
+                            <h4>People</h4>
                             {peopleList}
                         </div>
                         <div className='photo-detail-group'>
-                            <h3>Album</h3>
+                            <h4>Album</h4>
                             <a href='#'>Album Name</a>
                         </div>
                     </div>

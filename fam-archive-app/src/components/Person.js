@@ -24,7 +24,7 @@ export default function Person(){
         })
 
     return(
-        <div>
+        <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
                     <img src={require('../assets/' + person.profilePhoto)} className="profile-photo"/>
@@ -32,16 +32,9 @@ export default function Person(){
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>
-                    <p>{person.birth}</p>
+                    <small className="birth">{person.birth} - {person.death ? person.death : 'present'}</small>
+                    <hr className="profile-divider"></hr>
                     <div className="relationships">
-                        <div className="parents-wrap">
-                            <h4>Parents</h4>
-                            {parents}
-                        </div>
-                        {person.siblings && <div className="siblings-wrap">
-                            <h4>Siblings</h4>
-                            {siblings}
-                        </div>}
                         {person.spouse && <div className="spouse-wrap">
                             <h4>Spouse</h4>
                             <p>{person.spouse}</p>
@@ -50,11 +43,21 @@ export default function Person(){
                             <h4>Children</h4>
                             {children}
                         </div>}
+                        <div className="parents-wrap">
+                            <h4>Parents</h4>
+                            {parents}
+                        </div>
+                        {person.siblings && <div className="siblings-wrap">
+                            <h4>Siblings</h4>
+                            {siblings}
+                        </div>}
                     </div>
                 </div>
             </div>
+            <hr></hr>
             <div id="photos">
                 <div className='photo-grid-wrap'>
+                    <h2>Photos of {person.firstName}</h2>
                     <div className='photo-grid'>
                         {cards}
                     </div>
