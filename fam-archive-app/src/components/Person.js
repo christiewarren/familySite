@@ -2,14 +2,12 @@ import React from "react";
 import images from '../data/imageData.json'
 import Thumbnail from "./Thumbnail";
 import { useLocation, Link } from "react-router-dom";
+import people from "../data/peopleData.json";
 import downArrow from '../assets/down-arrow.svg'
 
 export default function Person(){
     const person = useLocation().state
-    const parents = person.parents.map((parent) => <p>{parent}</p>)
-    const siblings = person.siblings.map((sibling) => <p>{sibling}</p>)
-    const children = person.children.map((child) => <p>{child}</p>)
-    const fullName = person.firstName + ' ' + person.lastName
+    const fullName = person.fullName
 
     //filter all images by those that include this person
     const personPhotos = images.filter((image) => image.people.includes(fullName))
@@ -23,12 +21,37 @@ export default function Person(){
         )
         })
 
+    //for each parent/sibling/child/spouse, if their name matches a fullName in PeopleData, return a link to their page. otherwise, return a p tag with their name. NOTE: *very* repetitive code, will want to make a component  for PeopleList to make this reusable
+        const parents = person.parents.map(parent => {
+            let personObject = people.filter((index) => index.fullName == parent)[0]
+
+            if(personObject){
+                return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{parent}</Link>)
+            }return(<p>{parent}</p>)   
+        })
+
+        const siblings = person.siblings.map(sibling => {
+            let personObject = people.filter((index) => index.fullName == sibling)[0]
+
+            if(personObject){
+                return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{sibling}</Link>)
+            }return(<p>{sibling}</p>)   
+        })
+
+        const children = person.children.map(child => {
+            let personObject = people.filter((index) => index.fullName == child)[0]
+
+            if(personObject){
+                return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{child}</Link>)
+            }return(<p>{child}</p>)   
+        })
+
+
     return(
         <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
                     <img src={require('../assets/' + person.profilePhoto)} className="profile-photo"/>
-                    {/* <a href='#photos' className="all-photos-link">All photos of {person.firstName} <img src={downArrow}></img></a> */}
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>

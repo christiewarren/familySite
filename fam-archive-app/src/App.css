@@ -63,6 +63,8 @@ a{
   border-bottom: 1px solid;
   width: fit-content;
   font-family: 'cronos-pro-caption', sans-serif;
+  margin-bottom: 16px;
+  line-height: 1;
 }
 
 a:hover{
