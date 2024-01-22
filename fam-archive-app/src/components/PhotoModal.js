@@ -4,6 +4,7 @@ import leftArrow from '../assets/left-arrow.svg'
 import rightArrow from '../assets/right-arrow.svg'
 import { Link } from 'react-router-dom'
 import people from '../data/peopleData.json'
+import PeopleList from './PeopleList'
 
 export default function PhotoModal(props){
 
@@ -22,16 +23,6 @@ export default function PhotoModal(props){
         //toggle panel-is-closed class, which adds negative margin and removes padding
         detailsPanel.classList.toggle('panel-is-closed')
     }
-
-    //show the list of people in the image object. check to see if there's an object in peopleData whose name matches this selected person, and store that in a new object. if that object is true, render a link to that person's page. if not, render a p tag with their name
-    const peopleList = props.image.people.map(person => {
-        let personObject = people.filter((index) => index.fullName == person)[0]
-
-        if(personObject){
-            return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{person}</Link>)
-        }return(<p>{person}</p>)
-        
-    })
 
     const placeList = props.image.place.map(place => {
         return(
@@ -60,8 +51,10 @@ export default function PhotoModal(props){
                             {placeList}
                         </div>
                         <div className='photo-detail-group'>
-                            <h4>People</h4>
-                            {peopleList}
+                            <PeopleList 
+                                title='people'
+                                contents={props.image.people}
+                            />
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Album</h4>

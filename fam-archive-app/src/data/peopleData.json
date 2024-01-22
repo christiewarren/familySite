@@ -1,26 +1,50 @@
 [
     {
-        "firstName": "Elinor",
-        "lastName": "Warren",
-        "birth": "August 10, 1936",
-        "death": "",
-        "parents": ["Virginia Lane", "Edward Lane"],
-        "siblings": ["Pricilla Lane", "Connie Nissley"],
-        "spouse": "Richard Warren",
-        "children": ["Peter Warren", "Virginia Carr", "David Warren", "James Warren"],
-        "profilePhoto": "ewarren_child.jpeg",
-        "fullName": "Elinor Warren"
-    },
-    {
         "firstName": "Christina",
         "lastName": "Warren",
-        "birth": "October 7, 1997",
+        "fullName": "Christina Warren",
+        "birth": "10/7/1997",
         "death": "",
-        "parents": ["David Warren", "Susan Warren"],
+        "parents": ["David Warren", "Susan Serfass"],
         "siblings": ["James Warren", "Kathryn Warren"],
         "spouse": "",
         "children": [""],
-        "profilePhoto": "cwarren_profile.jpg",
-        "fullName": "Christina Warren"
+        "profilePhoto": "cwarren_profile.jpg"
+    },
+    {
+        "firstName": "Elinor",
+        "lastName": "Lane",
+        "fullName": "Elinor Lane",
+        "birth": "8/10/1935",
+        "death": "",
+        "parents": ["Edward Lane", "Virginia Newcomer"],
+        "siblings": ["Constance Lane", "Priscilla Lane", "Thomas Lane"],
+        "spouse": "Richard Warren",
+        "children": ["Peter Warren", "Virginia Warren", "David Warren", "James Warren"],
+        "profilePhoto": "ewarren_child.jpeg"
+    },
+    {
+        "firstName": "Edward",
+        "lastName": "Lane",
+        "fullName": "Edward Lane",
+        "birth": "10/13/1906",
+        "death": "1/25/2004",
+        "parents": ["Walter Lane", "Anna Weyhe"],
+        "siblings": ["Elinor Lane"],
+        "spouse": "Virginia Newcomer",
+        "children": ["Constance Lane", "Priscilla Lane", "Thomas Lane", "Elinor Lane"],
+        "profilePhoto": "ewarren_child.jpeg"
+    },
+    {
+        "firstName": "Virginia",
+        "lastName": "Newcomer",
+        "fullName": "Virginia Newcomer",
+        "birth": "10/10/1906",
+        "death": "2/18/2011",
+        "parents": ["Harry Newcomer", "Ella Strickler"],
+        "siblings": ["Clarence Newcomer", "Emily Newcomer"],
+        "spouse": "Edward Lane",
+        "children": ["Constance Lane", "Priscilla Lane", "Thomas Lane", "Elinor Lane"],
+        "profilePhoto": "ewarren_child.jpeg"
     }
 ]
