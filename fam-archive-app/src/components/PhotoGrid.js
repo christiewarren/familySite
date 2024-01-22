@@ -83,7 +83,6 @@ export default function PhotoGrid(){
             }
         })
 
-        console.log(isModalVisible)
     }
 
     function setArrowButtonsDisabled(selectedIndex){

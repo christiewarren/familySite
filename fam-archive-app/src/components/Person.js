@@ -3,6 +3,7 @@ import images from '../data/imageData.json'
 import Thumbnail from "./Thumbnail";
 import { useLocation, Link } from "react-router-dom";
 import people from "../data/peopleData.json";
+import PeopleList from './PeopleList'
 import downArrow from '../assets/down-arrow.svg'
 
 export default function Person(){
@@ -19,31 +20,6 @@ export default function Person(){
                 {image.type == "document" && <div className='doc-title-bar'><small>{image.title}</small></div>}
             </div>
         )
-        })
-
-    //for each parent/sibling/child/spouse, if their name matches a fullName in PeopleData, return a link to their page. otherwise, return a p tag with their name. NOTE: *very* repetitive code, will want to make a component  for PeopleList to make this reusable
-        const parents = person.parents.map(parent => {
-            let personObject = people.filter((index) => index.fullName == parent)[0]
-
-            if(personObject){
-                return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{parent}</Link>)
-            }return(<p>{parent}</p>)   
-        })
-
-        const siblings = person.siblings.map(sibling => {
-            let personObject = people.filter((index) => index.fullName == sibling)[0]
-
-            if(personObject){
-                return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{sibling}</Link>)
-            }return(<p>{sibling}</p>)   
-        })
-
-        const children = person.children.map(child => {
-            let personObject = people.filter((index) => index.fullName == child)[0]
-
-            if(personObject){
-                return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{child}</Link>)
-            }return(<p>{child}</p>)   
         })
 
 
@@ -63,16 +39,22 @@ export default function Person(){
                             <p>{person.spouse}</p>
                         </div>}
                         {person.children[0] && <div className="children-wrap">
-                            <h4>Children</h4>
-                            {children}
+                            <PeopleList
+                                title='children' 
+                                contents={person.children}
+                            />
                         </div>}
                         <div className="parents-wrap">
-                            <h4>Parents</h4>
-                            {parents}
+                            <PeopleList
+                                title='parents' 
+                                contents={person.parents}
+                            />
                         </div>
                         {person.siblings && <div className="siblings-wrap">
-                            <h4>Siblings</h4>
-                            {siblings}
+                            <PeopleList
+                                title='siblings' 
+                                contents={person.siblings}
+                            />
                         </div>}
                     </div>
                 </div>

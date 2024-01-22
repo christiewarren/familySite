@@ -3,17 +3,17 @@ const csv = require('csv-parser')
 const fs = require('fs')
 const results = [];
 let resultsJSON = []
-const imagesCSVFile = './data/imageSheetData.csv'
-const imagesJSONFile = './data/imageData.json'
+const peopleCSVFile = './data/peopleSheetData.csv'
+const peopleJSONFile = './data/peopleData.json'
 
-fs.createReadStream(imagesCSVFile)
+fs.createReadStream(peopleCSVFile)
   .pipe(csv())
   .on('data', (data) => results.push(data))
   .on('end', () => {
 
     resultsJSON = JSON.stringify(results)
 
-    fs.writeFile(imagesJSONFile, resultsJSON, err => {
+    fs.writeFile(peopleJSONFile, resultsJSON, err => {
         if (err) {
           console.error(err);
         }
