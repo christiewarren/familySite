@@ -9,13 +9,13 @@ export default function PhotoGrid(){
     
     const cards = shownImages.map(image => {
         return(
-            <div className={'card ' + image.orientation}>
+            <div className={'card ' + image.orientation} key={image.filename}>
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
 
                 //onclick, pass in the image object at this thumbnail's index
-                clickFunction={() => openPhotoModal(image)}
+                openPhotoModal={() => openPhotoModal(image)}
                 />
                 {image.type == "document" && <div className='doc-title-bar'><small>{image.title}</small></div>}
             </div>
@@ -62,6 +62,7 @@ export default function PhotoGrid(){
 
         //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
         setArrowButtonsDisabled(shownImages.indexOf(image))
+        console.log('clicked')
     }
 
     function togglePhotoModal(){

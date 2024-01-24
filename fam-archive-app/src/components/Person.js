@@ -15,19 +15,23 @@ export default function Person(){
 
     const cards = personPhotos.map(image => {
         return(
-            <div className={'card ' + image.orientation}>
-                <Thumbnail src={image.filename} key={image.filename} />
+            <div className={'card ' + image.orientation} key={image.filename}>
+                <Thumbnail 
+                    src={image.filename} 
+                    key={image.filename} 
+                />
                 {image.type == "document" && <div className='doc-title-bar'><small>{image.title}</small></div>}
             </div>
         )
         })
 
 
+
     return(
         <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
-                    <img src={require('../assets/' + person.profilePhoto)} className="profile-photo"/>
+                    {person.profilePhoto && <img src={require('../assets/' + person.profilePhoto)} className="profile-photo"/>}
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>

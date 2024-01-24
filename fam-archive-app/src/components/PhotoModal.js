@@ -5,6 +5,7 @@ import rightArrow from '../assets/right-arrow.svg'
 import { Link } from 'react-router-dom'
 import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
+import noPhotoFound from '../assets/no-photo-found.svg'
 
 export default function PhotoModal(props){
 
@@ -26,9 +27,19 @@ export default function PhotoModal(props){
 
     const placeList = props.image.place.map(place => {
         return(
-            <p>{place}</p>
+            <p key={props.image.filename + place}>{place}</p>
         )
-    })
+    }) 
+    
+    //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
+    const tryRequire = (path) => {
+        try {
+         return require('../assets/' + path);
+        } catch (err) {
+        console.log(err);
+         return noPhotoFound;
+        }
+      }
 
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
@@ -39,7 +50,7 @@ export default function PhotoModal(props){
             {/* when modal overlay is clicked, run the click function passed in, which is togglePhotoModal */}
             <div onClick={props.toggleModalFunction} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img src={require('../assets/' + props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
+                <img src={tryRequire(props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
