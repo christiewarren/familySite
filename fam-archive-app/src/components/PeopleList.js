@@ -10,8 +10,15 @@ export default function People(props){
         let personObject = people.filter((index) => index.fullName == person)[0]
 
         if(personObject){
-            return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{person}</Link>)
-        }return(<p>{person}</p>)
+            return(
+            <Link 
+                to={'/people/' + personObject.firstName + '-' + personObject.lastName} 
+                state={personObject} 
+                className='photo-person-link'
+                key={personObject.birth + personObject.fullName}>
+                    
+            {person}</Link>)
+        }return(<p key={person}>{person}</p>)
     })
 
     return(

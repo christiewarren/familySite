@@ -13,11 +13,11 @@ export default function PhotoFilters(props){
         <div>
             <div className='filter-wrap'>
                 <input type="checkbox" name="document" id='doc-checkbox' onChange={handleChange}/>
-                <label for="document">Document</label>
+                <label htmlFor="doc-checkbox">Document</label>
             </div>
             <div className='filter-wrap'>
             <input type="checkbox" name="photo" id='photo-checkbox' onChange={handleChange}/>
-                <label for="photo">Photo</label>
+                <label htmlFor="photo-checkbox">Photo</label>
             </div>
         </div>
     )
