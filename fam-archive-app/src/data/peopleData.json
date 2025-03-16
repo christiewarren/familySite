@@ -1,26 +1,710 @@
 [
-    {
-        "firstName": "Elinor",
-        "lastName": "Warren",
-        "birth": "August 10, 1936",
-        "death": "",
-        "parents": ["Virginia Lane", "Edward Lane"],
-        "siblings": ["Pricilla Lane", "Connie Nissley"],
-        "spouse": "Richard Warren",
-        "children": ["Peter Warren", "Virginia Carr", "David Warren", "James Warren"],
-        "profilePhoto": "ewarren_child.jpeg",
-        "fullName": "Elinor Warren"
-    },
-    {
-        "firstName": "Christina",
-        "lastName": "Warren",
-        "birth": "October 7, 1997",
-        "death": "",
-        "parents": ["David Warren", "Susan Warren"],
-        "siblings": ["James Warren", "Kathryn Warren"],
-        "spouse": "",
-        "children": [""],
-        "profilePhoto": "cwarren_profile.jpg",
-        "fullName": "Christina Warren"
-    }
+  {
+    "firstName": "Christina",
+    "lastName": "Warren",
+    "fullName": "Christina Warren",
+    "birth": "10/7/1997",
+    "death": "",
+    "parents": [
+      "David Warren",
+      "Susan Serfass"
+    ],
+    "siblings": [
+      "James Warren",
+      "Kathryn Warren"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": "cwarren_profile.jpg"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Warren",
+    "fullName": "James Warren",
+    "birth": "10/6/1992",
+    "death": "",
+    "parents": [
+      "David Warren",
+      "Susan Serfass"
+    ],
+    "siblings": [
+      "Christina Warren",
+      "Kathryn Warren"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Kathryn",
+    "lastName": "Warren",
+    "fullName": "Kathryn Warren",
+    "birth": "10/18/1994",
+    "death": "",
+    "parents": [
+      "David Warren",
+      "Susan Serfass"
+    ],
+    "siblings": [
+      "James Warren",
+      "Christina Warren"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "David",
+    "lastName": "Warren",
+    "fullName": "David Warren",
+    "birth": "5/17/1964",
+    "death": "",
+    "parents": [
+      "Richard Warren",
+      "Elinor Lane"
+    ],
+    "siblings": [
+      "Peter Warren",
+      "Virginia Warren",
+      "James Warren"
+    ],
+    "spouse": "Lori Hutwagner",
+    "children": [
+      "James Warren",
+      "Kathryn Warren",
+      "Christina Warren"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Susan",
+    "lastName": "Serfass",
+    "fullName": "Susan Serfass",
+    "birth": "6/19/1965",
+    "death": "",
+    "parents": [
+      "Jack Serfass",
+      "Louise Noren"
+    ],
+    "siblings": [
+      "Doug Serfass",
+      "Linda Serfass"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Lori",
+    "lastName": "Hutwagner",
+    "fullName": "Lori Hutwagner",
+    "birth": "8/6/1969",
+    "death": "",
+    "parents": [],
+    "siblings": [
+      "Edward Hutwagner",
+      "Tracy Hutwagner",
+      "Rose Hutwagner",
+      "Christa Hutwagner"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Warren",
+    "fullName": "Peter Warren",
+    "birth": "8/4/1960",
+    "death": "",
+    "parents": [
+      "Richard Warren",
+      "Elinor Warren"
+    ],
+    "siblings": [
+      "James Warren",
+      "Virginia Warren",
+      "David Warren"
+    ],
+    "spouse": "Lori-Anne Barnett",
+    "children": [
+      "Lane Warren",
+      "Phoebe Warren"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Virginia",
+    "lastName": "Warren",
+    "fullName": "Virginia Warren",
+    "birth": "4/25/1962",
+    "death": "",
+    "parents": [
+      "Richard Warren",
+      "Elinor Warren"
+    ],
+    "siblings": [
+      "Peter Warren",
+      "James Warren",
+      "David Warren"
+    ],
+    "spouse": "Glenn Carr",
+    "children": [
+      "Richard Carr",
+      "Robert Carr"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "James",
+    "lastName": "Warren",
+    "fullName": "James Warren",
+    "birth": "7/18/1969",
+    "death": "",
+    "parents": [
+      "Richard Warren",
+      "Elinor Warren"
+    ],
+    "siblings": [
+      "Peter Warren",
+      "Virginia Warren",
+      "David Warren"
+    ],
+    "spouse": "Jodi Young",
+    "children": [
+      "Drew Warren",
+      "Courtney Warren",
+      "Kenzie Warren"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Warren",
+    "fullName": "Richard Warren",
+    "birth": "12/25/1931",
+    "death": "10/18/2022",
+    "parents": [
+      "Henry Warre",
+      "Julia Furey"
+    ],
+    "siblings": [
+      "Harry Warren"
+    ],
+    "spouse": "Elinor Lane",
+    "children": [
+      "Peter Warren",
+      "Virginia Warren",
+      "David Warren",
+      "James Warren"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Elinor",
+    "lastName": "Lane",
+    "fullName": "Elinor Lane",
+    "birth": "8/10/1935",
+    "death": "",
+    "parents": [
+      "Edward Lane",
+      "Virginia Newcomer"
+    ],
+    "siblings": [
+      "Constance Lane",
+      "Priscilla Lane",
+      "Thomas Lane"
+    ],
+    "spouse": "Richard Warren",
+    "children": [
+      "Peter Warren",
+      "Virginia Warren",
+      "David Warren",
+      "James Warren"
+    ],
+    "profilePhoto": "ewarren_child.jpeg"
+  },
+  {
+    "firstName": "Edward",
+    "lastName": "Lane",
+    "fullName": "Edward Lane",
+    "birth": "10/13/1906",
+    "death": "1/25/2004",
+    "parents": [
+      "Walter Lane",
+      "Anna Weyhe"
+    ],
+    "siblings": [
+      "Elinor Lane"
+    ],
+    "spouse": "Virginia Newcomer",
+    "children": [
+      "Constance Lane",
+      "Priscilla Lane",
+      "Thomas Lane",
+      "Elinor Lane"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Virginia",
+    "lastName": "Newcomer",
+    "fullName": "Virginia Newcomer",
+    "birth": "10/10/1906",
+    "death": "2/18/2011",
+    "parents": [
+      "Harry Newcomer",
+      "Ella Strickler"
+    ],
+    "siblings": [
+      "Clarence Newcomer",
+      "Emily Newcomer"
+    ],
+    "spouse": "Edward Lane",
+    "children": [
+      "Constance Lane",
+      "Priscilla Lane",
+      "Thomas Lane",
+      "Elinor Lane"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Priscilla",
+    "lastName": "Lane",
+    "fullName": "Priscilla Lane",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Edward Lane",
+      "Virginia Newcomer"
+    ],
+    "siblings": [
+      "Elinor Lane",
+      "Priscilla Lane",
+      "Thomas Lane"
+    ],
+    "spouse": "Joji Kappes",
+    "children": [
+      "Guo-Jing Kappes"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Constance",
+    "lastName": "Lane",
+    "fullName": "Constance Lane",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Edward Lane",
+      "Virginia Newcomer"
+    ],
+    "siblings": [
+      "Constance Lane",
+      "Elinor Lane",
+      "Thomas Lane"
+    ],
+    "spouse": "Peter Nissley",
+    "children": [
+      "Thomas Nissley",
+      "Elinor Nissley"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Lane",
+    "fullName": "Thomas Lane",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Edward Lane",
+      "Virginia Newcomer"
+    ],
+    "siblings": [
+      "Constance Lane",
+      "Priscilla Lane",
+      "Elinor Lane"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Joji",
+    "lastName": "Kappes",
+    "fullName": "Joji Kappes",
+    "birth": "",
+    "death": "",
+    "parents": [],
+    "siblings": [],
+    "spouse": "Priscilla Lane",
+    "children": [
+      "Guo-Jing Kappes"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Guo-Jing",
+    "lastName": "Kappes",
+    "fullName": "Guo-Jing Kappes",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Priscilla Lane",
+      "Joji Kappes"
+    ],
+    "siblings": [],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Nissley",
+    "fullName": "Peter Nissley",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Mary Nissley",
+      "Simon Nissley"
+    ],
+    "siblings": [],
+    "spouse": "Constance Lane",
+    "children": [
+      "Thomas Nissley",
+      "Elinor Nissley"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Nissley",
+    "fullName": "Thomas Nissley",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Peter Nissley",
+      "Constance Lane"
+    ],
+    "siblings": [
+      "Elinor Nissley"
+    ],
+    "spouse": "Laura Silverstein",
+    "children": [
+      "Henry Silverstein",
+      "Peter Silverstein"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Laura",
+    "lastName": "Silverstein",
+    "fullName": "Laura Silverstein",
+    "birth": "",
+    "death": "",
+    "parents": [],
+    "siblings": [],
+    "spouse": "Thomas Nissley",
+    "children": [
+      "Henry Silverstein",
+      "Peter Silverstein"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Henry",
+    "lastName": "Silverstein",
+    "fullName": "Henry Silverstein",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Thomas Nissley",
+      "Laura Silverstein"
+    ],
+    "siblings": [
+      "Peter Silverstein"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Silverstein",
+    "fullName": "Peter Silverstein",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Thomas Nissley",
+      "Laura Silverstein"
+    ],
+    "siblings": [
+      "Henry Silverstein"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Elinor",
+    "lastName": "Nissley",
+    "fullName": "Elinor Nissley",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "Peter Nissley",
+      "Constance Lane"
+    ],
+    "siblings": [
+      "Thomas Nissley"
+    ],
+    "spouse": "Alex MacInnes",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "MacInnes",
+    "fullName": "Alex MacInnes",
+    "birth": "",
+    "death": "",
+    "parents": [],
+    "siblings": [],
+    "spouse": "Elinor Nissley",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Henry",
+    "lastName": "Warren",
+    "fullName": "Henry Warren",
+    "birth": "2/11/1905",
+    "death": "3/21/1976",
+    "parents": [
+      "Francis Warren",
+      "Minnie McCabe"
+    ],
+    "siblings": [
+      "Francis Percy Warren",
+      "Loretta Warren",
+      "Marion Warren",
+      "Lilian Warren",
+      "Frank Warren"
+    ],
+    "spouse": "Julia Furey",
+    "children": [
+      "Richard Warren",
+      "Harry Warren"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Furey",
+    "fullName": "Julia Furey",
+    "birth": "12/19/1903",
+    "death": "1970",
+    "parents": [
+      "William Fury",
+      "Sarah Conners"
+    ],
+    "siblings": [
+      "Margaret Furey",
+      "Thomas Furey",
+      "Bridget Furey",
+      "William Furey",
+      "Ellen Furey",
+      "Sarah Furey"
+    ],
+    "spouse": "Henry Warren",
+    "children": [
+      "Richard Warren",
+      "Harry Warren"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Walter",
+    "lastName": "Lane",
+    "fullName": "Walter Lane",
+    "birth": "1866",
+    "death": "1945",
+    "parents": [
+      "Eustace Lane",
+      "Ella Battles"
+    ],
+    "siblings": [
+      "Frank Lane",
+      "Ella Lane",
+      "Albert Lane",
+      "Flora Lane",
+      "Gertrude Lane",
+      "Alice Lane"
+    ],
+    "spouse": "Anna Weyhe",
+    "children": [
+      "Edward Lane",
+      "Elinor Lane",
+      "Doris Lane"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Weyhe",
+    "fullName": "Anna Weyhe",
+    "birth": "1871",
+    "death": "1948",
+    "parents": [
+      "William Weyhe",
+      "Jane Thomas"
+    ],
+    "siblings": [
+      "William Weyhe",
+      "Louise Maud Weyhe"
+    ],
+    "spouse": "Walter Lane",
+    "children": [
+      "Edward Lane",
+      "Elinor Lane",
+      "Doris Lane"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Eustace",
+    "lastName": "Lane",
+    "fullName": "Eustace Lane",
+    "birth": "1843",
+    "death": "",
+    "parents": [
+      "Zenas Lane",
+      "Judith Norwood"
+    ],
+    "siblings": [
+      "Ellen Lane",
+      "Columbia Lane",
+      "Adelia Lane",
+      "Amanda Lane",
+      "Albert Lane",
+      "Judith Lane",
+      "Zenas Lane",
+      "Asa Lane",
+      "Eustace Lane",
+      "Euslin Lane",
+      "Betsey Lane"
+    ],
+    "spouse": "Ella Battles",
+    "children": [
+      "Frank Lane",
+      "Ella Lane",
+      "Albert Lane",
+      "Flora Lane",
+      "Gertrude Lane",
+      "Alice Lane",
+      "Walter Lane"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Ella",
+    "lastName": "Battles",
+    "fullName": "Ella Battles",
+    "birth": "1847",
+    "death": "1938",
+    "parents": [
+      "Parker Benjamin Battles",
+      "Lucretia Olds"
+    ],
+    "siblings": [
+      "Willis Battles",
+      "Benjamin Battles",
+      "Florence Battles",
+      "Alice Battles",
+      "Nellie Battles",
+      "Eunice Battles",
+      "William Battles"
+    ],
+    "spouse": "Eustace Lane",
+    "children": [
+      "Frank Lane",
+      "Ella Lane",
+      "Albert Lane",
+      "Flora Lane",
+      "Gertrude Lane",
+      "Alice Lane",
+      "Walter Lane"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Doris",
+    "lastName": "Lane",
+    "fullName": "Doris Lane",
+    "birth": "1902",
+    "death": "1902",
+    "parents": [
+      "Walter Lane",
+      "Anna Weyhe"
+    ],
+    "siblings": [
+      "Elinor Lane",
+      "Doris Lane"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Harry",
+    "lastName": "Newcomer",
+    "fullName": "Harry Newcomer",
+    "birth": "1870",
+    "death": "1935",
+    "parents": [
+      "Christian Newcomer",
+      "Anna Snyder"
+    ],
+    "siblings": [
+      "Norman Newcomer",
+      "Elizabeth Newcomer",
+      "Christian Newcomer",
+      "Catharine Newcomer",
+      "Samuel Newcomer",
+      "Phares Newcomer",
+      "Jonas Newcomer"
+    ],
+    "spouse": "Ella Strickler",
+    "children": [
+      "Clarence Newcomer",
+      "Emily Newcomer",
+      "Virginia Newcomer"
+    ],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Ella",
+    "lastName": "Strickler",
+    "fullName": "Ella Strickler",
+    "birth": "1871",
+    "death": "1941",
+    "parents": [
+      "John Strickler",
+      "Anna Gable"
+    ],
+    "siblings": [
+      "Charles Strickler",
+      "George Strickler",
+      "John Strickler"
+    ],
+    "spouse": "Harry Newcomer",
+    "children": [
+      "Clarence Newcomer",
+      "Emily Newcomer",
+      "Virginia Newcomer"
+    ],
+    "profilePhoto": ""
+  }
 ]

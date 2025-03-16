@@ -4,6 +4,8 @@ import leftArrow from '../assets/left-arrow.svg'
 import rightArrow from '../assets/right-arrow.svg'
 import { Link } from 'react-router-dom'
 import people from '../data/peopleData.json'
+import PeopleList from './PeopleList'
+import noPhotoFound from '../assets/no-photo-found.svg'
 
 export default function PhotoModal(props){
 
@@ -23,21 +25,21 @@ export default function PhotoModal(props){
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
-    //show the list of people in the image object. check to see if there's an object in peopleData whose name matches this selected person, and store that in a new object. if that object is true, render a link to that person's page. if not, render a p tag with their name
-    const peopleList = props.image.people.map(person => {
-        let personObject = people.filter((index) => index.fullName == person)[0]
-
-        if(personObject){
-            return(<Link to={'/people/' + personObject.firstName + '-' + personObject.lastName} state={personObject} className='photo-person-link'>{person}</Link>)
-        }return(<p>{person}</p>)
-        
-    })
-
     const placeList = props.image.place.map(place => {
         return(
-            <p>{place}</p>
+            <p key={props.image.filename + place}>{place}</p>
         )
-    })
+    }) 
+    
+    //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
+    const tryRequire = (path) => {
+        try {
+         return require('../assets/' + path + '.jpg');
+        } catch (err) {
+        console.log(err);
+         return noPhotoFound;
+        }
+      }
 
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
@@ -48,7 +50,7 @@ export default function PhotoModal(props){
             {/* when modal overlay is clicked, run the click function passed in, which is togglePhotoModal */}
             <div onClick={props.toggleModalFunction} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img src={require('../assets/' + props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
+                <img src={tryRequire(props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
@@ -60,8 +62,10 @@ export default function PhotoModal(props){
                             {placeList}
                         </div>
                         <div className='photo-detail-group'>
-                            <h4>People</h4>
-                            {peopleList}
+                            <PeopleList 
+                                title='people'
+                                contents={props.image.people}
+                            />
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Album</h4>
