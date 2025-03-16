@@ -34,7 +34,7 @@ export default function PhotoModal(props){
     //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
     const tryRequire = (path) => {
         try {
-         return require('../assets/' + path);
+         return require('../assets/' + path + '.jpg');
         } catch (err) {
         console.log(err);
          return noPhotoFound;

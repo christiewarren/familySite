@@ -222,7 +222,7 @@
       "David Warren",
       "James Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "ewarren_child.jpeg"
   },
   {
     "firstName": "Edward",
@@ -528,7 +528,7 @@
   {
     "firstName": "Walter",
     "lastName": "Lane",
-    "fullName": "",
+    "fullName": "Walter Lane",
     "birth": "1866",
     "death": "1945",
     "parents": [
@@ -554,7 +554,7 @@
   {
     "firstName": "Anna",
     "lastName": "Weyhe",
-    "fullName": "",
+    "fullName": "Anna Weyhe",
     "birth": "1871",
     "death": "1948",
     "parents": [
@@ -576,7 +576,7 @@
   {
     "firstName": "Eustace",
     "lastName": "Lane",
-    "fullName": "",
+    "fullName": "Eustace Lane",
     "birth": "1843",
     "death": "",
     "parents": [
@@ -611,7 +611,7 @@
   {
     "firstName": "Ella",
     "lastName": "Battles",
-    "fullName": "",
+    "fullName": "Ella Battles",
     "birth": "1847",
     "death": "1938",
     "parents": [
@@ -640,27 +640,9 @@
     "profilePhoto": ""
   },
   {
-    "firstName": "Elinor",
-    "lastName": "Lane",
-    "fullName": "",
-    "birth": "1904",
-    "death": "",
-    "parents": [
-      "Walter Lane",
-      "Anna Weyhe"
-    ],
-    "siblings": [
-      "Edward Lane",
-      "Doris Lane"
-    ],
-    "spouse": "James MacGillivray",
-    "children": [],
-    "profilePhoto": ""
-  },
-  {
     "firstName": "Doris",
     "lastName": "Lane",
-    "fullName": "",
+    "fullName": "Doris Lane",
     "birth": "1902",
     "death": "1902",
     "parents": [
@@ -678,7 +660,7 @@
   {
     "firstName": "Harry",
     "lastName": "Newcomer",
-    "fullName": "",
+    "fullName": "Harry Newcomer",
     "birth": "1870",
     "death": "1935",
     "parents": [
@@ -705,7 +687,7 @@
   {
     "firstName": "Ella",
     "lastName": "Strickler",
-    "fullName": "",
+    "fullName": "Ella Strickler",
     "birth": "1871",
     "death": "1941",
     "parents": [

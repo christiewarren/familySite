@@ -3,7 +3,7 @@ import people from "../data/peopleData.json"
 import { Link } from 'react-router-dom'
 
 
-export default function People(props){
+export default function PeopleList(props){
     const contents = props.contents
     
     const peopleList = contents.map(person => {
