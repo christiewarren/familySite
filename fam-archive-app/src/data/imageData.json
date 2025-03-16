@@ -137,7 +137,7 @@
       "Wayne"
     ],
     "time": "1950-2000",
-    "orientation": "portrait"
+    "orientation": "landscape"
   },
   {
     "filename": "E-Warren---child",
@@ -181,7 +181,7 @@
       "Wayne"
     ],
     "time": "1950-2000",
-    "orientation": "portrait"
+    "orientation": "landscape"
   },
   {
     "filename": "E-Warren---with-grandparents-2",
@@ -199,7 +199,7 @@
       "Spencer"
     ],
     "time": "1900-1950",
-    "orientation": "portrait"
+    "orientation": "landscape"
   },
   {
     "filename": "EU-Lane",
@@ -420,7 +420,7 @@
     "orientation": "portrait"
   },
   {
-    "filename": "Peter-Thomas.jpg",
+    "filename": "Peter-Thomas",
     "title": "Peter Thomas",
     "type": "photo",
     "subject": "Peter brother of Jane Thomas Weyhe",
@@ -546,7 +546,7 @@
     "orientation": "portrait"
   },
   {
-    "filename": "V-Lane---New-Chapte-at-1-S-Market",
+    "filename": "V-Lane---New-Chapter-at-1-S-Market",
     "title": "V Lane - New Chapter at 1 S Market",
     "type": "document",
     "subject": "Virginia Lane stories of family",
@@ -580,7 +580,7 @@
     "orientation": "portrait"
   },
   {
-    "filename": "V-Lane---The-Youn-Man-and-The-Tramp",
+    "filename": "V-Lane---The-Young-Man-and-The-Tramp",
     "title": "V Lane - The Young Man and The Tramp",
     "type": "document",
     "subject": "Virginia Lane stories of family",
@@ -872,7 +872,7 @@
       "Spencer"
     ],
     "time": "1900-1950",
-    "orientation": "portrait"
+    "orientation": "landscape"
   },
   {
     "filename": "Will-Weyhe",
