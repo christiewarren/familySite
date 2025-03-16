@@ -6,7 +6,7 @@ export default function Thumbnail(props){
     //return require(src) if possible. otherwise, return the no photo found image
     const tryRequire = (path) => {
         try {
-         return require('../assets/' + path);
+         return require('../assets/' + path + '.jpg');
         } catch (err) {
          return noPhotoFound;
         }

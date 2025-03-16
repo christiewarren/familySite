@@ -62,7 +62,6 @@ export default function PhotoGrid(){
 
         //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
         setArrowButtonsDisabled(shownImages.indexOf(image))
-        console.log('clicked')
     }
 
     function togglePhotoModal(){
