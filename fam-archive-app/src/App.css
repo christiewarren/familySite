@@ -7,6 +7,7 @@
   --golden: #F6BB5B;
   --teal: #077683;
   --sans-serif: "sofia-pro", sans-serif;
+  --hand: "professor", sans-serif;
 }
 
 body{
@@ -18,11 +19,12 @@ body{
 h1{
   color: var(--forest-green, #1E4A57);
   font-family: var(--sans-serif);
-  font-size: 50px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 h2{
@@ -32,22 +34,37 @@ h2{
   font-weight: 400;
 }
 
+.hand-title{
+  font-family: var(--hand);
+  font-size: 2rem;
+  color: var(--teal);
+  margin-bottom: -1rem;
+}
+
 
 h4{
   color: var(--dark-forest-green, #112A31);
   font-family: var(--sans-serif);
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   margin-top: 0;
 }
 
+h5{
+  color: var(--dark-forest-green, #112A31);
+  font-family: var(--sans-serif);
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 0;
+}
+
 p{
   color: var(--light-forest-green, #285C62);
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 400;
-  font-family: 'cronos-pro-caption', sans-serif;
+  font-family: var(--sans-serif);
   font-style: normal;
   margin: 0;
   margin-bottom: 16px;
@@ -63,6 +80,8 @@ a{
   border-bottom: 1px solid;
   width: fit-content;
   font-family: 'cronos-pro-caption', sans-serif;
+  margin-bottom: 16px;
+  line-height: 1;
 }
 
 a:hover{
@@ -90,6 +109,16 @@ hr{
   color: var(--light-beige);
 }
 
+.homepage-wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-text-wrap{
+  width: 40%;
+  text-align: center;
+}
+
 .photo-grid-wrap{
   height: 100vh;
   overflow: scroll;
@@ -102,6 +131,46 @@ hr{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 100px;
   grid-auto-flow: row dense;
+}
+
+.filter-drawer{
+  width: 240px;
+  background: var(--forest-green);
+  padding: 2rem;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+
+.filter-group{
+  margin-top: 3rem;
+}
+
+.filter-group > h4, p, label{
+  color: var(--light-beige);
+}
+
+.filter-label > p{
+  margin-bottom: 0;
+}
+
+.filter-wrap{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin-bottom: 1rem;
+}
+
+.filter-input{
+  margin-right: 8px;
+}
+
+.filter-close-x{
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
 }
 
 .card{
@@ -273,6 +342,51 @@ hr{
   line-height: 18px;
   border: none;
   cursor: pointer;
+}
+
+.people-cards-wrap{
+  display: grid;
+  gap: 25px;
+  padding: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.person-card{
+  padding: 24px;
+  background-color: var(--light-beige);
+  border-radius: 4px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s;
+}
+
+.person-card:hover{
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.person-card-name{
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+
+.person-card-photo{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 2px;
+}
+
+.person-card-link{
+  text-decoration: none;
+  border-bottom: none;
+  width: 100%;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.person-card-link:hover{
+  background-color: transparent;
 }
 
 @media (max-width: 769px) {
