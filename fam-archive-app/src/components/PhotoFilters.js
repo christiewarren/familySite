@@ -13,7 +13,7 @@ export default function PhotoFilters(props){
 
     return(
         <div className="filter-drawer">
-            <img src={closeX}></img>
+            <img src={closeX} className="filter-close-x"></img>
             <div className="filter-group">
                 <h4>Sort by</h4>
                 <div className='filter-wrap'>
