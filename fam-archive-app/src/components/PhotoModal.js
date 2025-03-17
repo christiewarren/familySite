@@ -32,7 +32,7 @@ export default function PhotoModal(props){
     }) 
     
     //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
-    const tryRequire = (path) => {
+    const tryRequireModalPhoto = (path) => {
         try {
          return require('../assets/' + path + '.jpg');
         } catch (err) {
@@ -40,6 +40,17 @@ export default function PhotoModal(props){
          return noPhotoFound;
         }
       }
+
+    
+    //return require(src) if possible. otherwise, return empty string (def a better way to catch missing pdfs)
+    const tryRequirePDFLink = (path) => {
+        try {
+        return require('../assets/pdfs/' + path + '.pdf');
+        } catch (err) {
+        return "";
+        }
+    }
+
 
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
@@ -50,7 +61,7 @@ export default function PhotoModal(props){
             {/* when modal overlay is clicked, run the click function passed in, which is togglePhotoModal */}
             <div onClick={props.toggleModalFunction} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img src={tryRequire(props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
+                <img src={tryRequireModalPhoto(props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
@@ -69,9 +80,14 @@ export default function PhotoModal(props){
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Album</h4>
-                            <a href='#'>Album Name</a>
+                            <a className='link' href='#'>Album Name</a>
                         </div>
                     </div>
+                    {/* If the photo's hasPDF property is true, add a link to the PDF */}
+                    {props.image.hasPDF == "TRUE" && 
+                        <a className='button-primary' href={tryRequirePDFLink(props.image.filename)} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                    }
+                
                 </div>
                 <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>
             </div>
