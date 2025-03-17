@@ -12,7 +12,7 @@ export default function PeopleDirectory(){
                 to={'/people/' + person.firstName + '-' + person.lastName} 
                 state={person}
                 key={person.birth + person.fullName}
-                className="person-card-link">
+                className="person-card-link link">
                 <div className="person-card">
                 
                     {<img src={person.profilePhoto ? require('../assets/' + person.profilePhoto) : noPhotoFound} className="person-card-photo"/>}
