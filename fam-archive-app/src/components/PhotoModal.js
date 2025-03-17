@@ -78,10 +78,10 @@ export default function PhotoModal(props){
                                 contents={props.image.people}
                             />
                         </div>
-                        <div className='photo-detail-group'>
+                        {/* <div className='photo-detail-group'>
                             <h4>Album</h4>
                             <a className='link' href='#'>Album Name</a>
-                        </div>
+                        </div> */}
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
                     {props.image.hasPDF == "TRUE" && 

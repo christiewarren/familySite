@@ -73,13 +73,13 @@ p{
 
 .link{
   color: var(--link-button, #077683);
-  font-size: 24px;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
   border-bottom: 1px solid;
   width: fit-content;
-  font-family: 'cronos-pro-caption', sans-serif;
+  /* font-family: 'cronos-pro-caption', sans-serif; */
   margin-bottom: 16px;
   line-height: 1;
 }
@@ -165,7 +165,7 @@ hr{
   margin-top: 3rem;
 }
 
-.filter-group > h4, p, label{
+.filter-group > h4 p label{
   color: var(--light-beige);
 }
 
@@ -239,8 +239,8 @@ hr{
 .doc-title-bar > small{
   color: var(--light-beige);
   margin: 12px 0;
-  font-size: 20px;
-  font-family: 'cronos-pro-caption', sans-serif;
+  font-size: 1.2rem;
+  /* font-family: 'cronos-pro-caption', sans-serif; */
 }
 
 /* Photo Modal */
@@ -340,6 +340,13 @@ hr{
 
 .photo-person-link{
   display: block;
+}
+
+.photo-person-no-link{
+  color: var(--light-forest-green);
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  line-height: 1;
 }
 
 .photo-modal-expand-collapse-btn{

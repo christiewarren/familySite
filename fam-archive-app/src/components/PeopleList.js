@@ -18,7 +18,7 @@ export default function PeopleList(props){
                 key={personObject.birth + personObject.fullName}>
                     
             {person}</Link>)
-        }return(<p key={person}>{person}</p>)
+        }return(<p key={person} className="photo-person-no-link">{person}</p>)
     })
 
     return(
