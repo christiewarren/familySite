@@ -14,11 +14,11 @@ export default function PeopleList(props){
             <Link 
                 to={'/people/' + personObject.firstName + '-' + personObject.lastName} 
                 state={personObject} 
-                className='photo-person-link'
+                className='photo-person-link link'
                 key={personObject.birth + personObject.fullName}>
                     
             {person}</Link>)
-        }return(<p key={person}>{person}</p>)
+        }return(<p key={person} className="photo-person-no-link">{person}</p>)
     })
 
     return(
