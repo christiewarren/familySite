@@ -13,9 +13,12 @@ function App() {
   return(
     <>
     <nav>
-      <NavLink className='nav-link' to='/'>Home</NavLink>
-      <NavLink className='nav-link' to='/photos'>Photos</NavLink>
-      <NavLink className='nav-link' to='/people'>People</NavLink>
+      <Link to='/' className='nav-title'><h3><span className='hand'>Lane</span> Family Archive</h3></Link>
+      <span className='nav-links-wrap'>
+        <NavLink className='nav-link' to='/'>Home</NavLink>
+        <NavLink className='nav-link' to='/photos'>Photos</NavLink>
+        <NavLink className='nav-link' to='/people'>People</NavLink>
+      </span>
     </nav>
       <Routes>
         <Route path="/" element={<Home />}/>
