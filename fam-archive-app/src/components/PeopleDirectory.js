@@ -15,7 +15,8 @@ export default function PeopleDirectory(){
                 className="person-card-link link">
                 <div className="person-card">
                 
-                    {<img src={person.profilePhoto ? require('../assets/' + person.profilePhoto) : noPhotoFound} className="person-card-photo"/>}
+                    {/* {<img src={person.profilePhoto ? require('../assets/' + person.profilePhoto) : noPhotoFound} className="person-card-photo"/>} */}
+                    {<img src={noPhotoFound} className="person-card-photo"/>}
                     <p className="person-card-name">{person.firstName + ' ' + person.lastName}</p>
                 </div>
             </Link>

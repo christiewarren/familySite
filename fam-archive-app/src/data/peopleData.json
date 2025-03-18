@@ -10,17 +10,17 @@
       "Susan Serfass"
     ],
     "siblings": [
-      "James Warren",
+      "James D Warren",
       "Kathryn Warren"
     ],
     "spouse": "",
     "children": [],
-    "profilePhoto": ""
+    "profilePhoto": "cwarren_profile.jpg"
   },
   {
-    "firstName": "James",
+    "firstName": "James D",
     "lastName": "Warren",
-    "fullName": "James Warren",
+    "fullName": "James D Warren",
     "birth": "10/6/1992",
     "death": "",
     "parents": [
@@ -33,7 +33,7 @@
     ],
     "spouse": "",
     "children": [],
-    "profilePhoto": ""
+    "profilePhoto": "James Warren - Adult.jpeg"
   },
   {
     "firstName": "Kathryn",
@@ -46,12 +46,12 @@
       "Susan Serfass"
     ],
     "siblings": [
-      "James Warren",
+      "James D Warren",
       "Christina Warren"
     ],
     "spouse": "",
     "children": [],
-    "profilePhoto": ""
+    "profilePhoto": "Kathryn Warren - Adult.jpeg"
   },
   {
     "firstName": "David",
@@ -61,25 +61,25 @@
     "death": "",
     "parents": [
       "Richard Warren",
-      "Elinor Lane"
+      "Elinor Lane Warren"
     ],
     "siblings": [
       "Peter Warren",
-      "Virginia Warren",
-      "James Warren"
+      "Virginia Warren Carr",
+      "James R Warren"
     ],
-    "spouse": "Lori Hutwagner",
+    "spouse": "Lori Hutwagner Warren",
     "children": [
-      "James Warren",
+      "James D Warren",
       "Kathryn Warren",
       "Christina Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "David Warren - Adult.jpeg"
   },
   {
     "firstName": "Susan",
-    "lastName": "Serfass",
-    "fullName": "Susan Serfass",
+    "lastName": "Serfass Warren",
+    "fullName": "Susan Serfass Warren",
     "birth": "6/19/1965",
     "death": "",
     "parents": [
@@ -96,8 +96,8 @@
   },
   {
     "firstName": "Lori",
-    "lastName": "Hutwagner",
-    "fullName": "Lori Hutwagner",
+    "lastName": "Hutwagner Warren",
+    "fullName": "Lori Hutwagner Warren",
     "birth": "8/6/1969",
     "death": "",
     "parents": [],
@@ -119,11 +119,11 @@
     "death": "",
     "parents": [
       "Richard Warren",
-      "Elinor Warren"
+      "Elinor Lane Warren"
     ],
     "siblings": [
-      "James Warren",
-      "Virginia Warren",
+      "James R Warren",
+      "Virginia Warren Carr",
       "David Warren"
     ],
     "spouse": "Lori-Anne Barnett",
@@ -135,17 +135,17 @@
   },
   {
     "firstName": "Virginia",
-    "lastName": "Warren",
-    "fullName": "Virginia Warren",
+    "lastName": "Warren Carr",
+    "fullName": "Virginia Warren Carr",
     "birth": "4/25/1962",
     "death": "",
     "parents": [
       "Richard Warren",
-      "Elinor Warren"
+      "Elinor Lane Warren"
     ],
     "siblings": [
       "Peter Warren",
-      "James Warren",
+      "James R Warren",
       "David Warren"
     ],
     "spouse": "Glenn Carr",
@@ -156,21 +156,21 @@
     "profilePhoto": ""
   },
   {
-    "firstName": "James",
+    "firstName": "James R",
     "lastName": "Warren",
-    "fullName": "James Warren",
+    "fullName": "James R Warren",
     "birth": "7/18/1969",
     "death": "",
     "parents": [
       "Richard Warren",
-      "Elinor Warren"
+      "Elinor Lane Warren"
     ],
     "siblings": [
       "Peter Warren",
-      "Virginia Warren",
+      "Virginia Warren Carr",
       "David Warren"
     ],
-    "spouse": "Jodi Young",
+    "spouse": "Jodi Young Warren",
     "children": [
       "Drew Warren",
       "Courtney Warren",
@@ -185,44 +185,44 @@
     "birth": "12/25/1931",
     "death": "10/18/2022",
     "parents": [
-      "Henry Warre",
-      "Julia Furey"
+      "Henry Warren",
+      "Julia Furey Warren"
     ],
     "siblings": [
       "Harry Warren"
     ],
-    "spouse": "Elinor Lane",
+    "spouse": "Elinor Lane Warren",
     "children": [
       "Peter Warren",
-      "Virginia Warren",
+      "Virginia Warren Carr",
       "David Warren",
-      "James Warren"
+      "James R Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "R-E Warren Young Couple.jpeg"
   },
   {
     "firstName": "Elinor",
-    "lastName": "Lane",
-    "fullName": "Elinor Lane",
+    "lastName": "Lane Warren",
+    "fullName": "Elinor Lane Warren",
     "birth": "8/10/1935",
     "death": "",
     "parents": [
       "Edward Lane",
-      "Virginia Newcomer"
+      "Virginia Newcomer Lane"
     ],
     "siblings": [
-      "Constance Lane",
-      "Priscilla Lane",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
       "Thomas Lane"
     ],
     "spouse": "Richard Warren",
     "children": [
       "Peter Warren",
-      "Virginia Warren",
+      "Virginia Warren Carr",
       "David Warren",
-      "James Warren"
+      "James R Warren"
     ],
-    "profilePhoto": "E-Warren---child.jpg"
+    "profilePhoto": "E Warren - child.jpg"
   },
   {
     "firstName": "Edward",
@@ -232,56 +232,56 @@
     "death": "1/25/2004",
     "parents": [
       "Walter Lane",
-      "Anna Weyhe"
+      "Anna Weyhe Lane"
     ],
     "siblings": [
-      "Elinor Lane"
+      "Elinor Lane MacGillivray"
     ],
-    "spouse": "Virginia Newcomer",
+    "spouse": "Virginia Newcomer Lane",
     "children": [
-      "Constance Lane",
-      "Priscilla Lane",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
       "Thomas Lane",
-      "Elinor Lane"
+      "Elinor Lane Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "E Lane - Young Man - v1.jpg"
   },
   {
     "firstName": "Virginia",
-    "lastName": "Newcomer",
-    "fullName": "Virginia Newcomer",
+    "lastName": "Newcomer Lane",
+    "fullName": "Virginia Newcomer Lane",
     "birth": "10/10/1906",
     "death": "2/18/2011",
     "parents": [
       "Harry Newcomer",
-      "Ella Strickler"
+      "Ella Strickler Newcomer"
     ],
     "siblings": [
       "Clarence Newcomer",
-      "Emily Newcomer"
+      "Emily Newcomer Eby"
     ],
     "spouse": "Edward Lane",
     "children": [
-      "Constance Lane",
-      "Priscilla Lane",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
       "Thomas Lane",
-      "Elinor Lane"
+      "Elinor Lane Warren"
     ],
     "profilePhoto": ""
   },
   {
     "firstName": "Priscilla",
-    "lastName": "Lane",
-    "fullName": "Priscilla Lane",
+    "lastName": "Lane Kappes",
+    "fullName": "Priscilla Lane Kappes",
     "birth": "",
     "death": "",
     "parents": [
       "Edward Lane",
-      "Virginia Newcomer"
+      "Virginia Newcomer Lane"
     ],
     "siblings": [
-      "Elinor Lane",
-      "Priscilla Lane",
+      "Elinor Lane Warren",
+      "Constance Lane Nissley",
       "Thomas Lane"
     ],
     "spouse": "Joji Kappes",
@@ -292,17 +292,17 @@
   },
   {
     "firstName": "Constance",
-    "lastName": "Lane",
-    "fullName": "Constance Lane",
+    "lastName": "Lane Nissley",
+    "fullName": "Constance Lane Nissley",
     "birth": "",
     "death": "",
     "parents": [
       "Edward Lane",
-      "Virginia Newcomer"
+      "Virginia Newcomer Lane"
     ],
     "siblings": [
-      "Constance Lane",
-      "Elinor Lane",
+      "Elinor Lane Warren",
+      "Priscilla Lane Kappes",
       "Thomas Lane"
     ],
     "spouse": "Peter Nissley",
@@ -320,12 +320,12 @@
     "death": "",
     "parents": [
       "Edward Lane",
-      "Virginia Newcomer"
+      "Virginia Newcomer Lane"
     ],
     "siblings": [
-      "Constance Lane",
-      "Priscilla Lane",
-      "Elinor Lane"
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
+      "Elinor Lane Warren"
     ],
     "spouse": "",
     "children": [],
@@ -339,7 +339,7 @@
     "death": "",
     "parents": [],
     "siblings": [],
-    "spouse": "Priscilla Lane",
+    "spouse": "Priscilla Lane Kappes",
     "children": [
       "Guo-Jing Kappes"
     ],
@@ -352,7 +352,7 @@
     "birth": "",
     "death": "",
     "parents": [
-      "Priscilla Lane",
+      "Priscilla Lane Kappes",
       "Joji Kappes"
     ],
     "siblings": [],
@@ -370,8 +370,10 @@
       "Mary Nissley",
       "Simon Nissley"
     ],
-    "siblings": [],
-    "spouse": "Constance Lane",
+    "siblings": [
+      "Sally Nissley Malm"
+    ],
+    "spouse": "Constance Lane Nissley",
     "children": [
       "Thomas Nissley",
       "Elinor Nissley"
@@ -386,7 +388,7 @@
     "death": "",
     "parents": [
       "Peter Nissley",
-      "Constance Lane"
+      "Constance Lane Nissley"
     ],
     "siblings": [
       "Elinor Nissley"
@@ -455,7 +457,7 @@
     "death": "",
     "parents": [
       "Peter Nissley",
-      "Constance Lane"
+      "Constance Lane Nissley"
     ],
     "siblings": [
       "Thomas Nissley"
@@ -484,7 +486,7 @@
     "death": "3/21/1976",
     "parents": [
       "Francis Warren",
-      "Minnie McCabe"
+      "Minnie McCabe Warren"
     ],
     "siblings": [
       "Francis Percy Warren",
@@ -493,7 +495,7 @@
       "Lilian Warren",
       "Frank Warren"
     ],
-    "spouse": "Julia Furey",
+    "spouse": "Julia Furey Warren",
     "children": [
       "Richard Warren",
       "Harry Warren"
@@ -502,13 +504,13 @@
   },
   {
     "firstName": "Julia",
-    "lastName": "Furey",
+    "lastName": "Furey Warren",
     "fullName": "Julia Furey",
     "birth": "12/19/1903",
     "death": "1970",
     "parents": [
       "William Fury",
-      "Sarah Conners"
+      "Sarah Conners Fury"
     ],
     "siblings": [
       "Margaret Furey",
@@ -533,33 +535,33 @@
     "death": "1945",
     "parents": [
       "Eustace Lane",
-      "Ella Battles"
+      "Ella Battles Lane"
     ],
     "siblings": [
       "Frank Lane",
       "Ella Lane",
       "Albert Lane",
       "Flora Lane",
-      "Gertrude Lane",
+      "Gertrude Battles Lane",
       "Alice Lane"
     ],
-    "spouse": "Anna Weyhe",
+    "spouse": "Anna Weyhe Lane",
     "children": [
       "Edward Lane",
-      "Elinor Lane",
+      "Elinor Lane MacGillivray",
       "Doris Lane"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "W Lane - Groom.jpg"
   },
   {
     "firstName": "Anna",
-    "lastName": "Weyhe",
-    "fullName": "Anna Weyhe",
+    "lastName": "Weyhe Lane",
+    "fullName": "Anna Weyhe Lane",
     "birth": "1871",
     "death": "1948",
     "parents": [
       "William Weyhe",
-      "Jane Thomas"
+      "Jane Thomas Weyhe"
     ],
     "siblings": [
       "William Weyhe",
@@ -568,7 +570,7 @@
     "spouse": "Walter Lane",
     "children": [
       "Edward Lane",
-      "Elinor Lane",
+      "Elinor Lane MacGillivray",
       "Doris Lane"
     ],
     "profilePhoto": ""
@@ -581,7 +583,7 @@
     "death": "",
     "parents": [
       "Zenas Lane",
-      "Judith Norwood"
+      "Judith Norwood Lane"
     ],
     "siblings": [
       "Ellen Lane",
@@ -596,27 +598,27 @@
       "Euslin Lane",
       "Betsey Lane"
     ],
-    "spouse": "Ella Battles",
+    "spouse": "Ella Battles Lane",
     "children": [
       "Frank Lane",
       "Ella Lane",
       "Albert Lane",
       "Flora Lane",
-      "Gertrude Lane",
+      "Gertrude Battles Lane",
       "Alice Lane",
       "Walter Lane"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "EU Lane.jpg"
   },
   {
     "firstName": "Ella",
-    "lastName": "Battles",
-    "fullName": "Ella Battles",
+    "lastName": "Battles Lane",
+    "fullName": "Ella Battles Lane",
     "birth": "1847",
     "death": "1938",
     "parents": [
       "Parker Benjamin Battles",
-      "Lucretia Olds"
+      "Lucretia Olds Battles"
     ],
     "siblings": [
       "Willis Battles",
@@ -640,6 +642,24 @@
     "profilePhoto": ""
   },
   {
+    "firstName": "Elinor",
+    "lastName": "Lane MacGillivray",
+    "fullName": "Elinor Lane MacGillivray",
+    "birth": "1904",
+    "death": "",
+    "parents": [
+      "Walter Lane",
+      "Anna Weyhe Lane"
+    ],
+    "siblings": [
+      "Edward Lane",
+      "Doris Lane"
+    ],
+    "spouse": "James MacGillivray",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
     "firstName": "Doris",
     "lastName": "Lane",
     "fullName": "Doris Lane",
@@ -647,7 +667,7 @@
     "death": "1902",
     "parents": [
       "Walter Lane",
-      "Anna Weyhe"
+      "Anna Weyhe Lane"
     ],
     "siblings": [
       "Elinor Lane",
@@ -665,7 +685,7 @@
     "death": "1935",
     "parents": [
       "Christian Newcomer",
-      "Anna Snyder"
+      "Anna Snyder Newcomer"
     ],
     "siblings": [
       "Norman Newcomer",
@@ -676,23 +696,23 @@
       "Phares Newcomer",
       "Jonas Newcomer"
     ],
-    "spouse": "Ella Strickler",
+    "spouse": "Ella Strickler Newcomer",
     "children": [
       "Clarence Newcomer",
-      "Emily Newcomer",
-      "Virginia Newcomer"
+      "Emily Newcomer Eby",
+      "Virginia Newcomer Lane"
     ],
     "profilePhoto": ""
   },
   {
     "firstName": "Ella",
-    "lastName": "Strickler",
-    "fullName": "Ella Strickler",
+    "lastName": "Strickler Newcomer",
+    "fullName": "Ella Strickler Newcomer",
     "birth": "1871",
     "death": "1941",
     "parents": [
       "John Strickler",
-      "Anna Gable"
+      "Anna Gable Strickler"
     ],
     "siblings": [
       "Charles Strickler",
@@ -702,9 +722,43 @@
     "spouse": "Harry Newcomer",
     "children": [
       "Clarence Newcomer",
-      "Emily Newcomer",
-      "Virginia Newcomer"
+      "Emily Newcomer Eby",
+      "Virginia Newcomer Lane"
     ],
     "profilePhoto": ""
+  },
+  {
+    "firstName": "Gertrude",
+    "lastName": "Battles Lane",
+    "fullName": "Gertrude Battles Lane",
+    "birth": "1874",
+    "death": "1941",
+    "parents": [
+      "Eustace Lane",
+      "Ella Battles Lane"
+    ],
+    "siblings": [
+      "Frank Lane",
+      "Ella Lane",
+      "Albert Lane",
+      "Flora Lane",
+      "Walter Lane",
+      "Alice Lane"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": ""
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Thomas Weyhe",
+    "fullName": "Jane Thomas Weyhe",
+    "birth": "",
+    "death": "",
+    "parents": [],
+    "siblings": [],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": "Jane Thomas Weyhe.jpg"
   }
 ]
