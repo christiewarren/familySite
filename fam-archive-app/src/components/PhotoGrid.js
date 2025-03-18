@@ -107,10 +107,10 @@ export default function PhotoGrid(){
             // toggleDocCheckbox = {toggleDocCheckbox}
             // togglePhotoCheckbox = {togglePhotoCheckbox}
         />
-            <h2>1900 - 1950</h2>
+            <div className='date-divider-wrap'><h3 className='date-divider-title'>1900 - 1950</h3><hr className='date-divider-line'></hr></div>
             <div className='photo-grid'>
                 {cards}
-                </div>
+            </div>
         </div>
         <PhotoModal
             //change function to be used with next/prev
