@@ -7,7 +7,7 @@ import PhotoSection from './PhotoSection'
 
 export default function PhotosPage(){
 
-    const dateRanges = ["1900-1950", "1950-2000"]
+    const dateRanges = ["2000 - 2050", "1950-2000", "1900-1950", "1850-1900"]
 
     //for each range in the dateRanges array, render a photo section that's filtered by the given range
     const dateSections = dateRanges.map(range => {
@@ -15,6 +15,7 @@ export default function PhotosPage(){
             <PhotoSection 
                 filterType="date"
                 filterBy={range}
+                key={range}
             />  
         )
         
