@@ -4,17 +4,11 @@ import Thumbnail from './Thumbnail'
 import PhotoModal from './PhotoModal'
 import PhotoFilters from './PhotoFilters'
 
-export default function PhotoGrid(){
-    const [shownImages, setShownImages] = React.useState(images)
+export default function PhotoGrid(props){
+    // const [shownImages, setShownImages] = React.useState(images)
 
-    //PhotoGrid is a component within photoSection
-    //the Section component passes a filtered subset of photos to the PhotoGrid based on [date, person, etc]
-    //for Person page, render a Section with photos of {person}
-    //for main grid, render a Section for each date range in a date range array (hard coded based on our photos)
-      //find middle of date range and categorize image based on that year
-
-    
-    const cards = shownImages.map(image => {
+    const imagesToRender = props.imagesToRender
+    const cards = imagesToRender.map(image => {
         return(
             //TO DO: if image.date is within x range, create a card with y id. create a card section for each id and put the respective images in it
             <div className={'card ' + image.orientation} key={image.filename}>
@@ -31,33 +25,33 @@ export default function PhotoGrid(){
         )
         })
 
-    function toggleFilter(docCheckbox, photoCheckbox){
-        setShownImages(() => {
+    // function toggleFilter(docCheckbox, photoCheckbox){
+    //     setShownImages(() => {
 
-            // create new array. look at each image in images: 
-            // if docCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if docCheckbox is true(checked) only add the image if its type is document. 
-            // ALSO 
-            // if photoCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if photoCheckbox is true(checked) only add the image if its type is photo.
-            // OTHERWISE
-            // if docCheckbox AND photoCheckbox are both true (checked), add image if its type is photo OR document.
+    //         // create new array. look at each image in images: 
+    //         // if docCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if docCheckbox is true(checked) only add the image if its type is document. 
+    //         // ALSO 
+    //         // if photoCheckbox is false(unchecked), add the image (so all images will be added) OTHERWISE if photoCheckbox is true(checked) only add the image if its type is photo.
+    //         // OTHERWISE
+    //         // if docCheckbox AND photoCheckbox are both true (checked), add image if its type is photo OR document.
             
-            //Note: can try making a table like this to further investigate:
-            // docChecbox isDoc photoCheckbox isPhoto
-            // FALSE      FLASE  FLAE         FALSE
-            // FALSE      FALSE FALSE          TRUE
-            let filteredImages = images.filter((image) => 
-            (!docCheckbox || image.type == 'document') && 
-            (!photoCheckbox || image.type == 'photo') || 
-            ((docCheckbox && photoCheckbox) && (image.type == 'photo' || image.type == 'document')))
+    //         //Note: can try making a table like this to further investigate:
+    //         // docChecbox isDoc photoCheckbox isPhoto
+    //         // FALSE      FLASE  FLAE         FALSE
+    //         // FALSE      FALSE FALSE          TRUE
+    //         let filteredImages = images.filter((image) => 
+    //         (!docCheckbox || image.type == 'document') && 
+    //         (!photoCheckbox || image.type == 'photo') || 
+    //         ((docCheckbox && photoCheckbox) && (image.type == 'photo' || image.type == 'document')))
 
-            return filteredImages
+    //         return filteredImages
             
-        })
-    }
+    //     })
+    // }
     
     
     //create state for selected image object and set it to the first image object in the array
-    const [selectedImage, setSelectedImage] = React.useState(shownImages[0])
+    const [selectedImage, setSelectedImage] = React.useState(imagesToRender[0])
 
     const [isModalVisible, setIsModalVisible] = React.useState(false)
 
@@ -70,7 +64,7 @@ export default function PhotoGrid(){
         togglePhotoModal()
 
         //when modal is open, pass the selected index to the setArrowButtonsDisabled function to determine whether to disable either prev/next button
-        setArrowButtonsDisabled(shownImages.indexOf(image))
+        setArrowButtonsDisabled(imagesToRender.indexOf(image))
     }
 
     function togglePhotoModal(){
@@ -81,14 +75,14 @@ export default function PhotoGrid(){
     function changeModalImage(nextOrPrev){
         //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
         setSelectedImage((prevSelectedImage) => {
-            let prevSelectedIndex = shownImages.indexOf(prevSelectedImage)
+            let prevSelectedIndex = imagesToRender.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
                 setArrowButtonsDisabled(prevSelectedIndex - 1)
-                return shownImages[prevSelectedIndex - 1]
+                return imagesToRender[prevSelectedIndex - 1]
             }  else{
                 setArrowButtonsDisabled(prevSelectedIndex + 1)
-                return shownImages[prevSelectedIndex + 1]
+                return imagesToRender[prevSelectedIndex + 1]
             }
         })
 
@@ -99,7 +93,7 @@ export default function PhotoGrid(){
         const prevModalButton = document.getElementById('prev-photo-button')
         const nextModalButton = document.getElementById('next-photo-button')
         let isFirstImage = selectedIndex == 0
-        let isLastImage = selectedIndex == shownImages.length - 1
+        let isLastImage = selectedIndex == imagesToRender.length - 1
 
         prevModalButton.disabled = isFirstImage
         nextModalButton.disabled = isLastImage
@@ -109,13 +103,13 @@ export default function PhotoGrid(){
     <div>
         <p>Photo grid</p>
         <div className='photo-grid-wrap'>
-        <PhotoFilters 
+        {/* <PhotoFilters 
             //when filter is  clicked, shownImages gets filtered
             toggleFilter = {toggleFilter}
             //when checkbox is clicked, state of isFilterChecked gets toggled
             // toggleDocCheckbox = {toggleDocCheckbox}
             // togglePhotoCheckbox = {togglePhotoCheckbox}
-        />
+        /> */}
             <div className='photo-grid'>
                 {cards}
             </div>
