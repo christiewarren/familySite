@@ -13,6 +13,8 @@
       "Rockville"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -30,6 +32,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -45,6 +49,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -61,6 +67,8 @@
       "Carlisle"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -71,7 +79,7 @@
     "subject": "Ed Lane boyhood recollection",
     "people": [
       "Edward Lane",
-      "Elinor MacGillivray",
+      "Elinor Lane MacGillivray",
       "Walter Lane",
       "Anna Bertha Weyhe"
     ],
@@ -79,6 +87,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -96,6 +106,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -113,6 +125,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -130,6 +144,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -145,6 +161,8 @@
       "Wayne"
     ],
     "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -160,6 +178,8 @@
       "Mt Joy"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -176,6 +196,8 @@
       "Wayne"
     ],
     "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -192,6 +214,8 @@
       "Wayne"
     ],
     "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -211,6 +235,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -226,6 +252,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -243,6 +271,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -260,6 +290,8 @@
       "Media"
     ],
     "time": "2000 - 2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -276,6 +308,8 @@
       "Lowell"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -285,9 +319,9 @@
     "type": "document",
     "subject": "James Warren birding and family",
     "people": [
-      "James Warren",
+      "James D Warren",
       "David Warren",
-      "Susan Warren",
+      "Susan Serfass Warren",
       "Edward Lane",
       "Virginia Newcomer Lane"
     ],
@@ -295,6 +329,8 @@
       "Brigantine"
     ],
     "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -310,6 +346,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -328,6 +366,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -343,6 +383,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -358,6 +400,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -373,6 +417,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -388,6 +434,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -403,6 +451,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -414,9 +464,9 @@
     "people": [
       "Edward Lane",
       "Virginia Newcomer Lane",
-      "Elinor Warren",
-      "Connie Nissley",
-      "Priscilla Lane",
+      "Elinor Lane Warren",
+      "Connie Lane Nissley",
+      "Priscilla Lane Kappes",
       "Thomas Lane"
     ],
     "place": [
@@ -425,6 +475,8 @@
       "Wayne"
     ],
     "time": "2000 - 2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -443,6 +495,8 @@
       "Media"
     ],
     "time": "2000 - 2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -458,6 +512,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -476,6 +532,8 @@
       "Toronto"
     ],
     "time": "2000 - 2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -492,6 +550,8 @@
       "Mt Joy"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -501,12 +561,14 @@
     "type": "document",
     "subject": "Virginia Lane stories of family",
     "people": [
-      "Ella Viola Strickler Newcomer"
+      "Ella Strickler Newcomer"
     ],
     "place": [
       "Mt Joy"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -536,6 +598,8 @@
       "Cape Cod"
     ],
     "time": "1900-1950, 1950-2000",
+    "dateStart": "1900",
+    "dateEnd": "2000",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -549,12 +613,14 @@
       "Emily Newcomer Eby",
       "Clarence Newcomer",
       "Harry S Newcomer",
-      "Ella Viola Strickler Newcomer"
+      "Ella Strickler Newcomer"
     ],
     "place": [
       "Mt Joy"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -566,9 +632,9 @@
     "people": [
       "Virginia Newcomer Lane",
       "Edward Lane",
-      "Elinor Warren",
-      "Connie Nissley",
-      "Priscilla Lane",
+      "Elinor Lane Warren",
+      "Connie Lane Nissley",
+      "Priscilla Lane Kappes",
       "Tom Lane"
     ],
     "place": [
@@ -576,6 +642,8 @@
       "Mt Joy"
     ],
     "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -586,7 +654,7 @@
     "subject": "Virginia Lane stories of family",
     "people": [
       "Virginia Newcomer Lane",
-      "Ella Viola Strickler Newcomer",
+      "Ella Strickler Newcomer",
       "Harry Newcomer",
       "Clarence Newcomer"
     ],
@@ -594,6 +662,8 @@
       "Mt Joy"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -604,7 +674,7 @@
     "subject": "Virginia Lane stories of family",
     "people": [
       "Virginia Newcomer Lane",
-      "Ella Viola Strickler Newcomer",
+      "Ella Strickler Newcomer",
       "Harry Newcomer",
       "Clarence Newcomer"
     ],
@@ -612,6 +682,8 @@
       "Mt Joy"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -622,12 +694,14 @@
     "subject": "Virginia Lane stories of family",
     "people": [
       "Virginia Newcomer Lane",
-      "Ella Viola Strickler Newcomer"
+      "Ella Strickler Newcomer"
     ],
     "place": [
       "Mt Joy"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -639,12 +713,14 @@
     "people": [
       "Virginia Newcomer Lane",
       "Harry Newcomer",
-      "Lola Strickler Newcomer"
+      "Ella Strickler Newcomer"
     ],
     "place": [
       "Mt Joy"
     ],
     "time": "1850 - 1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -656,9 +732,9 @@
     "people": [
       "Virginia Newcomer Lane",
       "Edward Lane",
-      "Elinor Warren",
-      "Connie Nissley",
-      "Priscilla Lane",
+      "Elinor Lane Warren",
+      "Connie Lane Nissley",
+      "Priscilla Lane Kappes",
       "Tom Lane"
     ],
     "place": [
@@ -666,6 +742,8 @@
       "Wayne"
     ],
     "time": "2000 - 2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -683,6 +761,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -700,6 +780,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -718,6 +800,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -736,6 +820,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -752,6 +838,8 @@
       "Athol"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -770,6 +858,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -787,6 +877,8 @@
       "Saco"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "landscape",
     "hasPDF": "TRUE"
   },
@@ -804,6 +896,8 @@
       "Rockville"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -822,6 +916,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -839,6 +935,8 @@
       "Rockville"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -855,6 +953,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -873,6 +973,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -890,6 +992,8 @@
       "Saco"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -905,6 +1009,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -925,6 +1031,8 @@
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -940,6 +1048,8 @@
       "Spencer"
     ],
     "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -955,6 +1065,8 @@
       "Lowell"
     ],
     "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "1900",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -965,16 +1077,18 @@
     "subject": "Richard Warren family",
     "people": [
       "Richard Warren",
-      "Elinor Warren",
+      "Elinor Lane Warren",
       "Peter Warren",
-      "Ginny Warren",
+      "Ginny Warren Carr",
       "David Warren",
-      "James Warren"
+      "James R Warren"
     ],
     "place": [
       "Wayne"
     ],
     "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "1900",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -991,6 +1105,8 @@
       "Lowell"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1900",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -1000,13 +1116,15 @@
     "type": "photo",
     "subject": "Gertrude Lane Herbert Hoover",
     "people": [
-      "Gertrude Lane",
-      "Mama Lane"
+      "Gertrude Battles Lane",
+      "Ella Battles Lane"
     ],
     "place": [
       "New York"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -1016,12 +1134,14 @@
     "type": "photo",
     "subject": "White House invitation",
     "people": [
-      "Gertrude Lane"
+      "Gertrude Battles Lane"
     ],
     "place": [
       "New York"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "TRUE"
   },
@@ -1034,13 +1154,15 @@
       "Ella Battles Lane",
       "Elinor Lane MacGillivray",
       "Walter Lane",
-      "Jinny Newcomer Lane",
+      "Virginia Newcomer Lane",
       "Edward Lane"
     ],
     "place": [
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -1053,13 +1175,15 @@
       "Ella Battles Lane",
       "Elinor Lane MacGillivray",
       "Walter Lane",
-      "Jinny Newcomer Lane",
+      "Virginia Newcomer Lane",
       "Edward Lane"
     ],
     "place": [
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -1072,13 +1196,15 @@
       "Ella Battles Lane",
       "Elinor Lane MacGillivray",
       "Walter Lane",
-      "Jinny Newcomer Lane",
+      "Virginia Newcomer Lane",
       "Edward Lane"
     ],
     "place": [
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -1091,13 +1217,15 @@
       "Ella Battles Lane",
       "Elinor Lane MacGillivray",
       "Walter Lane",
-      "Jinny Newcomer Lane",
+      "Virginia Newcomer Lane",
       "Edward Lane"
     ],
     "place": [
       "Spencer"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "FALSE"
   },
@@ -1107,12 +1235,14 @@
     "type": "photo",
     "subject": "Gertrude Lane",
     "people": [
-      "Gertrude Lane"
+      "Gertrude Battles Lane"
     ],
     "place": [
       "New York"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "TRUE"
   },
@@ -1122,12 +1252,14 @@
     "type": "photo",
     "subject": "Gertrude Lane",
     "people": [
-      "Gertrude Lane"
+      "Gertrude Battles Lane"
     ],
     "place": [
       "New York"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "portrait",
     "hasPDF": "FALSE"
   },
@@ -1137,12 +1269,14 @@
     "type": "photo",
     "subject": "Gertrude Lane",
     "people": [
-      "Gertrude Lane"
+      "Gertrude Battles Lane"
     ],
     "place": [
       "New York"
     ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "TRUE"
   },
@@ -1153,12 +1287,85 @@
     "subject": "Sophie Kerr and Useless the Cat",
     "people": [
       "Sophie Kerr",
-      "Gertrude Lane",
+      "Gertrude Battles Lane",
       "Useless the Cat"
     ],
-    "place": [],
+    "place": [
+      "New York"
+    ],
     "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
     "orientation": "landscape",
     "hasPDF": "FALSE"
+  },
+  {
+    "filename": "R-E Warren Young Couple.jpeg",
+    "title": "Richard and Elinor Warren",
+    "type": "photo",
+    "subject": "Warrens as a young couple",
+    "people": [
+      "Richard Warren",
+      "Elinor Lane Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "David Warren - Adult.jpeg",
+    "title": "David Warren",
+    "type": "photo",
+    "subject": "David Warren as a young man",
+    "people": [
+      "David Warren"
+    ],
+    "place": [
+      "Schwenksville"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "James Warren - Adult.jpeg",
+    "title": "James Warren",
+    "type": "photo",
+    "subject": "James Warren as a young man",
+    "people": [
+      "James D Warren"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Kathryn Warren - Adult.jpeg",
+    "title": "Kathryn Warren",
+    "type": "photo",
+    "subject": "Kathryn Warren with her dog",
+    "people": [
+      "Kathryn Warren"
+    ],
+    "place": [
+      "Schwenksville"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "",
+    "hasPDF": ""
   }
 ]

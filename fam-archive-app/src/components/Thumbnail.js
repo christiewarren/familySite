@@ -17,7 +17,8 @@ export default function Thumbnail(props){
         src={tryRequire(props.src)} 
         alt={props.alt}
         className='thumbnail' 
-        onClick={props.openPhotoModal}/>
+        onClick={props.openPhotoModal}
+        />
     )
 }
 
