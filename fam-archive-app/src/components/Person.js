@@ -5,6 +5,8 @@ import { useLocation, Link } from "react-router-dom";
 import people from "../data/peopleData.json";
 import PeopleList from './PeopleList'
 import downArrow from '../assets/down-arrow.svg'
+import noPhotoFound from '../assets/no-photo-found.svg'
+
 
 export default function Person(){
     const person = useLocation().state
@@ -31,7 +33,8 @@ export default function Person(){
         <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
-                    {person.profilePhoto && <img src={require('../assets/' + person.profilePhoto)} className="profile-photo"/>}
+                    {/* {<img src={person.profilePhoto ? require('../assets/' + person.profilePhoto) : noPhotoFound} className="profile-photo"/>} */}
+                    {<img src={noPhotoFound} className="profile-photo"/>}
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>
@@ -66,7 +69,7 @@ export default function Person(){
             <hr></hr>
             <div id="photos">
                 <div className='photo-grid-wrap'>
-                    <h2>Photos of {person.firstName}</h2>
+                    <h2>Photos with {person.firstName}</h2>
                     <div className='photo-grid'>
                         {cards}
                     </div>
