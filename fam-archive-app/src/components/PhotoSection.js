@@ -16,17 +16,16 @@ export default function PhotoSection(props){
     let filteredImages = []
     if(props.filterType == "person"){
         filteredImages = images.filter((image) => image.people.includes(props.filterBy))
+    }else if(props.filterType == "date"){
+        filteredImages = images.filter((image) => image.time == props.filterBy)
     }
 
     const [imagesToRender, setImagesToRender] = React.useState(filteredImages)
 
-
-    
-
     return(
         <div>
             <p>Photo section</p>
-            <div className='date-divider-wrap'><h3 className='date-divider-title'>[insert name of filter]</h3><hr className='date-divider-line'></hr></div>
+            <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.filterBy}</h3><hr className='date-divider-line'></hr></div>
             <PhotoGrid 
                 imagesToRender={imagesToRender}
             />
