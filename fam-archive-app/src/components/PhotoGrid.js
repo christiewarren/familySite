@@ -101,7 +101,6 @@ export default function PhotoGrid(props){
 
     return(
     <div>
-        <p>Photo grid</p>
         <div className='photo-grid-wrap'>
         {/* <PhotoFilters 
             //when filter is  clicked, shownImages gets filtered
