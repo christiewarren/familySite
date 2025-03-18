@@ -61,7 +61,11 @@ export default function PhotoModal(props){
             {/* when modal overlay is clicked, run the click function passed in, which is togglePhotoModal */}
             <div onClick={props.toggleModalFunction} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img src={tryRequireModalPhoto(props.image.filename)} className='photo-modal-img' id='photo-modal-img'/>
+                <img 
+                    src={tryRequireModalPhoto(props.image.filename)}
+                    alt={props.image.title} 
+                    className='photo-modal-img' 
+                    id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
