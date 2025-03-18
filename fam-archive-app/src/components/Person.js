@@ -6,6 +6,7 @@ import people from "../data/peopleData.json";
 import PeopleList from './PeopleList'
 import downArrow from '../assets/down-arrow.svg'
 import noPhotoFound from '../assets/no-photo-found.svg'
+import PhotoSection from "./PhotoSection";
 
 
 export default function Person(){
@@ -72,7 +73,11 @@ export default function Person(){
                 <div className='photo-grid-wrap'>
                     <h2>Photos with {person.firstName}</h2>
                     <div className='photo-grid'>
-                        {cards}
+                        {/* {cards} */}
+                        <PhotoSection 
+                            filterType="person"
+                            filterBy={person.fullName}
+                        />
                     </div>
                 </div>
             </div>
