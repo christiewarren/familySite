@@ -9,7 +9,8 @@ export default function PhotoGrid(){
     
     const cards = shownImages.map(image => {
         return(
-            <div className={'card ' + image.orientation} key={image.filename}>
+            //TO DO: if image.date is within x range, create a card with y id. create a card section for each id and put the respective images in it
+            <div className={'card ' + image.orientation} key={image.filename} id={image.time}>
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
