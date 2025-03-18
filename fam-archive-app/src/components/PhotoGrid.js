@@ -107,6 +107,7 @@ export default function PhotoGrid(){
 
     return(
     <div>
+        <p>Photo grid</p>
         <div className='photo-grid-wrap'>
         <PhotoFilters 
             //when filter is  clicked, shownImages gets filtered
@@ -115,7 +116,6 @@ export default function PhotoGrid(){
             // toggleDocCheckbox = {toggleDocCheckbox}
             // togglePhotoCheckbox = {togglePhotoCheckbox}
         />
-            <div className='date-divider-wrap'><h3 className='date-divider-title'>1900 - 1950</h3><hr className='date-divider-line'></hr></div>
             <div className='photo-grid'>
                 {cards}
             </div>

@@ -1,6 +1,6 @@
 import './App.css'
 import React from 'react'
-import PhotoGrid from './components/PhotoGrid';
+import PhotosPage from './components/PhotosPage';
 import Menu from './components/Menu';
 import Person from './components/Person'
 import Home from './components/Home'
@@ -22,7 +22,7 @@ function App() {
     </nav>
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/photos" element={<PhotoGrid />}/>
+        <Route path="/photos" element={<PhotosPage />}/>
         <Route path="/people" element={<PeopleDirectory />}/>
         <Route path="/people/:name" element={<Person />}/>
         <Route path="*" element={<NotFound />}/>
