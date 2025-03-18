@@ -71,9 +71,8 @@ export default function Person(){
             <hr></hr>
             <div id="photos">
                 <div className='photo-grid-wrap'>
-                    <h2>Photos with {person.firstName}</h2>
                     <div className='photo-grid'>
-                        {/* {cards} */}
+                        {/* render a photo section that's filtered by photos of this person */}
                         <PhotoSection 
                             filterType="person"
                             filterBy={person.fullName}
