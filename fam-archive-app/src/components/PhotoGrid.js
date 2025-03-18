@@ -6,11 +6,18 @@ import PhotoFilters from './PhotoFilters'
 
 export default function PhotoGrid(){
     const [shownImages, setShownImages] = React.useState(images)
+
+    //PhotoGrid is a component within photoSection
+    //the Section component passes a filtered subset of photos to the PhotoGrid based on [date, person, etc]
+    //for Person page, render a Section with photos of {person}
+    //for main grid, render a Section for each date range in a date range array (hard coded based on our photos)
+      //find middle of date range and categorize image based on that year
+
     
     const cards = shownImages.map(image => {
         return(
             //TO DO: if image.date is within x range, create a card with y id. create a card section for each id and put the respective images in it
-            <div className={'card ' + image.orientation} key={image.filename} id={image.time}>
+            <div className={'card ' + image.orientation} key={image.filename}>
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
