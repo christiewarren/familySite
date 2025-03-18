@@ -13,6 +13,7 @@ export default function PhotoGrid(){
                 <Thumbnail
                 src={image.filename}
                 key={image.filename}
+                alt={image.title}
 
                 //onclick, pass in the image object at this thumbnail's index
                 openPhotoModal={() => openPhotoModal(image)}

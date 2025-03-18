@@ -20,7 +20,8 @@ export default function Person(){
             <div className={'card ' + image.orientation} key={image.filename}>
                 <Thumbnail 
                     src={image.filename} 
-                    key={image.filename} 
+                    key={image.filename}
+                    alt={image.filename} 
                 />
                 {image.type == "document" && <div className='doc-title-bar'><small>{image.title}</small></div>}
             </div>

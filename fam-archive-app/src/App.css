@@ -129,11 +129,19 @@ hr{
 .homepage-wrap{
   display: flex;
   justify-content: center;
+  height: 80vh;
+  align-items: center;
 }
 
 .homepage-text-wrap{
   width: 40%;
   text-align: center;
+}
+
+@media (max-width: 950px) {
+  .homepage-text-wrap{
+    width: 75%;
+  }
 }
 
 .photo-grid-wrap{
