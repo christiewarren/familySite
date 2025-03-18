@@ -34,6 +34,15 @@ h2{
   font-weight: 400;
 }
 
+
+h3{
+  font-size: 1.25rem;
+}
+
+.hand{
+  font-family: var(--hand);
+}
+
 .hand-title{
   font-family: var(--hand);
   font-size: 2rem;
@@ -110,20 +119,46 @@ hr{
   margin: 30px 0;
 }
 
-.nav-link{
-  font-size: 18px;
-  font-weight: 600;
-  font-family: var(--sans-serif);
-  border: 1px solid #077683;
-  border-radius: 4px;
-  margin: 20px 8px;
-  padding: 3px 8px;
-  display: inline-block;
+nav{
+  width: 100%;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
-.nav-link.active{
-  background-color: #077683;
-  color: var(--light-beige);
+.nav-title, .nav-title > h3{
+  margin: 0;
+  text-decoration: none;
+  color: var(--teal);
+  font-size: 1.5rem;
+}
+
+.nav-title > h3 > .hand{
+  font-size: 1.6rem;
+  padding-right: 5px;
+}
+
+.nav-link, .nav-link:visited, .nav-link:active{
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: var(--sans-serif);
+  border-radius: 8px;
+  margin: 0px 8px;
+  padding: 8px 8px 11px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--teal);
+  cursor: pointer;
+  line-height: 1;
+}
+
+.nav-link:hover, .nav-title > h3:hover{
+  color: var(--forest-green);
+}
+
+.nav-link.active, .nav-link.active:visited, .nav-link.active:active{
+  background-color: #07768318;
 }
 
 .homepage-wrap{
