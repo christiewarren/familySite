@@ -15,7 +15,7 @@
     ],
     "spouse": "",
     "children": [],
-    "profilePhoto": "cwarren_profile.jpg"
+    "profilePhoto": "C-Warren-profile.jpg"
   },
   {
     "firstName": "James D",
@@ -33,7 +33,7 @@
     ],
     "spouse": "",
     "children": [],
-    "profilePhoto": "James Warren - Adult.jpeg"
+    "profilePhoto": "J-D-Warren-profile.jpg"
   },
   {
     "firstName": "Kathryn",
@@ -51,7 +51,7 @@
     ],
     "spouse": "",
     "children": [],
-    "profilePhoto": "Kathryn Warren - Adult.jpeg"
+    "profilePhoto": "K-Warren-profile.jpg"
   },
   {
     "firstName": "David",
@@ -74,7 +74,7 @@
       "Kathryn Warren",
       "Christina Warren"
     ],
-    "profilePhoto": "David Warren - Adult.jpeg"
+    "profilePhoto": "D-Warren-profile.jpg"
   },
   {
     "firstName": "Susan",
@@ -198,7 +198,7 @@
       "David Warren",
       "James R Warren"
     ],
-    "profilePhoto": "R-E Warren Young Couple.jpeg"
+    "profilePhoto": "R-Warren-profile.jpg"
   },
   {
     "firstName": "Elinor",
@@ -222,7 +222,7 @@
       "David Warren",
       "James R Warren"
     ],
-    "profilePhoto": "E Warren - child.jpg"
+    "profilePhoto": "E-Warren-profile.jpg"
   },
   {
     "firstName": "Edward",
@@ -244,7 +244,7 @@
       "Thomas Lane",
       "Elinor Lane Warren"
     ],
-    "profilePhoto": "E Lane - Young Man - v1.jpg"
+    "profilePhoto": "E-Lane-profile.jpg"
   },
   {
     "firstName": "Virginia",
@@ -267,7 +267,7 @@
       "Thomas Lane",
       "Elinor Lane Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "V-Lane-profile.jpg"
   },
   {
     "firstName": "Priscilla",
@@ -310,7 +310,7 @@
       "Thomas Nissley",
       "Elinor Nissley"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "C-Nissley-profile.jpg"
   },
   {
     "firstName": "Thomas",
@@ -378,7 +378,7 @@
       "Thomas Nissley",
       "Elinor Nissley"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "P-Nissley-profile.jpg"
   },
   {
     "firstName": "Thomas",
@@ -500,7 +500,7 @@
       "Richard Warren",
       "Harry Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "H-Warren-profile.jpg"
   },
   {
     "firstName": "Julia",
@@ -525,7 +525,7 @@
       "Richard Warren",
       "Harry Warren"
     ],
-    "profilePhoto": ""
+    "profilePhoto": "J-F-Warren-profile.jpg"
   },
   {
     "firstName": "Walter",
@@ -551,7 +551,7 @@
       "Elinor Lane MacGillivray",
       "Doris Lane"
     ],
-    "profilePhoto": "W Lane - Groom.jpg"
+    "profilePhoto": "W-Lane-profile.jpg"
   },
   {
     "firstName": "Anna",
@@ -608,7 +608,7 @@
       "Alice Lane",
       "Walter Lane"
     ],
-    "profilePhoto": "EU Lane.jpg"
+    "profilePhoto": "EU-Lane-profile.jpg"
   },
   {
     "firstName": "Ella",
@@ -759,6 +759,6 @@
     "siblings": [],
     "spouse": "",
     "children": [],
-    "profilePhoto": "Jane Thomas Weyhe.jpg"
+    "profilePhoto": "J-T-Weyhe-profile.jpg"
   }
 ]
