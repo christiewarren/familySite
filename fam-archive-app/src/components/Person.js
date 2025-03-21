@@ -35,8 +35,8 @@ export default function Person(){
         <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
-                    {/* {<img src={person.profilePhoto ? require('../assets/' + person.profilePhoto) : noPhotoFound} className="profile-photo"/>} */}
-                    {<img src={noPhotoFound} className="profile-photo"/>}
+                    {<img src={person.profilePhoto ? require('../assets/profilePhotos/' + person.profilePhoto) : noPhotoFound} className="person-card-photo"/>}
+                    {/* {<img src={noPhotoFound} className="profile-photo"/>} */}
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>
