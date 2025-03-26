@@ -29,18 +29,27 @@ export default function Person(){
         )
         })
 
+    const tryRequireProfilePhoto = (path) => {
+        try {
+            return require('../assets/profilePhotos/' + path + '.jpg');
+        } catch (err) {
+        console.log(err);
+            return noPhotoFound;
+        }
+    }
+
 
 
     return(
         <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
-                    {/* {<img src={person.profilePhoto ? require('../assets/profilePhotos/' + person.profilePhoto) : noPhotoFound} className="person-card-photo"/>} */}
-                    {<img src={noPhotoFound} className="profile-photo"/>}
+                {<img src={tryRequireProfilePhoto(person.profilePhoto)} className="person-card-photo"/>}
+                {/* {<img src={noPhotoFound} className="profile-photo"/>} */}
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>
-                    <small className="birth">{person.birth} - {person.death ? person.death : 'present'}</small>
+                    {person.birth && <small className="birth">{person.birth} - {person.death ? person.death : 'present'}</small>}
                     <hr className="profile-divider"></hr>
                     <div className="relationships">
                         {person.spouse && <div className="spouse-wrap">
@@ -53,12 +62,12 @@ export default function Person(){
                                 contents={person.children}
                             />
                         </div>}
-                        <div className="parents-wrap">
+                        {person.siblings && <div className="parents-wrap">
                             <PeopleList
                                 title='parents' 
                                 contents={person.parents}
                             />
-                        </div>
+                        </div>}
                         {person.siblings && <div className="siblings-wrap">
                             <PeopleList
                                 title='siblings' 
