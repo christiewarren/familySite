@@ -12,8 +12,10 @@ export default function PhotoModal(props){
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
     function togglePhotoModalDetails(){
+
         let detailsPanel = document.getElementById('details-panel')
         
+
         // toggle button text between exand and collapse
         if (detailsPanelBtnText === 'Collapse'){
             setDetailsPanelBtnText('Expand')
