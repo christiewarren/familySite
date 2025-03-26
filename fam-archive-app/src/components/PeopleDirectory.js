@@ -6,6 +6,16 @@ import noPhotoFound from '../assets/no-photo-found.svg'
 
 
 export default function PeopleDirectory(){
+
+    const tryRequireProfilePhoto = (path) => {
+        try {
+            return require('../assets/profilePhotos/' + path + '.jpg');
+        } catch (err) {
+        console.log(err);
+            return noPhotoFound;
+        }
+    }
+
     const peopleCards = people.map((person) => {
         return(
             <Link 
@@ -15,7 +25,7 @@ export default function PeopleDirectory(){
                 className="person-card-link link">
                 <div className="person-card">
                 
-                    {<img src={person.profilePhoto ? require('../assets/profilePhotos/' + person.profilePhoto) : noPhotoFound} className="person-card-photo"/>}
+                    {<img src={tryRequireProfilePhoto(person.profilePhoto)} className="person-card-photo"/>}
                     {/* {<img src={noPhotoFound} className="person-card-photo"/>} */}
                     <p className="person-card-name">{person.firstName + ' ' + person.lastName}</p>
                 </div>
