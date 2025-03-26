@@ -1,7 +1,7 @@
 filename,title,type,subject,people,place,time,dateStart,dateEnd,orientation,hasPDF
-A-Weyhe-Lane---Bride,A Weyhe Lane - Bride,photo,A Weyhe Lane life,"Anna Weyhe Lane, Walter Lane","Spencer, Rockville",1900-1950,1900,1950,portrait,FALSE
+A-Weyhe-Lane---Bride,Maude Weyhe,photo,Maude Weyhe,Maude Weyhe,"Spencer, Rockville",1900-1950,1900,1950,portrait,FALSE
 A-Weyhe-Lane---Certificate-of-Death,A Weyhe Lane - Certificate of Death,document,A Weyhe Lane life,"Anna Weyhe Lane, Walter Lane, Edward Lane",Spencer,1900-1950,1900,1950,portrait,TRUE
-Barbara-Thomas-Listman,Barbara Thomas Listman,photo,Barbara sister of Jane Thomas Weyhe,Barbara Thomas Listman,Spencer,1900-1950,1900,1950,portrait,FALSE
+Barbara Thomas Listman,Barbara Thomas Listman,photo,Barbara sister of Jane Thomas Weyhe,Barbara Thomas Listman,Spencer,1900-1950,1900,1950,portrait,TRUE
 Carlisle-Unitarian-Church,Carlisle Unitarian Church,photo,W Lane ministry,"Anna Weyhe Lane, Walter Lane",Carlisle,1900-1950,1900,1950,portrait,FALSE
 E-Lane---When-I-was-a-boy,E Lane - When I was a boy,document,Ed Lane boyhood recollection,"Edward Lane, Elinor Lane MacGillivray, Walter Lane, Anna Bertha Weyhe",Spencer,1900-1950,1900,1950,portrait,TRUE
 E-Lane---Young-boy,E Lane - Young Boy,photo,E Lane life,"Anna Weyhe Lane, Walter Lane, Edward Lane",Spencer,1900-1950,1900,1950,portrait,FALSE
@@ -14,20 +14,20 @@ E-Warren---parade,E Warren - parade,photo,E Warren,"Elinor Lane Warren, Christin
 E-Warren---with-grandparents-2,E Warren - with grandparents 2,photo,E Warren,"Elinor Lane Warren, Anna Weyhe Lane, Walter Lane, Connie Lane Nissley, Priscilla Lane Kappes",Spencer,1900-1950,1900,1950,landscape,FALSE
 EU-Lane,EU Lane,photo,Eustace Lane father of Walter Lane,Eustace Lane,Spencer,1850-1900,1850,1900,portrait,FALSE
 E-Warren---with-grandparents-1,E Warren - with grandparents,photo,E Warren,"Elinor Lane Warren, Anna Weyhe Lane, Walter Lane",Spencer,1900-1950,1900,1950,landscape,FALSE
-Grandma-100th-birthday,Grandma 100th birthday,document,David Warren remarks for Virginia Lane 100th birthday,"Virginia Newcomer Lane, David Warren","Wayne, Media",2000 - 2050,2000,2050,portrait,TRUE
-Harry-and-Julia-Warren,Harry and Julia Warren,photo,Harry and Julia parents of Richard Warren,"Harry Warren, Julia Furey Warren",Lowell,1900-1950,1900,1950,portrait,FALSE
+Grandma-100th-birthday,Grandma 100th birthday,document,David Warren remarks for Virginia Lane 100th birthday,"Virginia Newcomer Lane, David Warren","Wayne, Media",2000-2050,2000,2050,portrait,TRUE
+Harry-and-Julia-Warren,Henry and Julia Warren,photo,Henry and Julia parents of Richard Warren,"Henry Warren, Julia Furey Warren",Lowell,1900-1950,1900,1950,portrait,FALSE
 James-Warren-1st-bird-journal,James Warren - 1st Bird Journal,document,James Warren birding and family,"James D Warren, David Warren, Susan Serfass Warren, Edward Lane, Virginia Newcomer Lane",Brigantine,2000-2050,2000,2050,portrait,TRUE
 Jane-Thomas-Weyhe,Jane Thomas Weyhe,photo,"Jane, mother of Anna Weyhe Lane",Jane Thomas Weyhe,Spencer,1850-1900,1850,1900,portrait,FALSE
 Jenny-Thomas-Peter-Thomas-John-Thomas-Barbara-Listman,"Jenny Thomas, Peter Thomas, John Thomas, Barbara Listman",photo,Thomas siblings of Jane Thomas Weyhe,"Jenny Thomas, Peter Thomas, John Thomas, Barbara Thomas Listman",Spencer,1900-1950,1900,1950,portrait,FALSE
 John-Thomas,John Thomas,photo,John Thomas brother of Jane Thomas Weyhe,John Thomas,Spencer,1900-1950,1900,1950,portrait,FALSE
 Maude-Weyhe,Maude Weyhe,photo,Aunt Moy sister of Anna Weyhe Lane,Maude Weyhe,Spencer,1900-1950,1900,1950,portrait,FALSE
-Maude-Weyhe-bride,Maude Weyhe bride,photo,Maude bride picture. Need to verify,Maude Weyhe,Spencer,1900-1950,1900,1950,portrait,FALSE
+Maude-Weyhe-bride,Maude Weyhe,photo,Maude Weyhe,Maude Weyhe,Spencer,1900-1950,1900,1950,portrait,FALSE
 Maude-Weyhe-Carl-and-Maude-Presby,"Maude Weyhe, Carl and Maude Presby",photo,Maude and friends,Maude Weyhe,Spencer,1850-1900,1850,1900,portrait,FALSE
 Maude-Weyhe-Maude-Presby,"Maude Weyhe, Maude Presby",photo,Maude and friend,Maude Weyhe,Spencer,1900-1950,1900,1950,portrait,FALSE
-Obit-for-Edward-E-Lane,Obit for Edward E Lane,document,Ed Lane obituary,"Edward Lane, Virginia Newcomer Lane, Elinor Lane Warren, Connie Lane Nissley, Priscilla Lane Kappes, Thomas Lane","Spencer, Mt Joy, Wayne",2000 - 2050,2000,2050,portrait,TRUE
-Papa---Memorial-Remarks,Papa - Memorial Remarks,document,David Warren remarks for Edward Lane memorial service,"Edward Lane, David Warren, Virginia Newcomer Lane","Wayne, Media",2000 - 2050,2000,2050,portrait,TRUE
+Obit-for-Edward-E-Lane,Obit for Edward E Lane,document,Ed Lane obituary,"Edward Lane, Virginia Newcomer Lane, Elinor Lane Warren, Connie Lane Nissley, Priscilla Lane Kappes, Thomas Lane","Spencer, Mt Joy, Wayne",2000-2050,2000,2050,portrait,TRUE
+Papa---Memorial-Remarks,Papa - Memorial Remarks,document,David Warren remarks for Edward Lane memorial service,"Edward Lane, David Warren, Virginia Newcomer Lane","Wayne, Media",2000-2050,2000,2050,portrait,TRUE
 Peter-Thomas,Peter Thomas,photo,Peter brother of Jane Thomas Weyhe,Peter Thomas,Spencer,1900-1950,1900,1950,portrait,FALSE
-Tom-Lane---Obituary,Tom Lane - Obituary,document,Tom Lane obituary,"Thomas Lane, Edward Lane, Virginia Newcomer Lane","Wayne, Toronto",2000 - 2050,2000,2050,portrait,TRUE
+Tom-Lane---Obituary,Tom Lane - Obituary,document,Tom Lane obituary,"Thomas Lane, Edward Lane, Virginia Newcomer Lane","Wayne, Toronto",2000-2050,2000,2050,portrait,TRUE
 V-and-E-Lane-Wedding,V and E Lane Wedding,photo,V and E Lane Wedding,"Virginia Newcomer Lane, Edward Lane",Mt Joy,1900-1950,1900,1950,portrait,FALSE
 V-Lane---Charley-George-and-Loly,V Lane - Charley George and Loly,document,Virginia Lane stories of family,Ella Strickler Newcomer,Mt Joy,1850-1900,1850,1900,portrait,TRUE
 V-Lane---Choosing-a-College,V Lane - Choosing a College,document,Virginia Lane stories of family,"Virginia Newcomer Lane, Emily Newcomer Eby, Edward Lane, Connie Lane Nissley, Peter Nissley, Tom Nissley, Elinor Nissley, Peter Warren, Ginny Warren Carr, Priscilla Lane Kappes, Joji Kappes, Guojing Kappes","Mt Joy, Baltimore, Woods Hole, Cape Cod","1900-1950, 1950-2000",1900,2000,portrait,TRUE
@@ -36,8 +36,8 @@ V-Lane---Memorial-Day-1989,V Lane - Memorial Day 1989,document,Virginia Lane sto
 V-Lane---New-chapter-at-1-S-Market,V Lane - New Chapter at 1 S Market,document,Virginia Lane stories of family,"Virginia Newcomer Lane, Ella Strickler Newcomer, Harry Newcomer, Clarence Newcomer",Mt Joy,1900-1950,1900,1950,portrait,TRUE
 V-Lane---Recollections-of-Childhood,V Lane - Recollections of Childhood,document,Virginia Lane stories of family,"Virginia Newcomer Lane, Ella Strickler Newcomer, Harry Newcomer, Clarence Newcomer",Mt Joy,1900-1950,1900,1950,portrait,TRUE
 V-Lane---The-Young-Man-and-The-Tramp,V Lane - The Young Man and The Tramp,document,Virginia Lane stories of family,"Virginia Newcomer Lane, Ella Strickler Newcomer",Mt Joy,1850-1900,1850,1900,portrait,TRUE
-Virginia-Lane---Stories-from-My-Mother,Virginia Lane - Stories from My Mother,document,Virginia Lane stories of ancestors,"Virginia Newcomer Lane, Harry Newcomer, Ella Strickler Newcomer",Mt Joy,1850 - 1900,1850,1900,portrait,TRUE
-Virginia-Newcomer-Lane---Obituary,Virginia Newcomer Lane - Obituary,document,Virginia Lane obituary,"Virginia Newcomer Lane, Edward Lane, Elinor Lane Warren, Connie Lane Nissley, Priscilla Lane Kappes, Tom Lane","Mt Joy, Wayne",2000 - 2050,2000,2050,portrait,TRUE
+Virginia-Lane---Stories-from-My-Mother,Virginia Lane - Stories from My Mother,document,Virginia Lane stories of ancestors,"Virginia Newcomer Lane, Harry Newcomer, Ella Strickler Newcomer",Mt Joy,1850-1900,1850,1900,portrait,TRUE
+Virginia-Newcomer-Lane---Obituary,Virginia Newcomer Lane - Obituary,document,Virginia Lane obituary,"Virginia Newcomer Lane, Edward Lane, Elinor Lane Warren, Connie Lane Nissley, Priscilla Lane Kappes, Tom Lane","Mt Joy, Wayne",2000-2050,2000,2050,portrait,TRUE
 W-Lane---Bemis-Farm-Recollection,W Lane - Bemis Farm Recollection,document,W Lane life,"Anna Weyhe Lane, Walter Lane, Edward Lane",Spencer,1900-1950,1900,1950,portrait,TRUE
 W-Lane---Certificate-of-Death,W Lane - Certificate of Death,document,W Lane life,"Anna Weyhe Lane, Walter Lane, Edward Lane",Spencer,1900-1950,1900,1950,portrait,TRUE
 W-Lane---Christmas-Sermon,W Lane - Christmas Sermon,document,W Lane ministry,"Anna Weyhe Lane, Walter Lane","Athol, Carlisle, Spencer",1850-1900,1850,1900,portrait,TRUE
@@ -65,9 +65,111 @@ Mama-Lane-and-Elinor-Lane-wedding-3,Multiple pics - Gertrude Lane and Elinor Lan
 Mama-Lane-and-Elinor-Lane-wedding-4,Multiple pics - Gertrude Lane and Elinor Lane,photo,Mama Lane and Elinor Lane wedding,"Ella Battles Lane, Elinor Lane MacGillivray, Walter Lane, Virginia Newcomer Lane, Edward Lane",Spencer,1900-1950,1900,1950,landscape,FALSE
 Gertrude-Lane-Crowell-Publishing-Board,News article about Gertrude Lane on Crowell Board,photo,Gertrude Lane,Gertrude Battles Lane,New York,1900-1950,1900,1950,landscape,TRUE
 Gertrude-Lane-date-TBD,Gertrude Lane,photo,Gertrude Lane,Gertrude Battles Lane,New York,1900-1950,1900,1950,portrait,FALSE
-Gertrude-Lane-Apt-and-Xmas-Card-1925,Gertrude Lane Apartment,photo,Gertrude Lane,Gertrude Battles Lane,New York,1900-1950,1900,1950,landscape,TRUE
+Gertrude-Lane-Apt-and-Xmas-Card-1925,Gertrude Lane Apartment,document,Gertrude Lane,Gertrude Battles Lane,New York,1900-1950,1900,1950,landscape,TRUE
 Sophie-Kerr-1925,Sophie Kerr - Friend of Gertrude Lane,photo,Sophie Kerr and Useless the Cat,"Sophie Kerr, Gertrude Battles Lane, Useless the Cat",New York,1900-1950,1900,1950,landscape,FALSE
-R-E Warren Young Couple.jpeg,Richard and Elinor Warren,photo,Warrens as a young couple,"Richard Warren, Elinor Lane Warren",Wayne,1950-2000,1950,2000,portrait,FALSE
-David Warren - Adult.jpeg,David Warren,photo,David Warren as a young man,David Warren,Schwenksville,2000-2050,2000,2050,landscape,FALSE
-James Warren - Adult.jpeg,James Warren,photo,James Warren as a young man,James D Warren,Cape Cod,2000-2050,2000,2050,portrait,FALSE
-Kathryn Warren - Adult.jpeg,Kathryn Warren,photo,Kathryn Warren with her dog,Kathryn Warren,Schwenksville,2000-2050,2000,2050,,
+R-E-Warren-Young-Couple,Richard and Elinor Warren,photo,Warrens as a young couple,"Richard Warren, Elinor Lane Warren",Wayne,1950-2000,1950,2000,portrait,FALSE
+David-Warren---Adult,David Warren,photo,David Warren as a young man,David Warren,Schwenksville,2000-2050,2000,2050,landscape,FALSE
+James-Warren---Adult,James Warren,photo,James Warren as a young man,James D Warren,Cape Cod,2000-2050,2000,2050,portrait,FALSE
+Kathryn-Warren---Adult,Kathryn Warren,photo,Kathryn Warren with her dog,Kathryn Warren,Schwenksville,2000-2050,2000,2050,landscape,FALSE
+Virginia-and-Edward-Lane,Jinny and Ed Lane as grandparents,photo,Jinny and Ed laughing,"Virginia Newcomer Lane, Edward Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Connie-and-Peter-Nissley,Connie and Peter as adults,photo,Connie and Peter,"Connie Lane Nissley, Peter Nissley",Wayne,1950-2000,1950,2000,landscape,FALSE
+LoriAnne,LoriAnne,photo,LoriAnne,LoriAnne Barnett Warren,Tucson,2000-2050,2000,2050,portrait,FALSE
+Elinor,Elinor Lane as adult,photo,Elinor Lane as adult,Elinor Lane Warren,Tucson,2000-2050,2000,2050,portrait,FALSE
+Peter-LoriAnne-and-Phoebe---2,Peter and LoriAnne Warren with Phoebe,photo,Peter and LoriAnne Warren with Phoebe,"Peter Warren, LoriAnne Barnett Warren, Phoebe Warren",Tucson,2000-2050,2000,2050,landscape,FALSE
+Nissley-Carr,Nissley and Carr families at Cape Cod,photo,Nissley and Carr families at Cape Cod,"Thomas Nissley, Laura Silverstein, Peter Silverstein, Phoebe Warren, Richard Carr, Robert Carr, Jing Kappes, Margaret McSpiritt",Cape Cod,2000-2050,2000,2050,portrait,FALSE
+Elinor-Phoebe-and-Lane,Elinor Lane with grandchildren,photo,Elinor Lane with grandchildren,"Elinor Lane Warren, Phoebe Warren, Lane Warren",Wayne,1950-2000,1950,2000,landscape,FALSE
+Peter-and-Elinor,Peter and Elinor Warren,photo,Peter and Elinor Warren,"Peter Warren, Elinor Lane Warren",Cape Cod,2000-2050,2000,2050,landscape,FALSE
+Peter-and-Phoebe,Peter Warren with Phoebe,photo,Peter Warren with Phoebe,"Peter Warren, Phoebe Warren",Tucson,2000-2050,2000,2050,landscape,FALSE
+Jing,Jing Kappes,photo,Guo-Jing Kappes,Guo-Jing Kappes,Cape Cod,2000-2050,2000,2050,portrait,FALSE
+David-and-Elinor,David Warren and Elinor Warren,photo,David Warren and Elinor Warren,"David Warren, Elinor Lane Warren",Newtown Square,2000-2050,2000,2050,portrait,FALSE
+David-and-James,David and James Warren,photo,David and James Warren,"David Warren, James D Warren",Philadelphia,2000-2050,2000,2050,portrait,FALSE
+Peter-LoriAnne-Phoebe,Peter and LoriAnne Warren with Phoebe,photo,Peter and LoriAnne Warren with Phoebe,"Peter Warren, LoriAnne Barnett Warren, Phoebe Warren",Tucson,2000-2050,2000,2050,landscape,FALSE
+Elly-in-1950s,Elinor Lane Warren as teenager,photo,Elinor Lane Warren as teenager,Elinor Lane Warren,Mount Joy,1950-2000,1950,2000,portrait,FALSE
+Ginny-birthday,Virginia Warren Carr as young girl,photo,Virginia Warren Carr as young girl,Virginia Warren Carr,Wayne,1950-2000,1950,2000,portrait,FALSE
+Ginny-Carr-as-child,Virginia Warren Carr as young girl,photo,Virginia Warren Carr as young girl,Virginia Warren Carr,Wayne,1950-2000,1950,2000,portrait,FALSE
+James-R-Warren-soccer,James R Warren as young child,photo,James R Warren,James R Warren,Wayne,1950-2000,1950,2000,portrait,FALSE
+Peter-Ginny-David-Spot,Warren kids,photo,Warren kids,"Peter Warren, Virginia Warren Carr, David Warren",Wayne,1950-2000,1950,2000,portrait,FALSE
+Peter-Warren-as-young-adult,Peter Warren as young adult,photo,Peter Warren,Peter Warren,Wayne,1950-2000,1950,2000,portrait,FALSE
+Warren-Lane-Nissley-XMas,Extended Warren Lane family,photo,Extended Warren Lane Family,"Richard Warren, Elinor Lane Warren, Peter Nissley, Constance Lane Nissley, Priscilla Lane Kappes, Edward Lane, Virginia Newcomer Lane, Thomas Lane, Peter Warren, Virginia Warren Carr, David Warren, James R Warren, Thomas Nissley, Elinor Nissley",Wayne,1950-2000,1950,2000,landscape,FALSE
+Winter-Ginny,Virginia Warren Carr as young girl,photo,Virginia Warren Carr as young girl,Virginia Warren Carr,Wayne,1950-2000,1950,2000,portrait,FALSE
+Virginia-Ed--2,Jinny and Ed Lane as middle age couple,photo,Jinny and Ed Lane as middle age couple,"Virginia Newcomer Lane, Edward Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Virginia-Ed-Elinor-Jim,Jinny and Ed Lane with Elinor and James MacGillivray,photo,Jinny and Ed Lane with Elinor and James MacGillivray,"Virginia Newcomer Lane, Edward Lane, Elinor Lane MacGillivray, James MacGillivray",Wayne,1950-2000,1950,2000,landscape,FALSE
+Virginia-Ed-Lane-50-Anniversary,Virginia and Ed Lane at their 50th anniversary,photo,Virginia and Ed Lane at their 50th anniversary,"Virginia Newcomer Lane, Edward Lane",Wayne,1950-2000,1950,2000,portrait,FALSE
+Elinor-Lane-McGillivray,Elinor Lane MacGillivray,photo,Elinor Lane MacGillivray,Elinor Lane MacGillivray,Toronto,1950-2000,1950,2000,portrait,FALSE
+famous-baseball-pitch,"Jim, Tom, Elinor as kids",photo,"Jim, Tom, Elinor as kids","James R Warren, Thomas Nissley, Elinor Nissley",Wayne,1950-2000,1950,2000,landscape,FALSE
+Elly-cheerleader,Elly Warren as cheerleader,photo,Elly Warren as cheerleader,Elinor Lane Warren,Mt Joy,1950-2000,1950,2000,portrait,FALSE
+Harry-Newcomer-and-siblings,Harry Newcomer and his siblings,photo,"Harry Newcomer and his siblings, listed clockwise from upper left","Harry Newcomer, Norman Newcomer, Elizabeth Newcomer, Christian Newcomer, Samuel Newcomer, Phares Newcomer",Mt Joy,1900-1950,1900,1950,landscape,FALSE
+Ella-Strickler-Newcomer,Ella Newcomer,photo,Ella Strickler Newcomer,Ella Strickler Newcomer,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+MacGillivray-1,Jim and Elinor MacGillivray as young couple,photo,Jim and Elinor MacGillivray as young couple,"James MacGillivray, Elinor Lane MacGillivray",Spencer,1900-1950,1900,1950,portrait,FALSE
+Elinor-MacGillivray-1,Elinor Lane MacGillivray,photo,Elinor Lane MacGillivray,Elinor Lane MacGillivray,Spencer,1900-1950,1900,1950,portrait,FALSE
+Strawberry-Hill-home,Strawberry Hill house,photo,Strawberry Hill,,,,,,,FALSE
+Elinor-Lane-McGillivray-and-mother,Elinor and Anna Lane,photo,Elinor and her mother on wedding day,"Elinor Lane MacGillivray, Anna Weyhe Lane",Spencer,1900-1950,1900,1950,portrait,FALSE
+MacGillivray-2,Jim and Elinor MacGillivray on wedding day,photo,Jim and Elinor MacGillivray on wedding day,"James MacGillivray, Elinor Lane MacGillivray",Spencer,1900-1950,1900,1950,portrait,FALSE
+Elinor-MacGillivray-Ella-Battles-Lane,Elinor Lane and her grandmother,photo,Elinor Lane and her grandmother,"Elinor Lane MacGillivray, Ella Battles Lane",Spencer,1900-1950,1900,1950,portrait,FALSE
+Virginia-Newcomer-1930,Virginia Newcomer Lane,photo,Virginia Newcomer in 1930,Virginia Newcomer Lane,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+John-Strickler-and-Anna-Gable-Strickler,John and Anna Strickler,photo,John and Anna Strickler,"John Strickler, Anna Gable Strickler",Mt Joy,1850-1900,1850,1900,landscape,FALSE
+Mary-Zeager-Virginia-Newcomer,Mary Zeager with little Virginia,photo,Mary Zeager with little Virginia,"Mary Zeager, Virginia Newcomer Lane",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Newcomer-kids,Newcomer kids,photo,"Clarence, Emily, and Virginia","Virginia Newcomer Lane, Emily Newcomer Eby, Clarence Newcomer",Mt Joy,1900-1950,1900,1950,landscape,FALSE
+Ella-Newcomer-and-Virginia,Ella Newcomer with Virginia as little girl,photo,Ella Newcomer with Virginia as little girl,"Ella Strickler Newcomer, Virginia Newcomer Lane",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+1-S-Market-St-Mount-Joy,Newcomer home,photo,Newcomer family home,"Ella Strickler Newcomer, Virginia Newcomer Lane, Harry Newcomer, Clarence Newcomer, Emily Newcomer Eby",Mt Joy,1900-1950,1900,1950,landscape,FALSE
+Ella-Newcomer,Ella Newcomer,photo,Ella Strickler Newcomer,Ella Strickler Newcomer,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Harry-and-Ella-Newcomer,Harry and Ella Newcomer,photo,Harry and Ella Newcomer 1916,"Ella Strickler Newcomer, Harry Newcomer",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Clarence-Newcomer,Clarence WWI,photo,Clarence WWI,Clarence Newcomer,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Edward-Lane-Navy,Edward WWII,photo,Edward Lane WWII,Edward Lane,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Edward-and-Virginia-Lane-young-couple,Edward and Jinny on skis,photo,Edward and Jinny Lane on skis,"Edward Lane, Virginia Newcomer Lane",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Edward-and-Virginia-Lane-wedding,Edward and Jinny wedding,photo,Edward and Jinny wedding,"Edward Lane, Virginia Newcomer Lane",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Elinor-and-Connie-Lane,Elinor and Connie as little girls,photo,Elinor and Connie as little girls,"Elinor Lane Warren, Constance Lane Nissley",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Lane-girls-chimney,"Elinor, Connie, Priscilla Christmas photo",photo,"Elinor, Connie, Priscilla Christmas photo","Elinor Lane Warren, Constance Lane Nissley, Priscilla Lane Kappes",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Connie-Lane-skis,Connie on skis,photo,Connie on skis,Constance Lane Nissley,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Lane-girls-2,"Elinor, Connie, Priscilla portrait",photo,"Elinor, Connie, Priscilla portrait","Elinor Lane Warren, Constance Lane Nissley, Priscilla Lane Kappes",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Henry-and-Elizabeth-Newcomer-Miller-1898,Henry and Elizabeth Newcomer Miller 1898,photo,Henry and Elizabeth Newcomer Miller 1898,"Henry Miller, Elizabeth Newcomer Miller",Mt Joy,1850-1900,1850,1900,portrait,FALSE
+Christian-and-Maria-S-Newcomer-1899,Christian and Maria S Newcomer 1899,photo,Christian and Maria S Newcomer 1899,"Christian Newcomer, Maria S Newcomer",Mt Joy,1850-1900,1850,1900,portrait,FALSE
+Phares-and-Emma-Newcomer-1904,Phares and Emma Newcomer 1904,photo,Phares and Emma Newcomer 1904,"Phares Newcomer, Emma Newcomer",Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Samuel-Newcomer,Samuel Newcomer,photo,Samuel Newcomer,Samuel Newcomer,Mt Joy,1900-1950,1900,1950,portrait,FALSE
+Frances-Strickler-Haverstick,Frances Strickler Haverstick,photo,Frances Strickler Haverstick,Frances Strickler Haverstick,Mt Joy,1850-1900,1850,1900,portrait,FALSE
+Croquet-Party-1872,Croquet Party 1872,document,Croquet party invitation,,Mt Joy,1850-1900,1850,1900,portrait,TRUE
+Tom-Lane-young-boy-with-turtle,Young Tom Lane,photo,Young Tom Lane,Thomas Lane,Wayne,1950-2000,1950,2000,portrait,FALSE
+Tilo-with-guitar,Tilo Braeutigam,photo,Tilo Braeutigam during high school exchange,Tilo Braeutigam,Wayne,1950-2000,1950,2000,landscape,FALSE
+Tom-Lane-boy-with-V-Lane,Tom Lane as a little boy with his mother,photo,Tom Lane as a little boy with his mother,"Tom Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Edward-Lane-with-young-Tom,Tom Lane as a little boy with his father,photo,Tom Lane as a little boy with his father,"Tom Lane, Edward Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Virginia-and-Ed-Lane-in-Cape-Cod,Jinny and Ed Lane in later years at Cape Cod,photo,Jinny and Ed Lane in later years at Cape Cod,"Edward Lane, Virginia Newcomer Lane",Cape Cod,1950-2000,1950,2000,landscape,FALSE
+Christmas-at-Poplar-Ave-1970s,Poplar Ave Christmas,photo,Poplar Ave Christmas,"Peter Nissley, Constance Lane Nissley, Tom Lane, Priscilla Lane Kappes, Richard Warren, Elinor Lane Warren, Edward Lane, Virginia Newcomer Lane, Peter Warren, Virginia Warren Carr, David Warren, James R Warren, Thomas Nissley",Wayne,1950-2000,1950,2000,landscape,FALSE
+202-Poplar-Ave---front,Poplar Ave house - Front,photo,Poplar Ave house - Front,"Edward Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+202-Poplar-Ave---back,Poplar Ave house - Garage,photo,Poplar Ave house - Garage,"Edward Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Lane-family-Cape-Cod,Ed and Jinny Lane with adult children,photo,Ed and Jinny Lane with adult children,"Edward Lane, Virginia Newcomer Lane, Elinor Lane Warren, Constance Lane Nissley, Priscilla Lane Kappes, Thomas Lane",Cape Cod,1950-2000,1950,2000,landscape,FALSE
+Bob-Eby-and-family,Bob and Connie Eby with adult children,photo,Bob and Connie Eby with adult children,"Robert Eby, Constance Eby, Thomas Eby, Denise Eby, Susan Eby, Ken, Emiline Eby",Lititz,1950-2000,1950,2000,landscape,FALSE
+Ed-and-Virginia-Lane-at-90,Ed and Jinny Lane at age 90,photo,Ed and Jinny Lane at age 90,"Edward Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,portrait,FALSE
+Priscilla-at-Cape-Cod,Priscilla at Cape Code,photo,Priscilla Lane Kappes,Priscilla Lane Kappes,Cape Cod,1950-2000,1950,2000,landscape,FALSE
+Anna-Baker,"Anna Baker, college friend of Jinny Lane",photo,Anna Baker,Anna Baker,Wayne,1950-2000,1950,2000,portrait,FALSE
+552-Walker-Road,Walker Road house in winter,photo,552 Walker Road,"Richard Warren, Elinor Lane Warren, Peter Warren, Virginia Warren Carr, David Warren, James R Warren",Wayne,1950-2000,1950,2000,landscape,FALSE
+Tilo-and-the-Lanes,Tilo Braeutigam visits Ed and Jinny Lane,photo,Tilo Braeutigam,"Tilo Braeutigam, Edward Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Priscilla-at-Loom,Priscilla weaving at her loom,photo,Priscilla Lane Kappes,Priscilla Lane Kappes,Wayne,1950-2000,1950,2000,portrait,FALSE
+Tom-Lane-1980,Tom Lane on a ship,photo,Thomas Lane,Thomas Lane,St. Johns,1950-2000,1950,2000,portrait,FALSE
+Lane-siblings-1990s,Adult children of Ed and Jinny Lane,photo,Adult children of Ed and Jinny Lane,"Elinor Lane Warren, Constance Lane Nissley, Priscilla Lane Kappes, Thomas Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+Tilo-Claudia-Bob-Connie,Tilo visits the Ebys,photo,"Tilo and Claudia Braeutigam, Bob and Connie Eby","Robert Eby, Constance Eby, Tilo Braeutigam, Claudia Braeutigam",Wayne,1950-2000,1950,2000,landscape,FALSE
+Jim-and-Drew-Warren,Jim and a young Drew,photo,Jim and Drew Warren,"James R Warren, Drew Warren",Wayne,1950-2000,1950,2000,landscape,FALSE
+202-Poplar-Ave---back-2,Poplar Ave house - Front,photo,Poplar Ave house - Front,"Edward Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
+DAR-form-for-Jonathan-Battles-with-typed-lineage,DAR lineage for Jonathan Battles,document,DAR lineage for Jonathan Battles,"Alice Lane Cabot, Jonathan Battles",Connecticut,1900-1950,1900,1950,portrait,TRUE
+Benjamin-Porter-Battles-Sr,Benjamin Porter Battles Sr,photo,Benjamin Porter Battles Sr,Benjamin Porter Battles Sr,Lowell,1850-1900,1850,1900,portrait,FALSE
+Charlotte-Smith-Battles,Charlotte Smith Battles,photo,Charlotte Smith Battles,Charlotte Smith Battles,Lowell,1850-1900,1850,1900,portrait,FALSE
+Benjamin-Porter-Battles-Jr,Benjamin Porter Battles Jr,photo,Benjamin Porter Battles Jr,Benjamin Porter Battles Jr,Lowell,1850-1900,1850,1900,portrait,FALSE
+Benjamin-and-Charlotte-Battles,Benjamin and Charlotte Battles,photo,Benjamin and Charlotte Battles,"Benjamin Porter Battles Sr, Charlotte Smith Battles",Lowell,1850-1900,1850,1900,portrait,FALSE
+Benjamin-Porter-Battles-Jr---2,Benjamin Porter Battles Jr,photo,Benjamin Porter Battles Jr,Benjamin Porter Battles Jr,Graniteville SC,1850-1900,1850,1900,portrait,FALSE
+Ella-Battles-Lane-family-record,Ella Battles notable family milestones,document,Ella Battles Lane,Ella Battles Lane,Lowell,1850-1900,1850,1900,portrait,TRUE
+Lucretia-Olds-Battles,Lucretia Olds Battles,photo,Lucretia Olds Battles,Lucretia Olds Battles,Lowell,1850-1900,1850,1900,portrait,FALSE
+Florence-Battles,Florence Battles,photo,Florence Battles,Florence Battles,Lowell,1850-1900,1850,1900,portrait,FALSE
+Charlotte-Smith-Battles---older,Charlotte Smith Battles later in life,photo,Charlotte Smith Battles,Charlotte Smith Battles,Lowell,1850-1900,1850,1900,portrait,FALSE
+Benjamin-Battles-letter-home-1851,Benjamin Battles letter home from Cotton mill in 1851,document,Benjamin Porter Battles Jr,Benjamin Porter Battles Jr,Graniteville SC,1850-1900,1850,1900,portrait,TRUE
+Anna-Weyhe-Lane-with-baby-Edward,Anna Weyhe Lane with baby Edward,photo,Anna Weyhe Lane with baby Edward,"Anna Weyhe Lane, Edward Lane",Spencer,1900-1950,1900,1950,portrait,FALSE
+Ed-and-Elinor-Lane-with-mother,Ed and Elinor Lane with mother,photo,Ed and Elinor Lane with mother,"Edward Lane, Elinor Lane MacGillivray, Anna Weyhe Lane",Spencer,1900-1950,1900,1950,portrait,FALSE
+Walter-Lane-family-with-Jane-and-Will-Weyhe,Walter Lane family with Jane and Will Weyhe,photo,Walter Lane family with Jane and Will Weyhe,"Walter Lane, Edward Lane, Elinor Lane MacGillivray, Anna Weyhe Lane, Jane Thomas Weyhe, William A Weyhe",Spencer,1900-1950,1900,1950,landscape,FALSE
+Jane-Thomas-Weyhe-and-Edward-Lane,Jane Thomas Weyhe and Edward Lane,photo,Jane Thomas Weyhe and Edward Lane,"Jane Thomas Weyhe, Edward Lane",Spencer,1900-1950,1900,1950,portrait,FALSE
+Lori-Warren,Lori Warren,photo,Lori Warren,Lori Hutwagner Warren,Eagleville,2000-2050,2000,2050,portrait,FALSE
+William-Weyhe-1888,William Weyhe 1888,photo,William Weyhe,William Weyhe,Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Jane-Thomas-Weyhe-1888,Jane Thomas Weyhe 1888,photo,Jane Thomas Weyhe,Jane Thomas Weyhe,Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Anna-Weyhe-Lane---young-woman,Anna Weyhe Lane - young woman,photo,Anna Lane in fancy hat,Anna Weyhe Lane,Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Anna-Will-Maude-Weyhe,Anna Will Maude Weyhe,photo,Anna Lane and siblings as kids,"Anna Weyhe Lane, William A Weyhe, Maude Weyhe",Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Anna-and-Will-Weyhe-1876,Anna and Will Weyhe 1876,photo,Anna Lane in Centennial dress,"Anna Weyhe Lane, William A Weyhe",Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Anna-Weyhe-Lane---little-girl,Anna Weyhe Lane - little girl,photo,Anna Lane as little girl,Anna Weyhe Lane,Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Maud-Weyhe,Maude Weyhe,photo,Maude Weyhe as young woman,Maude Weyhe,Rockville CT,1850-1900,1850,1900,portrait,FALSE
+Richard-and-Elinor-Warren-wedding-with-parents,Richard and Elinor Warren wedding with parents,photo,Richard and Elinor Warren wedding with parents,"Richard Warren, Elinor Lane Warren, Henry Warren, Julia Furey Warren, Edward Lane, Virginia Newcomer Lane",Wayne,1950-2000,1950,2000,landscape,FALSE
