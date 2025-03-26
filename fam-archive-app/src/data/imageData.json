@@ -1,12 +1,11 @@
 [
   {
     "filename": "A-Weyhe-Lane---Bride",
-    "title": "A Weyhe Lane - Bride",
+    "title": "Maude Weyhe",
     "type": "photo",
-    "subject": "A Weyhe Lane life",
+    "subject": "Maude Weyhe",
     "people": [
-      "Anna Weyhe Lane",
-      "Walter Lane"
+      "Maude Weyhe"
     ],
     "place": [
       "Spencer",
@@ -52,7 +51,7 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "TRUE"
   },
   {
     "filename": "Carlisle-Unitarian-Church",
@@ -184,24 +183,6 @@
     "hasPDF": "FALSE"
   },
   {
-    "filename": "E-Warren---couple",
-    "title": "E Warren - couple",
-    "type": "photo",
-    "subject": "E Warren",
-    "people": [
-      "Elinor Lane Warren",
-      "Richard Warren"
-    ],
-    "place": [
-      "Wayne"
-    ],
-    "time": "1950-2000",
-    "dateStart": "1950",
-    "dateEnd": "2000",
-    "orientation": "portrait",
-    "hasPDF": "FALSE"
-  },
-  {
     "filename": "E-Warren---parade",
     "title": "E Warren - parade",
     "type": "photo",
@@ -289,7 +270,7 @@
       "Wayne",
       "Media"
     ],
-    "time": "2000 - 2050",
+    "time": "2000-2050",
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
@@ -297,11 +278,11 @@
   },
   {
     "filename": "Harry-and-Julia-Warren",
-    "title": "Harry and Julia Warren",
+    "title": "Henry and Julia Warren",
     "type": "photo",
-    "subject": "Harry and Julia parents of Richard Warren",
+    "subject": "Henry and Julia parents of Richard Warren",
     "people": [
-      "Harry Warren",
+      "Henry Warren",
       "Julia Furey Warren"
     ],
     "place": [
@@ -407,9 +388,9 @@
   },
   {
     "filename": "Maude-Weyhe-bride",
-    "title": "Maude Weyhe bride",
+    "title": "Maude Weyhe",
     "type": "photo",
-    "subject": "Maude bride picture. Need to verify",
+    "subject": "Maude Weyhe",
     "people": [
       "Maude Weyhe"
     ],
@@ -474,7 +455,7 @@
       "Mt Joy",
       "Wayne"
     ],
-    "time": "2000 - 2050",
+    "time": "2000-2050",
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
@@ -494,7 +475,7 @@
       "Wayne",
       "Media"
     ],
-    "time": "2000 - 2050",
+    "time": "2000-2050",
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
@@ -531,7 +512,7 @@
       "Wayne",
       "Toronto"
     ],
-    "time": "2000 - 2050",
+    "time": "2000-2050",
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
@@ -718,7 +699,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1850 - 1900",
+    "time": "1850-1900",
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
@@ -741,7 +722,7 @@
       "Mt Joy",
       "Wayne"
     ],
-    "time": "2000 - 2050",
+    "time": "2000-2050",
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
@@ -1266,7 +1247,7 @@
   {
     "filename": "Gertrude-Lane-Apt-and-Xmas-Card-1925",
     "title": "Gertrude Lane Apartment",
-    "type": "photo",
+    "type": "document",
     "subject": "Gertrude Lane",
     "people": [
       "Gertrude Battles Lane"
@@ -1300,7 +1281,7 @@
     "hasPDF": "FALSE"
   },
   {
-    "filename": "R-E Warren Young Couple.jpeg",
+    "filename": "R-E-Warren-Young-Couple",
     "title": "Richard and Elinor Warren",
     "type": "photo",
     "subject": "Warrens as a young couple",
@@ -1318,7 +1299,7 @@
     "hasPDF": "FALSE"
   },
   {
-    "filename": "David Warren - Adult.jpeg",
+    "filename": "David-Warren---Adult",
     "title": "David Warren",
     "type": "photo",
     "subject": "David Warren as a young man",
@@ -1335,7 +1316,7 @@
     "hasPDF": "FALSE"
   },
   {
-    "filename": "James Warren - Adult.jpeg",
+    "filename": "James-Warren---Adult",
     "title": "James Warren",
     "type": "photo",
     "subject": "James Warren as a young man",
@@ -1352,7 +1333,7 @@
     "hasPDF": "FALSE"
   },
   {
-    "filename": "Kathryn Warren - Adult.jpeg",
+    "filename": "Kathryn-Warren---Adult",
     "title": "Kathryn Warren",
     "type": "photo",
     "subject": "Kathryn Warren with her dog",
@@ -1365,7 +1346,1868 @@
     "time": "2000-2050",
     "dateStart": "2000",
     "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Virginia-and-Edward-Lane",
+    "title": "Jinny and Ed Lane as grandparents",
+    "type": "photo",
+    "subject": "Jinny and Ed laughing",
+    "people": [
+      "Virginia Newcomer Lane",
+      "Edward Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Connie-and-Peter-Nissley",
+    "title": "Connie and Peter as adults",
+    "type": "photo",
+    "subject": "Connie and Peter",
+    "people": [
+      "Connie Lane Nissley",
+      "Peter Nissley"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "LoriAnne",
+    "title": "LoriAnne",
+    "type": "photo",
+    "subject": "LoriAnne",
+    "people": [
+      "LoriAnne Barnett Warren"
+    ],
+    "place": [
+      "Tucson"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor",
+    "title": "Elinor Lane as adult",
+    "type": "photo",
+    "subject": "Elinor Lane as adult",
+    "people": [
+      "Elinor Lane Warren"
+    ],
+    "place": [
+      "Tucson"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Peter-LoriAnne-and-Phoebe---2",
+    "title": "Peter and LoriAnne Warren with Phoebe",
+    "type": "photo",
+    "subject": "Peter and LoriAnne Warren with Phoebe",
+    "people": [
+      "Peter Warren",
+      "LoriAnne Barnett Warren",
+      "Phoebe Warren"
+    ],
+    "place": [
+      "Tucson"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Nissley-Carr",
+    "title": "Nissley and Carr families at Cape Cod",
+    "type": "photo",
+    "subject": "Nissley and Carr families at Cape Cod",
+    "people": [
+      "Thomas Nissley",
+      "Laura Silverstein",
+      "Peter Silverstein",
+      "Phoebe Warren",
+      "Richard Carr",
+      "Robert Carr",
+      "Jing Kappes",
+      "Margaret McSpiritt"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor-Phoebe-and-Lane",
+    "title": "Elinor Lane with grandchildren",
+    "type": "photo",
+    "subject": "Elinor Lane with grandchildren",
+    "people": [
+      "Elinor Lane Warren",
+      "Phoebe Warren",
+      "Lane Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Peter-and-Elinor",
+    "title": "Peter and Elinor Warren",
+    "type": "photo",
+    "subject": "Peter and Elinor Warren",
+    "people": [
+      "Peter Warren",
+      "Elinor Lane Warren"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Peter-and-Phoebe",
+    "title": "Peter Warren with Phoebe",
+    "type": "photo",
+    "subject": "Peter Warren with Phoebe",
+    "people": [
+      "Peter Warren",
+      "Phoebe Warren"
+    ],
+    "place": [
+      "Tucson"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Jing",
+    "title": "Jing Kappes",
+    "type": "photo",
+    "subject": "Guo-Jing Kappes",
+    "people": [
+      "Guo-Jing Kappes"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "David-and-Elinor",
+    "title": "David Warren and Elinor Warren",
+    "type": "photo",
+    "subject": "David Warren and Elinor Warren",
+    "people": [
+      "David Warren",
+      "Elinor Lane Warren"
+    ],
+    "place": [
+      "Newtown Square"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "David-and-James",
+    "title": "David and James Warren",
+    "type": "photo",
+    "subject": "David and James Warren",
+    "people": [
+      "David Warren",
+      "James D Warren"
+    ],
+    "place": [
+      "Philadelphia"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Peter-LoriAnne-Phoebe",
+    "title": "Peter and LoriAnne Warren with Phoebe",
+    "type": "photo",
+    "subject": "Peter and LoriAnne Warren with Phoebe",
+    "people": [
+      "Peter Warren",
+      "LoriAnne Barnett Warren",
+      "Phoebe Warren"
+    ],
+    "place": [
+      "Tucson"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elly-in-1950s",
+    "title": "Elinor Lane Warren as teenager",
+    "type": "photo",
+    "subject": "Elinor Lane Warren as teenager",
+    "people": [
+      "Elinor Lane Warren"
+    ],
+    "place": [
+      "Mount Joy"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ginny-birthday",
+    "title": "Virginia Warren Carr as young girl",
+    "type": "photo",
+    "subject": "Virginia Warren Carr as young girl",
+    "people": [
+      "Virginia Warren Carr"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ginny-Carr-as-child",
+    "title": "Virginia Warren Carr as young girl",
+    "type": "photo",
+    "subject": "Virginia Warren Carr as young girl",
+    "people": [
+      "Virginia Warren Carr"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "James-R-Warren-soccer",
+    "title": "James R Warren as young child",
+    "type": "photo",
+    "subject": "James R Warren",
+    "people": [
+      "James R Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Peter-Ginny-David-Spot",
+    "title": "Warren kids",
+    "type": "photo",
+    "subject": "Warren kids",
+    "people": [
+      "Peter Warren",
+      "Virginia Warren Carr",
+      "David Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Peter-Warren-as-young-adult",
+    "title": "Peter Warren as young adult",
+    "type": "photo",
+    "subject": "Peter Warren",
+    "people": [
+      "Peter Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Warren-Lane-Nissley-XMas",
+    "title": "Extended Warren Lane family",
+    "type": "photo",
+    "subject": "Extended Warren Lane Family",
+    "people": [
+      "Richard Warren",
+      "Elinor Lane Warren",
+      "Peter Nissley",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
+      "Edward Lane",
+      "Virginia Newcomer Lane",
+      "Thomas Lane",
+      "Peter Warren",
+      "Virginia Warren Carr",
+      "David Warren",
+      "James R Warren",
+      "Thomas Nissley",
+      "Elinor Nissley"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Winter-Ginny",
+    "title": "Virginia Warren Carr as young girl",
+    "type": "photo",
+    "subject": "Virginia Warren Carr as young girl",
+    "people": [
+      "Virginia Warren Carr"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Virginia-Ed--2",
+    "title": "Jinny and Ed Lane as middle age couple",
+    "type": "photo",
+    "subject": "Jinny and Ed Lane as middle age couple",
+    "people": [
+      "Virginia Newcomer Lane",
+      "Edward Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Virginia-Ed-Elinor-Jim",
+    "title": "Jinny and Ed Lane with Elinor and James MacGillivray",
+    "type": "photo",
+    "subject": "Jinny and Ed Lane with Elinor and James MacGillivray",
+    "people": [
+      "Virginia Newcomer Lane",
+      "Edward Lane",
+      "Elinor Lane MacGillivray",
+      "James MacGillivray"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Virginia-Ed-Lane-50-Anniversary",
+    "title": "Virginia and Ed Lane at their 50th anniversary",
+    "type": "photo",
+    "subject": "Virginia and Ed Lane at their 50th anniversary",
+    "people": [
+      "Virginia Newcomer Lane",
+      "Edward Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor-Lane-McGillivray",
+    "title": "Elinor Lane MacGillivray",
+    "type": "photo",
+    "subject": "Elinor Lane MacGillivray",
+    "people": [
+      "Elinor Lane MacGillivray"
+    ],
+    "place": [
+      "Toronto"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "famous-baseball-pitch",
+    "title": "Jim, Tom, Elinor as kids",
+    "type": "photo",
+    "subject": "Jim, Tom, Elinor as kids",
+    "people": [
+      "James R Warren",
+      "Thomas Nissley",
+      "Elinor Nissley"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elly-cheerleader",
+    "title": "Elly Warren as cheerleader",
+    "type": "photo",
+    "subject": "Elly Warren as cheerleader",
+    "people": [
+      "Elinor Lane Warren"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Harry-Newcomer-and-siblings",
+    "title": "Harry Newcomer and his siblings",
+    "type": "photo",
+    "subject": "Harry Newcomer and his siblings, listed clockwise from upper left",
+    "people": [
+      "Harry Newcomer",
+      "Norman Newcomer",
+      "Elizabeth Newcomer",
+      "Christian Newcomer",
+      "Samuel Newcomer",
+      "Phares Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ella-Strickler-Newcomer",
+    "title": "Ella Newcomer",
+    "type": "photo",
+    "subject": "Ella Strickler Newcomer",
+    "people": [
+      "Ella Strickler Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "MacGillivray-1",
+    "title": "Jim and Elinor MacGillivray as young couple",
+    "type": "photo",
+    "subject": "Jim and Elinor MacGillivray as young couple",
+    "people": [
+      "James MacGillivray",
+      "Elinor Lane MacGillivray"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor-MacGillivray-1",
+    "title": "Elinor Lane MacGillivray",
+    "type": "photo",
+    "subject": "Elinor Lane MacGillivray",
+    "people": [
+      "Elinor Lane MacGillivray"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Strawberry-Hill-home",
+    "title": "Strawberry Hill house",
+    "type": "photo",
+    "subject": "Strawberry Hill",
+    "people": [],
+    "place": [],
+    "time": "",
+    "dateStart": "",
+    "dateEnd": "",
     "orientation": "",
-    "hasPDF": ""
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor-Lane-McGillivray-and-mother",
+    "title": "Elinor and Anna Lane",
+    "type": "photo",
+    "subject": "Elinor and her mother on wedding day",
+    "people": [
+      "Elinor Lane MacGillivray",
+      "Anna Weyhe Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "MacGillivray-2",
+    "title": "Jim and Elinor MacGillivray on wedding day",
+    "type": "photo",
+    "subject": "Jim and Elinor MacGillivray on wedding day",
+    "people": [
+      "James MacGillivray",
+      "Elinor Lane MacGillivray"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor-MacGillivray-Ella-Battles-Lane",
+    "title": "Elinor Lane and her grandmother",
+    "type": "photo",
+    "subject": "Elinor Lane and her grandmother",
+    "people": [
+      "Elinor Lane MacGillivray",
+      "Ella Battles Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Virginia-Newcomer-1930",
+    "title": "Virginia Newcomer Lane",
+    "type": "photo",
+    "subject": "Virginia Newcomer in 1930",
+    "people": [
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "John-Strickler-and-Anna-Gable-Strickler",
+    "title": "John and Anna Strickler",
+    "type": "photo",
+    "subject": "John and Anna Strickler",
+    "people": [
+      "John Strickler",
+      "Anna Gable Strickler"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Mary-Zeager-Virginia-Newcomer",
+    "title": "Mary Zeager with little Virginia",
+    "type": "photo",
+    "subject": "Mary Zeager with little Virginia",
+    "people": [
+      "Mary Zeager",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Newcomer-kids",
+    "title": "Newcomer kids",
+    "type": "photo",
+    "subject": "Clarence, Emily, and Virginia",
+    "people": [
+      "Virginia Newcomer Lane",
+      "Emily Newcomer Eby",
+      "Clarence Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ella-Newcomer-and-Virginia",
+    "title": "Ella Newcomer with Virginia as little girl",
+    "type": "photo",
+    "subject": "Ella Newcomer with Virginia as little girl",
+    "people": [
+      "Ella Strickler Newcomer",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "1-S-Market-St-Mount-Joy",
+    "title": "Newcomer home",
+    "type": "photo",
+    "subject": "Newcomer family home",
+    "people": [
+      "Ella Strickler Newcomer",
+      "Virginia Newcomer Lane",
+      "Harry Newcomer",
+      "Clarence Newcomer",
+      "Emily Newcomer Eby"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ella-Newcomer",
+    "title": "Ella Newcomer",
+    "type": "photo",
+    "subject": "Ella Strickler Newcomer",
+    "people": [
+      "Ella Strickler Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Harry-and-Ella-Newcomer",
+    "title": "Harry and Ella Newcomer",
+    "type": "photo",
+    "subject": "Harry and Ella Newcomer 1916",
+    "people": [
+      "Ella Strickler Newcomer",
+      "Harry Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Clarence-Newcomer",
+    "title": "Clarence WWI",
+    "type": "photo",
+    "subject": "Clarence WWI",
+    "people": [
+      "Clarence Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Edward-Lane-Navy",
+    "title": "Edward WWII",
+    "type": "photo",
+    "subject": "Edward Lane WWII",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Edward-and-Virginia-Lane-young-couple",
+    "title": "Edward and Jinny on skis",
+    "type": "photo",
+    "subject": "Edward and Jinny Lane on skis",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Edward-and-Virginia-Lane-wedding",
+    "title": "Edward and Jinny wedding",
+    "type": "photo",
+    "subject": "Edward and Jinny wedding",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Elinor-and-Connie-Lane",
+    "title": "Elinor and Connie as little girls",
+    "type": "photo",
+    "subject": "Elinor and Connie as little girls",
+    "people": [
+      "Elinor Lane Warren",
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Lane-girls-chimney",
+    "title": "Elinor, Connie, Priscilla Christmas photo",
+    "type": "photo",
+    "subject": "Elinor, Connie, Priscilla Christmas photo",
+    "people": [
+      "Elinor Lane Warren",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Connie-Lane-skis",
+    "title": "Connie on skis",
+    "type": "photo",
+    "subject": "Connie on skis",
+    "people": [
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Lane-girls-2",
+    "title": "Elinor, Connie, Priscilla portrait",
+    "type": "photo",
+    "subject": "Elinor, Connie, Priscilla portrait",
+    "people": [
+      "Elinor Lane Warren",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Henry-and-Elizabeth-Newcomer-Miller-1898",
+    "title": "Henry and Elizabeth Newcomer Miller 1898",
+    "type": "photo",
+    "subject": "Henry and Elizabeth Newcomer Miller 1898",
+    "people": [
+      "Henry Miller",
+      "Elizabeth Newcomer Miller"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Christian-and-Maria-S-Newcomer-1899",
+    "title": "Christian and Maria S Newcomer 1899",
+    "type": "photo",
+    "subject": "Christian and Maria S Newcomer 1899",
+    "people": [
+      "Christian Newcomer",
+      "Maria S Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Phares-and-Emma-Newcomer-1904",
+    "title": "Phares and Emma Newcomer 1904",
+    "type": "photo",
+    "subject": "Phares and Emma Newcomer 1904",
+    "people": [
+      "Phares Newcomer",
+      "Emma Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Samuel-Newcomer",
+    "title": "Samuel Newcomer",
+    "type": "photo",
+    "subject": "Samuel Newcomer",
+    "people": [
+      "Samuel Newcomer"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Frances-Strickler-Haverstick",
+    "title": "Frances Strickler Haverstick",
+    "type": "photo",
+    "subject": "Frances Strickler Haverstick",
+    "people": [
+      "Frances Strickler Haverstick"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Croquet-Party-1872",
+    "title": "Croquet Party 1872",
+    "type": "document",
+    "subject": "Croquet party invitation",
+    "people": [],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "TRUE"
+  },
+  {
+    "filename": "Tom-Lane-young-boy-with-turtle",
+    "title": "Young Tom Lane",
+    "type": "photo",
+    "subject": "Young Tom Lane",
+    "people": [
+      "Thomas Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Tilo-with-guitar",
+    "title": "Tilo Braeutigam",
+    "type": "photo",
+    "subject": "Tilo Braeutigam during high school exchange",
+    "people": [
+      "Tilo Braeutigam"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Tom-Lane-boy-with-V-Lane",
+    "title": "Tom Lane as a little boy with his mother",
+    "type": "photo",
+    "subject": "Tom Lane as a little boy with his mother",
+    "people": [
+      "Tom Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Edward-Lane-with-young-Tom",
+    "title": "Tom Lane as a little boy with his father",
+    "type": "photo",
+    "subject": "Tom Lane as a little boy with his father",
+    "people": [
+      "Tom Lane",
+      "Edward Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Virginia-and-Ed-Lane-in-Cape-Cod",
+    "title": "Jinny and Ed Lane in later years at Cape Cod",
+    "type": "photo",
+    "subject": "Jinny and Ed Lane in later years at Cape Cod",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Christmas-at-Poplar-Ave-1970s",
+    "title": "Poplar Ave Christmas",
+    "type": "photo",
+    "subject": "Poplar Ave Christmas",
+    "people": [
+      "Peter Nissley",
+      "Constance Lane Nissley",
+      "Tom Lane",
+      "Priscilla Lane Kappes",
+      "Richard Warren",
+      "Elinor Lane Warren",
+      "Edward Lane",
+      "Virginia Newcomer Lane",
+      "Peter Warren",
+      "Virginia Warren Carr",
+      "David Warren",
+      "James R Warren",
+      "Thomas Nissley"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "202-Poplar-Ave---front",
+    "title": "Poplar Ave house - Front",
+    "type": "photo",
+    "subject": "Poplar Ave house - Front",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "202-Poplar-Ave---back",
+    "title": "Poplar Ave house - Garage",
+    "type": "photo",
+    "subject": "Poplar Ave house - Garage",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Lane-family-Cape-Cod",
+    "title": "Ed and Jinny Lane with adult children",
+    "type": "photo",
+    "subject": "Ed and Jinny Lane with adult children",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane",
+      "Elinor Lane Warren",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
+      "Thomas Lane"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Bob-Eby-and-family",
+    "title": "Bob and Connie Eby with adult children",
+    "type": "photo",
+    "subject": "Bob and Connie Eby with adult children",
+    "people": [
+      "Robert Eby",
+      "Constance Eby",
+      "Thomas Eby",
+      "Denise Eby",
+      "Susan Eby",
+      "Ken",
+      "Emiline Eby"
+    ],
+    "place": [
+      "Lititz"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ed-and-Virginia-Lane-at-90",
+    "title": "Ed and Jinny Lane at age 90",
+    "type": "photo",
+    "subject": "Ed and Jinny Lane at age 90",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Priscilla-at-Cape-Cod",
+    "title": "Priscilla at Cape Code",
+    "type": "photo",
+    "subject": "Priscilla Lane Kappes",
+    "people": [
+      "Priscilla Lane Kappes"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Anna-Baker",
+    "title": "Anna Baker, college friend of Jinny Lane",
+    "type": "photo",
+    "subject": "Anna Baker",
+    "people": [
+      "Anna Baker"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "552-Walker-Road",
+    "title": "Walker Road house in winter",
+    "type": "photo",
+    "subject": "552 Walker Road",
+    "people": [
+      "Richard Warren",
+      "Elinor Lane Warren",
+      "Peter Warren",
+      "Virginia Warren Carr",
+      "David Warren",
+      "James R Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Tilo-and-the-Lanes",
+    "title": "Tilo Braeutigam visits Ed and Jinny Lane",
+    "type": "photo",
+    "subject": "Tilo Braeutigam",
+    "people": [
+      "Tilo Braeutigam",
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Priscilla-at-Loom",
+    "title": "Priscilla weaving at her loom",
+    "type": "photo",
+    "subject": "Priscilla Lane Kappes",
+    "people": [
+      "Priscilla Lane Kappes"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Tom-Lane-1980",
+    "title": "Tom Lane on a ship",
+    "type": "photo",
+    "subject": "Thomas Lane",
+    "people": [
+      "Thomas Lane"
+    ],
+    "place": [
+      "St. Johns"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Lane-siblings-1990s",
+    "title": "Adult children of Ed and Jinny Lane",
+    "type": "photo",
+    "subject": "Adult children of Ed and Jinny Lane",
+    "people": [
+      "Elinor Lane Warren",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes",
+      "Thomas Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Tilo-Claudia-Bob-Connie",
+    "title": "Tilo visits the Ebys",
+    "type": "photo",
+    "subject": "Tilo and Claudia Braeutigam, Bob and Connie Eby",
+    "people": [
+      "Robert Eby",
+      "Constance Eby",
+      "Tilo Braeutigam",
+      "Claudia Braeutigam"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Jim-and-Drew-Warren",
+    "title": "Jim and a young Drew",
+    "type": "photo",
+    "subject": "Jim and Drew Warren",
+    "people": [
+      "James R Warren",
+      "Drew Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "202-Poplar-Ave---back-2",
+    "title": "Poplar Ave house - Front",
+    "type": "photo",
+    "subject": "Poplar Ave house - Front",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "DAR-form-for-Jonathan-Battles-with-typed-lineage",
+    "title": "DAR lineage for Jonathan Battles",
+    "type": "document",
+    "subject": "DAR lineage for Jonathan Battles",
+    "people": [
+      "Alice Lane Cabot",
+      "Jonathan Battles"
+    ],
+    "place": [
+      "Connecticut"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE"
+  },
+  {
+    "filename": "Benjamin-Porter-Battles-Sr",
+    "title": "Benjamin Porter Battles Sr",
+    "type": "photo",
+    "subject": "Benjamin Porter Battles Sr",
+    "people": [
+      "Benjamin Porter Battles Sr"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Charlotte-Smith-Battles",
+    "title": "Charlotte Smith Battles",
+    "type": "photo",
+    "subject": "Charlotte Smith Battles",
+    "people": [
+      "Charlotte Smith Battles"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Benjamin-Porter-Battles-Jr",
+    "title": "Benjamin Porter Battles Jr",
+    "type": "photo",
+    "subject": "Benjamin Porter Battles Jr",
+    "people": [
+      "Benjamin Porter Battles Jr"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Benjamin-and-Charlotte-Battles",
+    "title": "Benjamin and Charlotte Battles",
+    "type": "photo",
+    "subject": "Benjamin and Charlotte Battles",
+    "people": [
+      "Benjamin Porter Battles Sr",
+      "Charlotte Smith Battles"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Benjamin-Porter-Battles-Jr---2",
+    "title": "Benjamin Porter Battles Jr",
+    "type": "photo",
+    "subject": "Benjamin Porter Battles Jr",
+    "people": [
+      "Benjamin Porter Battles Jr"
+    ],
+    "place": [
+      "Graniteville SC"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ella-Battles-Lane-family-record",
+    "title": "Ella Battles notable family milestones",
+    "type": "document",
+    "subject": "Ella Battles Lane",
+    "people": [
+      "Ella Battles Lane"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "TRUE"
+  },
+  {
+    "filename": "Lucretia-Olds-Battles",
+    "title": "Lucretia Olds Battles",
+    "type": "photo",
+    "subject": "Lucretia Olds Battles",
+    "people": [
+      "Lucretia Olds Battles"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Florence-Battles",
+    "title": "Florence Battles",
+    "type": "photo",
+    "subject": "Florence Battles",
+    "people": [
+      "Florence Battles"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Charlotte-Smith-Battles---older",
+    "title": "Charlotte Smith Battles later in life",
+    "type": "photo",
+    "subject": "Charlotte Smith Battles",
+    "people": [
+      "Charlotte Smith Battles"
+    ],
+    "place": [
+      "Lowell"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Benjamin-Battles-letter-home-1851",
+    "title": "Benjamin Battles letter home from Cotton mill in 1851",
+    "type": "document",
+    "subject": "Benjamin Porter Battles Jr",
+    "people": [
+      "Benjamin Porter Battles Jr"
+    ],
+    "place": [
+      "Graniteville SC"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "TRUE"
+  },
+  {
+    "filename": "Anna-Weyhe-Lane-with-baby-Edward",
+    "title": "Anna Weyhe Lane with baby Edward",
+    "type": "photo",
+    "subject": "Anna Weyhe Lane with baby Edward",
+    "people": [
+      "Anna Weyhe Lane",
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Ed-and-Elinor-Lane-with-mother",
+    "title": "Ed and Elinor Lane with mother",
+    "type": "photo",
+    "subject": "Ed and Elinor Lane with mother",
+    "people": [
+      "Edward Lane",
+      "Elinor Lane MacGillivray",
+      "Anna Weyhe Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Walter-Lane-family-with-Jane-and-Will-Weyhe",
+    "title": "Walter Lane family with Jane and Will Weyhe",
+    "type": "photo",
+    "subject": "Walter Lane family with Jane and Will Weyhe",
+    "people": [
+      "Walter Lane",
+      "Edward Lane",
+      "Elinor Lane MacGillivray",
+      "Anna Weyhe Lane",
+      "Jane Thomas Weyhe",
+      "William A Weyhe"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Jane-Thomas-Weyhe-and-Edward-Lane",
+    "title": "Jane Thomas Weyhe and Edward Lane",
+    "type": "photo",
+    "subject": "Jane Thomas Weyhe and Edward Lane",
+    "people": [
+      "Jane Thomas Weyhe",
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Lori-Warren",
+    "title": "Lori Warren",
+    "type": "photo",
+    "subject": "Lori Warren",
+    "people": [
+      "Lori Hutwagner Warren"
+    ],
+    "place": [
+      "Eagleville"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "William-Weyhe-1888",
+    "title": "William Weyhe 1888",
+    "type": "photo",
+    "subject": "William Weyhe",
+    "people": [
+      "William Weyhe"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Jane-Thomas-Weyhe-1888",
+    "title": "Jane Thomas Weyhe 1888",
+    "type": "photo",
+    "subject": "Jane Thomas Weyhe",
+    "people": [
+      "Jane Thomas Weyhe"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Anna-Weyhe-Lane---young-woman",
+    "title": "Anna Weyhe Lane - young woman",
+    "type": "photo",
+    "subject": "Anna Lane in fancy hat",
+    "people": [
+      "Anna Weyhe Lane"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Anna-Will-Maude-Weyhe",
+    "title": "Anna Will Maude Weyhe",
+    "type": "photo",
+    "subject": "Anna Lane and siblings as kids",
+    "people": [
+      "Anna Weyhe Lane",
+      "William A Weyhe",
+      "Maude Weyhe"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Anna-and-Will-Weyhe-1876",
+    "title": "Anna and Will Weyhe 1876",
+    "type": "photo",
+    "subject": "Anna Lane in Centennial dress",
+    "people": [
+      "Anna Weyhe Lane",
+      "William A Weyhe"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Anna-Weyhe-Lane---little-girl",
+    "title": "Anna Weyhe Lane - little girl",
+    "type": "photo",
+    "subject": "Anna Lane as little girl",
+    "people": [
+      "Anna Weyhe Lane"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Maud-Weyhe",
+    "title": "Maude Weyhe",
+    "type": "photo",
+    "subject": "Maude Weyhe as young woman",
+    "people": [
+      "Maude Weyhe"
+    ],
+    "place": [
+      "Rockville CT"
+    ],
+    "time": "1850-1900",
+    "dateStart": "1850",
+    "dateEnd": "1900",
+    "orientation": "portrait",
+    "hasPDF": "FALSE"
+  },
+  {
+    "filename": "Richard-and-Elinor-Warren-wedding-with-parents",
+    "title": "Richard and Elinor Warren wedding with parents",
+    "type": "photo",
+    "subject": "Richard and Elinor Warren wedding with parents",
+    "people": [
+      "Richard Warren",
+      "Elinor Lane Warren",
+      "Henry Warren",
+      "Julia Furey Warren",
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE"
   }
 ]
