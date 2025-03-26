@@ -27,11 +27,13 @@ export default function PhotoModal(props){
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
-    const placeList = props.image.place.map(place => {
+    const placeList = props.image.place ? props.image.place.map(place => {
         return(
             <p key={props.image.filename + place}>{place}</p>
         )
-    }) 
+    }) : ''
+
+    console.log(placeList)
     
     //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
     const tryRequireModalPhoto = (path) => {
@@ -76,7 +78,7 @@ export default function PhotoModal(props){
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Place</h4>
-                            {placeList}
+                            {props.image.place && placeList}
                         </div>
                         <div className='photo-detail-group'>
                             <PeopleList 
