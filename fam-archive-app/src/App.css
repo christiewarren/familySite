@@ -200,6 +200,7 @@ nav{
 }
 
 .photo-grid-wrap{
+  position: relative;
 }
 
 .photo-grid{
@@ -332,7 +333,7 @@ nav{
   top: 20px;
   right: 20px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .photo-modal{
@@ -359,11 +360,12 @@ nav{
 
 .photo-modal-img{
   min-width: 0;
-  max-height: 95vh;
+  max-height: 80%;
   z-index: 10;
-  object-fit: cover;
+  object-fit: contain;
   /* max-width prevents image from covering up details button at smaller screen sizes */
   max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.30);
 }
 
 .photo-modal-detail-wrap{
@@ -378,6 +380,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .photo-detail-text-wrap{
@@ -477,28 +480,6 @@ nav{
   background-color: transparent;
 }
 
-@media (max-width: 769px) {
-  .photo-modal-wrap{
-    overflow-y: scroll;
-  }
-
-  .photo-modal{
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    max-height: unset;
-  }
-
-  .photo-modal-detail-wrap{
-    width: 100%;
-  }
-
-  .photo-detail-text-wrap{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
 .next-prev-button-position-wrap{
   position: absolute;
   bottom: 12px;
@@ -594,7 +575,36 @@ nav{
     margin: 0 20px;
     flex-wrap: wrap;
   }
+
+  .photo-modal-wrap{
+    align-items: baseline;
+  }
+
+  .photo-modal{
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    max-height: unset;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .photo-modal-detail-wrap{
+    width: 100%;
+  }
+
+  .photo-detail-text-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .photo-modal-img{
+    width: 100%;
+  }
 }
+
 
 .profile-details{
   flex-grow: 1;
