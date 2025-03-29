@@ -74,7 +74,7 @@ export default function PhotoModal(props){
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h4>Date</h4>
-                            <p>{props.image.time}</p>
+                            <p>{props.image.displayDate}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Place</h4>
