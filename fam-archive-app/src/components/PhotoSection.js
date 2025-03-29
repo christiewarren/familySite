@@ -25,6 +25,9 @@ export default function PhotoSection(props){
 
     const [imagesToRender, setImagesToRender] = React.useState(filteredImages)
 
+    //sorts full image array in descending order based on dateSpecific i.e. newer years show first
+    imagesToRender.sort((a,b) => parseInt(b.dateSpecific) - parseInt(a.dateSpecific))
+
     return(
         <div>
             <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.filterBy}</h3><hr className='date-divider-line'></hr></div>
