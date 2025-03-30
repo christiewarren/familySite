@@ -82,10 +82,10 @@ export default function Person(){
                 <div className='photo-grid-wrap'>
                     <div className='photo-grid'>
                         {/* render a photo section that's filtered by photos of this person */}
-                        <PhotoSection 
+                        {/* <PhotoSection 
                             filterType="person"
                             filterBy={person.fullName}
-                        />
+                        /> */}
                     </div>
                 </div>
             </div>
