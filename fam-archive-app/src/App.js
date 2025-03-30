@@ -22,7 +22,7 @@ function App() {
     </nav>
       <Routes>
         <Route path="/" element={<Home />}/>
-        <Route path="/photos" element={<PhotosPage />}/>
+        <Route path="/photos" element={<PhotosPage filterType="date" sections={["2000-2050", "1950-2000", "1900-1950", "1850-1900"]}/>}/>
         <Route path="/people" element={<PeopleDirectory />}/>
         <Route path="/people/:name" element={<Person />}/>
         <Route path="*" element={<NotFound />}/>
