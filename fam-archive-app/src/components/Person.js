@@ -7,6 +7,7 @@ import PeopleList from './PeopleList'
 import downArrow from '../assets/down-arrow.svg'
 import noPhotoFound from '../assets/no-photo-found.svg'
 import PhotoSection from "./PhotoSection";
+import PhotosPage from "./PhotosPage";
 
 
 export default function Person(){
@@ -82,9 +83,9 @@ export default function Person(){
                 <div className='photo-grid-wrap'>
                     <div className='photo-grid'>
                         {/* render a photo section that's filtered by photos of this person */}
-                        <PhotoSection 
+                        <PhotosPage 
                             filterType="person"
-                            filterBy={person.fullName}
+                            sections={[person.fullName]}
                         />
                     </div>
                 </div>

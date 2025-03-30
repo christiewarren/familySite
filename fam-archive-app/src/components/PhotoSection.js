@@ -13,24 +13,15 @@ import PhotoGrid from './PhotoGrid'
 
 
 export default function PhotoSection(props){
-    let filteredImages = []
-
-    //if the section filter type is person, filter the images to only include ones with that person in them
-    //if the section filter type is date, filter the images to only include ones with the given date (aka time)
-    if(props.filterType == "person"){
-        filteredImages = images.filter((image) => image.people.includes(props.filterBy))
-    }else if(props.filterType == "date"){
-        filteredImages = images.filter((image) => image.time == props.filterBy)
-    }
-
-    const [imagesToRender, setImagesToRender] = React.useState(filteredImages)
 
     return(
         <div>
-            <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.filterBy}</h3><hr className='date-divider-line'></hr></div>
+            <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.sectionTitle}</h3><hr className='date-divider-line'></hr></div>
             <PhotoGrid 
-                imagesToRender={imagesToRender}
+                filteredImages={props.filteredImages}
+                openPhotoModal={props.openPhotoModal}
             />
+            
         </div>
     )
 }
