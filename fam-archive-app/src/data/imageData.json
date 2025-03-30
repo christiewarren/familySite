@@ -15,7 +15,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1901",
+    "displayDate": "1901",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "A-Weyhe-Lane---Certificate-of-Death",
@@ -23,9 +27,7 @@
     "type": "document",
     "subject": "A Weyhe Lane life",
     "people": [
-      "Anna Weyhe Lane",
-      "Walter Lane",
-      "Edward Lane"
+      "Anna Weyhe Lane"
     ],
     "place": [
       "Spencer"
@@ -34,10 +36,14 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "cewarren801@gmail.com: anything highlighted yellow is a changed tag",
+    "dateSpecific": "1948",
+    "displayDate": "1948",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
-    "filename": "Barbara-Thomas-Listman",
+    "filename": "Barbara Thomas Listman",
     "title": "Barbara Thomas Listman",
     "type": "photo",
     "subject": "Barbara sister of Jane Thomas Weyhe",
@@ -51,7 +57,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1913",
+    "displayDate": "1913",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Carlisle-Unitarian-Church",
@@ -59,7 +69,6 @@
     "type": "photo",
     "subject": "W Lane ministry",
     "people": [
-      "Anna Weyhe Lane",
       "Walter Lane"
     ],
     "place": [
@@ -69,7 +78,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1902",
+    "displayDate": "1902",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Lane---When-I-was-a-boy",
@@ -89,7 +102,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Lane---Young-boy",
@@ -97,8 +114,6 @@
     "type": "photo",
     "subject": "E Lane life",
     "people": [
-      "Anna Weyhe Lane",
-      "Walter Lane",
       "Edward Lane"
     ],
     "place": [
@@ -108,7 +123,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1910",
+    "displayDate": "1910",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Lane---Young-man",
@@ -116,8 +135,6 @@
     "type": "photo",
     "subject": "E Lane life",
     "people": [
-      "Anna Weyhe Lane",
-      "Walter Lane",
       "Edward Lane"
     ],
     "place": [
@@ -127,7 +144,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1925",
+    "displayDate": "1925",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Lane---Young-siblings",
@@ -135,9 +156,8 @@
     "type": "photo",
     "subject": "E Lane life",
     "people": [
-      "Anna Weyhe Lane",
-      "Walter Lane",
-      "Edward Lane"
+      "Edward Lane",
+      "Elinor Lane MacIllivray"
     ],
     "place": [
       "Spencer"
@@ -146,7 +166,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1910",
+    "displayDate": "1910",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: Some dates like this are best guess, based on how old the kids look to me."
   },
   {
     "filename": "E-Warren---adult",
@@ -163,7 +187,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2006",
+    "displayDate": "2006",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Warren---child",
@@ -180,7 +208,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1940",
+    "displayDate": "1940",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Warren---parade",
@@ -198,7 +230,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2002",
+    "displayDate": "2002",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Warren---with-grandparents-2",
@@ -209,7 +245,7 @@
       "Elinor Lane Warren",
       "Anna Weyhe Lane",
       "Walter Lane",
-      "Connie Lane Nissley",
+      "Constance Lane Nissley",
       "Priscilla Lane Kappes"
     ],
     "place": [
@@ -219,7 +255,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1940",
+    "displayDate": "1940",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "EU-Lane",
@@ -236,7 +276,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1900",
+    "displayDate": "1900",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "E-Warren---with-grandparents-1",
@@ -255,7 +299,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1930",
+    "displayDate": "1930",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Grandma-100th-birthday",
@@ -274,7 +322,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2006",
+    "displayDate": "2006",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Harry-and-Julia-Warren",
@@ -292,7 +344,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1940",
+    "displayDate": "1940-1950",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "James-Warren-1st-bird-journal",
@@ -313,7 +369,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2002",
+    "displayDate": "2002",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Jane-Thomas-Weyhe",
@@ -330,7 +390,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1913",
+    "displayDate": "1913",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Jenny-Thomas-Peter-Thomas-John-Thomas-Barbara-Listman",
@@ -350,7 +414,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1913",
+    "displayDate": "1913",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "John-Thomas",
@@ -367,7 +435,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1913",
+    "displayDate": "1913",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Maude-Weyhe",
@@ -384,7 +456,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1901",
+    "displayDate": "1901",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Maude-Weyhe-bride",
@@ -401,7 +477,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1901",
+    "displayDate": "1901",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Maude-Weyhe-Carl-and-Maude-Presby",
@@ -418,7 +498,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1890",
+    "displayDate": "1890",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Maude-Weyhe-Maude-Presby",
@@ -435,7 +519,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1940",
+    "displayDate": "1940",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Obit-for-Edward-E-Lane",
@@ -446,7 +534,7 @@
       "Edward Lane",
       "Virginia Newcomer Lane",
       "Elinor Lane Warren",
-      "Connie Lane Nissley",
+      "Constance Lane Nissley",
       "Priscilla Lane Kappes",
       "Thomas Lane"
     ],
@@ -459,7 +547,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2004",
+    "displayDate": "2004",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Papa---Memorial-Remarks",
@@ -468,8 +560,7 @@
     "subject": "David Warren remarks for Edward Lane memorial service",
     "people": [
       "Edward Lane",
-      "David Warren",
-      "Virginia Newcomer Lane"
+      "David Warren"
     ],
     "place": [
       "Wayne",
@@ -479,7 +570,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2004",
+    "displayDate": "2004",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-Thomas",
@@ -496,7 +591,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1913",
+    "displayDate": "1913",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tom-Lane---Obituary",
@@ -504,9 +603,7 @@
     "type": "document",
     "subject": "Tom Lane obituary",
     "people": [
-      "Thomas Lane",
-      "Edward Lane",
-      "Virginia Newcomer Lane"
+      "Thomas Lane"
     ],
     "place": [
       "Wayne",
@@ -516,7 +613,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2019",
+    "displayDate": "2019",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-and-E-Lane-Wedding",
@@ -534,7 +635,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1934",
+    "displayDate": "1934",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---Charley-George-and-Loly",
@@ -551,7 +656,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---Choosing-a-College",
@@ -560,17 +669,7 @@
     "subject": "Virginia Lane stories of family",
     "people": [
       "Virginia Newcomer Lane",
-      "Emily Newcomer Eby",
-      "Edward Lane",
-      "Connie Lane Nissley",
-      "Peter Nissley",
-      "Tom Nissley",
-      "Elinor Nissley",
-      "Peter Warren",
-      "Ginny Warren Carr",
-      "Priscilla Lane Kappes",
-      "Joji Kappes",
-      "Guojing Kappes"
+      "Emily Newcomer Eby"
     ],
     "place": [
       "Mt Joy",
@@ -582,7 +681,11 @@
     "dateStart": "1900",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---Memorial-Day---Early-1900s",
@@ -603,7 +706,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---Memorial-Day-1989",
@@ -614,9 +721,9 @@
       "Virginia Newcomer Lane",
       "Edward Lane",
       "Elinor Lane Warren",
-      "Connie Lane Nissley",
+      "Constance Lane Nissley",
       "Priscilla Lane Kappes",
-      "Tom Lane"
+      "Thomas Lane"
     ],
     "place": [
       "Wayne",
@@ -626,7 +733,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1989",
+    "displayDate": "1989",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---New-chapter-at-1-S-Market",
@@ -646,7 +757,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---Recollections-of-Childhood",
@@ -666,7 +781,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "V-Lane---The-Young-Man-and-The-Tramp",
@@ -684,7 +803,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-Lane---Stories-from-My-Mother",
@@ -703,7 +826,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-Newcomer-Lane---Obituary",
@@ -714,9 +841,9 @@
       "Virginia Newcomer Lane",
       "Edward Lane",
       "Elinor Lane Warren",
-      "Connie Lane Nissley",
+      "Constance Lane Nissley",
       "Priscilla Lane Kappes",
-      "Tom Lane"
+      "Thomas Lane"
     ],
     "place": [
       "Mt Joy",
@@ -726,7 +853,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2011",
+    "displayDate": "2011",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Bemis-Farm-Recollection",
@@ -745,7 +876,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Certificate-of-Death",
@@ -764,7 +899,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1945",
+    "displayDate": "1945",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Christmas-Sermon",
@@ -784,7 +923,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Elinor-reflects-on-sermons",
@@ -804,7 +947,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1981",
+    "displayDate": "1981",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Resignation---2nd-Unitarian-Church---Athol-MA",
@@ -822,7 +969,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Sermon-1895",
@@ -842,7 +993,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1895",
+    "displayDate": "1895",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---chamber-orchestra",
@@ -861,7 +1016,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "landscape",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1884",
+    "displayDate": "1884",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Groom",
@@ -880,7 +1039,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1902",
+    "displayDate": "1902",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Installation-as-Carlisle-Unitarian-minister",
@@ -900,7 +1063,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1902",
+    "displayDate": "1902",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Marriage-announcement",
@@ -919,7 +1086,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1902",
+    "displayDate": "1902",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Marriage-certificate",
@@ -937,7 +1108,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1902",
+    "displayDate": "1902",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Ordination-2nd-Unitarian-Church---Athol-MA",
@@ -957,7 +1132,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1892",
+    "displayDate": "1892",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "W-Lane---Seminary",
@@ -976,7 +1155,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1885",
+    "displayDate": "1885",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Walter-Lane",
@@ -993,7 +1176,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1886",
+    "displayDate": "1886",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Will-Weyhe-and-Gammie-Weyhe",
@@ -1015,7 +1202,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1912",
+    "displayDate": "1912",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Will-Weyhe",
@@ -1032,7 +1223,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1886",
+    "displayDate": "1886",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "GlenniesIceCream",
@@ -1049,7 +1244,11 @@
     "dateStart": "1950",
     "dateEnd": "1900",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1948",
+    "displayDate": "1940-1950",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Warren-1970-Easter",
@@ -1071,7 +1270,11 @@
     "dateStart": "1950",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1970",
+    "displayDate": "1970",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Richard-Harry-Warren",
@@ -1089,7 +1292,11 @@
     "dateStart": "1900",
     "dateEnd": "1900",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Gertrude-Lane-letter-to-Mama-about-White-House-visit",
@@ -1107,7 +1314,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Gertrude-Lane-Invitation-to-White-House-1931",
@@ -1124,7 +1335,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-1",
@@ -1145,7 +1360,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-2",
@@ -1166,7 +1385,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-3",
@@ -1187,7 +1410,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-4",
@@ -1208,7 +1435,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Gertrude-Lane-Crowell-Publishing-Board",
@@ -1225,7 +1456,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1940",
+    "displayDate": "1940",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Gertrude-Lane-date-TBD",
@@ -1242,7 +1477,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1930",
+    "displayDate": "1930",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Gertrude-Lane-Apt-and-Xmas-Card-1925",
@@ -1259,7 +1498,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1925",
+    "displayDate": "1925",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Sophie-Kerr-1925",
@@ -1268,8 +1511,7 @@
     "subject": "Sophie Kerr and Useless the Cat",
     "people": [
       "Sophie Kerr",
-      "Gertrude Battles Lane",
-      "Useless the Cat"
+      "Gertrude Battles Lane"
     ],
     "place": [
       "New York"
@@ -1278,7 +1520,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1925",
+    "displayDate": "1925",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "R-E-Warren-Young-Couple",
@@ -1296,7 +1542,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1970",
+    "displayDate": "1970",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "David-Warren---Adult",
@@ -1313,7 +1563,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "2010",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "James-Warren---Adult",
@@ -1330,7 +1584,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2017",
+    "displayDate": "2017",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Kathryn-Warren---Adult",
@@ -1347,7 +1605,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2020",
+    "displayDate": "2020",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-and-Edward-Lane",
@@ -1365,7 +1627,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2002",
+    "displayDate": "2002",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Connie-and-Peter-Nissley",
@@ -1373,17 +1639,21 @@
     "type": "photo",
     "subject": "Connie and Peter",
     "people": [
-      "Connie Lane Nissley",
+      "Constance Lane Nissley",
       "Peter Nissley"
     ],
     "place": [
       "Wayne"
     ],
-    "time": "1950-2000",
+    "time": "2000-2020",
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2008",
+    "displayDate": "2008",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "LoriAnne",
@@ -1400,7 +1670,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2005",
+    "displayDate": "2000-2010",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor",
@@ -1417,7 +1691,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-LoriAnne-and-Phoebe---2",
@@ -1436,7 +1714,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Nissley-Carr",
@@ -1460,7 +1742,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2023",
+    "displayDate": "2023",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor-Phoebe-and-Lane",
@@ -1479,7 +1765,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1999",
+    "displayDate": "1999",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-and-Elinor",
@@ -1497,7 +1787,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-and-Phoebe",
@@ -1515,7 +1809,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Jing",
@@ -1532,7 +1830,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "David-and-Elinor",
@@ -1550,7 +1852,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2023",
+    "displayDate": "2023",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "David-and-James",
@@ -1568,7 +1874,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2022",
+    "displayDate": "2022",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-LoriAnne-Phoebe",
@@ -1587,7 +1897,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elly-in-1950s",
@@ -1604,7 +1918,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1950",
+    "displayDate": "1950",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ginny-birthday",
@@ -1621,7 +1939,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1964",
+    "displayDate": "1964",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ginny-Carr-as-child",
@@ -1638,7 +1960,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1972",
+    "displayDate": "1972",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "James-R-Warren-soccer",
@@ -1655,7 +1981,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1977",
+    "displayDate": "1977",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-Ginny-David-Spot",
@@ -1674,7 +2004,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1968",
+    "displayDate": "1968",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Peter-Warren-as-young-adult",
@@ -1691,7 +2025,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1990",
+    "displayDate": "1990",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Warren-Lane-Nissley-XMas",
@@ -1721,7 +2059,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1982",
+    "displayDate": "1982",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Winter-Ginny",
@@ -1738,7 +2080,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1973",
+    "displayDate": "1973",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-Ed--2",
@@ -1756,7 +2102,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1970",
+    "displayDate": "1970",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-Ed-Elinor-Jim",
@@ -1776,7 +2126,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1991",
+    "displayDate": "1991",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-Ed-Lane-50-Anniversary",
@@ -1794,7 +2148,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1984",
+    "displayDate": "1984",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor-Lane-McGillivray",
@@ -1811,7 +2169,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1991",
+    "displayDate": "1991",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "famous-baseball-pitch",
@@ -1830,7 +2192,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1973",
+    "displayDate": "1973",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elly-cheerleader",
@@ -1847,7 +2213,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1953",
+    "displayDate": "1953",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Harry-Newcomer-and-siblings",
@@ -1869,7 +2239,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1930",
+    "displayDate": "1930",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ella-Strickler-Newcomer",
@@ -1886,7 +2260,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1935",
+    "displayDate": "1935",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "MacGillivray-1",
@@ -1904,7 +2282,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor-MacGillivray-1",
@@ -1921,7 +2303,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Strawberry-Hill-home",
@@ -1934,7 +2320,11 @@
     "dateStart": "",
     "dateEnd": "",
     "orientation": "",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1930",
+    "displayDate": "1930",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor-Lane-McGillivray-and-mother",
@@ -1952,7 +2342,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "MacGillivray-2",
@@ -1970,7 +2364,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor-MacGillivray-Ella-Battles-Lane",
@@ -1988,7 +2386,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-Newcomer-1930",
@@ -2005,7 +2407,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1930",
+    "displayDate": "1930",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "John-Strickler-and-Anna-Gable-Strickler",
@@ -2023,7 +2429,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Mary-Zeager-Virginia-Newcomer",
@@ -2041,7 +2451,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1910",
+    "displayDate": "1910",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Newcomer-kids",
@@ -2060,7 +2474,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1912",
+    "displayDate": "1912",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ella-Newcomer-and-Virginia",
@@ -2078,7 +2496,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1912",
+    "displayDate": "1912",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "1-S-Market-St-Mount-Joy",
@@ -2099,7 +2521,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1910",
+    "displayDate": "1910",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ella-Newcomer",
@@ -2116,7 +2542,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1920",
+    "displayDate": "1920",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Harry-and-Ella-Newcomer",
@@ -2134,7 +2564,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1924",
+    "displayDate": "1924",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Clarence-Newcomer",
@@ -2151,7 +2585,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1917",
+    "displayDate": "1917",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Edward-Lane-Navy",
@@ -2168,7 +2606,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1944",
+    "displayDate": "1944",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Edward-and-Virginia-Lane-young-couple",
@@ -2186,7 +2628,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1934",
+    "displayDate": "1934",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Edward-and-Virginia-Lane-wedding",
@@ -2204,7 +2650,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1934",
+    "displayDate": "1934",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Elinor-and-Connie-Lane",
@@ -2222,7 +2672,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1941",
+    "displayDate": "1941",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Lane-girls-chimney",
@@ -2241,7 +2695,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1942",
+    "displayDate": "1942",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Connie-Lane-skis",
@@ -2258,7 +2716,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1943",
+    "displayDate": "1943",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Lane-girls-2",
@@ -2277,7 +2739,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1946",
+    "displayDate": "1946",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Henry-and-Elizabeth-Newcomer-Miller-1898",
@@ -2295,7 +2761,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1898",
+    "displayDate": "1898",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Christian-and-Maria-S-Newcomer-1899",
@@ -2313,7 +2783,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1899",
+    "displayDate": "1899",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Phares-and-Emma-Newcomer-1904",
@@ -2331,7 +2805,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1904",
+    "displayDate": "1904",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Samuel-Newcomer",
@@ -2348,7 +2826,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1904",
+    "displayDate": "1904",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Frances-Strickler-Haverstick",
@@ -2365,7 +2847,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1875",
+    "displayDate": "1875",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Croquet-Party-1872",
@@ -2380,7 +2866,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1872",
+    "displayDate": "1872",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tom-Lane-young-boy-with-turtle",
@@ -2397,7 +2887,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1955",
+    "displayDate": "1955",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tilo-with-guitar",
@@ -2414,7 +2908,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1963",
+    "displayDate": "1963",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tom-Lane-boy-with-V-Lane",
@@ -2422,7 +2920,7 @@
     "type": "photo",
     "subject": "Tom Lane as a little boy with his mother",
     "people": [
-      "Tom Lane",
+      "Thomas Lane",
       "Virginia Newcomer Lane"
     ],
     "place": [
@@ -2432,7 +2930,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1952",
+    "displayDate": "1952",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Edward-Lane-with-young-Tom",
@@ -2440,7 +2942,7 @@
     "type": "photo",
     "subject": "Tom Lane as a little boy with his father",
     "people": [
-      "Tom Lane",
+      "Thomas Lane",
       "Edward Lane"
     ],
     "place": [
@@ -2450,7 +2952,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1951",
+    "displayDate": "1951",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Virginia-and-Ed-Lane-in-Cape-Cod",
@@ -2468,7 +2974,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1986",
+    "displayDate": "1986",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Christmas-at-Poplar-Ave-1970s",
@@ -2478,7 +2988,7 @@
     "people": [
       "Peter Nissley",
       "Constance Lane Nissley",
-      "Tom Lane",
+      "Thomas Lane",
       "Priscilla Lane Kappes",
       "Richard Warren",
       "Elinor Lane Warren",
@@ -2497,7 +3007,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1969",
+    "displayDate": "1969",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "202-Poplar-Ave---front",
@@ -2515,7 +3029,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "202-Poplar-Ave---back",
@@ -2533,7 +3051,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Lane-family-Cape-Cod",
@@ -2555,7 +3077,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1990",
+    "displayDate": "1990",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Bob-Eby-and-family",
@@ -2578,7 +3104,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1995",
+    "displayDate": "1995",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ed-and-Virginia-Lane-at-90",
@@ -2596,7 +3126,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1996",
+    "displayDate": "1996",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Priscilla-at-Cape-Cod",
@@ -2613,7 +3147,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1990",
+    "displayDate": "1990",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Anna-Baker",
@@ -2630,7 +3168,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1985",
+    "displayDate": "1985",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "552-Walker-Road",
@@ -2652,7 +3194,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tilo-and-the-Lanes",
@@ -2671,7 +3217,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1996",
+    "displayDate": "1996",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Priscilla-at-Loom",
@@ -2688,7 +3238,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1970",
+    "displayDate": "1970",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tom-Lane-1980",
@@ -2705,7 +3259,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Lane-siblings-1990s",
@@ -2725,7 +3283,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1990",
+    "displayDate": "1990",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Tilo-Claudia-Bob-Connie",
@@ -2745,7 +3307,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1996",
+    "displayDate": "1996",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Jim-and-Drew-Warren",
@@ -2763,7 +3329,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2009",
+    "displayDate": "2009",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "202-Poplar-Ave---back-2",
@@ -2781,7 +3351,11 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "DAR-form-for-Jonathan-Battles-with-typed-lineage",
@@ -2799,7 +3373,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1930",
+    "displayDate": "1930",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Benjamin-Porter-Battles-Sr",
@@ -2816,7 +3394,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1850",
+    "displayDate": "1850",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Charlotte-Smith-Battles",
@@ -2833,7 +3415,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1850",
+    "displayDate": "1850",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Benjamin-Porter-Battles-Jr",
@@ -2850,7 +3436,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1860",
+    "displayDate": "1860",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Benjamin-and-Charlotte-Battles",
@@ -2868,7 +3458,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1850",
+    "displayDate": "1850",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Benjamin-Porter-Battles-Jr---2",
@@ -2885,7 +3479,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1865",
+    "displayDate": "1865",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ella-Battles-Lane-family-record",
@@ -2902,7 +3500,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1865",
+    "displayDate": "1865",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Lucretia-Olds-Battles",
@@ -2919,7 +3521,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1900",
+    "displayDate": "1900",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Florence-Battles",
@@ -2936,7 +3542,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1880",
+    "displayDate": "1880",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Charlotte-Smith-Battles---older",
@@ -2953,7 +3563,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1880",
+    "displayDate": "1880",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Benjamin-Battles-letter-home-1851",
@@ -2970,7 +3584,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "TRUE"
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1851",
+    "displayDate": "1851",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Anna-Weyhe-Lane-with-baby-Edward",
@@ -2988,7 +3606,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1906",
+    "displayDate": "1906",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Ed-and-Elinor-Lane-with-mother",
@@ -3007,7 +3629,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1924",
+    "displayDate": "1924",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Walter-Lane-family-with-Jane-and-Will-Weyhe",
@@ -3029,7 +3655,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1910",
+    "displayDate": "1910",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Jane-Thomas-Weyhe-and-Edward-Lane",
@@ -3047,7 +3677,11 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1907",
+    "displayDate": "1907",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Lori-Warren",
@@ -3064,7 +3698,11 @@
     "dateStart": "2000",
     "dateEnd": "2050",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2016",
+    "displayDate": "2016",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "William-Weyhe-1888",
@@ -3081,7 +3719,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1888",
+    "displayDate": "1888",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Jane-Thomas-Weyhe-1888",
@@ -3098,7 +3740,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1888",
+    "displayDate": "1888",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Anna-Weyhe-Lane---young-woman",
@@ -3115,7 +3761,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1896",
+    "displayDate": "1896",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Anna-Will-Maude-Weyhe",
@@ -3134,7 +3784,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1877",
+    "displayDate": "1877",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Anna-and-Will-Weyhe-1876",
@@ -3152,7 +3806,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1876",
+    "displayDate": "1876",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Anna-Weyhe-Lane---little-girl",
@@ -3169,7 +3827,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1878",
+    "displayDate": "1878",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Maud-Weyhe",
@@ -3186,7 +3848,11 @@
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1901",
+    "displayDate": "1901",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
     "filename": "Richard-and-Elinor-Warren-wedding-with-parents",
@@ -3208,6 +3874,476 @@
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
-    "hasPDF": "FALSE"
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1958",
+    "displayDate": "1958",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Alex-MacInnes",
+    "title": "Alex MacInnes",
+    "type": "photo",
+    "subject": "Alex",
+    "people": [
+      "Alex MacInnes"
+    ],
+    "place": [
+      "Los Angeles"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "cewarren801@gmail.com: new photos from here down",
+    "dateSpecific": "2022",
+    "displayDate": "2022",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Connie-and-Pete-young-couple",
+    "title": "Connie and Peter as young adults",
+    "type": "photo",
+    "subject": "Connie and Peter",
+    "people": [
+      "Constance Lane Nissley",
+      "Peter Nissley"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1960",
+    "displayDate": "1960",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Courtney-and-Jodi-Warren",
+    "title": "Courtney and Jodi",
+    "type": "photo",
+    "subject": "Courtney and Jodi",
+    "people": [
+      "Courtney Warren",
+      "Jodi Young Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2023",
+    "displayDate": "2023",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Drew-Warren",
+    "title": "Drew Warren",
+    "type": "photo",
+    "subject": "Drew Warren",
+    "people": [
+      "Drew Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Elinor-Nissley-1",
+    "title": "Elinor Nissley",
+    "type": "photo",
+    "subject": "Elinor Nissley",
+    "people": [
+      "Elinor Nissley"
+    ],
+    "place": [
+      "Los Angeles"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Elinor-Nissley-2",
+    "title": "Elinor Nissley",
+    "type": "photo",
+    "subject": "Elinor Nissley",
+    "people": [
+      "Elinor Nissley"
+    ],
+    "place": [
+      "Los Angeles"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Elinor-Nissley-Alex-MacInnes",
+    "title": "Elinor and Alex",
+    "type": "photo",
+    "subject": "Elinor and Alex",
+    "people": [
+      "Elinor Nissley",
+      "Alex MacInnes"
+    ],
+    "place": [
+      "Los"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Henry-Silverstein",
+    "title": "Henry Silverstein",
+    "type": "photo",
+    "subject": "Henry Silverstein",
+    "people": [
+      "Henry Silverstein"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Jim-Jodi-Kenzie-Warren",
+    "title": "Jim Jodi and Kenzie Warren",
+    "type": "photo",
+    "subject": "Jim Jodi and Kenzie Warren",
+    "people": [
+      "James R Warren",
+      "Jodi Young Warren",
+      "Kenzie Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Jim-Warren-family-2",
+    "title": "Jim Warren and Family",
+    "type": "photo",
+    "subject": "Jim Warren and Family",
+    "people": [
+      "James R Warren",
+      "Jodi Young Warren",
+      "Kenzie Warren",
+      "Courtney Warren",
+      "Drew Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Jim-Warren-family-1",
+    "title": "Jim Warren and Family",
+    "type": "photo",
+    "subject": "Jim Warren and Family",
+    "people": [
+      "James R Warren",
+      "Jodi Young Warren",
+      "Kenzie Warren",
+      "Courtney Warren",
+      "Drew Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Kenzie-warren",
+    "title": "Kenzie Warren",
+    "type": "photo",
+    "subject": "Kenzie",
+    "people": [
+      "Kenzie Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Nissley-Ave",
+    "title": "Nissley Ave in Mount Joy",
+    "type": "photo",
+    "subject": "Nissley Ave in Mount Joy",
+    "people": [
+      "Elinor Nissley",
+      "Thomas Nissley",
+      "Peter Silverstein",
+      "Henry Silverstein"
+    ],
+    "place": [
+      "Mount Joy"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Nissleys-in-LA",
+    "title": "Nissleys at Elinor's new house",
+    "type": "photo",
+    "subject": "Nissleys at Elinor's new house",
+    "people": [
+      "Elinor Nissley",
+      "Constance Lane Nissley",
+      "Thomas Nissley",
+      "Peter Silverstein",
+      "Peter Nissley"
+    ],
+    "place": [
+      "Los Angeles"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2000",
+    "displayDate": "2000",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Peter-and-young-Tom-Nissley",
+    "title": "Peter Nissley and Tom",
+    "type": "photo",
+    "subject": "Peter Nissley and Tom",
+    "people": [
+      "Peter Nissley",
+      "Thomas Nissley"
+    ],
+    "place": [
+      "Bethesda"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1970",
+    "displayDate": "1970",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Peter-Elinor-Nissley",
+    "title": "Peter Nissley and Elinor",
+    "type": "photo",
+    "subject": "Peter Nissley and Elinor",
+    "people": [
+      "Peter Nissley",
+      "Elinor Nissley"
+    ],
+    "place": [
+      "Bethesda"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1973",
+    "displayDate": "1973",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Peter-Nissley-1",
+    "title": "Peter Nissley",
+    "type": "photo",
+    "subject": "Peter Nissley",
+    "people": [
+      "Peter Nissley"
+    ],
+    "place": [
+      "Bethesda"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1980",
+    "displayDate": "1980",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Peter-Silverstein-and-Jing",
+    "title": "Peter and Jing",
+    "type": "photo",
+    "subject": "Peter and Jing",
+    "people": [
+      "Peter Silverstein",
+      "Guo-Jing Kappes"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Priscilla-in-snow",
+    "title": "Priscilla walking in snow",
+    "type": "photo",
+    "subject": "Priscilla walking in snow",
+    "people": [
+      "Priscilla Lane Kappes"
+    ],
+    "place": [
+      "Portland"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Tom-and-Elinor-at-market",
+    "title": "Tom and Elinor at the Strafford farmers market",
+    "type": "photo",
+    "subject": "Tom and Elinor at the farmers market",
+    "people": [
+      "Thomas Nissley",
+      "Elinor Nissley"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Tom-Nissley-and-Laura-Silverstein",
+    "title": "Tom and Laura",
+    "type": "photo",
+    "subject": "Tom and Laura",
+    "people": [
+      "Thomas Nissley",
+      "Laura Silverstein"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2024",
+    "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   }
 ]

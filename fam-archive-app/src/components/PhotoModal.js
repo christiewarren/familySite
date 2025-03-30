@@ -27,13 +27,28 @@ export default function PhotoModal(props){
         detailsPanel.classList.toggle('panel-is-closed')
     }
 
-    const placeList = props.image.place ? props.image.place.map(place => {
+    function changeModalImage(nextOrPrev){
+    //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
+        props.setSelectedImage((prevSelectedImage) => {
+            let prevSelectedIndex = props.allImagesToRender.indexOf(prevSelectedImage)
+
+            if(nextOrPrev == 'previous'){
+                props.setArrowButtonsDisabled(prevSelectedIndex - 1)
+                return props.allImagesToRender[prevSelectedIndex - 1]
+            }  else{
+                props.setArrowButtonsDisabled(prevSelectedIndex + 1)
+                return props.allImagesToRender[prevSelectedIndex + 1]
+            }
+        })
+
+    }
+
+    const placeList = props.selectedImage.place ? props.selectedImage.place.map(place => {
         return(
-            <p key={props.image.filename + place}>{place}</p>
+            <p key={props.selectedImage.filename + place}>{place}</p>
         )
     }) : ''
 
-    console.log(placeList)
     
     //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
     const tryRequireModalPhoto = (path) => {
@@ -66,24 +81,24 @@ export default function PhotoModal(props){
             <div onClick={props.toggleModalFunction} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <img 
-                    src={tryRequireModalPhoto(props.image.filename)}
-                    alt={props.image.title} 
+                    src={tryRequireModalPhoto(props.selectedImage.filename)}
+                    alt={props.selectedImage.title} 
                     className='photo-modal-img' 
                     id='photo-modal-img'/>
                 <div id='details-panel' className='photo-modal-detail-wrap'>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h4>Date</h4>
-                            <p>{props.image.time}</p>
+                            <p>{props.selectedImage.displayDate}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Place</h4>
-                            {props.image.place && placeList}
+                            {props.selectedImage.place && placeList}
                         </div>
                         <div className='photo-detail-group'>
                             <PeopleList 
                                 title='people'
-                                contents={props.image.people}
+                                contents={props.selectedImage.people}
                             />
                         </div>
                         {/* <div className='photo-detail-group'>
@@ -92,8 +107,8 @@ export default function PhotoModal(props){
                         </div> */}
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
-                    {props.image.hasPDF == "TRUE" && 
-                        <a className='button-primary' href={tryRequirePDFLink(props.image.filename)} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                    {props.selectedImage.hasPDF == "TRUE" && 
+                        <a className='button-primary' href={tryRequirePDFLink(props.selectedImage.filename)} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
                     }
                 
                 </div>
@@ -101,8 +116,8 @@ export default function PhotoModal(props){
             </div>
             <div className='next-prev-button-position-wrap'>
                 <div className='next-prev-button-bg-wrap'>
-                    <button id='prev-photo-button' onClick={() => props.changeFunction('previous')}><img src={leftArrow}></img></button>
-                    <button id='next-photo-button' onClick={() => props.changeFunction('next')}><img src={rightArrow}></img></button>
+                    <button id='prev-photo-button' onClick={() => changeModalImage('previous')}><img src={leftArrow}></img></button>
+                    <button id='next-photo-button' onClick={() => changeModalImage('next')}><img src={rightArrow}></img></button>
                 </div>
             </div>
         </div>
