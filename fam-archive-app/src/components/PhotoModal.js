@@ -33,25 +33,14 @@ export default function PhotoModal(props){
             let prevSelectedIndex = props.allImagesToRender.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
-                setArrowButtonsDisabled(prevSelectedIndex - 1)
+                props.setArrowButtonsDisabled(prevSelectedIndex - 1)
                 return props.allImagesToRender[prevSelectedIndex - 1]
             }  else{
-                setArrowButtonsDisabled(prevSelectedIndex + 1)
+                props.setArrowButtonsDisabled(prevSelectedIndex + 1)
                 return props.allImagesToRender[prevSelectedIndex + 1]
             }
         })
 
-    }
-
-    function setArrowButtonsDisabled(selectedIndex){
-        //isFirstImage and isLastImage are booleans that check if the selected index is 0 or one less than the length of images array, respectively. the disabled attribute of each button is set to the boolean of the respective case: so if the selected image is the first image, prevModalButton will be disabled
-        const prevModalButton = document.getElementById('prev-photo-button')
-        const nextModalButton = document.getElementById('next-photo-button')
-        let isFirstImage = selectedIndex == 0
-        let isLastImage = selectedIndex == props.allImagesToRender.length - 1
-
-        prevModalButton.disabled = isFirstImage
-        nextModalButton.disabled = isLastImage
     }
 
     const placeList = props.selectedImage.place ? props.selectedImage.place.map(place => {

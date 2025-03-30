@@ -16,7 +16,7 @@ export default function PhotoSection(props){
 
     return(
         <div>
-            <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.filterBy}</h3><hr className='date-divider-line'></hr></div>
+            <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.sectionTitle}</h3><hr className='date-divider-line'></hr></div>
             <PhotoGrid 
                 filteredImages={props.filteredImages}
                 openPhotoModal={props.openPhotoModal}
