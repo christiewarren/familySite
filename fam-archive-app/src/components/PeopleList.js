@@ -16,7 +16,7 @@ export default function PeopleList(props){
                 state={personObject} 
                 className='photo-person-link link'
                 key={personObject.birth + personObject.fullName}
-                onClick={() => props.setPerson(personObject)}
+                onClick={props.isInModal ? props.togglePhotoModal : null}            
             >
                     
             {person}</Link>)

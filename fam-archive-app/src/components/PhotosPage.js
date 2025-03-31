@@ -81,12 +81,10 @@ export default function PhotosPage(props){
             selectedImage = {selectedImage}
             setSelectedImage = {setSelectedImage}
             //pass the  modal toggle function to close the modal when x and overlay are clicked
-            toggleModalFunction = {togglePhotoModal}
+            togglePhotoModal = {togglePhotoModal}
             //pass state of isModalVisible as a boolean to determine which className photo modal has (photo-modal-is-visible or photo-modal-is-hidden)
             isModalVisible = {isModalVisible}
-            allImagesToRender={allImagesToRender}
             // setArrowButtonsDisabled={setArrowButtonsDisabled}
-            filteredImages={filteredImages}
             isPrevButtonDisabled={photoSet.indexOf(selectedImage) == 0}
             isNextButtonDisabled={photoSet.indexOf(selectedImage) == photoSet.length - 1}
             photoSet={photoSet}

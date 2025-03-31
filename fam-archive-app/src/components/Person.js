@@ -1,7 +1,7 @@
 import React from "react";
 import images from '../data/imageData.json'
 import Thumbnail from "./Thumbnail";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link, useParams } from "react-router-dom";
 import people from "../data/peopleData.json";
 import PeopleList from './PeopleList'
 import downArrow from '../assets/down-arrow.svg'
@@ -12,7 +12,14 @@ import PhotosPage from "./PhotosPage";
 
 export default function Person(){
     // const person = useLocation().state
-    const [person, setPerson] = React.useState(useLocation().state)
+    // const [person, setPerson] = React.useState(useLocation().state)  
+    
+    const {name} = useParams()
+
+    const [personFirstName, personLastName] = name.split('-')
+    const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)
+
+
     const fullName = person.fullName
 
     //filter all images by those that include this person
@@ -62,21 +69,21 @@ export default function Person(){
                             <PeopleList
                                 title='children' 
                                 contents={person.children}
-                                setPerson={setPerson}
+                                isInModal={false}
                             />
                         </div>}
                         {person.siblings && <div className="parents-wrap">
                             <PeopleList
                                 title='parents' 
                                 contents={person.parents}
-                                setPerson={setPerson}
+                                isInModal={false}
                             />
                         </div>}
                         {person.siblings && <div className="siblings-wrap">
                             <PeopleList
                                 title='siblings' 
                                 contents={person.siblings}
-                                setPerson={setPerson}
+                                isInModal={false}
                             />
                         </div>}
                     </div>
@@ -88,7 +95,6 @@ export default function Person(){
                     <div className='photo-grid'>
                         {/* render a photo section that's filtered by photos of this person */}
                         <PhotosPage 
-                            listenTo={person}
                             filterDetails={{
                                 isFiltered: true,
                                 filterType: "person",
