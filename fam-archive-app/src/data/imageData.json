@@ -98,7 +98,7 @@
     "place": [
       "Spencer"
     ],
-    "time": "1900-1950",
+    "time": "1950-2000",
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
@@ -183,7 +183,7 @@
     "place": [
       "Wayne"
     ],
-    "time": "1950-2000",
+    "time": "2000-2050",
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
@@ -226,7 +226,7 @@
     "place": [
       "Wayne"
     ],
-    "time": "1950-2000",
+    "time": "2000-2050",
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
@@ -386,7 +386,7 @@
     "place": [
       "Spencer"
     ],
-    "time": "1850-1900",
+    "time": "1900-1950",
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
@@ -652,7 +652,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1850-1900",
+    "time": "1950-2000",
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
@@ -702,7 +702,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1900-1950",
+    "time": "1950-2000",
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
@@ -753,7 +753,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1900-1950",
+    "time": "1950-2000",
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
@@ -777,7 +777,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1900-1950",
+    "time": "1950-2000",
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
@@ -799,7 +799,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1850-1900",
+    "time": "1950-2000",
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
@@ -822,7 +822,7 @@
     "place": [
       "Mt Joy"
     ],
-    "time": "1850-1900",
+    "time": "1950-2000",
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
@@ -872,7 +872,7 @@
     "place": [
       "Spencer"
     ],
-    "time": "1900-1950",
+    "time": "1950-2000",
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
@@ -925,7 +925,7 @@
     "orientation": "portrait",
     "hasPDF": "TRUE",
     "": "",
-    "dateSpecific": "",
+    "dateSpecific": "1825",
     "displayDate": "",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
@@ -971,7 +971,7 @@
     "orientation": "portrait",
     "hasPDF": "TRUE",
     "": "",
-    "dateSpecific": "",
+    "dateSpecific": "1875",
     "displayDate": "",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
@@ -1240,7 +1240,7 @@
     "place": [
       "Lowell"
     ],
-    "time": "1950-2000",
+    "time": "1900-1950",
     "dateStart": "1950",
     "dateEnd": "1900",
     "orientation": "landscape",
@@ -1623,7 +1623,7 @@
     "place": [
       "Wayne"
     ],
-    "time": "1950-2000",
+    "time": "2000-2050",
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
@@ -2316,10 +2316,10 @@
     "subject": "Strawberry Hill",
     "people": [],
     "place": [],
-    "time": "",
+    "time": "1900-1950",
     "dateStart": "",
     "dateEnd": "",
-    "orientation": "",
+    "orientation": "landscape",
     "hasPDF": "FALSE",
     "": "",
     "dateSpecific": "1930",
@@ -2431,7 +2431,7 @@
     "orientation": "landscape",
     "hasPDF": "FALSE",
     "": "",
-    "dateSpecific": "",
+    "dateSpecific": "1825",
     "displayDate": "",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
@@ -3325,7 +3325,7 @@
     "place": [
       "Wayne"
     ],
-    "time": "1950-2000",
+    "time": "2000-2050",
     "dateStart": "1950",
     "dateEnd": "2000",
     "orientation": "landscape",
@@ -3844,7 +3844,7 @@
     "place": [
       "Rockville CT"
     ],
-    "time": "1850-1900",
+    "time": "1900-1950",
     "dateStart": "1850",
     "dateEnd": "1900",
     "orientation": "portrait",
