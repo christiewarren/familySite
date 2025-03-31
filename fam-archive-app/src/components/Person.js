@@ -11,7 +11,8 @@ import PhotosPage from "./PhotosPage";
 
 
 export default function Person(){
-    const person = useLocation().state
+    // const person = useLocation().state
+    const [person, setPerson] = React.useState(useLocation().state)
     const fullName = person.fullName
 
     //filter all images by those that include this person
@@ -61,18 +62,21 @@ export default function Person(){
                             <PeopleList
                                 title='children' 
                                 contents={person.children}
+                                setPerson={setPerson}
                             />
                         </div>}
                         {person.siblings && <div className="parents-wrap">
                             <PeopleList
                                 title='parents' 
                                 contents={person.parents}
+                                setPerson={setPerson}
                             />
                         </div>}
                         {person.siblings && <div className="siblings-wrap">
                             <PeopleList
                                 title='siblings' 
                                 contents={person.siblings}
+                                setPerson={setPerson}
                             />
                         </div>}
                     </div>
@@ -84,8 +88,12 @@ export default function Person(){
                     <div className='photo-grid'>
                         {/* render a photo section that's filtered by photos of this person */}
                         <PhotosPage 
-                            filterType="person"
-                            sections={[person.fullName]}
+                            listenTo={person}
+                            filterDetails={{
+                                isFiltered: true,
+                                filterType: "person",
+                                sections: [person.fullName]
+                            }}
                         />
                     </div>
                 </div>
