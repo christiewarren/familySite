@@ -74,11 +74,11 @@ export default function PhotoModal(props){
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
             {/* when modal x is clicked, run the click function passed in, which is togglePhotoModal */}
-            <div onClick={props.toggleModalFunction} id='close-modal-button'>
+            <div onClick={props.togglePhotoModal} id='close-modal-button'>
                 <img src={closeX}></img>
             </div>
             {/* when modal overlay is clicked, run the click function passed in, which is togglePhotoModal */}
-            <div onClick={props.toggleModalFunction} className='photo-modal-overlay'></div>
+            <div onClick={props.togglePhotoModal} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <img 
                     src={tryRequireModalPhoto(props.selectedImage.filename)}
@@ -99,7 +99,8 @@ export default function PhotoModal(props){
                             <PeopleList 
                                 title='people'
                                 contents={props.selectedImage.people}
-                                setPerson={() => console.log('test')}
+                                isInModal={true}
+                                togglePhotoModal={props.togglePhotoModal}
                             />
                         </div>
                         {/* <div className='photo-detail-group'>
