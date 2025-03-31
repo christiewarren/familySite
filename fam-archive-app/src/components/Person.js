@@ -68,8 +68,11 @@ export default function Person(){
                     <hr className="profile-divider"></hr>
                     <div className="relationships">
                         {person.spouse && <div className="spouse-wrap">
-                            <h4>Spouse</h4>
-                            <p>{person.spouse}</p>
+                            <PeopleList
+                                title='spouse' 
+                                contents={[person.spouse]}
+                                isInModal={false}
+                            />
                         </div>}
                         {person.children[0] && <div className="children-wrap">
                             <PeopleList
@@ -78,14 +81,14 @@ export default function Person(){
                                 isInModal={false}
                             />
                         </div>}
-                        {person.siblings && <div className="parents-wrap">
+                        {person.parents[0] && <div className="parents-wrap">
                             <PeopleList
                                 title='parents' 
                                 contents={person.parents}
                                 isInModal={false}
                             />
                         </div>}
-                        {person.siblings && <div className="siblings-wrap">
+                        {person.siblings[0] && <div className="siblings-wrap">
                             <PeopleList
                                 title='siblings' 
                                 contents={person.siblings}
