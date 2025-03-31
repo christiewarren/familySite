@@ -30,14 +30,14 @@ export default function PhotoModal(props){
     function changeModalImage(nextOrPrev){
     //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
         props.setSelectedImage((prevSelectedImage) => {
-            let prevSelectedIndex = props.allImagesToRender.indexOf(prevSelectedImage)
+            let prevSelectedIndex = props.photoSet.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
-                props.setArrowButtonsDisabled(prevSelectedIndex - 1)
-                return props.allImagesToRender[prevSelectedIndex - 1]
+                // props.setArrowButtonsDisabled(prevSelectedIndex - 1)
+                return props.photoSet[prevSelectedIndex - 1]
             }  else{
-                props.setArrowButtonsDisabled(prevSelectedIndex + 1)
-                return props.allImagesToRender[prevSelectedIndex + 1]
+                // props.setArrowButtonsDisabled(prevSelectedIndex + 1)
+                return props.photoSet[prevSelectedIndex + 1]
             }
         })
 
@@ -99,6 +99,7 @@ export default function PhotoModal(props){
                             <PeopleList 
                                 title='people'
                                 contents={props.selectedImage.people}
+                                setPerson={() => console.log('test')}
                             />
                         </div>
                         {/* <div className='photo-detail-group'>
@@ -116,8 +117,8 @@ export default function PhotoModal(props){
             </div>
             <div className='next-prev-button-position-wrap'>
                 <div className='next-prev-button-bg-wrap'>
-                    <button id='prev-photo-button' onClick={() => changeModalImage('previous')}><img src={leftArrow}></img></button>
-                    <button id='next-photo-button' onClick={() => changeModalImage('next')}><img src={rightArrow}></img></button>
+                    <button id='prev-photo-button' onClick={() => changeModalImage('previous')} disabled={props.isPrevButtonDisabled}><img src={leftArrow}></img></button>
+                    <button id='next-photo-button' onClick={() => changeModalImage('next')} disabled={props.isNextButtonDisabled}><img src={rightArrow}></img></button>
                 </div>
             </div>
         </div>
