@@ -1,7 +1,8 @@
 import React from 'react';
-import noPhotoFound from '../assets/no-photo-found.svg'
 
 export default function Thumbnail(props){
+
+    const noPhotoFound = "https://lanefamilysite.s3.us-east-2.amazonaws.com/no-photo-found.svg"
 
     //return require(src) if possible. otherwise, return the no photo found image
     // const tryRequire = (path) => {

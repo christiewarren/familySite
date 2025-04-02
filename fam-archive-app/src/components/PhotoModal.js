@@ -2,10 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
-import noPhotoFound from '../assets/no-photo-found.svg'
 
 export default function PhotoModal(props){
-
+    
+    const noPhotoFound = "https://lanefamilysite.s3.us-east-2.amazonaws.com/no-photo-found.svg"
     const closeX = "https://lanefamilysite.s3.us-east-2.amazonaws.com/close-x.svg"
     const leftArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/left-arrow.svg"
     const rightArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/right-arrow.svg"
