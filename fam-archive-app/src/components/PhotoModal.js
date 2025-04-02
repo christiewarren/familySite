@@ -1,13 +1,14 @@
 import React from 'react'
-import closeX from '../assets/close-x.svg'
-import leftArrow from '../assets/left-arrow.svg'
-import rightArrow from '../assets/right-arrow.svg'
 import { Link } from 'react-router-dom'
 import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
 import noPhotoFound from '../assets/no-photo-found.svg'
 
 export default function PhotoModal(props){
+
+    const closeX = "https://lanefamilysite.s3.us-east-2.amazonaws.com/close-x.svg"
+    const leftArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/left-arrow.svg"
+    const rightArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/right-arrow.svg"
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
@@ -51,24 +52,24 @@ export default function PhotoModal(props){
 
     
     //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
-    const tryRequireModalPhoto = (path) => {
-        try {
-         return require('../assets/' + path + '.jpg');
-        } catch (err) {
-        console.log(err);
-         return noPhotoFound;
-        }
-      }
+    // const tryRequireModalPhoto = (path) => {
+    //     try {
+    //      return require('../assets/' + path + '.jpg');
+    //     } catch (err) {
+    //     console.log(err);
+    //      return noPhotoFound;
+    //     }
+    //   }
 
     
     //return require(src) if possible. otherwise, return empty string (def a better way to catch missing pdfs)
-    const tryRequirePDFLink = (path) => {
-        try {
-        return require('../assets/pdfs/' + path + '.pdf');
-        } catch (err) {
-        return "";
-        }
-    }
+    // const tryRequirePDFLink = (path) => {
+    //     try {
+    //     return require('../assets/pdfs/' + path + '.pdf');
+    //     } catch (err) {
+    //     return "";
+    //     }
+    // }
 
 
     return(
@@ -81,7 +82,7 @@ export default function PhotoModal(props){
             <div onClick={props.togglePhotoModal} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <img 
-                    src={tryRequireModalPhoto(props.selectedImage.filename)}
+                    src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + props.selectedImage.filename + ".jpg"}
                     alt={props.selectedImage.title} 
                     className='photo-modal-img' 
                     id='photo-modal-img'/>
@@ -110,7 +111,7 @@ export default function PhotoModal(props){
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
                     {props.selectedImage.hasPDF == "TRUE" && 
-                        <a className='button-primary' href={tryRequirePDFLink(props.selectedImage.filename)} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                        <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + props.selectedImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
                     }
                 
                 </div>

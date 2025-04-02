@@ -5,8 +5,6 @@ import Thumbnail from "./Thumbnail";
 import { useLocation, Link, useParams } from "react-router-dom";
 import people from "../data/peopleData.json";
 import PeopleList from './PeopleList'
-import downArrow from '../assets/down-arrow.svg'
-import noPhotoFound from '../assets/no-photo-found.svg'
 import PhotoSection from "./PhotoSection";
 import PhotosPage from "./PhotosPage";
 
@@ -14,6 +12,10 @@ import PhotosPage from "./PhotosPage";
 export default function Person(){
     // const person = useLocation().state
     // const [person, setPerson] = React.useState(useLocation().state)  
+
+    const noPhotoFound = "https://lanefamilysite.s3.us-east-2.amazonaws.com/no-photo-found.svg"
+    const downArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/down-arrow.svg"
+
     
     const {name} = useParams()
 
@@ -44,14 +46,14 @@ export default function Person(){
         )
         })
 
-    const tryRequireProfilePhoto = (path) => {
-        try {
-            return require('../assets/profilePhotos/' + path + '.jpg');
-        } catch (err) {
-        console.log(err);
-            return noPhotoFound;
-        }
-    }
+    // const tryRequireProfilePhoto = (path) => {
+    //     try {
+    //         return require('../assets/profilePhotos/' + path + '.jpg');
+    //     } catch (err) {
+    //     console.log(err);
+    //         return noPhotoFound;
+    //     }
+    // }
 
 
 
@@ -59,8 +61,7 @@ export default function Person(){
         <div className="person-wrap">
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
-                {<img src={tryRequireProfilePhoto(person.profilePhoto)} className="person-card-photo"/>}
-                {/* {<img src={noPhotoFound} className="profile-photo"/>} */}
+                {<img src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/profilePhotos/" + person.profilePhoto + ".jpg"} className="person-card-photo"/>}
                 </div>
                 <div className="profile-details">
                     <h1>{fullName}</h1>

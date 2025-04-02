@@ -1,8 +1,8 @@
 import React from "react";
-import closeX from '../assets/close-x.svg'
-
 
 export default function PhotoFilters(props){
+
+    const closeX = "https://lanefamilysite.s3.us-east-2.amazonaws.com/close-x.svg"
 
     function handleChange(event) {
         const docCheckbox = document.getElementById('doc-checkbox').checked
