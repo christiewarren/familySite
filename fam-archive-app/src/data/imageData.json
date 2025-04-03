@@ -61,7 +61,7 @@
     "": "",
     "dateSpecific": "1913",
     "displayDate": "1913",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: this file looks ok but has a broken link on the site"
   },
   {
     "filename": "Carlisle-Unitarian-Church",
@@ -685,7 +685,7 @@
     "": "",
     "dateSpecific": "1980",
     "displayDate": "1980",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: just uploaded this document in PDF format to dropbox"
   },
   {
     "filename": "V-Lane---Memorial-Day---Early-1900s",
@@ -1063,7 +1063,7 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE",
+    "hasPDF": "FALSE",
     "": "",
     "dateSpecific": "1902",
     "displayDate": "1902",
@@ -1086,7 +1086,7 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE",
+    "hasPDF": "FALSE",
     "": "",
     "dateSpecific": "1902",
     "displayDate": "1902",
@@ -1108,7 +1108,7 @@
     "dateStart": "1900",
     "dateEnd": "1950",
     "orientation": "portrait",
-    "hasPDF": "TRUE",
+    "hasPDF": "FALSE",
     "": "",
     "dateSpecific": "1902",
     "displayDate": "1902",
@@ -2155,7 +2155,7 @@
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
-    "filename": "Elinor-Lane-McGillivray",
+    "filename": "Elinor Lane McGillivray",
     "title": "Elinor Lane MacGillivray",
     "type": "photo",
     "subject": "Elinor Lane MacGillivray",
@@ -2173,7 +2173,7 @@
     "": "",
     "dateSpecific": "1991",
     "displayDate": "1991",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: might have been a typo in the file name in Column A. I corrected it, and the file is in dropbox"
   },
   {
     "filename": "famous-baseball-pitch",
@@ -3723,7 +3723,7 @@
     "": "",
     "dateSpecific": "1888",
     "displayDate": "1888",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: this file had not loaded for some reason. it is not in dropbox"
   },
   {
     "filename": "Jane-Thomas-Weyhe-1888",
@@ -3744,7 +3744,7 @@
     "": "",
     "dateSpecific": "1888",
     "displayDate": "1888",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: this file had not loaded for some reason. it is not in dropbox"
   },
   {
     "filename": "Anna-Weyhe-Lane---young-woman",
@@ -3878,7 +3878,7 @@
     "": "",
     "dateSpecific": "1958",
     "displayDate": "1958",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "cewarren801@gmail.com: realized i had not uploaded this photo so i just loaded it to dropbox"
   },
   {
     "filename": "Alex-MacInnes",
@@ -4344,6 +4344,623 @@
     "": "",
     "dateSpecific": "2024",
     "displayDate": "2024",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane-high-school-graduation-1923",
+    "title": "Edward Lane commencement program",
+    "type": "document",
+    "subject": "Edward Lane high school commencement",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "New batch of documents cewarren801@gmail.com"
+  },
+  {
+    "filename": "Edward-Lane-Radio-Journal-1923",
+    "title": "Edward Lane radio journal",
+    "type": "document",
+    "subject": "Edward Lane radio journal",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane-Boston-Globe-article-1923",
+    "title": "Boston Globe article about Ed Lane radio",
+    "type": "document",
+    "subject": "Boston Globe article about Ed Lane radio",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane-radio-log-1923",
+    "title": "Edward Lane log of radio stations",
+    "type": "document",
+    "subject": "Edward Lane log of radio stations",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane-radio-map",
+    "title": "Edward Lane map of radio stations",
+    "type": "document",
+    "subject": "Edward Lane map of radio stations",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "KHJ-LA-Radio-letter-to-Edward-Lane---HAM-Radio",
+    "title": "Letter from LA radio station to Ed Lane",
+    "type": "document",
+    "subject": "Letter from LA radio station to Ed Lane",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane-high-school-class",
+    "title": "Ed Lane high school class photo",
+    "type": "photo",
+    "subject": "Ed Lane high school class photo",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1923",
+    "displayDate": "1923",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Richard-Warren---November-2022-eulogy",
+    "title": "David Warren eulogy for Richard",
+    "type": "document",
+    "subject": "David Warren eulogy for father",
+    "people": [
+      "David Warren",
+      "Richard Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "2022",
+    "displayDate": "2022",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": "Mar 31 uploads cewarren801@gmail.com"
+  },
+  {
+    "filename": "On-another-sunday-morning-with-pix",
+    "title": "Poem about David Warren and Edward Lane",
+    "type": "document",
+    "subject": "Poem by David Warren",
+    "people": [
+      "David Warren",
+      "Edward Lane"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1999",
+    "displayDate": "1999",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Summer-smoke",
+    "title": "Poem by David Warren about family cookouts",
+    "type": "document",
+    "subject": "Poem by David Warren",
+    "people": [
+      "David Warren"
+    ],
+    "place": [
+      "Wayne"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1998",
+    "displayDate": "1998",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane---Baseball-journal---1924",
+    "title": "Ed Lane journal about first baseball games",
+    "type": "document",
+    "subject": "Ed Lane baseball journal",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1924",
+    "displayDate": "1924",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Edward-Lane-baseball-newspaper-clippings-1924",
+    "title": "Ed Lane clippings from 1920s baseball",
+    "type": "document",
+    "subject": "Ed Lane baseball clippings",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1924",
+    "displayDate": "1924",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-remembrance-by-Crowell-Publishing-1941",
+    "title": "Gertrude Lane remembrance by Crowell Publishing 1941",
+    "type": "document",
+    "subject": "Crowell honors Gertrude Lane",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1941",
+    "displayDate": "1941",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-Portland-Telegram-profile-1940",
+    "title": "Gertrude Lane Portland Telegram profile 1940",
+    "type": "document",
+    "subject": "Gertrude Lane 1940 profile",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1940",
+    "displayDate": "1940",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-White-House-telegram-1931",
+    "title": "Gertrude Lane White House telegram 1931",
+    "type": "document",
+    "subject": "Gertrude Lane White House telegram",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1931",
+    "displayDate": "1931",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-remembrance-by-Edna-Ferber-1941",
+    "title": "Gertrude Lane remembrance by Edna Ferber 1941",
+    "type": "document",
+    "subject": "Gertrude Lane remembrance",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1941",
+    "displayDate": "1941",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-NY-Post-Profile-1929",
+    "title": "Gertrude Lane NY Post Profile 1929",
+    "type": "document",
+    "subject": "Gertrude Lane 1929 profile",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1929",
+    "displayDate": "1929",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-becomes-VP-of-Crowell-Publishing-1929",
+    "title": "Gertrude Lane becomes VP of Crowell Publishing 1929",
+    "type": "document",
+    "subject": "Gertrude Lane VP announcement",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1929",
+    "displayDate": "1929",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-NY-Telegram-profile-1929",
+    "title": "Gertrude Lane NY Telegram profile 1929",
+    "type": "photo",
+    "subject": "Gertrude Lane 1929 profile",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1929",
+    "displayDate": "1929",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-Christmas-card-1939",
+    "title": "Gertrude Lane Christmas card 1939",
+    "type": "document",
+    "subject": "Gertrude Lane Christmas Card",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1939",
+    "displayDate": "1939",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-home-conservation-profile-1917",
+    "title": "Gertrude Lane home conservation profile 1917",
+    "type": "document",
+    "subject": "Gertrude Lane 1917 profile",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1917",
+    "displayDate": "1917",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Hoover-appoints-Gertrude-Lane-1918",
+    "title": "Hoover appoints Gertrude Lane 1918",
+    "type": "document",
+    "subject": "Gertrude Lane Hoover appointment",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1918",
+    "displayDate": "1918",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-Biddeford-Journal-Profile-1936",
+    "title": "Gertrude Lane Biddeford Journal Profile 1936",
+    "type": "document",
+    "subject": "Gertrude Lane 1936 profile",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1936",
+    "displayDate": "1936",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-speech-1919",
+    "title": "Gertrude Lane speech 1919",
+    "type": "document",
+    "subject": "Gertrude Lane 1919 speech",
+    "people": [
+      "Gertrude Lane"
+    ],
+    "place": [
+      "New York"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1919",
+    "displayDate": "1919",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Annie-Lane-letter-to-Mama-Lane-1937",
+    "title": "Annie Lane letter to Mama Lane 1937",
+    "type": "document",
+    "subject": "Annie Lane letter",
+    "people": [
+      "Anna Weyhe Lane",
+      "Ella Battles Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1937",
+    "displayDate": "1937",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Ernest-Peabody-poem-about-Mama-Lane-1937",
+    "title": "Ernest Peabody poem about Mama Lane 1937",
+    "type": "document",
+    "subject": "Mama Lane poem",
+    "people": [
+      "Ella Battles Lane"
+    ],
+    "place": [
+      "Newtonville",
+      "CT"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1937",
+    "displayDate": "1937",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Gertrude-Lane-bday-poem-for-Mama-1937",
+    "title": "Gertrude Lane bday poem for Mama 1937",
+    "type": "document",
+    "subject": "Mama Lane poem",
+    "people": [
+      "Ella Battles Lane",
+      "Gertrude Lane"
+    ],
+    "place": [
+      "Newtonville",
+      "CT"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1937",
+    "displayDate": "1937",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Ella-Battles-Lane-1922",
+    "title": "Ella Battles Lane 1922",
+    "type": "photo",
+    "subject": "Ella Battles Lane portrait",
+    "people": [
+      "Ella Battles Lane"
+    ],
+    "place": [
+      "Newtonville",
+      "CT"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1922",
+    "displayDate": "1922",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "Ella-Battles-Lane-Obit-1938",
+    "title": "Ella Battles Lane Obit 1938",
+    "type": "document",
+    "subject": "Ella Battles Lane obit",
+    "people": [
+      "Ella Battles Lane"
+    ],
+    "place": [
+      "Newtonville",
+      "CT"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1938",
+    "displayDate": "1938",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   }
 ]
