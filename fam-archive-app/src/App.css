@@ -190,7 +190,11 @@ nav{
 
 .date-divider-title{
   margin-right: 2rem;
-  color: var(--dark-forest-green);
+  color: var(--light-forest-green);
+  font-size: 2.5rem;
+  font-family: "Averia Serif Libre", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .date-divider-line{
