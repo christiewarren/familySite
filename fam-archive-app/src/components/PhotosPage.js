@@ -74,7 +74,7 @@ export default function PhotosPage(props){
     
     
     return(
-        <div>
+        <div className='photos-page'>
             {sections}  
             <PhotoModal
             // pass the selected image object

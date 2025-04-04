@@ -237,6 +237,10 @@ nav{
   border-color: #07768318;
 }
 
+.photos-page{
+  padding-bottom: 4rem;
+}
+
 .photo-grid-wrap{
   position: relative;
 }
@@ -451,7 +455,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .photo-detail-text-wrap{
