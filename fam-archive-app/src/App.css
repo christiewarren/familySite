@@ -182,8 +182,8 @@ nav{
 .homepage-wrap{
   display: flex;
   justify-content: center;
-  height: 80vh;
   align-items: center;
+  margin-top: 6rem;
 }
 
 .homepage-text-wrap{
@@ -194,6 +194,22 @@ nav{
 @media (max-width: 950px) {
   .homepage-text-wrap{
     width: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-text-wrap{
+    width: 90%;
+  }
+
+  h5{
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .homepage-wrap{
+    margin-top: 2rem;
   }
 }
 
