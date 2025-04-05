@@ -12,10 +12,9 @@ export default function PhotoModal(props){
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
-    function togglePhotoModalDetails(){
+    const [isDetailsPanelClosed, setIsDetailsPanelClosed] = React.useState(false)
 
-        let detailsPanel = document.getElementById('details-panel')
-        
+    function togglePhotoModalDetails(){        
 
         // toggle button text between exand and collapse
         if (detailsPanelBtnText === 'Collapse'){
@@ -25,7 +24,7 @@ export default function PhotoModal(props){
         }
 
         //toggle panel-is-closed class, which adds negative margin and removes padding
-        detailsPanel.classList.toggle('panel-is-closed')
+        setIsDetailsPanelClosed((prevIsDetailsPanelClosed) => !prevIsDetailsPanelClosed)
     }
 
     function changeModalImage(nextOrPrev){
@@ -71,7 +70,6 @@ export default function PhotoModal(props){
     //     }
     // }
 
-
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
             {/* when modal x is clicked, run the click function passed in, which is togglePhotoModal */}
@@ -86,7 +84,7 @@ export default function PhotoModal(props){
                     alt={props.selectedImage.title} 
                     className='photo-modal-img' 
                     id='photo-modal-img'/>
-                <div id='details-panel' className='photo-modal-detail-wrap'>
+                <div id='details-panel' className={'photo-modal-detail-wrap' + (isDetailsPanelClosed ? ' panel-is-closed' : '')}>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h4>Date</h4>

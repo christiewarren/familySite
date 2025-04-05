@@ -440,7 +440,7 @@ nav{
   object-fit: contain;
   /* max-width prevents image from covering up details button at smaller screen sizes */
   max-width: 100%;
-  background-color: rgba(0, 0, 0, 0.30);
+  background-color: #f8f1e8;
 }
 
 .photo-modal-detail-wrap{
