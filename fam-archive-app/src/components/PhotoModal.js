@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
+import { useSearchParams, useParams } from 'react-router-dom'
 
 export default function PhotoModal(props){
     
@@ -13,6 +14,11 @@ export default function PhotoModal(props){
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
     const [isDetailsPanelClosed, setIsDetailsPanelClosed] = React.useState(false)
+
+    const [searchParams, setSearchParams] = useSearchParams();
+
+    const openImage = searchParams.get('image') 
+    const image = props.photoSet.find((image) => image.filename == openImage)
 
     function togglePhotoModalDetails(){        
 
@@ -33,9 +39,11 @@ export default function PhotoModal(props){
             let prevSelectedIndex = props.photoSet.indexOf(prevSelectedImage)
 
             if(nextOrPrev == 'previous'){
+                props.setSearchParams({modal: true, image: props.photoSet[prevSelectedIndex - 1].filename})
                 // props.setArrowButtonsDisabled(prevSelectedIndex - 1)
                 return props.photoSet[prevSelectedIndex - 1]
             }  else{
+                props.setSearchParams({modal: true, image: props.photoSet[prevSelectedIndex + 1].filename})
                 // props.setArrowButtonsDisabled(prevSelectedIndex + 1)
                 return props.photoSet[prevSelectedIndex + 1]
             }
@@ -43,32 +51,12 @@ export default function PhotoModal(props){
 
     }
 
-    const placeList = props.selectedImage.place ? props.selectedImage.place.map(place => {
+    const placeList = image.place ? image.place.map(place => {
         return(
-            <p key={props.selectedImage.filename + place}>{place}</p>
+            <p key={image.filename + place}>{place}</p>
         )
     }) : ''
 
-    
-    //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
-    // const tryRequireModalPhoto = (path) => {
-    //     try {
-    //      return require('../assets/' + path + '.jpg');
-    //     } catch (err) {
-    //     console.log(err);
-    //      return noPhotoFound;
-    //     }
-    //   }
-
-    
-    //return require(src) if possible. otherwise, return empty string (def a better way to catch missing pdfs)
-    // const tryRequirePDFLink = (path) => {
-    //     try {
-    //     return require('../assets/pdfs/' + path + '.pdf');
-    //     } catch (err) {
-    //     return "";
-    //     }
-    // }
 
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
@@ -80,24 +68,24 @@ export default function PhotoModal(props){
             <div onClick={props.togglePhotoModal} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <img 
-                    src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + props.selectedImage.filename + ".jpg"}
-                    alt={props.selectedImage.title} 
+                    src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + image.filename + ".jpg"}
+                    alt={image.title} 
                     className='photo-modal-img' 
                     id='photo-modal-img'/>
                 <div id='details-panel' className={'photo-modal-detail-wrap' + (isDetailsPanelClosed ? ' panel-is-closed' : '')}>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
                             <h4>Date</h4>
-                            <p>{props.selectedImage.displayDate}</p>
+                            <p>{image.displayDate}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Place</h4>
-                            {props.selectedImage.place && placeList}
+                            {image.place && placeList}
                         </div>
                         <div className='photo-detail-group'>
                             <PeopleList 
                                 title='people'
-                                contents={props.selectedImage.people}
+                                contents={image.people}
                                 isInModal={true}
                                 togglePhotoModal={props.togglePhotoModal}
                             />
@@ -108,8 +96,8 @@ export default function PhotoModal(props){
                         </div> */}
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
-                    {props.selectedImage.hasPDF == "TRUE" && 
-                        <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + props.selectedImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                    {image.hasPDF == "TRUE" && 
+                        <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + image.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
                     }
                 
                 </div>
