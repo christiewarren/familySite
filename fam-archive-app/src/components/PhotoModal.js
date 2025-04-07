@@ -11,6 +11,7 @@ export default function PhotoModal(props){
     const leftArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/left-arrow.svg"
     const rightArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/right-arrow.svg"
     const linkIcon = "https://lanefamilysite.s3.us-east-2.amazonaws.com/link.svg"
+    const checkIcon = "https://lanefamilysite.s3.us-east-2.amazonaws.com/check.svg"
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
@@ -20,6 +21,9 @@ export default function PhotoModal(props){
 
     const imageParam = searchParams.get('image') 
     const openImage = props.photoSet.find((image) => image.filename == imageParam)
+
+    const [isLinkCopied, setIsLinkCopied] = React.useState(false)
+
 
     function togglePhotoModalDetails(){        
 
@@ -58,6 +62,10 @@ export default function PhotoModal(props){
 
     function copyUrl(){  
         navigator.clipboard.writeText(url)
+        setIsLinkCopied((prevIsLinkCopied) => !prevIsLinkCopied)
+        setTimeout(() => {
+            setIsLinkCopied((prevIsLinkCopied) => !prevIsLinkCopied)
+          }, 2000);
     }
 
 
@@ -107,7 +115,7 @@ export default function PhotoModal(props){
                         {openImage.hasPDF == "TRUE" && 
                             <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + openImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
                         }
-                        <button className='button-secondary' onClick={copyUrl}>Copy link&nbsp;&nbsp;<img src={linkIcon} className='link-icon'></img></button>
+                        <button className='button-secondary' onClick={copyUrl}>{isLinkCopied ? "Link copied!" : "Copy link"}&nbsp;&nbsp;<img src={isLinkCopied ? checkIcon : linkIcon} className='link-icon'></img></button>
                     </div>
                 
                 </div>
