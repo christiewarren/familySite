@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
+import { useSearchParams, useParams } from 'react-router-dom'
 
 export default function PhotoModal(props){
     
@@ -9,10 +10,16 @@ export default function PhotoModal(props){
     const closeX = "https://lanefamilysite.s3.us-east-2.amazonaws.com/close-x.svg"
     const leftArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/left-arrow.svg"
     const rightArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/right-arrow.svg"
+    const linkIcon = "https://lanefamilysite.s3.us-east-2.amazonaws.com/link.svg"
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
     const [isDetailsPanelClosed, setIsDetailsPanelClosed] = React.useState(false)
+
+    const [searchParams, setSearchParams] = useSearchParams();
+
+    const imageParam = searchParams.get('image') 
+    const openImage = props.photoSet.find((image) => image.filename == imageParam)
 
     function togglePhotoModalDetails(){        
 
@@ -27,48 +34,32 @@ export default function PhotoModal(props){
         setIsDetailsPanelClosed((prevIsDetailsPanelClosed) => !prevIsDetailsPanelClosed)
     }
 
+
     function changeModalImage(nextOrPrev){
-    //if previous/next is passed in, update state of selected image object to the image object at the index before/after it. also call the setArrowButtonsDisabled function with the new selected index to determine whether to disable either prev/next button
-        props.setSelectedImage((prevSelectedImage) => {
-            let prevSelectedIndex = props.photoSet.indexOf(prevSelectedImage)
+        let prevSelectedIndex = props.photoSet.indexOf(openImage)
 
             if(nextOrPrev == 'previous'){
-                // props.setArrowButtonsDisabled(prevSelectedIndex - 1)
-                return props.photoSet[prevSelectedIndex - 1]
+                props.setSearchParams({modal: true, image: props.photoSet[prevSelectedIndex - 1].filename})
+                props.setSelectedImage(props.photoSet[prevSelectedIndex - 1])
             }  else{
-                // props.setArrowButtonsDisabled(prevSelectedIndex + 1)
-                return props.photoSet[prevSelectedIndex + 1]
+                props.setSearchParams({modal: true, image: props.photoSet[prevSelectedIndex + 1].filename})
+                props.setSelectedImage(props.photoSet[prevSelectedIndex + 1])
             }
-        })
-
     }
 
-    const placeList = props.selectedImage.place ? props.selectedImage.place.map(place => {
+    const placeList = openImage.place ? openImage.place.map(place => {
         return(
-            <p key={props.selectedImage.filename + place}>{place}</p>
+            <p key={openImage.filename + place}>{place}</p>
         )
     }) : ''
 
-    
-    //return require(src) if possible. otherwise, return the no photo found image. also done in Thumbnail, so maybe can be more reusable
-    // const tryRequireModalPhoto = (path) => {
-    //     try {
-    //      return require('../assets/' + path + '.jpg');
-    //     } catch (err) {
-    //     console.log(err);
-    //      return noPhotoFound;
-    //     }
-    //   }
 
-    
-    //return require(src) if possible. otherwise, return empty string (def a better way to catch missing pdfs)
-    // const tryRequirePDFLink = (path) => {
-    //     try {
-    //     return require('../assets/pdfs/' + path + '.pdf');
-    //     } catch (err) {
-    //     return "";
-    //     }
-    // }
+    const url = "http://localhost:3000" + useLocation().pathname + useLocation().search
+
+    function copyUrl(){  
+        navigator.clipboard.writeText(url)
+    }
+
 
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
@@ -80,24 +71,28 @@ export default function PhotoModal(props){
             <div onClick={props.togglePhotoModal} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
                 <img 
-                    src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + props.selectedImage.filename + ".jpg"}
-                    alt={props.selectedImage.title} 
+                    src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + openImage.filename + ".jpg"}
+                    alt={openImage.title} 
                     className='photo-modal-img' 
                     id='photo-modal-img'/>
                 <div id='details-panel' className={'photo-modal-detail-wrap' + (isDetailsPanelClosed ? ' panel-is-closed' : '')}>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
+                            <h4>Title</h4>
+                            <p>{openImage.title}</p>
+                        </div>
+                        <div className='photo-detail-group'>
                             <h4>Date</h4>
-                            <p>{props.selectedImage.displayDate}</p>
+                            <p>{openImage.displayDate}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Place</h4>
-                            {props.selectedImage.place && placeList}
+                            {openImage.place && placeList}
                         </div>
                         <div className='photo-detail-group'>
                             <PeopleList 
                                 title='people'
-                                contents={props.selectedImage.people}
+                                contents={openImage.people}
                                 isInModal={true}
                                 togglePhotoModal={props.togglePhotoModal}
                             />
@@ -108,9 +103,12 @@ export default function PhotoModal(props){
                         </div> */}
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
-                    {props.selectedImage.hasPDF == "TRUE" && 
-                        <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + props.selectedImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
-                    }
+                    <div className='button-wrap'>
+                        {openImage.hasPDF == "TRUE" && 
+                            <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + openImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                        }
+                        <button className='button-secondary' onClick={copyUrl}>Copy link&nbsp;&nbsp;<img src={linkIcon} className='link-icon'></img></button>
+                    </div>
                 
                 </div>
                 <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>

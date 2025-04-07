@@ -1,21 +1,23 @@
 import React, { useEffect } from 'react'
 import images from '../data/imageData.json'
-import Thumbnail from './Thumbnail'
 import PhotoModal from './PhotoModal'
-import PhotoFilters from './PhotoFilters'
 import PhotoSection from './PhotoSection'
+import { useSearchParams, useParams } from 'react-router-dom';
 
 export default function PhotosPage(props){
 
     //sorts full image array in descending order based on dateSpecific i.e. newer years show first
     const [allImagesToRender, setAllImagesToRender] = React.useState(images.sort((a,b) => b.dateSpecific - a.dateSpecific))
 
-    // console.log(images[1].dateSpecific)
-    // console.log(parseInt(images[1].dateSpecific))
+    const [searchParams, setSearchParams] = useSearchParams();
 
-    const [selectedImage, setSelectedImage] = React.useState(allImagesToRender[0])
+    const isModalOpenParam = searchParams.get('modal')
     
-    const [isModalVisible, setIsModalVisible] = React.useState(false)
+    const [isModalVisible, setIsModalVisible] = React.useState(isModalOpenParam)
+
+
+    // const [personFirstName, personLastName] = name.split('-')
+    // const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)
 
     let filteredImages = []
     let sectionTitle = ''
@@ -54,18 +56,26 @@ export default function PhotosPage(props){
 
     const photoSet = props.filterDetails.isFiltered ? filteredImages : allImagesToRender
 
+    
+    const imageParam = searchParams.get('image') 
+    const openImage = photoSet.find((image) => image.filename == imageParam)
+        
+    const [selectedImage, setSelectedImage] = React.useState(isModalOpenParam ? openImage : allImagesToRender[0])
+
 
     function openPhotoModal(image){
+        setSearchParams({modal: true, image: image.filename});
 
         //receive selected image object, and update the state of selectedImage to that object
         setSelectedImage(image)
 
         //when thumbnail is clicked: toggle modal visibility (to open)
         togglePhotoModal()
-
     }
 
     function togglePhotoModal(){
+        isModalVisible && setSearchParams({});
+
         //toggle state of isModalVisible (which determines the visible/hidden class on the component) explanation on PR: https://github.com/christiewarren/familySite/pull/1#discussion_r1416641715
         setIsModalVisible((prevIsModalVisible) => !prevIsModalVisible)
     }
@@ -76,7 +86,7 @@ export default function PhotosPage(props){
     return(
         <div className='photos-page'>
             {sections}  
-            <PhotoModal
+            {isModalOpenParam && <PhotoModal
             // pass the selected image object
             selectedImage = {selectedImage}
             setSelectedImage = {setSelectedImage}
@@ -88,7 +98,8 @@ export default function PhotosPage(props){
             isPrevButtonDisabled={photoSet.indexOf(selectedImage) == 0}
             isNextButtonDisabled={photoSet.indexOf(selectedImage) == photoSet.length - 1}
             photoSet={photoSet}
-            />          
+            setSearchParams={setSearchParams}
+            />}          
         </div>
     )
 }

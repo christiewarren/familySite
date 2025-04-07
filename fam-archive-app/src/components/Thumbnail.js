@@ -1,4 +1,6 @@
 import React from 'react';
+import Link from "react-router-dom";
+
 
 export default function Thumbnail(props){
 
@@ -14,12 +16,12 @@ export default function Thumbnail(props){
     //   }
 
     return(
-        <img 
-        src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + props.src + ".jpg"} 
-        alt={props.alt}
-        className='thumbnail' 
-        onClick={props.openPhotoModal}
-        />
+            <img 
+            src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + props.src + ".jpg"} 
+            alt={props.alt}
+            className='thumbnail' 
+            onClick={props.openPhotoModal}
+            />
     )
 }
 
