@@ -10,6 +10,16 @@
   --hand: "professor", sans-serif;
 }
 
+.is-scrollable{
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.not-scrollable{
+  overflow-y: hidden;
+  height: 100vh;
+}
+
 body{
   font-family: var(--sans-serif);
   letter-spacing: -0.4px;
@@ -629,7 +639,7 @@ nav{
 }
 
 .next-prev-button-position-wrap{
-  position: absolute;
+  position: fixed;
   bottom: 12px;
   z-index: 100;
   display: flex;
@@ -726,12 +736,12 @@ nav{
 
   .photo-modal-wrap{
     align-items: baseline;
+    overflow-y: scroll;
   }
 
   .photo-modal{
     max-width: 100%;
     width: 100%;
-    height: 100vh;
     overflow-y: scroll;
     max-height: unset;
     flex-direction: column;
@@ -744,6 +754,8 @@ nav{
 
   .photo-modal-detail-wrap{
     width: 100%;
+    padding-bottom: 8rem;
+    overflow-y: visible;
   }
 
   .photo-detail-text-wrap{

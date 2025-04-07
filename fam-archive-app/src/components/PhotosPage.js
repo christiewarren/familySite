@@ -60,7 +60,7 @@ export default function PhotosPage(props){
     const imageParam = searchParams.get('image') 
     const openImage = photoSet.find((image) => image.filename == imageParam)
         
-    const [selectedImage, setSelectedImage] = React.useState(isModalOpenParam ? openImage : allImagesToRender[0])
+    const [selectedImage, setSelectedImage] = React.useState(props.isModalOpenParam ? openImage : allImagesToRender[0])
 
 
     function openPhotoModal(image){
