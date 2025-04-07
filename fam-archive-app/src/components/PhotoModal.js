@@ -54,7 +54,7 @@ export default function PhotoModal(props){
     }) : ''
 
 
-    const url = "http://localhost:3000" + useLocation().pathname + useLocation().search
+    const url = "https://family-site-lake.vercel.app" + useLocation().pathname + useLocation().search
 
     function copyUrl(){  
         navigator.clipboard.writeText(url)
