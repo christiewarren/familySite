@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
 import { useSearchParams, useParams } from 'react-router-dom'
@@ -10,6 +10,7 @@ export default function PhotoModal(props){
     const closeX = "https://lanefamilysite.s3.us-east-2.amazonaws.com/close-x.svg"
     const leftArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/left-arrow.svg"
     const rightArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/right-arrow.svg"
+    const linkIcon = "https://lanefamilysite.s3.us-east-2.amazonaws.com/link.svg"
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 
@@ -51,6 +52,13 @@ export default function PhotoModal(props){
             <p key={openImage.filename + place}>{place}</p>
         )
     }) : ''
+
+
+    const url = "http://localhost:3000" + useLocation().pathname + useLocation().search
+
+    function copyUrl(){  
+        navigator.clipboard.writeText(url)
+    }
 
 
     return(
@@ -95,9 +103,12 @@ export default function PhotoModal(props){
                         </div> */}
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
-                    {openImage.hasPDF == "TRUE" && 
-                        <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + openImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
-                    }
+                    <div className='button-wrap'>
+                        {openImage.hasPDF == "TRUE" && 
+                            <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + openImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                        }
+                        <button className='button-secondary' onClick={copyUrl}>Copy link&nbsp;&nbsp;<img src={linkIcon} className='link-icon'></img></button>
+                    </div>
                 
                 </div>
                 <button onClick={togglePhotoModalDetails} className='photo-modal-expand-collapse-btn'>{detailsPanelBtnText} details</button>

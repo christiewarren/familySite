@@ -59,7 +59,7 @@ h4{
   letter-spacing: 0.75px;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
 }
 
 h5{
@@ -98,6 +98,12 @@ p{
   background-color: #07768318;
 }
 
+.button-wrap{
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
 .button-primary{
   padding: 10px 20px 12px;
   background-color: var(--forest-green);
@@ -106,13 +112,44 @@ p{
   font-family: var(--sans-serif);
   border-radius: 3rem;
   text-decoration: none;
-  transition: box-shadow .3s;
+  transition: all .1s;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 
-.button-primary:hover{
+.button-primary:hover, .button-secondary:hover{
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35);
+}
+
+.button-primary:active, .button-secondary:active{
+  transform: translateY(2px);
+}
+
+.button-secondary{
+  padding: 10px 20px 12px;
+  background-color: var(--light-beige);
+  color: var(--forest-green);
+  border: 2px solid var(--forest-green);
+  font-size: 1.1rem;
+  font-family: var(--sans-serif);
+  border-radius: 3rem;
+  text-decoration: none;
+  transition: all .1s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-primary > img, .button-secondary > img{
+  margin-bottom: -2px;
+}
+
+
+.link-icon{
+  width: 1.1rem;
 }
 
 hr{
@@ -457,6 +494,7 @@ nav{
   flex-direction: column;
   justify-content: space-between;
   box-sizing: border-box;
+  overflow-y: scroll;
   /* height: 100%; */
 }
 
@@ -472,7 +510,7 @@ nav{
 }
 
 .photo-detail-group{
-  margin-bottom: 1.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .photo-detail-group h3{
