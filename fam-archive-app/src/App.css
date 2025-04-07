@@ -455,6 +455,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
   /* height: 100%; */
 }
 
@@ -694,8 +695,12 @@ nav{
     height: 100vh;
     overflow-y: scroll;
     max-height: unset;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
+  }
+
+  .photo-modal-expand-collapse-btn{
+    display: none;
   }
 
   .photo-modal-detail-wrap{
