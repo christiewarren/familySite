@@ -70,6 +70,10 @@ export default function PhotoModal(props){
                 <div id='details-panel' className={'photo-modal-detail-wrap' + (isDetailsPanelClosed ? ' panel-is-closed' : '')}>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>
+                            <h4>Title</h4>
+                            <p>{openImage.title}</p>
+                        </div>
+                        <div className='photo-detail-group'>
                             <h4>Date</h4>
                             <p>{openImage.displayDate}</p>
                         </div>
