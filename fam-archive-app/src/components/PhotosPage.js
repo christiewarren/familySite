@@ -12,8 +12,6 @@ export default function PhotosPage(props){
     const [searchParams, setSearchParams] = useSearchParams();
 
     const isModalOpenParam = searchParams.get('modal')
-        
-    const [selectedImage, setSelectedImage] = React.useState(allImagesToRender[0])
     
     const [isModalVisible, setIsModalVisible] = React.useState(isModalOpenParam)
 
@@ -57,6 +55,12 @@ export default function PhotosPage(props){
     })
 
     const photoSet = props.filterDetails.isFiltered ? filteredImages : allImagesToRender
+
+    
+    const imageParam = searchParams.get('image') 
+    const openImage = photoSet.find((image) => image.filename == imageParam)
+        
+    const [selectedImage, setSelectedImage] = React.useState(isModalOpenParam ? openImage : allImagesToRender[0])
 
 
     function openPhotoModal(image){
