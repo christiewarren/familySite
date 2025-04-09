@@ -1,5 +1,4 @@
 import React from 'react'
-import images from '../data/imageData.json'
 import Thumbnail from './Thumbnail'
 import PhotoModal from './PhotoModal'
 import PhotoFilters from './PhotoFilters'

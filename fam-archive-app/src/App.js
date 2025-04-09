@@ -8,6 +8,7 @@ import Home from './components/Home'
 import PeopleDirectory from './components/PeopleDirectory'
 import NotFound from './components/NotFound'
 import { Route, Routes, Link, NavLink, useSearchParams } from 'react-router-dom'
+import images from './data/imageData.json'
 
 
 function App() {
@@ -28,6 +29,26 @@ function App() {
       document.body.classList.remove('not-scrollable')
     }
   }, [isPageScrollable]);
+
+  
+  const s3ImageUrls = []
+
+  useEffect(() => {
+    // Function to preload images without storing in state
+    images.forEach((image) => {
+      s3ImageUrls.push('https://lanefamilysite.s3.us-east-2.amazonaws.com/' + image.filename + '.jpg')
+    })
+    const preloadImages = async () => {
+      s3ImageUrls.forEach(url => {
+        const img = new Image()
+        img.src = url // Set the image source, causing it to be loaded and cached
+        // img.onload = () => console.log(`Image loaded: ${url}`);  // Log when image is loaded
+        img.onerror = (err) => console.error(`Error loading image: ${url}`, err); // Handle load errors
+      });
+    };
+
+    preloadImages();
+  }, [])
 
   return(
     <div>
