@@ -22,8 +22,10 @@ export default function Person(){
     const [personFirstName, personLastName] = name.split('-')
     const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)
 
+
     useEffect(() => {
         // Reset the scroll position to the top of the page whenever person is updated
+        console.log("scrolled to top")
         window.scrollTo(0, 0);
       }, [person]); 
 
@@ -58,7 +60,7 @@ export default function Person(){
 
 
     return(
-        <div className="person-wrap">
+        <div>
             <div className="profile-wrap">
                 <div className="profile-photo-wrap">
                 {<img src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/profilePhotos/" + person.profilePhoto + ".jpg"} className="person-card-photo"/>}

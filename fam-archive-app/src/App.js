@@ -15,8 +15,22 @@ function App() {
   
   const [isPageScrollable, setIsPageScrollable] = React.useState(!searchParams.get('modal'))
 
+  useEffect(() => {
+    setIsPageScrollable(!searchParams.get('modal'))
+  }, [searchParams.get('modal')])
+
+  useEffect(() => {
+    // Add a class to the body when this isPageScrollable changes and when initially rendered
+    console.log('isScrollable changed')
+    if(!isPageScrollable){
+      document.body.classList.add('not-scrollable');
+    }else{
+      document.body.classList.remove('not-scrollable')
+    }
+  }, [isPageScrollable]);
+
   return(
-    <div className={isPageScrollable ? 'is-scrollable' : 'not-scrollable'}>
+    <div>
     <nav>
       <Link to='/' className='nav-title'><h3><span className='hand'>Lane</span> Family Archive</h3></Link>
       <span className='nav-links-wrap'>
@@ -35,7 +49,7 @@ function App() {
               sections: ["2000-2050", "1950-2000", "1900-1950", "1850-1900"]
             }}/>}/>
         <Route path="/people" element={<PeopleDirectory />}/>
-        <Route path="/people/:name" element={<Person />}/>
+        <Route path="/people/:name" element={<Person className="person-wrap"/>}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
     </div>
