@@ -22,7 +22,6 @@ function App() {
 
   useEffect(() => {
     // Add a class to the body when this isPageScrollable changes and when initially rendered
-    console.log('isScrollable changed')
     if(!isPageScrollable){
       document.body.classList.add('not-scrollable');
     }else{
@@ -64,10 +63,11 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/photos" element={
           <PhotosPage 
+          hasMenu={true}
           filterDetails={{
               isFiltered: false,
               filterType: "date",
-              sections: ["2000-2050", "1950-2000", "1900-1950", "1850-1900"]
+              sections: ["2000-today", "1950-2000", "1900-1950", "1850-1900"]
             }}/>}/>
         <Route path="/people" element={<PeopleDirectory />}/>
         <Route path="/people/:name" element={<Person className="person-wrap"/>}/>

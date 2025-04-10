@@ -15,6 +15,9 @@ export default function PhotosPage(props){
     
     const [isModalVisible, setIsModalVisible] = React.useState(isModalOpenParam)
 
+    const caretUp = "https://lanefamilysite.s3.us-east-2.amazonaws.com/caret-up.svg"
+    const caretDown = "https://lanefamilysite.s3.us-east-2.amazonaws.com/caret-down.svg"
+
 
     // const [personFirstName, personLastName] = name.split('-')
     // const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)
@@ -35,7 +38,7 @@ export default function PhotosPage(props){
                 filteredImages = allImagesToRender.filter((image) => 1900 < image.dateSpecific && image.dateSpecific <= 1950)
             }else if(section == "1950-2000"){
                 filteredImages = allImagesToRender.filter((image) => 1950 < image.dateSpecific && image.dateSpecific <= 2000)
-            }else if(section == "2000-2050"){
+            }else if(section == "2000-today"){
                 filteredImages = allImagesToRender.filter((image) => 2000 < parseInt(image.dateSpecific))
             }
             
@@ -49,6 +52,7 @@ export default function PhotosPage(props){
                 openPhotoModal={openPhotoModal}
                 filteredImages = {filteredImages}
                 sectionTitle={sectionTitle}
+                index={props.filterDetails.sections.indexOf(section)}
             />  
         )
         
@@ -64,10 +68,10 @@ export default function PhotosPage(props){
 
 
     function openPhotoModal(image){
-        setSearchParams({modal: true, image: image.filename});
-
         //receive selected image object, and update the state of selectedImage to that object
         setSelectedImage(image)
+
+        setSearchParams({modal: true, image: image.filename});
 
         //when thumbnail is clicked: toggle modal visibility (to open)
         togglePhotoModal()
@@ -80,11 +84,21 @@ export default function PhotosPage(props){
         setIsModalVisible((prevIsModalVisible) => !prevIsModalVisible)
     }
 
+    const [isMenuClosed, setIsMenuClosed] = React.useState(true)
   
     
     
     return(
         <div className='photos-page'>
+            {props.hasMenu && <div className='menu-wrap'>
+                <button className='menu-button' onClick={() => setIsMenuClosed((prevIsMenuClosed) => !prevIsMenuClosed)}>View by years <img src={isMenuClosed ? caretDown : caretUp} /></button>
+                <div className={'menu' + ' ' + (isMenuClosed ? 'menu-closed' : '')}>
+                    <a href="#2000-today" className='link' onClick={() => setIsMenuClosed((prevIsMenuClosed) => !prevIsMenuClosed)}>2000-today</a>
+                    <a href="#1950-2000" className='link' onClick={() => setIsMenuClosed((prevIsMenuClosed) => !prevIsMenuClosed)}>1950-2000</a>
+                    <a href="#1900-1950" className='link' onClick={() => setIsMenuClosed((prevIsMenuClosed) => !prevIsMenuClosed)}>1900-1950</a>
+                    <a href="#1850-1900" className='link' onClick={() => setIsMenuClosed((prevIsMenuClosed) => !prevIsMenuClosed)}>1850-1900</a>
+                </div>
+            </div>}
             {sections}  
             {isModalOpenParam && <PhotoModal
             // pass the selected image object

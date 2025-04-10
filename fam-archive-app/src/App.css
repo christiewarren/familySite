@@ -10,11 +10,6 @@
   --hand: "professor", sans-serif;
 }
 
-.is-scrollable{
-  overflow-y: scroll;
-  height: 100vh;
-}
-
 .not-scrollable{
   overflow-y: hidden;
   height: 100vh;
@@ -28,6 +23,10 @@ body{
   font-family: var(--sans-serif);
   letter-spacing: -0.4px;
   background: var(--light-beige);
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 h1{
@@ -161,7 +160,6 @@ p{
   margin-bottom: -2px;
 }
 
-
 .link-icon{
   width: 1.1rem;
 }
@@ -191,6 +189,62 @@ nav{
   padding-right: 5px;
 }
 
+.menu-wrap{
+  display: flex;
+  justify-content: end;
+  padding-right: 2.5rem;
+  position: sticky;
+  top: 0;
+  margin-top: -1rem;
+  z-index: 1;
+  padding-top: 1.5rem;
+}
+
+.menu-button{
+  background: var(--light-beige);
+  color: var(--light-forest-green);
+  border-radius: 4rem;
+  padding: .5rem 1.2rem .65rem;
+  font-family: var(--sans-serif);
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  border: 2px solid var(--forest-green);
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  background: var(--light-beige);
+  width: fit-content;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: .75rem 0;
+  position: absolute;
+  right: 3.5rem;
+  top: 4.5rem;
+  z-index: 10;
+}
+
+.menu-closed{
+  visibility: hidden;
+}
+
+.menu > a{
+  color: var(--light-forest-green);
+  font-size: 1.25rem;
+  padding: .75rem 1rem;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 @media (max-width: 570px) {
   nav{
     flex-direction: column;
@@ -205,9 +259,17 @@ nav{
   .nav-title{
     text-align: center;
   }
+
+  .menu-wrap{
+    justify-content: center;
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .menu{
+    right: unset;
+  }
 }
-
-
 
 .nav-link, .nav-link:visited, .nav-link:active{
   font-size: 1.2rem;
@@ -265,12 +327,16 @@ nav{
   }
 }
 
+/* .section-wrap{
+  margin-bottom: 4rem;
+} */
+
 .date-divider-wrap{
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
   padding: 0 2.5rem 0 1.5rem;
-  align-items: center;
+  align-items: baseline;
   box-sizing: border-box;
 }
 
@@ -281,12 +347,17 @@ nav{
   font-family: "Averia Serif Libre", serif;
   font-weight: 400;
   font-style: normal;
+  margin-top: 5rem;
 }
 
 .date-divider-line{
   flex-grow: 1;
   height: 0;
   border-color: #07768318;
+}
+
+.first-section > .date-divider-wrap > .date-divider-title{
+  margin-top: 0;
 }
 
 .photos-page{
@@ -444,13 +515,14 @@ nav{
   align-items: center;
   justify-content: center;
   visibility: hidden;
+  z-index: 100;
 }
 
 .photo-modal-overlay{
   background: rgba(0, 0, 0, 0.75);
   width: 100%;
   height: 100%;
-  z-index: 0;
+  z-index: 20;
   position: fixed;
   cursor: pointer;
 }
