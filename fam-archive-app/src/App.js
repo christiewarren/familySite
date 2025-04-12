@@ -30,24 +30,29 @@ function App() {
   }, [isPageScrollable]);
 
   
-  const s3ImageUrls = []
+  // const s3ImageUrls = []
 
-  useEffect(() => {
-    // Function to preload images without storing in state
-    images.forEach((image) => {
-      s3ImageUrls.push('https://lanefamilysite.s3.us-east-2.amazonaws.com/' + image.filename + '.jpg')
-    })
-    const preloadImages = async () => {
-      s3ImageUrls.forEach(url => {
-        const img = new Image()
-        img.src = url // Set the image source, causing it to be loaded and cached
-        // img.onload = () => console.log(`Image loaded: ${url}`);  // Log when image is loaded
-        img.onerror = (err) => console.error(`Error loading image: ${url}`, err); // Handle load errors
-      });
-    };
+  // useEffect(() => {
+  //   // Function to preload images without storing in state
+  //   images.forEach((image) => {
+  //     s3ImageUrls.push('https://lanefamilysite.s3.us-east-2.amazonaws.com/' + image.filename + '.jpg')
+  //   })
+  //   const preloadImages = async () => {
+  //     s3ImageUrls.forEach(url => {
+  //       // const img = new Image()
+  //       // img.src = url // Set the image source, causing it to be loaded and cached
+  //       // img.onload = () => console.log(`Image loaded: ${url}`);  // Log when image is loaded
+  //       // img.onerror = (err) => console.error(`Error loading image: ${url}`, err); // Handle load errors
+  //       const imageLink = document.createElement("link") 
+  //       imageLink.rel = "preload"
+  //       imageLink.href = url
+  //       imageLink.as = "image"
+  //       document.head.appendChild(imageLink)
+  //     });
+  //   };
 
-    preloadImages();
-  }, [])
+  //   preloadImages();
+  // }, [])
 
   return(
     <div>

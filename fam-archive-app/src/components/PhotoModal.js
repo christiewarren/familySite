@@ -38,8 +38,11 @@ export default function PhotoModal(props){
         setIsDetailsPanelClosed((prevIsDetailsPanelClosed) => !prevIsDetailsPanelClosed)
     }
 
+    const [isImageLoaded, setIsImageLoaded] = React.useState(false)
+
 
     function changeModalImage(nextOrPrev){
+        setIsImageLoaded(false)
         let prevSelectedIndex = props.photoSet.indexOf(openImage)
 
             if(nextOrPrev == 'previous'){
@@ -68,7 +71,6 @@ export default function PhotoModal(props){
           }, 2000);
     }
 
-
     return(
         <div className={'photo-modal-wrap ' + (props.isModalVisible ? 'photo-modal-is-visible' : 'photo-modal-is-hidden')}>
             {/* when modal x is clicked, run the click function passed in, which is togglePhotoModal */}
@@ -78,11 +80,22 @@ export default function PhotoModal(props){
             {/* when modal overlay is clicked, run the click function passed in, which is togglePhotoModal */}
             <div onClick={props.togglePhotoModal} className='photo-modal-overlay'></div>
             <div className='photo-modal'>
-                <img 
-                    src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + openImage.filename + ".jpg"}
-                    alt={openImage.title} 
-                    className='photo-modal-img' 
-                    id='photo-modal-img'/>
+            {/* hide 500 image once full image is loaded */}
+                <div className='modal-img-wrap'>
+                    <img 
+                        src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/thumbnails/low/" + openImage.filename + "_low.jpg"}
+                        alt={openImage.title} 
+                        className={'photo-modal-img-500' + (isImageLoaded ? ' modal-image-500-is-hidden' : '')}
+                        />
+                    <img 
+                        src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/" + openImage.filename + ".jpg"}
+                        alt={openImage.title} 
+                        id='photo-modal-img'
+                        onLoad={() => setIsImageLoaded(true)}
+                        className={'photo-modal-img' + (isImageLoaded ? '' : ' modal-image-is-hidden')} 
+                        />
+                </div>
+                
                 <div id='details-panel' className={'photo-modal-detail-wrap' + (isDetailsPanelClosed ? ' panel-is-closed' : '')}>
                     <div className='photo-detail-text-wrap'>
                         <div className='photo-detail-group'>

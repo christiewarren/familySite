@@ -557,7 +557,7 @@ nav{
 
 /* flex items have initial setting of min-width: auto, so they don't shrink past the size of their content. Adding min-width: 0 allows item to shrink. Don't fully understand how this works. https://stackoverflow.com/questions/41774646/image-is-not-resizing-in-a-flexbox-layout */
 
-.photo-modal-img{
+.modal-img-wrap{
   min-width: 0;
   max-height: 80%;
   z-index: 10;
@@ -565,6 +565,36 @@ nav{
   /* max-width prevents image from covering up details button at smaller screen sizes */
   max-width: 100%;
   background-color: #f8f1e8;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-modal-img{
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.photo-modal-img-500{
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.modal-image-is-hidden{
+  display: none;
+}
+
+.modal-image-500-is-hidden{
+  visibility: hidden;
+  margin: auto;
 }
 
 .photo-modal-detail-wrap{
@@ -836,7 +866,7 @@ nav{
     flex-wrap: wrap;
   }
 
-  .photo-modal-img{
+  .modal-img-wrap{
     width: 100%;
   }
 }

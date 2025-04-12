@@ -17,7 +17,7 @@ export default function Thumbnail(props){
 
     return(
             <img 
-            src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/thumbnails/" + props.src + "_500.jpg"} 
+            src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/thumbnails/low/" + props.src + "_low.jpg"} 
             alt={props.alt}
             className='thumbnail' 
             onClick={props.openPhotoModal}
