@@ -85,9 +85,7 @@ export default function PhotosPage(props){
     }
 
     const [isMenuClosed, setIsMenuClosed] = React.useState(true)
-  
-    
-    
+        
     return(
         <div className='photos-page'>
             {props.hasMenu && <div className='menu-wrap'>
@@ -108,10 +106,10 @@ export default function PhotosPage(props){
             togglePhotoModal = {togglePhotoModal}
             //pass state of isModalVisible as a boolean to determine which className photo modal has (photo-modal-is-visible or photo-modal-is-hidden)
             isModalVisible = {isModalVisible}
-            // setArrowButtonsDisabled={setArrowButtonsDisabled}
-            isPrevButtonDisabled={photoSet.indexOf(selectedImage) == 0}
-            isNextButtonDisabled={photoSet.indexOf(selectedImage) == photoSet.length - 1}
             photoSet={photoSet}
+            // setArrowButtonsDisabled={setArrowButtonsDisabled}
+            isPrevButtonDisabled={photoSet.indexOf(openImage) == 0}
+            isNextButtonDisabled={photoSet.indexOf(openImage) == photoSet.length - 1}
             setSearchParams={setSearchParams}
             />}          
         </div>
