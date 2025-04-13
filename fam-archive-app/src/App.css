@@ -633,6 +633,10 @@ nav{
   margin-bottom: 12px;
 }
 
+.pdf-button{
+  margin-bottom: 1rem;
+}
+
 .photo-person-link{
   display: block;
 }

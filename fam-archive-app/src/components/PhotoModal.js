@@ -101,10 +101,13 @@ export default function PhotoModal(props){
                         <div className='photo-detail-group'>
                             <h4>Title</h4>
                             <p>{openImage.title}</p>
+                            {openImage.hasPDF == "TRUE" && 
+                            <a className='button-primary pdf-button' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + openImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
+                            }
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Date</h4>
-                            <p>{openImage.displayDate}</p>
+                            <p>{openImage.displayDate ? openImage.displayDate : openImage.dateStart + "-" + openImage.dateEnd}</p>
                         </div>
                         <div className='photo-detail-group'>
                             <h4>Place</h4>
@@ -125,9 +128,6 @@ export default function PhotoModal(props){
                     </div>
                     {/* If the photo's hasPDF property is true, add a link to the PDF */}
                     <div className='button-wrap'>
-                        {openImage.hasPDF == "TRUE" && 
-                            <a className='button-primary' href={"https://lanefamilysite.s3.us-east-2.amazonaws.com/pdfs/" + openImage.filename + ".pdf"} target='_BLANK'>View full PDF&nbsp;&nbsp;<img src={rightArrow}></img></a>
-                        }
                         <button className='button-secondary' onClick={copyUrl}>{isLinkCopied ? "Link copied!" : "Copy link"}&nbsp;&nbsp;<img src={isLinkCopied ? checkIcon : linkIcon} className='link-icon'></img></button>
                     </div>
                 
