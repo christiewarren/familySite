@@ -14,6 +14,19 @@
   },
   {
     "firstName": "Anna",
+    "lastName": "Baker",
+    "fullName": "Anna Baker",
+    "birth": "",
+    "death": "",
+    "parents": [],
+    "siblings": [],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": "Anna-Baker-profile",
+    "Column 1": ""
+  },
+  {
+    "firstName": "Anna",
     "lastName": "Weyhe Lane",
     "fullName": "Anna Weyhe Lane",
     "birth": "1871",
@@ -44,7 +57,9 @@
     "parents": [],
     "siblings": [],
     "spouse": "John Strickler Jr",
-    "children": [],
+    "children": [
+      "Ella Strickler Newcomer"
+    ],
     "profilePhoto": "Anna-Gable-Strickler-profile",
     "Column 1": ""
   },
@@ -54,9 +69,18 @@
     "fullName": "Barbara Thomas Listman",
     "birth": "1844",
     "death": "1918",
-    "parents": [],
-    "siblings": [],
-    "spouse": "",
+    "parents": [
+      "Pierre Thomas",
+      "Ottilie Lux Thomas"
+    ],
+    "siblings": [
+      "Jane Thomas Weyhe",
+      "Arthur Thomas",
+      "John Thomas",
+      "Henry Thomas",
+      "Peter Thomas"
+    ],
+    "spouse": "Carl Listman",
     "children": [],
     "profilePhoto": "Barbara-Thomas-Listman-profile",
     "Column 1": ""
@@ -67,7 +91,10 @@
     "fullName": "Benjamin Porter Battles Sr",
     "birth": "1790",
     "death": "1858",
-    "parents": [],
+    "parents": [
+      "Jonathan Battles",
+      "Hanna Porter Battles"
+    ],
     "siblings": [],
     "spouse": "Charlotte Smith Battles",
     "children": [
@@ -87,9 +114,31 @@
       "Benjamin Porter Battles Sr"
     ],
     "siblings": [],
-    "spouse": "",
-    "children": [],
+    "spouse": "Lucretia Olds Battles",
+    "children": [
+      "Willis Battles",
+      "Benjamin Battles",
+      "Florence Battles",
+      "Alice Battles",
+      "Nellie Battles",
+      "Eunice Battles",
+      "William Battles",
+      "Ella Battles Lane"
+    ],
     "profilePhoto": "Benjamin-Porter-Battles-Jr-profile",
+    "Column 1": ""
+  },
+  {
+    "firstName": "Carl",
+    "lastName": "Listman",
+    "fullName": "Carl Listman",
+    "birth": "1836",
+    "death": "1921",
+    "parents": [],
+    "siblings": [],
+    "spouse": "Barbara Thomas Listman",
+    "children": [],
+    "profilePhoto": "Carl-Listman-profile",
     "Column 1": ""
   },
   {
@@ -113,8 +162,19 @@
     "fullName": "Christian Newcomer",
     "birth": "1876",
     "death": "1950",
-    "parents": [],
-    "siblings": [],
+    "parents": [
+      "Christian N Newcomer",
+      "Anna Snyder Newcomer"
+    ],
+    "siblings": [
+      "Norman Newcomer",
+      "Elizabeth Newcomer",
+      "Harry Newcomer",
+      "Catharine Newcomer",
+      "Samuel Newcomer",
+      "Phares Newcomer",
+      "Jonas Newcomer"
+    ],
     "spouse": "",
     "children": [],
     "profilePhoto": "Christian-Newcomer-profile",
@@ -145,8 +205,14 @@
     "fullName": "Clarence Newcomer",
     "birth": "1895",
     "death": "1973",
-    "parents": [],
-    "siblings": [],
+    "parents": [
+      "Harry Newcomer",
+      "Ella Strickler Newcomer"
+    ],
+    "siblings": [
+      "Virginia Newcomer Lane",
+      "Emily Newcomer Eby"
+    ],
     "spouse": "",
     "children": [],
     "profilePhoto": "Clarence-Newcomer-profile",
@@ -348,8 +414,19 @@
     "fullName": "Elizabeth Newcomer Miller",
     "birth": "1873",
     "death": "1948",
-    "parents": [],
-    "siblings": [],
+    "parents": [
+      "Christian N Newcomer",
+      "Anna Snyder Newcomer"
+    ],
+    "siblings": [
+      "Norman Newcomer",
+      "Harry Newcomer",
+      "Christian Newcomer",
+      "Catharine Newcomer",
+      "Samuel Newcomer",
+      "Phares Newcomer",
+      "Jonas Newcomer"
+    ],
     "spouse": "",
     "children": [],
     "profilePhoto": "Elizabeth-Newcomer-Miller-profile",
@@ -417,10 +494,18 @@
     "fullName": "Emily Newcomer Eby",
     "birth": "1901",
     "death": "2010",
-    "parents": [],
-    "siblings": [],
-    "spouse": "",
-    "children": [],
+    "parents": [
+      "Harry Newcomer",
+      "Ella Strickler Newcomer"
+    ],
+    "siblings": [
+      "Virginia Newcomer Lane",
+      "Clarence Newcomer"
+    ],
+    "spouse": "Henry Eby",
+    "children": [
+      "Robert Eby"
+    ],
     "profilePhoto": "Emily-Eby-profile",
     "Column 1": ""
   },
@@ -463,7 +548,7 @@
     "spouse": "Ella Battles Lane",
     "children": [
       "Frank Lane",
-      "Ella Lane",
+      "Maud Lane Adams",
       "Albert Lane",
       "Flora Lane",
       "Gertrude Battles Lane",
@@ -482,7 +567,9 @@
     "parents": [],
     "siblings": [],
     "spouse": "George Haverstick",
-    "children": [],
+    "children": [
+      "Mary Haverstick Strickler"
+    ],
     "profilePhoto": "Frances-Strickler-Haverstick-profile",
     "Column 1": ""
   },
@@ -518,7 +605,10 @@
     "parents": [],
     "siblings": [],
     "spouse": "Virginia Warren Carr",
-    "children": [],
+    "children": [
+      "Robert Carr",
+      "Richard Carr"
+    ],
     "profilePhoto": "Glenn-Carr-profile",
     "Column 1": ""
   },
@@ -547,7 +637,9 @@
     "parents": [],
     "siblings": [],
     "spouse": "Jonathan Battles",
-    "children": [],
+    "children": [
+      "Benjamin Porter Battles Sr"
+    ],
     "profilePhoto": "",
     "Column 1": ""
   },
@@ -558,7 +650,7 @@
     "birth": "1870",
     "death": "1935",
     "parents": [
-      "Christian Newcomer",
+      "Christian N Newcomer",
       "Anna Snyder Newcomer"
     ],
     "siblings": [
@@ -671,10 +763,23 @@
     "fullName": "Jane Thomas Weyhe",
     "birth": "1840",
     "death": "1920",
-    "parents": [],
-    "siblings": [],
-    "spouse": "",
-    "children": [],
+    "parents": [
+      "Pierre Thomas",
+      "Ottilie Lux Thomas"
+    ],
+    "siblings": [
+      "Barbara Thomas Listman",
+      "Arthur Thomas",
+      "John Thomas",
+      "Henry Thomas",
+      "Peter Thomas"
+    ],
+    "spouse": "William Weyhe",
+    "children": [
+      "William A Weyhe",
+      "Louise Maude Weyhe",
+      "Anna Weyhe Lane"
+    ],
     "profilePhoto": "Jane-Thomas-Weyhe-profile",
     "Column 1": ""
   },
@@ -703,11 +808,13 @@
     "death": "1923",
     "parents": [
       "John Strickler Sr",
-      "Mary Haverstick"
+      "Mary Haverstick Strickler"
     ],
     "siblings": [],
     "spouse": "Anna Gable Strickler",
-    "children": [],
+    "children": [
+      "Ella Strickler Newcomer"
+    ],
     "profilePhoto": "John-Strickler-Jr-profile",
     "Column 1": ""
   },
@@ -720,8 +827,10 @@
     "parents": [],
     "siblings": [],
     "spouse": "Mary Haverstick Strickler",
-    "children": [],
-    "profilePhoto": "",
+    "children": [
+      "John Strickler Jr"
+    ],
+    "profilePhoto": "John-Strickler-Sr-profile",
     "Column 1": ""
   },
   {
@@ -747,15 +856,17 @@
     "death": "1830",
     "parents": [],
     "siblings": [],
-    "spouse": "",
-    "children": [],
+    "spouse": "Hanna Porter Battles",
+    "children": [
+      "Benjamin Porter Battles Sr"
+    ],
     "profilePhoto": "",
     "Column 1": ""
   },
   {
     "firstName": "Julia",
     "lastName": "Furey Warren",
-    "fullName": "Julia Furey",
+    "fullName": "Julia Furey Warren",
     "birth": "12/19/1903",
     "death": "1970",
     "parents": [
@@ -803,8 +914,14 @@
     "fullName": "Kenzie Warren",
     "birth": "",
     "death": "",
-    "parents": [],
-    "siblings": [],
+    "parents": [
+      "James R Warren",
+      "Jodi Young Warren"
+    ],
+    "siblings": [
+      "Drew Warren",
+      "Courtney Warren"
+    ],
     "spouse": "",
     "children": [],
     "profilePhoto": "Kenzie-Warren-profile",
@@ -874,7 +991,9 @@
       "Christa Hutwagner"
     ],
     "spouse": "David Warren",
-    "children": [],
+    "children": [
+      "Sarah Harlan"
+    ],
     "profilePhoto": "Lori-Warren-profile",
     "Column 1": ""
   },
@@ -892,6 +1011,31 @@
     "Column 1": ""
   },
   {
+    "firstName": "Lucretia",
+    "lastName": "Olds Battles",
+    "fullName": "Lucretia Olds Battles",
+    "birth": "1824",
+    "death": "1900",
+    "parents": [
+      "Gideon Olds",
+      "Elizabeth Lyman Olds"
+    ],
+    "siblings": [],
+    "spouse": "Benjamin Porter Battles Jr",
+    "children": [
+      "Ella Maude Battles",
+      "Willis Battles",
+      "Benjamin Battles",
+      "Florence Battles",
+      "Alice Battles",
+      "Nellie Battles",
+      "Eunice Battles",
+      "William Battles"
+    ],
+    "profilePhoto": "Lucretia-Olds-Battles-profile",
+    "Column 1": "cewarren801@gmail.com: new profile 4APR"
+  },
+  {
     "firstName": "Mary",
     "lastName": "Haverstick Strickler",
     "fullName": "Mary Haverstick Strickler",
@@ -903,8 +1047,10 @@
     ],
     "siblings": [],
     "spouse": "John Strickler Sr",
-    "children": [],
-    "profilePhoto": "",
+    "children": [
+      "John Strickler Jr"
+    ],
+    "profilePhoto": "Mary-Haverstick-Strickler-profile",
     "Column 1": ""
   },
   {
@@ -940,6 +1086,25 @@
     "Column 1": ""
   },
   {
+    "firstName": "Ottilie",
+    "lastName": "Lux Thomas",
+    "fullName": "Ottilie Lux Thomas",
+    "birth": "1809",
+    "death": "1884",
+    "parents": [],
+    "siblings": [],
+    "spouse": "Pierre Thomas",
+    "children": [
+      "Jane Thomas Weyhe",
+      "Barbara Thomas Listman",
+      "Henry Thomas",
+      "John Thomas",
+      "Peter Thomas"
+    ],
+    "profilePhoto": "Ottilie-Lux-Thomas-profile",
+    "Column 1": ""
+  },
+  {
     "firstName": "Peter",
     "lastName": "Warren",
     "fullName": "Peter Warren",
@@ -954,13 +1119,13 @@
       "Virginia Warren Carr",
       "David Warren"
     ],
-    "spouse": "Lori-Anne Barnett",
+    "spouse": "LoriAnne Barnett",
     "children": [
       "Lane Warren",
       "Phoebe Warren"
     ],
     "profilePhoto": "Peter-Warren-profile",
-    "Column 1": ""
+    "Column 1": "cewarren801@gmail.com: updated spouse tag on 4APR"
   },
   {
     "firstName": "Peter",
@@ -1119,8 +1284,19 @@
     "fullName": "Samuel Newcomer",
     "birth": "1882",
     "death": "1964",
-    "parents": [],
-    "siblings": [],
+    "parents": [
+      "Christian N Newcomer",
+      "Anna Snyder Newcomer"
+    ],
+    "siblings": [
+      "Norman Newcomer",
+      "Elizabeth Newcomer",
+      "Christian Newcomer",
+      "Catharine Newcomer",
+      "Harry Newcomer",
+      "Phares Newcomer",
+      "Jonas Newcomer"
+    ],
     "spouse": "",
     "children": [],
     "profilePhoto": "Samuel-Newcomer-profile",
@@ -1134,14 +1310,18 @@
     "death": "",
     "parents": [
       "Jack Serfass",
-      "Louise Noren"
+      "Louise Noren Serfass"
     ],
     "siblings": [
       "Doug Serfass",
       "Linda Serfass"
     ],
     "spouse": "",
-    "children": [],
+    "children": [
+      "James D Warren",
+      "Kathryn Warren",
+      "Christina Warren"
+    ],
     "profilePhoto": "Sue-Warren-profile",
     "Column 1": ""
   },
