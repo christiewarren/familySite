@@ -2,13 +2,11 @@ import './App.css'
 import React from 'react'
 import { useEffect } from "react";
 import PhotosPage from './components/PhotosPage';
-import Menu from './components/Menu';
 import Person from './components/Person'
 import Home from './components/Home'
 import PeopleDirectory from './components/PeopleDirectory'
 import NotFound from './components/NotFound'
 import { Route, Routes, Link, NavLink, useSearchParams } from 'react-router-dom'
-import images from './data/imageData.json'
 
 
 function App() {

@@ -3,6 +3,8 @@ import images from '../data/imageData.json'
 import PhotoModal from './PhotoModal'
 import PhotoSection from './PhotoSection'
 import { useSearchParams, useParams } from 'react-router-dom';
+import caretUp from '../assets/caret-up.svg'
+import caretDown from '../assets/caret-down.svg'
 
 export default function PhotosPage(props){
 
@@ -14,10 +16,6 @@ export default function PhotosPage(props){
     const isModalOpenParam = searchParams.get('modal')
     
     const [isModalVisible, setIsModalVisible] = React.useState(isModalOpenParam)
-
-    const caretUp = "https://lanefamilysite.s3.us-east-2.amazonaws.com/caret-up.svg"
-    const caretDown = "https://lanefamilysite.s3.us-east-2.amazonaws.com/caret-down.svg"
-
 
     // const [personFirstName, personLastName] = name.split('-')
     // const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)

@@ -1,7 +1,5 @@
 import React from 'react'
 import Thumbnail from './Thumbnail'
-import PhotoModal from './PhotoModal'
-import PhotoFilters from './PhotoFilters'
 
 export default function PhotoGrid(props){
     const cards = props.filteredImages.map(image => {

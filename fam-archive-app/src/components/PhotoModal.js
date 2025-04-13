@@ -1,17 +1,15 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import people from '../data/peopleData.json'
 import PeopleList from './PeopleList'
 import { useSearchParams, useParams } from 'react-router-dom'
+import closeX from '../assets/close-x.svg'
+import leftArrow from '../assets/left-arrow.svg'
+import rightArrow from '../assets/right-arrow.svg'
+import linkIcon from '../assets/link.svg'
+import checkIcon from '../assets/check.svg'
 
 export default function PhotoModal(props){
     
-    const noPhotoFound = "https://lanefamilysite.s3.us-east-2.amazonaws.com/no-photo-found.svg"
-    const closeX = "https://lanefamilysite.s3.us-east-2.amazonaws.com/close-x.svg"
-    const leftArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/left-arrow.svg"
-    const rightArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/right-arrow.svg"
-    const linkIcon = "https://lanefamilysite.s3.us-east-2.amazonaws.com/link.svg"
-    const checkIcon = "https://lanefamilysite.s3.us-east-2.amazonaws.com/check.svg"
 
     const [detailsPanelBtnText, setDetailsPanelBtnText] = React.useState('Collapse')
 

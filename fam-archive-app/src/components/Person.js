@@ -12,10 +12,6 @@ import PhotosPage from "./PhotosPage";
 export default function Person(){
     // const person = useLocation().state
     // const [person, setPerson] = React.useState(useLocation().state)  
-
-    const noPhotoFound = "https://lanefamilysite.s3.us-east-2.amazonaws.com/no-photo-found.svg"
-    const downArrow = "https://lanefamilysite.s3.us-east-2.amazonaws.com/down-arrow.svg"
-
     
     const {name} = useParams()
 
