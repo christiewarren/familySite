@@ -19,7 +19,9 @@ export default function Person(){
     
     const {name} = useParams()
 
-    const [personFirstName, personLastName] = name.split('-')
+    const [personFirstName, personLastName] = name.split('_')
+    console.log(personFirstName)
+    console.log(personLastName)
     const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)
 
 

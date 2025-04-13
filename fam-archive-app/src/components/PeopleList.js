@@ -12,7 +12,7 @@ export default function PeopleList(props){
         if(personObject){
             return(
             <Link 
-                to={'/people/' + personObject.firstName + '-' + personObject.lastName} 
+                to={'/people/' + personObject.firstName + '_' + personObject.lastName} 
                 state={personObject} 
                 className='photo-person-link link'
                 key={personObject.birth + personObject.fullName}

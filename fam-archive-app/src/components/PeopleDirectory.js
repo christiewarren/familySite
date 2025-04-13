@@ -18,7 +18,7 @@ export default function PeopleDirectory(){
     const peopleCards = people.map((person) => {
         return(
             <Link 
-                to={'/people/' + person.firstName + '-' + person.lastName} 
+                to={'/people/' + person.firstName + '_' + person.lastName} 
                 state={person}
                 key={person.birth + person.fullName}
                 className="person-card-link link">
