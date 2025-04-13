@@ -1,5 +1,4 @@
 filename,title,type,subject,people,place,time,dateStart,dateEnd,orientation,hasPDF,,dateSpecific,displayDate,"<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc."
-A-Weyhe-Lane---Bride,Maude Weyhe,photo,Maude Weyhe,Maude Weyhe,"Spencer, Rockville",1900-1950,1900,1950,portrait,FALSE,,1901,1901,
 A-Weyhe-Lane---Certificate-of-Death,A Weyhe Lane - Certificate of Death,document,A Weyhe Lane life,Anna Weyhe Lane,Spencer,1900-1950,1900,1950,portrait,TRUE,cewarren801@gmail.com: anything highlighted yellow is a changed tag,1948,1948,
 Barbara-Thomas-Listman,Barbara Thomas Listman,photo,Barbara sister of Jane Thomas Weyhe,Barbara Thomas Listman,Spencer,1900-1950,1900,1950,portrait,TRUE,,1913,1913,cewarren801@gmail.com: this file looks ok but has a broken link on the site
 Carlisle-Unitarian-Church,Carlisle Unitarian Church,photo,W Lane ministry,Walter Lane,Carlisle,1900-1950,1900,1950,portrait,FALSE,,1902,1902,
@@ -98,7 +97,7 @@ Elinor-Lane-MacGillivray,Elinor Lane MacGillivray,photo,Elinor Lane MacGillivray
 famous-baseball-pitch,"Jim, Tom, Elinor as kids",photo,"Jim, Tom, Elinor as kids","James R Warren, Thomas Nissley, Elinor Nissley",Wayne,1950-2000,1950,2000,landscape,FALSE,,1973,1973,
 Elly-cheerleader,Elly Warren as cheerleader,photo,Elly Warren as cheerleader,Elinor Lane Warren,Mt Joy,1950-2000,1950,2000,portrait,FALSE,,1953,1953,
 Harry-Newcomer-and-siblings,Harry Newcomer and his siblings,photo,"Harry Newcomer and his siblings, listed clockwise from upper left","Harry Newcomer, Norman Newcomer, Elizabeth Newcomer, Christian Newcomer, Samuel Newcomer, Phares Newcomer",Mt Joy,1900-1950,1900,1950,landscape,FALSE,,1930,1930,
-Ella-Strickler-Newcomer,Ella Newcomer,photo,Ella Strickler Newcomer,Ella Strickler Newcomer,Mt Joy,1900-1950,1900,1950,portrait,FALSE,,1935,1935,
+ella-strickler-newcomer-2,Ella Newcomer,photo,Ella Strickler Newcomer,Ella Strickler Newcomer,Mt Joy,1900-1950,1900,1950,portrait,FALSE,,1935,1935,
 MacGillivray-1,Jim and Elinor MacGillivray as young couple,photo,Jim and Elinor MacGillivray as young couple,"James MacGillivray, Elinor Lane MacGillivray",Spencer,1900-1950,1900,1950,portrait,FALSE,,1931,1931,
 Elinor-MacGillivray-1,Elinor Lane MacGillivray,photo,Elinor Lane MacGillivray,Elinor Lane MacGillivray,Spencer,1900-1950,1900,1950,portrait,FALSE,,1931,1931,
 Strawberry-Hill-home,Strawberry Hill house,photo,Strawberry Hill,,,1900-1950,,,landscape,FALSE,,1930,1930,
@@ -255,7 +254,7 @@ jane-thomas-weyhe-2,Jane Weyhe young woman,photo,Jane Weyhe young woman,Jane Tho
 jane-thomas-album-cover,Jane Weyhe,photo,Jane Weyhe,Jane Thomas Weyhe,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1890,1890,
 anna-baker-1920s,"Anna Baker, college friend of Jinny Lane",photo,"Anna Baker, college friend of Jinny Lane",Anna Baker,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1924,1924,
 emily-newcomer-eby,Emily Eby young woman,photo,Emily Eby young woman,Emily Newcomer Eby,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1922,1922,
-ella-strickler-newcomer,Ella Newcomer young woman,photo,Ella Newcomer young woman,Ella Strickler Newcomer,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1890,1890,
+ella-strickler-newcomer-1,Ella Newcomer young woman,photo,Ella Newcomer young woman,Ella Strickler Newcomer,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1890,1890,
 harry-newcomer,Harry Newcomer young man,photo,Harry Newcomer young man,Harry Newcomer,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1890,1890,
 john-strickler-jr,John Strickler Jr,photo,John Strickler Jr,John Strickler Jr,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1877,1877,
 anna-gable-strickler,Anna Gable Strickler,photo,Anna Gable Strickler,Anna Gable Strickler,Rockville CT,1850-1900,1850,1900,portrait,FALSE,,1877,1877,
@@ -307,3 +306,4 @@ connie-1944,Connie 1944 photo for Daddy in Navy,photo,Connie 1944 photo for Dadd
 priscilla-1951,Priscilla 1951,photo,Priscilla 1951,Priscilla Lane Kappes,Mt Joy,1950-2000,1950,2000,landscape,FALSE,,1951,1951,
 connie-annie-priscilla-1942,Connie with Anna Lane and Priscilla,photo,Connie with Anna Lane and Priscilla,"Constance Lane Nissley, Anna Weyhe Lane, Priscilla Lane Kappes",Spencer,1900-1950,1900,1950,landscape,FALSE,,1942,1942,
 elinor-tom-1954,Elinor with Tom 1954,photo,Elinor with Tom 1954,"Elinor Lane Warren, Thomas Lane",Mt Joy,1950-2000,1950,2000,portrait,FALSE,,1954,1954,
+joji-kappes-1987,Joji Kappes,photo,Joji Kappes,Joji Kappes,Portland,1950-2000,1950,2000,landscape,,,1987,1987,

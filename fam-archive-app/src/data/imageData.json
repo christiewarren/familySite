@@ -1,27 +1,5 @@
 [
   {
-    "filename": "A-Weyhe-Lane---Bride",
-    "title": "Maude Weyhe",
-    "type": "photo",
-    "subject": "Maude Weyhe",
-    "people": [
-      "Maude Weyhe"
-    ],
-    "place": [
-      "Spencer",
-      "Rockville"
-    ],
-    "time": "1900-1950",
-    "dateStart": "1900",
-    "dateEnd": "1950",
-    "orientation": "portrait",
-    "hasPDF": "FALSE",
-    "": "",
-    "dateSpecific": "1901",
-    "displayDate": "1901",
-    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
-  },
-  {
     "filename": "A-Weyhe-Lane---Certificate-of-Death",
     "title": "A Weyhe Lane - Certificate of Death",
     "type": "document",
@@ -2246,7 +2224,7 @@
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
-    "filename": "Ella-Strickler-Newcomer",
+    "filename": "ella-strickler-newcomer-2",
     "title": "Ella Newcomer",
     "type": "photo",
     "subject": "Ella Strickler Newcomer",
@@ -5695,7 +5673,7 @@
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   },
   {
-    "filename": "ella-strickler-newcomer",
+    "filename": "ella-strickler-newcomer-1",
     "title": "Ella Newcomer young woman",
     "type": "photo",
     "subject": "Ella Newcomer young woman",
@@ -6829,6 +6807,27 @@
     "": "",
     "dateSpecific": "1954",
     "displayDate": "1954",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "joji-kappes-1987",
+    "title": "Joji Kappes",
+    "type": "photo",
+    "subject": "Joji Kappes",
+    "people": [
+      "Joji Kappes"
+    ],
+    "place": [
+      "Portland"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "",
+    "": "",
+    "dateSpecific": "1987",
+    "displayDate": "1987",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   }
 ]
