@@ -5,7 +5,6 @@ import Thumbnail from "./Thumbnail";
 import { useLocation, Link, useParams } from "react-router-dom";
 import people from "../data/peopleData.json";
 import PeopleList from './PeopleList'
-import PhotoSection from "./PhotoSection";
 import PhotosPage from "./PhotosPage";
 
 
@@ -16,14 +15,11 @@ export default function Person(){
     const {name} = useParams()
 
     const [personFirstName, personLastName] = name.split('_')
-    console.log(personFirstName)
-    console.log(personLastName)
     const person = people.find((person) => person.fullName == personFirstName + ' ' + personLastName)
 
 
     useEffect(() => {
         // Reset the scroll position to the top of the page whenever person is updated
-        console.log("scrolled to top")
         window.scrollTo(0, 0);
       }, [person]); 
 

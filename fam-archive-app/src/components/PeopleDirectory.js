@@ -23,8 +23,10 @@ export default function PeopleDirectory(){
                 key={person.birth + person.fullName}
                 className="person-card-link link">
                 <div className="person-card">
-                
-                    {<img src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/profilePhotos/" + person.profilePhoto + ".jpg"} className="person-card-photo"/>}
+                    {<img 
+                        src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/profilePhotos/" + person.profilePhoto + ".jpg"} 
+                        className="person-card-photo"
+                        loading="lazy"/>}
                     <p className="person-card-name">{person.firstName + ' ' + person.lastName}</p>
                 </div>
             </Link>

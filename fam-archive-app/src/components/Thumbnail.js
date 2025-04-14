@@ -19,6 +19,7 @@ export default function Thumbnail(props){
             alt={props.alt}
             className='thumbnail' 
             onClick={props.openPhotoModal}
+            loading="lazy"
             />
     )
 }
