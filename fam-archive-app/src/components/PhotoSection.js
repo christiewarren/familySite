@@ -12,7 +12,7 @@ export default function PhotoSection(props){
 
 
     return(
-        <div id={props.sectionTitle} className={'section-wrap' + (props.index == 0 ? ' first-section' : '')}>
+        <div id={props.sectionTitle} className={'section-wrap' + (props.index == 0 ? ' first-section' : '') + (props.isOnlySection ? ' only-section' : '')}>
             <div className='date-divider-wrap'><h3 className='date-divider-title'>{props.sectionTitle}</h3><hr className='date-divider-line'></hr></div>
             <PhotoGrid 
                 filteredImages={props.filteredImages}

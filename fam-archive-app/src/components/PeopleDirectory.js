@@ -1,21 +1,13 @@
 import React from "react";
+import {useEffect} from "react";
 import people from "../data/peopleData.json"
 import { Link } from 'react-router-dom'
-
+import noProfilePhoto from '../assets/no-profile-photo.svg'
 
 export default function PeopleDirectory(){
 
-    const noPhotoFound = "https://lanefamilysite.s3.us-east-2.amazonaws.com/no-photo-found.svg"
-    // const tryRequireProfilePhoto = (path) => {
-    //     try {
-    //         return require('../assets/profilePhotos/' + path + '.jpg');
-    //     } catch (err) {
-    //     console.log(err);
-    //         return noPhotoFound;
-    //     }
-    // }
-
     const peopleCards = people.map((person) => {
+        
         return(
             <Link 
                 to={'/people/' + person.firstName + '_' + person.lastName} 
@@ -24,7 +16,7 @@ export default function PeopleDirectory(){
                 className="person-card-link link">
                 <div className="person-card">
                     {<img 
-                        src={"https://lanefamilysite.s3.us-east-2.amazonaws.com/profilePhotos/" + person.profilePhoto + ".jpg"} 
+                        src={person.profilePhoto ? ("https://lanefamilysite.s3.us-east-2.amazonaws.com/profilePhotos/" + person.profilePhoto + ".jpg") : noProfilePhoto} 
                         className="person-card-photo"
                         loading="lazy"/>}
                     <p className="person-card-name">{person.firstName + ' ' + person.lastName}</p>

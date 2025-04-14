@@ -51,6 +51,7 @@ export default function PhotosPage(props){
                 filteredImages = {filteredImages}
                 sectionTitle={sectionTitle}
                 index={props.filterDetails.sections.indexOf(section)}
+                isOnlySection={props.filterDetails.sections.length == 1}
             />  
         )
         

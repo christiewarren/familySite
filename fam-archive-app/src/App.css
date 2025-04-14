@@ -360,6 +360,10 @@ nav{
   margin-top: 0;
 }
 
+.only-section{
+  padding-bottom: 4rem;
+}
+
 .photos-page{
   padding-bottom: 4rem;
 }
@@ -809,10 +813,18 @@ nav{
   width: 100%;
 }
 
-.profile-wrap{
-  display: flex;
+.profile-wrap-with-link{
   margin: 0 65px;
   max-width: 95%;
+}
+
+.profile-wrap{
+  display: flex;
+}
+
+.back-link{
+  margin-bottom: 1.5rem;
+  display: block;
 }
 
 .profile-divider{
@@ -820,7 +832,7 @@ nav{
 }
 
 @media(max-width: 1044px){
-  .profile-wrap{
+  .profile-wrap-with-link{
     margin: 0 25px;
   }
 
@@ -832,12 +844,23 @@ nav{
     flex-shrink: 1;
     margin-right: 45px;
   }
+
+  .date-divider-title{
+    font-size: 2rem;
+  }
 }
 
 @media(max-width: 768px){
   .profile-wrap{
-    margin: 0 20px;
     flex-wrap: wrap;
+  }
+
+  .profile-wrap-with-link{
+    margin: 0 20px;
+  }
+
+  .profile-photo-wrap{
+    margin-right: 0;
   }
 
   .photo-modal-wrap{
