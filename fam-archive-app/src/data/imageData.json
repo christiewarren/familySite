@@ -1237,7 +1237,7 @@
       "Richard Warren",
       "Elinor Lane Warren",
       "Peter Warren",
-      "Ginny Warren Carr",
+      "Virginia Warren Carr",
       "David Warren",
       "James R Warren"
     ],
@@ -1321,15 +1321,13 @@
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-1",
-    "title": "Multiple pics - Gertrude Lane and Elinor Lane",
+    "title": "Elinor Lane wedding",
     "type": "photo",
-    "subject": "Mama Lane and Elinor Lane wedding",
+    "subject": "Virginia in Elinor Lane wedding",
     "people": [
-      "Ella Battles Lane",
       "Elinor Lane MacGillivray",
       "Walter Lane",
-      "Virginia Newcomer Lane",
-      "Edward Lane"
+      "Virginia Newcomer Lane"
     ],
     "place": [
       "Spencer"
@@ -1346,15 +1344,12 @@
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-2",
-    "title": "Multiple pics - Gertrude Lane and Elinor Lane",
+    "title": "Elinor Lane wedding",
     "type": "photo",
-    "subject": "Mama Lane and Elinor Lane wedding",
+    "subject": "Elinor Lane wedding",
     "people": [
-      "Ella Battles Lane",
       "Elinor Lane MacGillivray",
-      "Walter Lane",
-      "Virginia Newcomer Lane",
-      "Edward Lane"
+      "Walter Lane"
     ],
     "place": [
       "Spencer"
@@ -1371,15 +1366,11 @@
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-3",
-    "title": "Multiple pics - Gertrude Lane and Elinor Lane",
+    "title": "Mama Lane",
     "type": "photo",
-    "subject": "Mama Lane and Elinor Lane wedding",
+    "subject": "Mama Lane",
     "people": [
-      "Ella Battles Lane",
-      "Elinor Lane MacGillivray",
-      "Walter Lane",
-      "Virginia Newcomer Lane",
-      "Edward Lane"
+      "Ella Battles Lane"
     ],
     "place": [
       "Spencer"
@@ -1396,15 +1387,12 @@
   },
   {
     "filename": "Mama-Lane-and-Elinor-Lane-wedding-4",
-    "title": "Multiple pics - Gertrude Lane and Elinor Lane",
+    "title": "Mama Lane and Walter at Elinor wedding",
     "type": "photo",
-    "subject": "Mama Lane and Elinor Lane wedding",
+    "subject": "Mama Lane and Walter at Elinor wedding",
     "people": [
       "Ella Battles Lane",
-      "Elinor Lane MacGillivray",
-      "Walter Lane",
-      "Virginia Newcomer Lane",
-      "Edward Lane"
+      "Walter Lane"
     ],
     "place": [
       "Spencer"
@@ -7229,7 +7217,15 @@
       "David Warren",
       "Kathryn Warren",
       "Christina Warren",
-      ""
+      "Lane Warren",
+      "Courtney Warren",
+      "Drew Warren",
+      "Phoebe Warren",
+      "Glenn Warren",
+      "Virginia Warren Carr",
+      "Richard Carr",
+      "Robert Carr",
+      "Richard Warren"
     ],
     "place": [
       "Wayne"
@@ -7333,6 +7329,51 @@
     "": "",
     "dateSpecific": "1968",
     "displayDate": "1968",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "edward-lane-cert-of-honor",
+    "title": "Ed Lane recognition for service",
+    "type": "photo",
+    "subject": "Ed Lane recognition for service",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1945",
+    "displayDate": "1945",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "letters-to-daddy-in-the-navy-1944-1945",
+    "title": "Letters to Daddy in WWII Navy",
+    "type": "document",
+    "subject": "Letters to Daddy in WWII Navy",
+    "people": [
+      "Edward Lane",
+      "Elinor Lane Warren",
+      "Constance Lane Nissley",
+      "Priscilla Lane Kappes"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "TRUE",
+    "": "",
+    "dateSpecific": "1944",
+    "displayDate": "1945",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   }
 ]

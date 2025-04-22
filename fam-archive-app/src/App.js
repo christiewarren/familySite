@@ -6,6 +6,7 @@ import Person from './components/Person'
 import Home from './components/Home'
 import PeopleDirectory from './components/PeopleDirectory'
 import NotFound from './components/NotFound'
+import Tree from './components/Tree'
 import { Route, Routes, Link, NavLink, useSearchParams } from 'react-router-dom'
 
 
@@ -75,6 +76,7 @@ function App() {
         <Route path="/people" element={<PeopleDirectory />}/>
         <Route path="/people/:name" element={<Person className="person-wrap"/>}/>
         <Route path="*" element={<NotFound />}/>
+        <Route path="/tree" element={<Tree />}/>
       </Routes>
     </div>
   )

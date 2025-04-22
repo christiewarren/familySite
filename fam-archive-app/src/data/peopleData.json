@@ -188,7 +188,7 @@
     "death": "",
     "parents": [
       "David Warren",
-      "Susan Serfass"
+      "Susan Serfass Warren"
     ],
     "siblings": [
       "James D Warren",
@@ -457,7 +457,7 @@
       "Ella Lane",
       "Albert Lane",
       "Flora Lane",
-      "Gertrude Lane",
+      "Gertrude Battles Lane",
       "Alice Lane",
       "Walter Lane"
     ],
@@ -722,7 +722,7 @@
     "death": "",
     "parents": [
       "David Warren",
-      "Susan Serfass"
+      "Susan Serfass Warren"
     ],
     "siblings": [
       "Christina Warren",
@@ -785,8 +785,8 @@
   },
   {
     "firstName": "Jodi",
-    "lastName": "Warren",
-    "fullName": "Jodi Warren",
+    "lastName": "Young Warren",
+    "fullName": "Jodi Young Warren",
     "birth": "",
     "death": "",
     "parents": [],
@@ -897,7 +897,7 @@
     "death": "",
     "parents": [
       "David Warren",
-      "Susan Serfass"
+      "Susan Serfass Warren"
     ],
     "siblings": [
       "James D Warren",
@@ -1023,7 +1023,7 @@
     "siblings": [],
     "spouse": "Benjamin Porter Battles Jr",
     "children": [
-      "Ella Maude Battles",
+      "Ella Battles Lane",
       "Willis Battles",
       "Benjamin Battles",
       "Florence Battles",
@@ -1119,7 +1119,7 @@
       "Virginia Warren Carr",
       "David Warren"
     ],
-    "spouse": "LoriAnne Barnett",
+    "spouse": "LoriAnne Barnett Warren",
     "children": [
       "Lane Warren",
       "Phoebe Warren"
