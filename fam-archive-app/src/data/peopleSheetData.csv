@@ -1,5 +1,5 @@
 firstName,lastName,fullName,birth,death,parents,siblings,spouse,children,profilePhoto,Column 1
-Alex,MacInnes,Alex MacInnes,,,,,Elinor Nissley,,Alex-MacInnes-profile,cewarren801@gmail.com: new tag
+Alex,MacInnis,Alex MacInnis,,,,,Elinor Nissley,,Alex-MacInnes-profile,cewarren801@gmail.com: new tag
 Anna,Baker,Anna Baker,,,,,,,Anna-Baker-profile,
 Anna,Weyhe Lane,Anna Weyhe Lane,1871,1948,"William Weyhe, Jane Thomas Weyhe","William Weyhe, Louise Maude Weyhe",Walter Lane,"Edward Lane, Elinor Lane MacGillivray, Doris Lane",Anna-Weyhe-Lane-profile,cewarren801@gmail.com: updated children
 Anna,Gable Strickler,Anna Gable Strickler,1844,1875,,,John Strickler Jr,Ella Strickler Newcomer,Anna-Gable-Strickler-profile,
@@ -18,7 +18,7 @@ Doris,Lane,Doris Lane,1902,1902,"Walter Lane, Anna Weyhe Lane","Elinor Lane MacG
 Drew,Warren,Drew Warren,,,"James R Warren, Jodi Young Warren","Courtney Warren, Kenzie Warren",,,Drew-Warren-profile,new tag cewarren801@gmail.com
 Edward,Lane,Edward Lane,10/13/1906,1/25/2004,"Walter Lane, Anna Weyhe Lane","Elinor Lane MacGillivray, Doris Lane",Virginia Newcomer Lane,"Constance Lane Nissley, Priscilla Lane Kappes, Thomas Lane, Elinor Lane Warren",Edward-Lane-profile,cewarren801@gmail.com: updated siblings
 Elinor,Lane Warren,Elinor Lane Warren,8/10/1935,,"Edward Lane, Virginia Newcomer Lane","Constance Lane Nissley, Priscilla Lane Kappes, Thomas Lane",Richard Warren,"Peter Warren, Virginia Warren Carr, David Warren, James R Warren",Elinor-Warren-profile,
-Elinor,Nissley,Elinor Nissley,,,"Peter Nissley, Constance Lane Nissley",Thomas Nissley,Alex MacInnes,,Elinor-Nissley-profile,new tag cewarren801@gmail.com
+Elinor,Nissley,Elinor Nissley,,,"Peter Nissley, Constance Lane Nissley",Thomas Nissley,Alex MacInnis,,Elinor-Nissley-profile,new tag cewarren801@gmail.com
 Elinor,Lane MacGillivray,Elinor Lane MacGillivray,1904,,"Walter Lane, Anna Weyhe Lane","Edward Lane, Doris Lane",James MacGillivray,,Elinor-Lane-MacGillivray-profile,
 Elizabeth,Newcomer Miller,Elizabeth Newcomer Miller,1873,1948,"Christian N Newcomer, Anna Snyder Newcomer","Norman Newcomer, Harry Newcomer, Christian Newcomer, Catharine Newcomer, Samuel Newcomer, Phares Newcomer, Jonas Newcomer",,,Elizabeth-Newcomer-Miller-profile,
 Ella,Battles Lane,Ella Battles Lane,1847,1938,"Parker Benjamin Battles, Lucretia Olds Battles","Willis Battles, Benjamin Battles, Florence Battles, Alice Battles, Nellie Battles, Eunice Battles, William Battles",Eustace Lane,"Frank Lane, Ella Lane, Albert Lane, Flora Lane, Gertrude Battles Lane, Alice Lane, Walter Lane",Ella-Battles-Lane-profile,
