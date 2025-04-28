@@ -230,7 +230,7 @@
     ],
     "siblings": [
       "Elinor Lane Warren",
-      "Priscilla Lane Kappes",
+      "Priscilla Lane",
       "Thomas Lane"
     ],
     "spouse": "Peter Nissley",
@@ -339,7 +339,7 @@
     "spouse": "Virginia Newcomer Lane",
     "children": [
       "Constance Lane Nissley",
-      "Priscilla Lane Kappes",
+      "Priscilla Lane",
       "Thomas Lane",
       "Elinor Lane Warren"
     ],
@@ -358,7 +358,7 @@
     ],
     "siblings": [
       "Constance Lane Nissley",
-      "Priscilla Lane Kappes",
+      "Priscilla Lane",
       "Thomas Lane"
     ],
     "spouse": "Richard Warren",
@@ -619,7 +619,7 @@
     "birth": "",
     "death": "",
     "parents": [
-      "Priscilla Lane Kappes",
+      "Priscilla Lane",
       "Joji Kappes"
     ],
     "siblings": [],
@@ -841,7 +841,7 @@
     "death": "",
     "parents": [],
     "siblings": [],
-    "spouse": "Priscilla Lane Kappes",
+    "spouse": "Priscilla Lane",
     "children": [
       "Guo-Jing Kappes"
     ],
@@ -1199,8 +1199,8 @@
   },
   {
     "firstName": "Priscilla",
-    "lastName": "Lane Kappes",
-    "fullName": "Priscilla Lane Kappes",
+    "lastName": "Lane",
+    "fullName": "Priscilla Lane",
     "birth": "",
     "death": "",
     "parents": [
@@ -1337,7 +1337,7 @@
     ],
     "siblings": [
       "Constance Lane Nissley",
-      "Priscilla Lane Kappes",
+      "Priscilla Lane",
       "Elinor Lane Warren"
     ],
     "spouse": "",
@@ -1419,7 +1419,7 @@
     "spouse": "Edward Lane",
     "children": [
       "Constance Lane Nissley",
-      "Priscilla Lane Kappes",
+      "Priscilla Lane",
       "Thomas Lane",
       "Elinor Lane Warren"
     ],
