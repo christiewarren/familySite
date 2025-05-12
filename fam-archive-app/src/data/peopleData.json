@@ -252,8 +252,8 @@
       "Jodi Young Warren"
     ],
     "siblings": [
-      "Drew Warren",
-      "Kenzie Warren"
+      "Andrew J Warren",
+      "McKenzie Warren"
     ],
     "spouse": "",
     "children": [],
@@ -304,9 +304,9 @@
     "Column 1": "cewarren801@gmail.com: updated siblings"
   },
   {
-    "firstName": "Drew",
+    "firstName": "Andrew J",
     "lastName": "Warren",
-    "fullName": "Drew Warren",
+    "fullName": "Andrew J Warren",
     "birth": "",
     "death": "",
     "parents": [
@@ -315,7 +315,7 @@
     ],
     "siblings": [
       "Courtney Warren",
-      "Kenzie Warren"
+      "McKenzie Warren"
     ],
     "spouse": "",
     "children": [],
@@ -394,7 +394,7 @@
     "lastName": "Lane MacGillivray",
     "fullName": "Elinor Lane MacGillivray",
     "birth": "1904",
-    "death": "",
+    "death": "2001",
     "parents": [
       "Walter Lane",
       "Anna Weyhe Lane"
@@ -613,9 +613,9 @@
     "Column 1": ""
   },
   {
-    "firstName": "Guo-Jing",
-    "lastName": "Kappes",
-    "fullName": "Guo-Jing Kappes",
+    "firstName": "Guojing",
+    "lastName": "Lane Kappes",
+    "fullName": "Guojing Lane Kappes",
     "birth": "",
     "death": "",
     "parents": [
@@ -750,12 +750,28 @@
     ],
     "spouse": "Jodi Young Warren",
     "children": [
-      "Drew Warren",
+      "Andrew J Warren",
       "Courtney Warren",
-      "Kenzie Warren"
+      "McKenzie Warren"
     ],
     "profilePhoto": "James-R-Warren-profile",
     "Column 1": "new tag"
+  },
+  {
+    "firstName": "James",
+    "lastName": "MacGillivray",
+    "fullName": "James MacGillivray",
+    "birth": "1902",
+    "death": "1992",
+    "parents": [
+      "Alexander James MacGillivray",
+      "Minnie Sheridan MacGillivray"
+    ],
+    "siblings": [],
+    "spouse": "Elinor Lane MacGillivray",
+    "children": [],
+    "profilePhoto": "James-MacGillivray-profile",
+    "Column 1": ""
   },
   {
     "firstName": "Jane",
@@ -793,9 +809,9 @@
     "siblings": [],
     "spouse": "James R Warren",
     "children": [
-      "Drew Warren",
+      "Andrew J Warren",
       "Courtney Warren",
-      "Kenzie Warren"
+      "McKenzie Warren"
     ],
     "profilePhoto": "Jodi-Warren-profile",
     "Column 1": "new tag"
@@ -843,7 +859,7 @@
     "siblings": [],
     "spouse": "Priscilla Lane",
     "children": [
-      "Guo-Jing Kappes"
+      "Guojing Lane Kappes"
     ],
     "profilePhoto": "Joji-Kappes-profile",
     "Column 1": ""
@@ -909,9 +925,9 @@
     "Column 1": ""
   },
   {
-    "firstName": "Kenzie",
+    "firstName": "McKenzie",
     "lastName": "Warren",
-    "fullName": "Kenzie Warren",
+    "fullName": "McKenzie Warren",
     "birth": "",
     "death": "",
     "parents": [
@@ -919,7 +935,7 @@
       "Jodi Young Warren"
     ],
     "siblings": [
-      "Drew Warren",
+      "Andrew J Warren",
       "Courtney Warren"
     ],
     "spouse": "",
@@ -1134,7 +1150,7 @@
     "birth": "",
     "death": "",
     "parents": [
-      "Mary Nissley",
+      "Mary Grimes Nissley",
       "Simon Nissley"
     ],
     "siblings": [
@@ -1214,7 +1230,7 @@
     ],
     "spouse": "Joji Kappes",
     "children": [
-      "Guo-Jing Kappes"
+      "Guojing Lane Kappes"
     ],
     "profilePhoto": "Priscilla-Lane-profile",
     "Column 1": ""

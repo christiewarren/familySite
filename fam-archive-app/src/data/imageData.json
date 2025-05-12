@@ -1699,7 +1699,7 @@
       "Phoebe Warren",
       "Richard Carr",
       "Robert Carr",
-      "Guo-Jing Kappes",
+      "Guojing Lane Kappes",
       "Margaret McSpiritt"
     ],
     "place": [
@@ -1786,9 +1786,9 @@
     "filename": "Jing",
     "title": "Jing Kappes",
     "type": "photo",
-    "subject": "Guo-Jing Kappes",
+    "subject": "Guojing Lane Kappes",
     "people": [
-      "Guo-Jing Kappes"
+      "Guojing Lane Kappes"
     ],
     "place": [
       "Cape Cod"
@@ -2539,11 +2539,11 @@
   },
   {
     "filename": "Clarence-Newcomer",
-    "title": "Clarence WWI",
+    "title": "Henry Eby WWI",
     "type": "photo",
-    "subject": "Clarence WWI",
+    "subject": "Henry Eby WWI",
     "people": [
-      "Clarence Newcomer"
+      "Henry Eby"
     ],
     "place": [
       "Mt Joy"
@@ -3101,7 +3101,7 @@
   },
   {
     "filename": "Priscilla-at-Cape-Cod",
-    "title": "Priscilla at Cape Code",
+    "title": "Priscilla at Cape Cod",
     "type": "photo",
     "subject": "Priscilla Lane",
     "people": [
@@ -3287,7 +3287,7 @@
     "subject": "Jim and Drew Warren",
     "people": [
       "James R Warren",
-      "Drew Warren"
+      "Andrew J Warren"
     ],
     "place": [
       "Wayne"
@@ -3918,7 +3918,7 @@
     "type": "photo",
     "subject": "Drew Warren",
     "people": [
-      "Drew Warren"
+      "Andrew J Warren"
     ],
     "place": [
       "Wayne"
@@ -3985,7 +3985,7 @@
       "Alex MacInnis"
     ],
     "place": [
-      "Los"
+      "Los Angeles"
     ],
     "time": "2000-2050",
     "dateStart": "2000",
@@ -4026,7 +4026,7 @@
     "people": [
       "James R Warren",
       "Jodi Young Warren",
-      "Kenzie Warren"
+      "McKenzie Warren"
     ],
     "place": [
       "Wayne"
@@ -4049,9 +4049,9 @@
     "people": [
       "James R Warren",
       "Jodi Young Warren",
-      "Kenzie Warren",
+      "McKenzie Warren",
       "Courtney Warren",
-      "Drew Warren"
+      "Andrew J Warren"
     ],
     "place": [
       "Wayne"
@@ -4074,9 +4074,9 @@
     "people": [
       "James R Warren",
       "Jodi Young Warren",
-      "Kenzie Warren",
+      "McKenzie Warren",
       "Courtney Warren",
-      "Drew Warren"
+      "Andrew J Warren"
     ],
     "place": [
       "Wayne"
@@ -4095,9 +4095,9 @@
     "filename": "Kenzie-warren",
     "title": "Kenzie Warren",
     "type": "photo",
-    "subject": "Kenzie",
+    "subject": "Kenzie Warren",
     "people": [
-      "Kenzie Warren"
+      "McKenzie Warren"
     ],
     "place": [
       "Wayne"
@@ -4233,7 +4233,7 @@
     "subject": "Peter and Jing",
     "people": [
       "Peter Silverstein",
-      "Guo-Jing Kappes"
+      "Guojing Lane Kappes"
     ],
     "place": [
       "Cape Cod"
@@ -6091,7 +6091,7 @@
     "filename": "gertrude-1910",
     "title": "Gertrude Lane as a young woman",
     "type": "photo",
-    "subject": "James D Warren, Jodi Young Warren, Peter Warren, James R Warren, Susan Serfass Warren, Elinor Lane Warren, David Warren, Kathryn Warren, Christina Warren, Richard Carr, Robert Carr, Glenn Carr, Virginia Warren Carr, Richard Warren, Lane Warren, Drew Warren, Courtney Warren, Phoebe Warren",
+    "subject": "Gertrude Lane as a young woman",
     "people": [
       "Gertrude Battles Lane"
     ],
@@ -7134,9 +7134,9 @@
       "Richard Warren",
       "Richard Carr",
       "Robert Carr",
-      "Drew Warren",
+      "Andrew J Warren",
       "Courtney Warren",
-      "Kenzie Warren",
+      "McKenzie Warren",
       "Phoebe Warren",
       "Christina Warren",
       "James D Warren"
@@ -7219,7 +7219,7 @@
       "Christina Warren",
       "Lane Warren",
       "Courtney Warren",
-      "Drew Warren",
+      "Andrew J Warren",
       "Phoebe Warren",
       "Glenn Warren",
       "Virginia Warren Carr",
@@ -7374,6 +7374,368 @@
     "": "",
     "dateSpecific": "1944",
     "displayDate": "1945",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "joji-jing-priscilla",
+    "title": "Joji, Jing, and Priscilla",
+    "type": "photo",
+    "subject": "Joji, Jing, and Priscilla",
+    "people": [
+      "Joji Kappes",
+      "Guojing Lane Kappes",
+      "Priscilla Lane"
+    ],
+    "place": [
+      "Portland"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2016",
+    "displayDate": "2016",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "peter-tom-nissley",
+    "title": "Peter Nissley with baby Tom",
+    "type": "photo",
+    "subject": "Peter Nissley with baby Tom",
+    "people": [
+      "Peter Nissley",
+      "Thomas Nissley"
+    ],
+    "place": [
+      "Bethesda"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1967",
+    "displayDate": "1967",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "tom-nissley-family-2",
+    "title": "Tom Nissley and family",
+    "type": "photo",
+    "subject": "Tom Nissley and family",
+    "people": [
+      "Henry Silverstein",
+      "Thomas Nissley",
+      "Peter Silverstein",
+      "Laura Silverstein"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "tom-peter-joji",
+    "title": "Tom Lane, Peter Nissley, Joji Kappes",
+    "type": "photo",
+    "subject": "Tom Lane, Peter Nissley, Joji Kappes",
+    "people": [
+      "Thomas Lane",
+      "Peter Nissley",
+      "Joji Kappes"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "peter-connie-home",
+    "title": "Peter and Connie at Anniston Road",
+    "type": "photo",
+    "subject": "Peter and Connie at Anniston Road",
+    "people": [
+      "Peter Nissley",
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Bethesda"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "tom-nissley-family",
+    "title": "Tom Nissley and family",
+    "type": "photo",
+    "subject": "Tom Nissley and family",
+    "people": [
+      "Henry Silverstein",
+      "Thomas Nissley",
+      "Peter Silverstein",
+      "Laura Silverstein",
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "elinor-priscilla-connie-2",
+    "title": "Elinor, Priscilla and Connie",
+    "type": "photo",
+    "subject": "Elinor, Priscilla and Connie",
+    "people": [
+      "Elinor Lane Warren",
+      "Priscilla Lane",
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Cape Cod"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "uncle-jim-and-girls",
+    "title": "Jim MacGillivray and the Lane girls",
+    "type": "photo",
+    "subject": "Jim MacGillivray and the Lane girls",
+    "people": [
+      "James MacGillivray",
+      "Elinor Lane Warren",
+      "Priscilla Lane",
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1945",
+    "displayDate": "1945",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "edward-jinny-tom",
+    "title": "Edward, Jinny, and Tom Lane in Newfoundland",
+    "type": "photo",
+    "subject": "Edward, Jinny, and Tom Lane in Newfoundland",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane",
+      "Thomas Lane"
+    ],
+    "place": [
+      "Newfoundland"
+    ],
+    "time": "1950-2000",
+    "dateStart": "1950",
+    "dateEnd": "2000",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1978",
+    "displayDate": "1978",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "tom-nissley-family-3",
+    "title": "Tom Nissley and family",
+    "type": "photo",
+    "subject": "Tom Nissley and family",
+    "people": [
+      "Henry Silverstein",
+      "Thomas Nissley",
+      "Peter Silverstein",
+      "Laura Silverstein"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "peter-henry-young",
+    "title": "Peter and Henry Silverstein",
+    "type": "photo",
+    "subject": "Peter and Henry Silverstein",
+    "people": [
+      "Peter Silverstein",
+      "Henry Silverstein"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "readers-book",
+    "title": "Tom Nissley book",
+    "type": "photo",
+    "subject": "Tom Nissley book",
+    "people": [
+      "Thomas Nissley"
+    ],
+    "place": [
+      "Seattle"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "peter-connie-50",
+    "title": "Peter and Connie Nissley at 50 years",
+    "type": "photo",
+    "subject": "Peter and Connie Nissley at 50 years",
+    "people": [
+      "Peter Nissley",
+      "Constance Lane Nissley"
+    ],
+    "place": [
+      "Bethesda"
+    ],
+    "time": "2000-2050",
+    "dateStart": "2000",
+    "dateEnd": "2050",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "2010",
+    "displayDate": "",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "ed-lane-car-1928",
+    "title": "Ed Lane First Car 1928",
+    "type": "photo",
+    "subject": "Ed Lane First Car 1928",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Spencer"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "landscape",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1928",
+    "displayDate": "1928",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "ed-lane-dog-tags",
+    "title": "Ed Lane dog tags from Navy",
+    "type": "photo",
+    "subject": "Ed Lane dog tags from Navy",
+    "people": [
+      "Edward Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1946",
+    "displayDate": "1946",
+    "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
+  },
+  {
+    "filename": "campaign-buttons",
+    "title": "Campaign buttons",
+    "type": "photo",
+    "subject": "Campaign buttons",
+    "people": [
+      "Edward Lane",
+      "Virginia Newcomer Lane"
+    ],
+    "place": [
+      "Mt Joy"
+    ],
+    "time": "1900-1950",
+    "dateStart": "1900",
+    "dateEnd": "1950",
+    "orientation": "portrait",
+    "hasPDF": "FALSE",
+    "": "",
+    "dateSpecific": "1946",
+    "displayDate": "1946",
     "<-- displayDate can be anything we want: a range of any # of years, one specific year, one specific date, etc.": ""
   }
 ]
