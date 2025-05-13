@@ -686,18 +686,24 @@ nav{
   background-color: var(--light-beige);
   border-radius: 4px;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--light-beige);
   transition: box-shadow 0.3s;
+  transition: border 0.3s;
 }
 
 .person-card:hover{
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--teal);
 }
 
 .person-card-name{
   width: 100%;
   margin-bottom: 0px;
-  margin-top: 16px;
+  margin-top: .75rem;
   box-sizing: border-box;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--teal);
 }
 
 .person-card-photo{
@@ -705,7 +711,7 @@ nav{
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 .person-card-link{
@@ -734,6 +740,10 @@ nav{
   .person-card-name{
     padding: 0 1rem 1rem 1rem;
   }
+
+  .person-card-name{
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 375px) {
@@ -747,7 +757,8 @@ nav{
 
   .person-card-name{
     padding: 0 .75rem .75rem .75rem;
-    margin-top: .75rem;
+    margin-top: .6rem;
+    font-size: 1.1rem;
     line-height: 1.15;
   }
 }
