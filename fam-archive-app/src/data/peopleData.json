@@ -13,6 +13,25 @@
     "Column 1": "cewarren801@gmail.com: new tag"
   },
   {
+    "firstName": "Andrew J",
+    "lastName": "Warren",
+    "fullName": "Andrew J Warren",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "James R Warren",
+      "Jodi Young Warren"
+    ],
+    "siblings": [
+      "Courtney Warren",
+      "McKenzie Warren"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": "Drew-Warren-profile",
+    "Column 1": "new tag cewarren801@gmail.com"
+  },
+  {
     "firstName": "Anna",
     "lastName": "Baker",
     "fullName": "Anna Baker",
@@ -302,25 +321,6 @@
     "children": [],
     "profilePhoto": "",
     "Column 1": "cewarren801@gmail.com: updated siblings"
-  },
-  {
-    "firstName": "Andrew J",
-    "lastName": "Warren",
-    "fullName": "Andrew J Warren",
-    "birth": "",
-    "death": "",
-    "parents": [
-      "James R Warren",
-      "Jodi Young Warren"
-    ],
-    "siblings": [
-      "Courtney Warren",
-      "McKenzie Warren"
-    ],
-    "spouse": "",
-    "children": [],
-    "profilePhoto": "Drew-Warren-profile",
-    "Column 1": "new tag cewarren801@gmail.com"
   },
   {
     "firstName": "Edward",
@@ -925,25 +925,6 @@
     "Column 1": ""
   },
   {
-    "firstName": "McKenzie",
-    "lastName": "Warren",
-    "fullName": "McKenzie Warren",
-    "birth": "",
-    "death": "",
-    "parents": [
-      "James R Warren",
-      "Jodi Young Warren"
-    ],
-    "siblings": [
-      "Andrew J Warren",
-      "Courtney Warren"
-    ],
-    "spouse": "",
-    "children": [],
-    "profilePhoto": "Kenzie-Warren-profile",
-    "Column 1": "new tag"
-  },
-  {
     "firstName": "Lane",
     "lastName": "Warren",
     "fullName": "Lane Warren",
@@ -1100,6 +1081,25 @@
     "children": [],
     "profilePhoto": "Maude-Weyhe-profile",
     "Column 1": ""
+  },
+  {
+    "firstName": "McKenzie",
+    "lastName": "Warren",
+    "fullName": "McKenzie Warren",
+    "birth": "",
+    "death": "",
+    "parents": [
+      "James R Warren",
+      "Jodi Young Warren"
+    ],
+    "siblings": [
+      "Andrew J Warren",
+      "Courtney Warren"
+    ],
+    "spouse": "",
+    "children": [],
+    "profilePhoto": "Kenzie-Warren-profile",
+    "Column 1": "new tag"
   },
   {
     "firstName": "Ottilie",
